@@ -83,7 +83,7 @@
   padding: 11px 12px;
   color: var(--blue-dark, #003B73);
   border-radius: 5px;
-  font-size: 14px;
+    font-size: 14px;
   font-weight: 500;
   line-height: 1.4;
   text-decoration: none;
@@ -111,7 +111,7 @@
   .glomed-nav-dropdown-trigger {
     width: 100%;
     justify-content: space-between;
-    padding: 14px 4px;
+        padding: 14px 4px;
     border-bottom: 1px solid #e2e7ef;
     font-size: 14px;
     text-align: left;
@@ -239,6 +239,7 @@
   .glomed-nav-dropdown-menu a {
     padding: 10px 12px;
     font-size: 13px;
+    background-color: var(--blue-light);
   }
 }
 
@@ -675,9 +676,12 @@
     align-self: flex-start;
   }
 
-  .glomed-mobile-actions .glomed-cta {
+  .glomed-mobile-actions.glomed-cta  {
     width: 100%;
     flex: auto;
+  }
+  .glomed-cta  {
+    display: none;
   }
 }
 
@@ -689,5 +693,113 @@
   .glomed-menu-toggle span,
   .glomed-cta {
     transition: none;
+  }
+}
+/*new*/
+
+.glomed-brand-block {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+  min-width: 0;
+}
+
+.glomed-brand {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.glomed-brand-mark {
+  display: block;
+  width: 125px;
+  height: auto;
+  max-height: 66px;
+  object-fit: contain;
+}
+
+.glomed-brand-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+    padding-left: 14px;
+  border-left: 2px solid #f4c430;
+  min-width: 0;
+}
+
+.glomed-brand-title {
+  color: var(--green);
+  font-size: 14px;
+  font-weight: bolder;
+   letter-spacing: 0.35px;
+  max-width: 250px;
+}
+.glomed-brand-title:hover {
+  color: var(--red);
+  font-size: 14px;
+  font-weight: bolder;
+   letter-spacing: 0.35px;
+  max-width: 250px;
+}
+
+
+
+/* Tablettes */
+@media (max-width: 900px) {
+  .glomed-brand-block {
+    gap: 10px;
+  }
+
+  .glomed-brand-mark {
+    width: 105px;
+  }
+
+  .glomed-brand-caption {
+    padding-left: 10px;
+  }
+
+  .glomed-brand-title {
+    font-size: 11px;
+    max-width: 165px;
+  }
+
+  
+}
+
+/* Téléphones */
+@media (max-width: 600px) {
+  .glomed-brand-block {
+    gap: 8px;
+  }
+
+  .glomed-brand-mark {
+    width: 82px;
+    max-height: 52px;
+  }
+
+
+  .glomed-brand-caption {
+    gap: 3px;
+    padding-left: 8px;
+  }
+
+  .glomed-brand-title {
+    font-size: 10px;
+    max-width: 125px;
+    font-weight: 600;
+    letter-spacing: 0;
+  }
+   .glomed-brand-title:hover {
+    color: var(--red);
+    font-size: 10px;
+    max-width: 125px;
+    font-weight: 600;
+    letter-spacing: 0;
+  }
+
+  .glomed-brand-subtitle {
+    font-size: 10px;
   }
 }

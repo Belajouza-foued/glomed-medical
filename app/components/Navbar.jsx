@@ -86,6 +86,12 @@ function closeMenu() {
     className="glomed-brand-mark"
   />
    </a>
+   <div className="glomed-brand-caption">
+    <span className="glomed-brand-title">
+    GESTION DE SERVICE MEDICAUX
+    </span>
+ 
+  </div>
 
         <button
           type="button"
