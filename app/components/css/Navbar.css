@@ -723,25 +723,24 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 5px;
-    padding-left: 14px;
+  gap: 5px;   
   border-left: 2px solid #f4c430;
   min-width: 0;
 }
 
 .glomed-brand-title {
-  color: var(--green);
+  color: var(--blue);
   font-size: 14px;
-  font-weight: bolder;
+   font-weight: bold;
    letter-spacing: 0.35px;
-  max-width: 250px;
+  max-width: 170px;
 }
 .glomed-brand-title:hover {
   color: var(--red);
   font-size: 14px;
   font-weight: bolder;
    letter-spacing: 0.35px;
-  max-width: 250px;
+  max-width: 170px;
 }
 
 
@@ -788,7 +787,7 @@
   .glomed-brand-title {
     font-size: 10px;
     max-width: 125px;
-    font-weight: 600;
+    font-weight: bold;
     letter-spacing: 0;
   }
    .glomed-brand-title:hover {

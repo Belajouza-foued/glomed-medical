@@ -3,6 +3,7 @@
   width: 100%;
   background:var(--blue) ;
   color: #fff;
+  display: none;
 }
 
 .glomed-topbar-inner {
@@ -101,7 +102,7 @@
     display: inline-flex;
     flex-direction: row;
     align-items: center;
-    gap: 6px;
+    gap: 3px;
     white-space: nowrap;
     overflow-wrap: normal;
     font-size: 12px;
@@ -119,19 +120,23 @@
 @media (max-width: 480px) {
   .glomed-topbar-inner {
     width: 96%;
-     }
+        }
 
   .glomed-topbar-info {
     gap: 5px;
+       display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
       }
 
   .glomed-topbar-item {
        gap: 8px;
     font-size: 13px;
-    
-  }
+    }
   .glomed-topbar-brand{
     display: none;
+    
   }
 
   .glomed-topbar-socials {

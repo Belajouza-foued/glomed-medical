@@ -178,7 +178,7 @@ export default function Services() {
             ))}
           </div>
 
-          <div className="medical-process__cta" id="contact">
+          <div className="medical-process__cta">
             <div>
               <span className="services__eyebrow">
                 VOTRE PROJET COMMENCE ICI
@@ -190,7 +190,7 @@ export default function Services() {
               </p>
             </div>
 
-            <a href="mailto:contact@glomed-group.com" className="services__cta">
+            <a href="/#contact" className="services__cta">
               Nous contacter
               <i className="bi bi-arrow-right" aria-hidden="true" />
             </a>

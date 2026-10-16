@@ -62,7 +62,7 @@ function closeMenu() {
   function renderCTA() {
     return (
       <a
-        href="#contact"
+        href="/#contact"
         className="glomed-cta"
         onClick={closeMenu}
       >
@@ -114,7 +114,7 @@ function closeMenu() {
           className={`glomed-nav ${mobileOpen ? "is-open" : ""}`}
           aria-label="Navigation principale"
         >
-          <Link href="#home" onClick={closeMenu}>Accueil</Link>
+          <Link href="/" onClick={closeMenu}>Accueil</Link>
           <Link href="#services" onClick={closeMenu}>Services</Link>
           {/* MENU CHIRURGIE */}
 <div
@@ -139,9 +139,11 @@ function closeMenu() {
     <Link href="/#orthopedie" onClick={() => setSurgeryOpen(false)}>
       Orthopédie
     </Link>
-    <Link href="/#cardiologie" onClick={() => setSurgeryOpen(false)}>
-      Cardiologie
-    </Link>
+   
+<Link href="/chirurgie/cardiologie" onClick={closeMenu}>
+  Cardiologie
+</Link>
+
     <Link href="/#pneumologie" onClick={() => setSurgeryOpen(false)}>
       Pneumologie
     </Link>

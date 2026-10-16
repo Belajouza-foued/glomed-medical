@@ -1,0 +1,178 @@
+/* Images de fond : mets les fichiers dans /public (change l'extension si besoin) */
+.cardio-page {
+  --cardio-img-1: url("/images/gloomed-group-1.avif");
+  --cardio-img-2: url("/images/glomed-ch.avif"); /* remplace par glomed-group-2.avif si tu en as une 2e */
+
+  /* Opacité du voile sur les images : 0 = image pure, 1 = très sombre */
+  --hero-veil-left: 0.62;
+  --hero-veil-mid: 0.30;
+  --hero-veil-right: 0;
+  --journey-veil-top: 0.62;
+  --journey-veil-bottom: 0.55;
+  font-family: var(--font-body);
+  color: var(--text);
+  background: var(--white);
+}
+.cardio-container { width: min(var(--container), 92%); margin-inline: auto; }
+.cardio-section { padding: 4.5rem 0; }
+
+/* ---------- Titres communs ---------- */
+.cardio-kicker { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; color: var(--green); margin-bottom: 0.8rem; }
+.cardio-page h2 { font-family: var(--font-display); font-size: clamp(1.7rem, 3.4vw, 2.5rem); line-height: 1.15; color: var(--blue-navy); }
+.cardio-page h2 span { color: var(--blue); }
+.cardio-heading { max-width: 680px; margin-bottom: 2.2rem; }
+.cardio-heading p:last-child { margin-top: 0.9rem; color: var(--text-muted); line-height: 1.7; }
+
+/* ---------- Boutons ---------- */
+.cardio-actions { display: flex; flex-wrap: wrap; gap: 0.9rem; }
+.cardio-button { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.95rem 1.6rem; border-radius: 999px; font-weight: 700; font-size: 0.95rem; border: 2px solid transparent; transition: background var(--transition), color var(--transition), border-color var(--transition); }
+.cardio-button-primary { background: var(--yellow); color: var(--blue-navy); }
+.cardio-button-primary:hover { background: var(--white); }
+.cardio-button-outline { color: var(--white); border-color: rgba(255,255,255,.7); }
+.cardio-button-outline:hover { background: var(--white); color: var(--blue-navy); }
+.cardio-button-whatsapp { background: var(--green); color: var(--white); }
+.cardio-button-whatsapp:hover { background: #256452; }
+.cardio-button:focus-visible, .cardio-page summary:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+
+/* ---------- HERO ---------- */
+.cardio-hero {
+  min-height: min(82vh, 720px);
+  display: flex;
+  align-items: center;
+  padding: 5rem 0;
+  color: var(--white);
+  background:
+    linear-gradient(90deg, rgba(16,47,59,var(--hero-veil-left)) 0%, rgba(16,47,59,var(--hero-veil-mid)) 55%, rgba(16,47,59,var(--hero-veil-right)) 100%),
+    var(--cardio-img-1) center / cover no-repeat;
+  background-color: var(--blue-navy);
+}
+.cardio-hero-content { text-shadow: 0 1px 14px rgba(0,0,0,.45); max-width: 760px; margin-left: max(4%, calc((100% - var(--container)) / 2)); margin-right: auto; width: auto; }
+.cardio-eyebrow { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em; color: var(--yellow); margin-bottom: 1.2rem; }
+.cardio-hero h1 { font-family: var(--font-display); font-size: clamp(2.2rem, 5.2vw, 4rem); line-height: 1.08; }
+.cardio-hero h1 span { display: block; color: var(--yellow); }
+.cardio-hero-description { margin: 1.4rem 0 2rem; max-width: 60ch; line-height: 1.75; color: rgba(255,255,255,.9); }
+.cardio-hero-note { margin-top: 1.4rem; font-size: 0.85rem; color: rgba(255,255,255,.75); }
+
+/* ---------- INTRO ---------- */
+.cardio-intro { background: var(--off-white); }
+.cardio-intro-grid { display: grid; grid-template-columns: 1fr; gap: 1.8rem; align-items: start; }
+.cardio-intro-copy { border-left: 4px solid var(--yellow); padding-left: 1.4rem; display: grid; gap: 1rem; line-height: 1.8; color: var(--text); }
+
+/* ---------- MALADIES (liste déroulante) ---------- */
+.cardio-accordion { border-top: 1px solid var(--border); }
+.cardio-disease { border-bottom: 1px solid var(--border); }
+.cardio-disease summary,
+.cardio-faq-list summary { list-style: none; cursor: pointer; }
+.cardio-disease summary::-webkit-details-marker,
+.cardio-faq-list summary::-webkit-details-marker { display: none; }
+.cardio-disease summary { display: flex; align-items: center; gap: 1.2rem; padding: 1.3rem 0.3rem; position: relative; padding-right: 3rem; }
+.cardio-disease summary::after,
+.cardio-faq-list summary::after { content: "+"; position: absolute; right: 0.5rem; font-size: 1.6rem; color: var(--blue); line-height: 1; }
+.cardio-disease[open] summary::after,
+.cardio-faq-list details[open] summary::after { content: "−"; }
+.cardio-disease-number { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--yellow); min-width: 2.2rem; text-shadow: 0 0 0 var(--blue-navy); -webkit-text-stroke: 1px var(--blue-navy); }
+.cardio-disease-title { font-weight: 700; font-size: 1.1rem; color: var(--blue-navy); display: grid; }
+.cardio-disease-title small { font-weight: 500; font-size: 0.82rem; color: var(--text-muted); margin-top: 0.15rem; }
+.cardio-disease summary:hover .cardio-disease-title { color: var(--blue); }
+.cardio-disease-body { padding: 0 0.3rem 1.6rem 3.4rem; line-height: 1.75; }
+.cardio-disease-cols { display: grid; grid-template-columns: 1fr; gap: 1.2rem; margin-top: 1.1rem; }
+.cardio-disease-cols h4 { font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--green); margin-bottom: 0.4rem; }
+.cardio-disease-cols ul { padding-left: 1.1rem; }
+.cardio-disclaimer { margin-top: 1.6rem; font-size: 0.9rem; color: var(--text-muted); }
+
+/* ---------- EXAMENS + TRAITEMENTS ---------- */
+.cardio-duo { background: var(--blue-light); }
+.cardio-duo-grid { display: grid; grid-template-columns: 1fr; gap: 3rem; }
+.cardio-duo-intro { margin: 0.8rem 0 1.6rem; color: var(--text-muted); line-height: 1.7; }
+.cardio-steps { list-style: none; counter-reset: step; display: grid; gap: 1.2rem; }
+.cardio-steps li { counter-increment: step; position: relative; padding-left: 3.2rem; }
+.cardio-steps li::before { content: counter(step); position: absolute; left: 0; top: 0; width: 2.2rem; height: 2.2rem; border-radius: 50%; display: grid; place-items: center; font-weight: 700; color: var(--white); background: var(--blue); }
+.cardio-steps-alpha li::before { content: counter(step, upper-alpha); background: var(--green); }
+.cardio-steps strong { color: var(--blue-navy); }
+.cardio-steps p { margin-top: 0.25rem; line-height: 1.65; font-size: 0.95rem; }
+.cardio-note { margin-top: 3rem; padding: 1.1rem 1.3rem; background: var(--white); border-left: 4px solid var(--blue); border-radius: var(--radius-sm); line-height: 1.7; font-size: 0.95rem; }
+
+/* ---------- PARCOURS + CTA (image de fond) ---------- */
+.cardio-journey {
+  padding: 5rem 0;
+  color: var(--white);
+  background:
+    linear-gradient(180deg, rgba(16,47,59,var(--journey-veil-top)), rgba(0,59,115,var(--journey-veil-bottom))),
+    var(--cardio-img-2) center / cover no-repeat;
+  background-color: var(--blue-navy);
+}
+.cardio-journey { text-shadow: 0 1px 12px rgba(0,0,0,.4); }
+.cardio-journey .cardio-kicker { color: var(--yellow); }
+.icon-cardio {
+    width: 100%;
+}
+
+.icon-cardio-1 {
+  display: block;
+  width: 64px;
+  height: auto;
+  object-fit: contain;
+  transform: scale(1);
+  transform-origin: center;
+  transition: transform 0.4s ease;
+}
+
+.icon-cardio-1:hover {
+  transform: scale(1.2);
+}
+.cardio-journey h2 { color: var(--white); }
+.cardio-journey h2 span { color: var(--yellow); }
+.cardio-heading-light p:last-child { color: rgba(255,255,255,.8); }
+.cardio-journey-list { list-style: none; display: grid; grid-template-columns: 1fr; gap: 1.6rem; }
+.cardio-journey-list li { border-top: 2px solid rgba(255,255,255,.3); padding-top: 1rem; }
+.cardio-journey-list span { font-family: var(--font-display); font-size: 1.6rem; font-weight: 700; color: var(--yellow); }
+.cardio-journey-list h3 { margin: 0.3rem 0 0.4rem; font-size: 1.05rem; }
+.cardio-journey-list p { font-size: 0.93rem; line-height: 1.65; color: rgba(255,255,255,.85); }
+.cardio-cta { margin-top: 3.5rem; padding-top: 2.5rem; border-top: 1px solid rgba(255,255,255,.25); display: grid; gap: 1.4rem; }
+
+/* ---------- FAQ ---------- */
+.cardio-faq-grid { display: grid; grid-template-columns: 1fr; gap: 2rem; }
+.cardio-text-link { display: inline-block; margin-top: 1.2rem; font-weight: 700; color: var(--blue); border-bottom: 2px solid var(--yellow); }
+.cardio-faq-list details { border-bottom: 1px solid var(--border); }
+.cardio-faq-list summary { position: relative; padding: 1.1rem 2.5rem 1.1rem 0; font-weight: 700; color: var(--blue-navy); }
+.cardio-faq-list details p { padding: 0 0 1.2rem; line-height: 1.7; color: var(--text-muted); }
+
+/* ---------- Urgence ---------- */
+.cardio-warning { background: var(--yellow-light); border-top: 4px solid var(--red); padding: 1.3rem 0; font-size: 0.92rem; line-height: 1.65; color: var(--blue-navy); }
+.cardio-warning strong { color: var(--red-dark); }
+
+/* ---------- Tablette ---------- */
+@media (min-width: 700px) {
+  .cardio-disease-cols { grid-template-columns: 1fr 1fr; }
+  .cardio-journey-list { grid-template-columns: 1fr 1fr; gap: 2rem; }
+}
+
+/* ---------- Desktop ---------- */
+@media (min-width: 980px) {
+  .cardio-section { padding: 6rem 0; }
+  .cardio-intro-grid { grid-template-columns: 1fr 1.1fr; gap: 4rem; }
+  .cardio-duo-grid { grid-template-columns: 1fr 1fr; gap: 4rem; }
+  .cardio-journey-list { grid-template-columns: repeat(4, 1fr); }
+  .cardio-cta { grid-template-columns: 1.2fr auto; align-items: center; }
+  .cardio-faq-grid { grid-template-columns: 1fr 1.6fr; gap: 4rem; }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 699px) {
+  .cardio-hero { background: linear-gradient(rgba(16,47,59,.5), rgba(16,47,59,.55)), var(--cardio-img-1) center / cover no-repeat; padding: 4rem 0; }
+  .cardio-hero-content { margin-inline: auto; width: min(var(--container), 92%); }
+  .cardio-disease-body { padding-left: 0.3rem; }
+  .cardio-button { width: 100%; justify-content: center;}
+  .cardio-button-primary {font-size: 10px;}
+  .icon-cardio-1 {
+  display: block;
+margin:auto;
+  width: 64px;
+  height: auto;
+  object-fit: contain;
+  transform: scale(1);
+  transform-origin: center;
+  transition: transform 0.4s ease;
+}
+}
+@media (prefers-reduced-motion: reduce) { .cardio-page * { transition: none !important; } }
