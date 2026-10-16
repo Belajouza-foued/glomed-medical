@@ -1,0 +1,456 @@
+
+/* SECTION CONTACT : DEUX COLONNES */
+
+.glomed-contact-main {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  align-items: stretch;
+  gap: 0;
+  width: min(1200px, calc(100% - 48px));
+  margin: 70px auto;
+  padding: 0;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #e2eaf1;
+  border-radius: 22px;
+  box-shadow: 0 20px 60px rgba(16, 47, 59, 0.1);
+}
+
+/* COLONNE FORMULAIRE */
+
+.glomed-contact-form {
+  min-width: 0;
+  padding: 40px;
+}
+
+.glomed-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 21px 16px;
+}
+
+.glomed-field {
+  min-width: 0;
+}
+
+.glomed-field-full {
+  grid-column: 1 / -1;
+}
+
+.glomed-field input,
+.glomed-field select,
+.glomed-field textarea {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #dce5ec;
+  border-radius: 9px;
+  background: #f9fbfd;
+}
+
+.glomed-field input:focus,
+.glomed-field select:focus,
+.glomed-field textarea:focus {
+  border-color: #0057a8;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 87, 168, 0.1);
+}
+
+/* TABLETTES */
+
+@media (max-width: 900px) {
+  .glomed-contact-main {
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+    width: calc(100% - 32px);
+    margin: 45px auto;
+  }
+
+  .glomed-contact-intro {
+    min-height: 620px;
+    padding: 28px 22px;
+  }
+
+  .glomed-contact-form {
+    padding: 28px 22px;
+  }
+
+  .glomed-contact-grid {
+    gap: 18px 12px;
+  }
+}
+
+/* MOBILES */
+
+@media (max-width: 650px) {
+  .glomed-contact-main {
+    grid-template-columns: minmax(0, 1fr);
+    width: calc(100% - 24px);
+    margin: 30px auto;
+    border-radius: 16px;
+  }
+
+  .glomed-contact-intro {
+    min-height: 300px;
+    padding: 32px 24px;
+    background-position: center 40%;
+  }
+
+  .glomed-contact-intro h2 {
+    font-size: 30px;
+  }
+
+  .glomed-contact-form {
+    padding: 28px 20px;
+  }
+
+  .glomed-contact-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  .glomed-field-full {
+    grid-column: auto;
+  }
+}
+
+/* PETITS ÉCRANS */
+
+@media (max-width: 380px) {
+  .glomed-contact-intro {
+    min-height: 260px;
+    padding: 25px 18px;
+  }
+
+  .glomed-contact-form {
+    padding: 24px 15px;
+  }
+}
+.glomed-contact-form-panel {
+  padding: 32px;
+}
+
+.glomed-contact-form-heading {
+  margin-bottom: 22px;
+}
+
+.glomed-contact-form-heading h2 {
+  margin: 8px 0;
+  font-size: clamp(1.5rem, 2vw, 2rem);
+}
+
+.glomed-contact-form-heading p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.glomed-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+}
+
+.glomed-field {
+  min-width: 0;
+}
+
+.glomed-field label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.glomed-field input,
+.glomed-field select,
+.glomed-field textarea {
+  width: 100%;
+  min-height: 44px;
+  padding: 11px 12px;
+  border: 1px solid #d8e1e8;
+  border-radius: 8px;
+  background: #fff;
+  font: inherit;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+
+.glomed-field textarea {
+  min-height: 85px;
+  resize: vertical;
+}
+
+.glomed-field-full {
+  grid-column: 1 / -1;
+}
+
+.glomed-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  margin-top: 16px;
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+.glomed-consent input {
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.glomed-contact-note {
+  margin: 10px 0;
+  color: #64748b;
+  font-size: 0.76rem;
+  line-height: 1.5;
+}
+
+.glomed-contact-submit {
+  width: 100%;
+  min-height: 46px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #0057a8;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.glomed-contact-submit:hover {
+  background: #003b73;
+}
+
+.glomed-contact-submit:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+@media (max-width: 650px) {
+  .glomed-contact-form-panel {
+    padding: 22px 18px;
+  }
+
+  .glomed-contact-grid {
+    grid-template-columns: 1fr;
+    gap: 13px;
+  }
+
+  .glomed-field-full {
+    grid-column: auto;
+  }
+}
+/*image titre*/
+
+/* =========================================
+   CONTACT — IMAGE PANEL
+========================================= */
+
+.glomed-contact-intro {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  min-height: 620px;
+  overflow: hidden;
+  border-radius: 18px;
+  background-image: url("/images/contact-glomed.avif");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.glomed-contact-intro-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(8, 31, 45, 0.25) 0%,
+      rgba(8, 31, 45, 0.58) 48%,
+      rgba(8, 31, 45, 0.92) 100%
+    );
+}
+
+.glomed-contact-intro-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 36px;
+  padding: clamp(28px, 4vw, 52px);
+}
+
+.glomed-contact-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.glomed-contact-eyebrow {
+  color: var(--red);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.glomed-contact-small-line {
+  width: 48px;
+  height: 3px;
+  border-radius: 5px;
+  background: #f4c430;
+}
+
+.glomed-contact-main-copy {
+  width: 100%;
+  max-width: 480px;
+  margin: auto 0;
+}
+
+.glomed-contact-main-copy h1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 0 24px;
+  color: #fff;
+  font-size: clamp(2.2rem, 3.5vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  line-height: 1.12;
+  overflow-wrap: anywhere;
+}
+
+.glomed-contact-main-copy h1 span {
+  display: block;
+  color: #f4c430;
+}
+
+.glomed-contact-description {
+  max-width: 420px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  line-height: 1.85;
+}
+
+.glomed-contact-trust {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 30px;
+  color: #fff;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.glomed-contact-trust-icon {
+  display: inline-flex;
+  flex: 0 0 34px;
+  width: 34px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(244, 196, 48, 0.7);
+  border-radius: 50%;
+  color: #f4c430;
+  font-size: 1.1rem;
+}
+
+.glomed-contact-image-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.glomed-contact-image-line {
+  display: none;
+}
+
+.glomed-contact-image-footer > span:nth-child(2) {
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+}
+
+.glomed-contact-footer-caption {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.68rem;
+  letter-spacing: 0.16em;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+  .glomed-contact-intro {
+    min-height: 540px;
+  }
+
+  .glomed-contact-intro-content {
+    padding: 32px;
+  }
+
+  .glomed-contact-main-copy h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+  }
+}
+
+@media (max-width: 650px) {
+  .glomed-contact-intro {
+    min-height: 480px;
+    border-radius: 14px;
+  }
+
+  .glomed-contact-intro-content {
+    gap: 28px;
+    padding: 28px 24px;
+  }
+
+  .glomed-contact-main-copy h1 {
+    gap: 6px;
+    margin-bottom: 18px;
+    font-size: clamp(2rem, 9vw, 2.7rem);
+    line-height: 1.15;
+  }
+
+  .glomed-contact-description {
+    font-size: 0.93rem;
+    line-height: 1.75;
+  }
+
+  .glomed-contact-trust {
+    align-items: flex-start;
+    margin-top: 22px;
+    font-size: 0.86rem;
+  }
+
+  .glomed-contact-image-footer {
+    padding-top: 18px;
+  }
+}
+
+@media (max-width: 380px) {
+  .glomed-contact-intro-content {
+    padding: 24px 19px;
+  }
+
+  .glomed-contact-main-copy h1 {
+    font-size: 1.9rem;
+  }
+
+  .glomed-contact-description {
+    font-size: 0.88rem;
+  }
+}
+

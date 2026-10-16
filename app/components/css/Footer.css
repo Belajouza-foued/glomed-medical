@@ -1,0 +1,497 @@
+/* =========================================
+   FOOTER GLOMED GROUP
+========================================= */
+
+.glomed-footer {
+  background: #102f3b;
+  color: #f5f7f5;
+  padding: 65px 20px 24px;
+  overflow: hidden;
+}
+
+/* Conteneur principal centré */
+.glomed-footer > .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* =========================================
+   COLONNES PRINCIPALES
+========================================= */
+
+.glomed-footer-top {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr 1fr;
+  gap: 45px;
+  align-items: start;
+  padding-bottom: 45px;
+}
+
+.glomed-footer-column {
+  min-width: 0;
+}
+
+/* =========================================
+   LOGO
+========================================= */
+
+.glomed-footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  color: #f5f7f5;
+  text-decoration: none;
+  transition: opacity 0.25s ease;
+}
+
+.glomed-footer-brand:hover {
+  color: #f5f7f5;
+  opacity: 0.85;
+}
+
+.glomed-footer-brand-mark {
+  width: 58px;
+  height: 58px;
+  flex: 0 0 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #71c6b3;
+  color: #102f3b;
+  font-size: 35px;
+  line-height: 1;
+}
+
+.glomed-footer-brand-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.glomed-footer-brand-name {
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.3;
+}
+
+.glomed-footer-brand-name strong {
+  color: #71c6b3;
+  font-weight: 800;
+}
+
+.glomed-footer-tagline {
+  color: #71c6b3;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.glomed-footer-about {
+  max-width: 360px;
+  margin: 22px 0 25px;
+  color: rgba(245, 247, 245, 0.72);
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* =========================================
+   RÉSEAUX SOCIAUX
+========================================= */
+
+.glomed-footer-socials {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.glomed-footer-socials a {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(113, 198, 179, 0.4);
+  border-radius: 50%;
+  color: #f5f7f5;
+  font-size: 16px;
+  text-decoration: none;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.glomed-footer-socials a:hover {
+  background: #71c6b3;
+  border-color: #71c6b3;
+  color: #102f3b;
+  transform: translateY(-3px);
+}
+
+/* =========================================
+   TITRES DES COLONNES
+========================================= */
+
+.glomed-footer-heading {
+  position: relative;
+  margin: 5px 0 25px;
+  padding-bottom: 13px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.glomed-footer-heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 3px;
+  border-radius: 3px;
+  background: #71c6b3;
+}
+
+/* =========================================
+   NAVIGATION
+========================================= */
+
+.glomed-footer-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.glomed-footer-navigation li {
+  margin-bottom: 13px;
+}
+
+.glomed-footer-navigation a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(245, 247, 245, 0.72);
+  font-size: 15px;
+  text-decoration: none;
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.glomed-footer-navigation a i {
+  flex-shrink: 0;
+  color: #71c6b3;
+  font-size: 11px;
+}
+
+.glomed-footer-navigation a:hover {
+  color: #71c6b3;
+  transform: translateX(4px);
+}
+
+/* =========================================
+   CONTACT
+========================================= */
+
+.glomed-footer-contact {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.glomed-footer-contact li {
+  margin-bottom: 16px;
+}
+
+.glomed-footer-contact a,
+.glomed-footer-contact li > span {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  color: rgba(245, 247, 245, 0.72);
+  font-size: 15px;
+  line-height: 1.7;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  transition: color 0.25s ease;
+}
+
+.glomed-footer-contact a:hover {
+  color: #71c6b3;
+}
+
+.glomed-footer-contact i {
+  flex: 0 0 18px;
+  margin-top: 4px;
+  color: #71c6b3;
+  font-size: 16px;
+}
+
+/* =========================================
+   BOUTON CONTACT
+========================================= */
+
+.glomed-footer-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 8px;
+  padding: 11px 24px;
+  border: 1px solid #71c6b3;
+  border-radius: 30px;
+  background: transparent;
+  color: #f5f7f5;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.glomed-footer-cta:hover {
+  background: #71c6b3;
+  color: #102f3b;
+  transform: translateY(-2px);
+}
+
+/* =========================================
+   BAS DE PAGE
+========================================= */
+
+.glomed-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px 25px;
+  padding-top: 25px;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.glomed-footer-bottom p {
+  margin: 0;
+  color: rgba(245, 247, 245, 0.55);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+/* =========================================
+   ÉCRANS MOYENS
+========================================= */
+
+@media (max-width: 1100px) {
+  .glomed-footer-top {
+    grid-template-columns: 1.1fr 0.8fr 1fr;
+    gap: 28px;
+  }
+
+  .glomed-footer {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+/* =========================================
+   TABLETTES
+========================================= */
+
+@media (max-width: 900px) {
+  .glomed-footer {
+    padding-top: 50px;
+  }
+
+  .glomed-footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 38px 30px;
+    padding-bottom: 38px;
+  }
+
+  /* La première colonne occupe toute la largeur */
+  .glomed-footer-column:first-child {
+    grid-column: 1 / -1;
+  }
+
+  .glomed-footer-about {
+    max-width: 520px;
+  }
+}
+
+/* =========================================
+   MOBILES
+========================================= */
+
+@media (max-width: 600px) {
+  .glomed-footer {
+    padding: 42px 20px 22px;
+    text-align: center;
+  }
+
+  .glomed-footer-top {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+    padding-bottom: 32px;
+  }
+
+  .glomed-footer-column:first-child {
+    grid-column: auto;
+  }
+
+  /* Logo centré */
+  .glomed-footer-brand {
+    justify-content: center;
+  }
+
+  .glomed-footer-brand-mark {
+    width: 50px;
+    height: 50px;
+    flex-basis: 50px;
+    font-size: 30px;
+  }
+
+  .glomed-footer-brand-name {
+    font-size: 21px;
+  }
+
+  .glomed-footer-tagline {
+    font-size: 10px;
+    letter-spacing: 1.7px;
+  }
+
+  /* Description centrée */
+  .glomed-footer-about {
+    max-width: 440px;
+    margin: 18px auto 22px;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  /* Réseaux sociaux centrés */
+  .glomed-footer-socials {
+    justify-content: center;
+  }
+
+  /* Titres centrés */
+  .glomed-footer-heading {
+    margin: 0 0 22px;
+    font-size: 19px;
+  }
+
+  .glomed-footer-heading::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Navigation centrée */
+  .glomed-footer-navigation a {
+    justify-content: center;
+  }
+
+  /* Contacts centrés */
+  .glomed-footer-contact a,
+  .glomed-footer-contact li > span {
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .glomed-footer-contact i {
+    margin-top: 4px;
+  }
+
+  /* Bouton centré */
+  .glomed-footer-cta {
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  /* Bas de page centré */
+  .glomed-footer-bottom {
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .glomed-footer-bottom p {
+    font-size: 12px;
+  }
+}
+
+/* =========================================
+   PETITS TÉLÉPHONES
+========================================= */
+
+@media (max-width: 380px) {
+  .glomed-footer {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .glomed-footer-top {
+    gap: 28px;
+  }
+
+  .glomed-footer-brand {
+    gap: 9px;
+  }
+
+  .glomed-footer-brand-name {
+    font-size: 19px;
+  }
+
+  .glomed-footer-tagline {
+    font-size: 9px;
+    letter-spacing: 1.4px;
+  }
+
+  .glomed-footer-about {
+    font-size: 13px;
+  }
+
+  .glomed-footer-heading {
+    font-size: 18px;
+  }
+
+  .glomed-footer-contact a,
+  .glomed-footer-contact li > span,
+  .glomed-footer-navigation a {
+    font-size: 14px;
+  }
+
+  .glomed-footer-bottom p {
+    overflow-wrap: anywhere;
+  }
+}
+.glomed-footer-brand {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.glomed-footer-logo {
+  display: block;
+  border-radius: 20px;
+  width: 120px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 480px) {
+  .glomed-footer-logo {
+    width: 160px;
+  }
+}

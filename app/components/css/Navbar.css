@@ -1,0 +1,693 @@
+/* =========================
+   GLOMED GROUP - NAVBAR
+========================= */
+/* =========================
+   DROPDOWN CHIRURGIE
+========================= */
+
+.glomed-nav-dropdown {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.glomed-nav-dropdown-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 0;
+  color: var(--blue-dark, #003B73);
+  background: transparent;
+  border: 0;
+  font: inherit;
+   font-size: 14px;
+  font-weight: 800;
+  line-height: 1.4;
+    white-space: nowrap;
+  cursor: pointer;
+  transition: color 200ms ease;
+}
+
+.glomed-nav-dropdown-trigger svg {
+  flex-shrink: 0;
+  transition: transform 200ms ease;
+}
+
+.glomed-nav-dropdown:hover .glomed-nav-dropdown-trigger,
+.glomed-nav-dropdown:focus-within .glomed-nav-dropdown-trigger,
+.glomed-nav-dropdown.is-open .glomed-nav-dropdown-trigger {
+  color: var(--green, #2F7D68);
+}
+
+.glomed-nav-dropdown:hover .glomed-nav-dropdown-trigger svg,
+.glomed-nav-dropdown:focus-within .glomed-nav-dropdown-trigger svg,
+.glomed-nav-dropdown.is-open .glomed-nav-dropdown-trigger svg {
+  transform: rotate(180deg);
+}
+
+.glomed-nav-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: -12px;
+  z-index: 1200;
+  width: 235px;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid #e2e7ef;
+  border-top: 3px solid #2f7d68;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 12px 28px rgba(16, 47, 59, 0.14);
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(8px);
+
+  transition:
+    opacity 200ms ease,
+    transform 200ms ease,
+    visibility 200ms ease;
+}
+
+.glomed-nav-dropdown:hover .glomed-nav-dropdown-menu,
+.glomed-nav-dropdown:focus-within .glomed-nav-dropdown-menu,
+.glomed-nav-dropdown.is-open .glomed-nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.glomed-nav-dropdown-menu a {
+  display: block;
+  padding: 11px 12px;
+  color: var(--blue-dark, #003B73);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-decoration: none;
+  transition:
+    background 180ms ease,
+    color 180ms ease;
+}
+
+.glomed-nav-dropdown-menu a:hover,
+.glomed-nav-dropdown-menu a:focus-visible {
+  color: #2f7d68;
+  background: #edf6f2;
+}
+
+/* =========================
+   TABLETTE ET MOBILE
+========================= */
+
+@media (max-width: 1050px) {
+  .glomed-nav-dropdown {
+    width: 100%;
+    flex-shrink: 1;
+  }
+
+  .glomed-nav-dropdown-trigger {
+    width: 100%;
+    justify-content: space-between;
+    padding: 14px 4px;
+    border-bottom: 1px solid #e2e7ef;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  /* Sur mobile, le menu est contrôlé par React */
+  .glomed-nav-dropdown-menu {
+    position: static;
+    display: none;
+    width: 100%;
+    padding: 5px 0 8px 12px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: none;
+    transition: none;
+  }
+
+  .glomed-nav-dropdown.is-open .glomed-nav-dropdown-menu {
+    display: block;
+  }
+
+  /* Évite que le survol ouvre le sous-menu sur écran tactile */
+  .glomed-nav-dropdown:hover .glomed-nav-dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+
+  .glomed-nav-dropdown-menu a {
+    padding: 11px 12px;
+    font-size: 13px;
+  }
+}
+.glomed-chevron {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1;
+  transition: transform 200ms ease;
+}
+
+.glomed-nav-dropdown:hover .glomed-chevron,
+.glomed-nav-dropdown:focus-within .glomed-chevron,
+.glomed-nav-dropdown.is-open .glomed-chevron {
+  transform: rotate(180deg);
+}
+/* FIX RESPONSIVE — CHIRURGIE */
+
+@media (max-width: 1050px) {
+  .glomed-nav .glomed-nav-dropdown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    flex-shrink: 0;
+  }
+
+  .glomed-nav .glomed-nav-dropdown-trigger {
+    display: flex;
+    width: 100%;
+    min-height: 48px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 4px;
+    font-size: 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--border, #E2E7EF);
+  }
+
+  .glomed-nav .glomed-nav-dropdown-menu {
+    position: static;
+    width: 100%;
+    display: none;
+    box-sizing: border-box;
+    padding: 6px 0 8px 12px;
+    background: #fff;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    transform: none;
+  }
+
+  .glomed-nav .glomed-nav-dropdown.is-open .glomed-nav-dropdown-menu {
+    display: block;
+  }
+
+  .glomed-nav .glomed-nav-dropdown-menu a {
+    display: flex;
+    align-items: center;
+    min-height: 42px;
+    padding: 10px 12px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    font-size: 13px;
+  }
+
+  .glomed-nav .glomed-nav-dropdown-trigger .glomed-chevron {
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .glomed-nav .glomed-nav-dropdown-trigger {
+    min-height: 46px;
+    font-size: 14px;
+  }
+
+  .glomed-nav .glomed-nav-dropdown-menu a {
+    font-size: 13px;
+  }
+}
+/* PETITS TÉLÉPHONES */
+
+@media (max-width: 480px) {
+  .glomed-nav-dropdown-trigger {
+    padding: 13px 4px;
+    font-size: 14px;
+  }
+
+  .glomed-nav-dropdown-menu a {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+}
+
+/* ACCESSIBILITÉ */
+
+@media (prefers-reduced-motion: reduce) {
+  .glomed-nav-dropdown-trigger,
+  .glomed-nav-dropdown-trigger svg,
+  .glomed-nav-dropdown-menu,
+  .glomed-nav-dropdown-menu a {
+    transition: none;
+  }
+}
+.glomed-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0, 30, 70, 0.12);
+}
+
+.glomed-nav-container {
+  position: relative;
+  width: min(1200px, calc(100% - 40px));
+  min-height: 82px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+/* LOGO */
+
+.glomed-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  color: var(--blue, #0057A8);
+  text-decoration: none;
+}
+
+.glomed-brand-mark {
+  display: block;
+  width: 130px;
+  height: 100px;
+  max-height: 88px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+/* Logo et titre */
+.glomed-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.glomed-brand-mark {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.glomed-brand-title {
+  color: var(--blue-dark, #003B73);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  white-space: normal;
+}
+
+/* Adaptation mobile */
+@media (max-width: 480px) {
+  .glomed-brand-title {
+    font-size: 9px;
+  }
+}
+
+.glomed-brand-name {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 5px;
+  max-width: 190px;
+  color: var(--blue-dark, #003B73);
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+
+
+
+/* NAVIGATION DESKTOP */
+
+.glomed-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+.glomed-nav > a {
+  position: relative;
+  padding: 10px 0;
+  color: var(--blue-dark, #003B73);
+  font-size: 15px;
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 200ms ease;
+}
+
+.glomed-nav > a::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 3px;
+  left: 0;
+  height: 2px;
+  background: var(--red, #D71920);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 200ms ease;
+}
+
+.glomed-nav > a:hover {
+  color: var(--red, #D71920);
+}
+
+.glomed-nav > a:hover::after {
+  transform: scaleX(1);
+}
+
+/* ACTIONS DESKTOP */
+
+.glomed-desktop-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.glomed-mobile-actions {
+  display: none;
+}
+
+/* SÉLECTEUR DE LANGUE */
+
+.glomed-language {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.glomed-language-trigger {
+  min-height: 40px;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--white);
+  background: var(--green);
+  border: 1px solid var(--border, #E2E7EF);
+  border-radius: 7px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.glomed-language-trigger:hover {
+  border-color: var(--blue, #0057A8);
+}
+
+.glomed-chevron {
+  font-size: 12px;
+}
+
+.glomed-language-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 1100;
+  width: 155px;
+  padding: 6px;
+  background: #fff;
+  border: 1px solid var(--border, #E2E7EF);
+  border-radius: 9px;
+  box-shadow: 0 12px 28px rgba(0, 30, 70, 0.18);
+}
+
+.glomed-language-menu button {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--text, #172033);
+  background: transparent;
+  border: 0;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.glomed-language-menu button:hover,
+.glomed-language-menu button.glomed-language-selected {
+  background: var(--blue-light, #EAF3FB);
+}
+
+/* BOUTON CTA */
+
+.glomed-cta {
+  min-height: 42px;
+  padding: 0 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #fff;
+  background: var(--red, #D71920);
+  border: 1px solid var(--red, #D71920);
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  transition:
+    background 200ms ease,
+    border-color 200ms ease,
+    transform 200ms ease;
+}
+
+.glomed-cta:hover {
+  color: #fff;
+  background: var(--red-dark, #A80F15);
+  border-color: var(--red-dark, #A80F15);
+  transform: translateY(-1px);
+}
+
+/* HAMBURGER */
+
+.glomed-menu-toggle {
+  display: none;
+}
+
+/* =========================
+   TABLETTES ET MOBILES
+========================= */
+
+@media (max-width: 1050px) {
+  .glomed-nav-container {
+    min-height: 74px;
+    gap: 14px;
+  }
+
+  .glomed-brand-mark {
+    width: 72px;
+  }
+
+  .glomed-brand-name {
+    max-width: 150px;
+    font-size: 15px;
+  }
+
+  .glomed-desktop-actions {
+    display: none;
+  }
+
+  .glomed-menu-toggle {
+    width: 42px;
+    height: 42px;
+    margin-left: auto;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-shrink: 0;
+    background: #fff;
+    border: 1px solid var(--border, #E2E7EF);
+    border-radius: 7px;
+    cursor: pointer;
+  }
+
+  .glomed-menu-toggle span {
+    width: 20px;
+    height: 2px;
+    display: block;
+    background: var(--blue-dark, #003B73);
+    border-radius: 2px;
+    transition:
+      transform 200ms ease,
+      opacity 200ms ease;
+  }
+
+  .glomed-menu-toggle.is-open span:first-child {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .glomed-menu-toggle.is-open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .glomed-menu-toggle.is-open span:last-child {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  /* MENU MOBILE */
+
+  .glomed-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    max-height: calc(100dvh - 74px);
+    overflow-y: auto;
+    padding: 12px 22px 22px;
+    background: #fff;
+    border: 1px solid var(--border, #E2E7EF);
+    border-top: 3px solid var(--blue, #0057A8);
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 15px 25px rgba(0, 30, 70, 0.15);
+  }
+
+  .glomed-nav.is-open {
+    display: flex;
+  }
+
+  .glomed-nav > a {
+    display: block;
+    padding: 14px 4px;
+    color: var(--blue-dark, #003B73);
+    border-bottom: 1px solid var(--border, #E2E7EF);
+    font-size: 14px;
+    white-space: normal;
+  }
+
+  .glomed-nav > a::after {
+    display: none;
+  }
+
+  .glomed-nav > a:hover {
+    color: var(--red, #D71920);
+  }
+
+  /* ACTIONS DANS LE MENU */
+
+  .glomed-mobile-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-top: 18px;
+  }
+
+  .glomed-mobile-actions .glomed-cta {
+    flex: 1 1 150px;
+    white-space: normal;
+  }
+
+  .glomed-mobile-actions .glomed-language-menu {
+    top: calc(100% + 8px);
+    right: auto;
+    bottom: auto;
+    left: 0;
+  }
+}
+
+/* PETITS TÉLÉPHONES */
+
+@media (max-width: 480px) {
+  .glomed-nav-container {
+    width: calc(100% - 24px);
+    min-height: 68px;
+    gap: 8px;
+  }
+
+  .glomed-brand {
+    gap: 7px;
+    min-width: 0;
+  }
+
+  .glomed-brand-mark {
+    width: 80px;
+    max-height: 50px;
+  }
+
+  .glomed-brand-name {
+    max-width: 145px;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+  }
+
+  .glomed-brand-name small {
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+
+  .glomed-menu-toggle {
+    width: 38px;
+    height: 38px;
+  }
+
+  .glomed-nav {
+    max-height: calc(100dvh - 68px);
+    padding: 10px 16px 18px;
+  }
+
+  .glomed-mobile-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .glomed-mobile-actions .glomed-language {
+    align-self: flex-start;
+  }
+
+  .glomed-mobile-actions .glomed-cta {
+    width: 100%;
+    flex: auto;
+  }
+}
+
+/* ACCESSIBILITÉ */
+
+@media (prefers-reduced-motion: reduce) {
+  .glomed-nav > a,
+  .glomed-nav > a::after,
+  .glomed-menu-toggle span,
+  .glomed-cta {
+    transition: none;
+  }
+}

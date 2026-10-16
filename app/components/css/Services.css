@@ -1,0 +1,777 @@
+
+/* =========================================
+   GLOMED GROUP — SERVICES
+========================================= */
+
+.services,
+.medical-process {
+  position: relative;
+  width: 100%;
+  overflow: clip;
+}
+
+.services {
+  padding: 100px 0 85px;
+  background: #f5f8fb;
+  color: #15344b;
+}
+
+.services .container,
+.medical-process .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* TITRES */
+
+.services__heading,
+.medical-process__heading {
+  max-width: 780px;
+  margin: 0 auto 55px;
+  text-align: center;
+  animation: glomedFadeUp 0.8s ease both;
+}
+
+.services__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  margin-bottom: 18px;
+  color: #2f7d68;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.services__eyebrow::before {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background: #2f7d68;
+}
+
+.section-title {
+  margin: 0 0 20px;
+  color: #10344c;
+  font-size: clamp(30px, 4vw, 48px);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -1.2px;
+  overflow-wrap: anywhere;
+}
+
+.section-title span {
+  display: block;
+  color: #2f7d68;
+}
+
+.section-lead {
+  max-width: 680px;
+  margin: 0 auto;
+  color: #627487;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* CARTES SERVICES */
+
+.services__list {
+  --bs-gutter-x: 22px;
+  --bs-gutter-y: 22px;
+}
+
+.services__item {
+  display: flex;
+  min-width: 0;
+  animation: glomedFadeUp 0.7s ease both;
+}
+
+.services__item:nth-child(1) { animation-delay: 0.05s; }
+.services__item:nth-child(2) { animation-delay: 0.12s; }
+.services__item:nth-child(3) { animation-delay: 0.19s; }
+.services__item:nth-child(4) { animation-delay: 0.26s; }
+.services__item:nth-child(5) { animation-delay: 0.33s; }
+.services__item:nth-child(6) { animation-delay: 0.40s; }
+
+.services__row {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 19px;
+  width: 100%;
+  min-width: 0;
+  min-height: 190px;
+  padding: 28px 25px;
+  background: #fff;
+  border: 1px solid #e4ebf1;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(16, 52, 76, 0.035);
+  transition:
+    transform 300ms ease,
+    background-color 300ms ease,
+    border-color 300ms ease,
+    box-shadow 300ms ease;
+}
+
+.services__row::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 25px;
+  width: 0;
+  height: 3px;
+  border-radius: 0 0 4px 4px;
+  background: #56a58b;
+  transition: width 300ms ease;
+}
+
+.services__row:hover {
+  transform: translateY(-7px) scale(1.015);
+  background: #103b50;
+  border-color: #103b50;
+  box-shadow: 0 20px 42px rgba(16, 52, 76, 0.15);
+}
+
+.services__row:hover::before {
+  width: 55px;
+}
+
+.services__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 58px;
+  width: 58px;
+  height: 58px;
+  color: #2f7d68;
+  background: #eaf5f0;
+  border-radius: 15px;
+  font-size: 25px;
+  transition:
+    transform 300ms ease,
+    background-color 300ms ease,
+    color 300ms ease;
+}
+
+.services__row:hover .services__icon {
+  color: #fff;
+  background: #2f7d68;
+  transform: rotate(-6deg) scale(1.08);
+}
+
+.services__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.services__item-title {
+  margin: 4px 0 12px;
+  color: #153b52;
+  font-size: 19px;
+  font-weight: 750;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+  transition: color 250ms ease;
+}
+
+.services__item-text {
+  margin: 0;
+  color: #697b8c;
+  font-size: 14px;
+  line-height: 1.85;
+  overflow-wrap: anywhere;
+  transition: color 250ms ease;
+}
+
+.services__row:hover .services__item-title {
+  color: #fff;
+}
+
+.services__row:hover .services__item-text {
+  color: #d4e2e8;
+}
+
+.services__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 30px;
+  width: 30px;
+  height: 30px;
+  color: #2f7d68;
+  background: #f0f7f4;
+  border-radius: 50%;
+  font-size: 17px;
+  transition:
+    transform 250ms ease,
+    background-color 250ms ease,
+    color 250ms ease;
+}
+
+.services__row:hover .services__arrow {
+  color: #103b50;
+  background: #fff;
+  transform: translate(3px, -3px);
+}
+
+/* NOTE D'INFORMATION */
+
+.services__note {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  max-width: 920px;
+  margin: 35px auto 0;
+  padding: 20px 24px;
+  background: #eaf3f7;
+  border-left: 3px solid #2f7d68;
+  border-radius: 10px;
+}
+
+.services__note > i {
+  flex: 0 0 auto;
+  margin-top: 3px;
+  color: #2f7d68;
+  font-size: 19px;
+}
+
+.services__note p {
+  margin: 0;
+  color: #526b7b;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+/* =========================================
+   PARCOURS MÉDICAL
+========================================= */
+
+.medical-process {
+  padding: 100px 0;
+  background: #fff;
+}
+
+.medical-process__heading {
+  margin-bottom: 60px;
+}
+
+.medical-process__list {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+/* Ligne décorative */
+
+.medical-process__list::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  left: 34px;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    #2f7d68,
+    #dbe9e3
+  );
+}
+
+.medical-process__item {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+  min-width: 0;
+  padding: 25px 20px;
+  background: #f7f9fb;
+  border: 1px solid #e8edf2;
+  border-radius: 16px;
+  transition:
+    transform 280ms ease,
+    background-color 280ms ease,
+    border-color 280ms ease,
+    box-shadow 280ms ease;
+  animation: glomedFadeUp 0.7s ease both;
+}
+
+.medical-process__item:nth-child(2) { animation-delay: 0.08s; }
+.medical-process__item:nth-child(3) { animation-delay: 0.16s; }
+.medical-process__item:nth-child(4) { animation-delay: 0.24s; }
+.medical-process__item:nth-child(5) { animation-delay: 0.32s; }
+.medical-process__item:nth-child(6) { animation-delay: 0.40s; }
+
+.medical-process__item:hover {
+  transform: translateY(-5px);
+  background: #103b50;
+  border-color: #103b50;
+  box-shadow: 0 15px 35px rgba(16, 52, 76, 0.13);
+}
+
+.medical-process__number {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 46px;
+  width: 46px;
+  height: 46px;
+  color: #fff;
+  background: #2f7d68;
+  border: 4px solid #e7f2ed;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 800;
+  transition:
+    background-color 250ms ease,
+    transform 250ms ease;
+}
+
+.medical-process__item:hover .medical-process__number {
+  background: #56a58b;
+  transform: scale(1.08);
+}
+
+.medical-process__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 42px;
+  width: 42px;
+  height: 42px;
+  color: #2f7d68;
+  background: #e7f3ed;
+  border-radius: 12px;
+  font-size: 19px;
+  transition:
+    color 250ms ease,
+    background-color 250ms ease;
+}
+
+.medical-process__item:hover .medical-process__icon {
+  color: #fff;
+  background: #2f7d68;
+}
+
+.medical-process__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.medical-process__content h3 {
+  margin: 3px 0 10px;
+  color: #153b52;
+  font-size: 17px;
+  font-weight: 750;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+  transition: color 250ms ease;
+}
+
+.medical-process__content p {
+  margin: 0;
+  color: #6b7c8c;
+  font-size: 13px;
+  line-height: 1.85;
+  overflow-wrap: anywhere;
+  transition: color 250ms ease;
+}
+
+.medical-process__item:hover .medical-process__content h3 {
+  color: #fff;
+}
+
+.medical-process__item:hover .medical-process__content p {
+  color: #d4e2e8;
+}
+
+.medical-process__check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 29px;
+  width: 29px;
+  height: 29px;
+  color: #2f7d68;
+  background: #e8f4ef;
+  border-radius: 50%;
+  transition:
+    transform 250ms ease,
+    background-color 250ms ease,
+    color 250ms ease;
+}
+
+.medical-process__item:hover .medical-process__check {
+  color: #103b50;
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+/* CTA */
+
+.medical-process__cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 55px;
+  padding: 38px 40px;
+  color: #fff;
+  background: linear-gradient(120deg, #10344c, #1b5a62);
+  border-radius: 20px;
+  box-shadow: 0 16px 40px rgba(16, 52, 76, 0.12);
+}
+
+.medical-process__cta .services__eyebrow {
+  color: #a9ddc7;
+}
+
+.medical-process__cta .services__eyebrow::before {
+  background: #a9ddc7;
+}
+
+.medical-process__cta > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.medical-process__cta h3 {
+  margin: 0 0 12px;
+  color: #fff;
+  font-size: clamp(22px, 3vw, 30px);
+  font-weight: 800;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.medical-process__cta p {
+  max-width: 640px;
+  margin: 0;
+  color: #d3e1e8;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.services__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex: 0 0 auto;
+  min-height: 50px;
+  padding: 14px 22px;
+  color: #103b50;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 9px;
+  font-size: 14px;
+  font-weight: 750;
+  text-align: center;
+  text-decoration: none;
+  transition:
+    transform 250ms ease,
+    color 250ms ease,
+    background-color 250ms ease;
+}
+
+.services__cta:hover {
+  color: #fff;
+  background: #2f7d68;
+  transform: translateY(-3px);
+}
+
+.services__cta i {
+  transition: transform 250ms ease;
+}
+
+.services__cta:hover i {
+  transform: translateX(4px);
+}
+
+/* =========================================
+   ANIMATIONS
+========================================= */
+
+@keyframes glomedFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================================
+   TABLETTE
+========================================= */
+
+@media (max-width: 991px) {
+  .services,
+  .medical-process {
+    padding: 75px 0;
+  }
+
+  .services__heading,
+  .medical-process__heading {
+    margin-bottom: 40px;
+  }
+
+  .services__row {
+    gap: 15px;
+    min-height: 180px;
+    padding: 23px 20px;
+  }
+
+  .services__icon {
+    flex-basis: 50px;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+  }
+
+  .services__item-title {
+    font-size: 17px;
+  }
+
+  .medical-process__list {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .medical-process__cta {
+    padding: 30px;
+  }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 575px) {
+  .services,
+  .medical-process {
+    padding: 58px 0;
+  }
+
+  .services__heading,
+  .medical-process__heading {
+    margin-bottom: 32px;
+  }
+
+  .services__eyebrow {
+    gap: 7px;
+    margin-bottom: 14px;
+    font-size: 10px;
+    letter-spacing: 1.3px;
+  }
+
+  .services__eyebrow::before {
+    width: 18px;
+  }
+
+  .section-title {
+    font-size: clamp(27px, 7vw, 34px);
+    letter-spacing: -0.6px;
+  }
+
+  .section-lead {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  .services__list {
+    --bs-gutter-x: 0px;
+    --bs-gutter-y: 15px;
+  }
+
+  .services__row {
+    min-height: auto;
+    gap: 13px;
+    padding: 21px 16px;
+    border-radius: 14px;
+  }
+
+  .services__row:hover {
+    transform: translateY(-3px);
+  }
+
+  .services__icon {
+    flex-basis: 43px;
+    width: 43px;
+    height: 43px;
+    border-radius: 11px;
+    font-size: 19px;
+  }
+
+  .services__item-title {
+    margin-top: 2px;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .services__item-text {
+    font-size: 13px;
+    line-height: 1.75;
+  }
+
+  .services__arrow {
+    flex-basis: 25px;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+  }
+
+  .services__note {
+    gap: 10px;
+    margin-top: 24px;
+    padding: 16px;
+  }
+
+  .services__note p {
+    font-size: 12px;
+  }
+
+  .medical-process__list {
+    gap: 13px;
+  }
+
+  .medical-process__list::before {
+    left: 22px;
+  }
+
+  .medical-process__item {
+    gap: 11px;
+    padding: 19px 12px;
+    border-radius: 13px;
+  }
+
+  .medical-process__number {
+    flex-basis: 36px;
+    width: 36px;
+    height: 36px;
+    border-width: 3px;
+    font-size: 10px;
+  }
+
+  .medical-process__icon {
+    flex-basis: 34px;
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
+    font-size: 16px;
+  }
+
+  .medical-process__content h3 {
+    margin-top: 2px;
+    margin-bottom: 7px;
+    font-size: 15px;
+  }
+
+  .medical-process__content p {
+    font-size: 12px;
+    line-height: 1.75;
+  }
+
+  .medical-process__check {
+    flex-basis: 25px;
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+  }
+
+  .medical-process__cta {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 22px;
+    margin-top: 32px;
+    padding: 24px 19px;
+    border-radius: 15px;
+  }
+
+  .medical-process__cta h3 {
+    font-size: 23px;
+  }
+
+  .medical-process__cta p {
+    font-size: 13px;
+  }
+
+  .services__cta {
+    align-self: flex-start;
+    max-width: 100%;
+    min-height: 46px;
+    padding: 12px 16px;
+    font-size: 13px;
+  }
+}
+
+/* PETITS ÉCRANS */
+
+@media (max-width: 360px) {
+  .services__row {
+    gap: 10px;
+    padding: 17px 11px;
+  }
+
+  .services__icon {
+    flex-basis: 36px;
+    width: 36px;
+    height: 36px;
+    font-size: 17px;
+  }
+
+  .services__item-title {
+    font-size: 14px;
+  }
+
+  .services__item-text {
+    font-size: 12px;
+  }
+
+  .medical-process__item {
+    gap: 8px;
+    padding: 16px 9px;
+  }
+
+  .medical-process__number {
+    flex-basis: 31px;
+    width: 31px;
+    height: 31px;
+  }
+
+  .medical-process__icon {
+    flex-basis: 29px;
+    width: 29px;
+    height: 29px;
+    font-size: 14px;
+  }
+
+  .medical-process__check {
+    display: none;
+  }
+}
+
+/* ACCESSIBILITÉ */
+
+@media (prefers-reduced-motion: reduce) {
+  .services__heading,
+  .medical-process__heading,
+  .services__item,
+  .medical-process__item {
+    animation: none;
+  }
+
+  .services *,
+  .medical-process * {
+    scroll-behavior: auto;
+    transition-duration: 0.01ms !important;
+  }
+}
