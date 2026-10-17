@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap');
 
 :root {
+   --teal: #20c997;
+--cyan: #066b78;
   --blue: #0057A8;
   --blue-dark: #003B73;
   --blue-light: #EAF3FB;

@@ -1,9 +1,8 @@
 
 .glomed-topbar {
   width: 100%;
-  background:var(--blue) ;
+  background: #066b78;
   color: #fff;
-  display: none;
 }
 
 .glomed-topbar-inner {
@@ -118,6 +117,9 @@
 }
 
 @media (max-width: 480px) {
+  .glomed-topbar {
+    display: none;
+  }
   .glomed-topbar-inner {
     width: 96%;
         }

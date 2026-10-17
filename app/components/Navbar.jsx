@@ -87,9 +87,9 @@ function closeMenu() {
   />
    </a>
    <div className="glomed-brand-caption">
-    <span className="glomed-brand-title">
+    <Link href="#services" className="glomed-brand-title">
     GESTION DE SERVICE MEDICAUX
-    </span>
+    </Link>
  
   </div>
 

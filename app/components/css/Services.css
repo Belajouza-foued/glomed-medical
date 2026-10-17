@@ -38,7 +38,7 @@
   justify-content: center;
   gap: 9px;
   margin-bottom: 18px;
-  color: #2f7d68;
+  color: var(--blue);
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 2px;
@@ -65,7 +65,7 @@
 
 .section-title span {
   display: block;
-  color: #2f7d68;
+  color: var(--cyan);
 }
 
 .section-lead {
@@ -130,7 +130,7 @@
 
 .services__row:hover {
   transform: translateY(-7px) scale(1.015);
-  background: #103b50;
+  background: var(--cyan);
   border-color: #103b50;
   box-shadow: 0 20px 42px rgba(16, 52, 76, 0.15);
 }
@@ -481,7 +481,7 @@
 
 .services__cta:hover {
   color: #fff;
-  background: #2f7d68;
+  background: var(--teal);
   transform: translateY(-3px);
 }
 

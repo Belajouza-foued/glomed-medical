@@ -412,7 +412,7 @@
   justify-content: center;
   gap: 8px;
   color: var(--white);
-  background: var(--green);
+  background: var(--cyan);
   border: 1px solid var(--border, #E2E7EF);
   border-radius: 7px;
   font-size: 12px;

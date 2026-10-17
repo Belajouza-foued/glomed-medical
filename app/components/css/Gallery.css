@@ -1,7 +1,7 @@
 .gallerySection {
   position: relative;
   padding: 110px 0 100px;
-  background: var(--seafield-white, #f8f8f4);
+  background: var(--blue-light);
   overflow: hidden;
 }
 
@@ -17,7 +17,7 @@
   font-size: 10px;
   letter-spacing: 3.5px;
   text-transform: uppercase;
-  color: var(--seafield-green, #315c50);
+  color: var(--blue);
 }
 
 .galleryHeader h2 {
@@ -27,7 +27,7 @@
   line-height: 1.08;
   font-weight: 400;
   letter-spacing: -1.5px;
-  color: var(--seafield-green, #315c50);
+  color: var(--cyan);
 }
 
 .galleryHeader h2 em {

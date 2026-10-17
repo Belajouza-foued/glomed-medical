@@ -51,6 +51,39 @@ export default function About() {
 
         {/* Contenu */}
         <div className="about-grid">
+             <div
+            ref={imageRef}
+            className={`about-image-wrap ${
+              imageVisible ? "about-image-visible" : ""
+            }`}
+          >
+            <img
+              src="/images/glomed-doc-1.avif"
+              alt="Professionnel de santé dans un environnement médical"
+              loading="lazy"
+            />
+
+            <div className="about-image-badge">
+              <div className="about-badge-icon">
+                <i
+                  className="bi bi-heart-pulse"
+                  aria-hidden="true"
+                />
+              </div>
+
+              <div className="about-badge-text">
+                <strong>Un séjour mieux organisé</strong>
+                <span>
+                  Un accompagnement adapté à vos besoins.
+                </span>
+              </div>
+            </div>
+
+            <span
+              className="about-image-decoration"
+              aria-hidden="true"
+            />
+          </div>
           <div className="about-content">
             <span className="about-eyebrow">
               NOTRE IDENTITÉ ET NOTRE MISSION
@@ -169,39 +202,7 @@ export default function About() {
           </div>
 
           {/* Image animée : conservée */}
-          <div
-            ref={imageRef}
-            className={`about-image-wrap ${
-              imageVisible ? "about-image-visible" : ""
-            }`}
-          >
-            <img
-              src="/images/glomed-doc-1.avif"
-              alt="Professionnel de santé dans un environnement médical"
-              loading="lazy"
-            />
-
-            <div className="about-image-badge">
-              <div className="about-badge-icon">
-                <i
-                  className="bi bi-heart-pulse"
-                  aria-hidden="true"
-                />
-              </div>
-
-              <div className="about-badge-text">
-                <strong>Un séjour mieux organisé</strong>
-                <span>
-                  Un accompagnement adapté à vos besoins.
-                </span>
-              </div>
-            </div>
-
-            <span
-              className="about-image-decoration"
-              aria-hidden="true"
-            />
-          </div>
+       
         </div>
       </div>
     </section>
