@@ -1,0 +1,466 @@
+
+/* =========================================
+   GLOMED GROUP — PARTENARIATS
+========================================= */
+
+.glomed-partners {
+  --partners-blue: #0057A8;
+  --partners-navy: #102F3B;
+  --partners-green: #2F7D68;
+  --partners-yellow: #F4C430;
+
+  position: relative;
+  overflow: hidden;
+  padding: 85px 24px;
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(0, 87, 168, 0.07),
+      transparent 32%
+    ),
+    #f7f9fc;
+}
+
+.glomed-partners *,
+.glomed-partners *::before,
+.glomed-partners *::after {
+  box-sizing: border-box;
+}
+
+.glomed-partners-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* =========================================
+   HEADER
+========================================= */
+
+.glomed-partners-heading {
+  max-width: 720px;
+  margin: 0 auto 42px;
+  text-align: center;
+}
+
+.glomed-partners-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 17px;
+  color: var(--partners-green);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.glomed-partners-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--partners-yellow);
+  box-shadow: 0 0 0 5px rgba(244, 196, 48, 0.16);
+}
+
+.glomed-partners-heading h2 {
+  margin: 0;
+  color: var(--partners-navy);
+  font-size: clamp(32px, 4vw, 48px);
+  line-height: 1.18;
+  font-weight: 800;
+  letter-spacing: -1.3px;
+}
+
+.glomed-partners-heading h2 span {
+  color: var(--partners-blue);
+}
+
+.glomed-partners-intro {
+  max-width: 650px;
+  margin: 18px auto 0;
+  color: #687386;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* =========================================
+   GRID
+========================================= */
+
+.glomed-partners-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: start;
+  gap: 20px;
+}
+
+/* =========================================
+   COUNTRY CARDS
+========================================= */
+
+.glomed-partner-card {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  min-height: auto;
+  flex-direction: column;
+  padding: 21px 21px 17px;
+  overflow: hidden;
+  border: 1px solid #e2e7ef;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 8px 25px rgba(16, 47, 59, 0.045);
+  animation: glomed-partner-enter 0.7s both;
+  animation-delay: calc(var(--card-index, 0) * 90ms);
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+.glomed-partner-card::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    var(--partners-blue),
+    var(--partners-green),
+    var(--partners-yellow)
+  );
+  content: "";
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s ease;
+}
+
+.glomed-partner-card:hover {
+  z-index: 1;
+  transform: translateY(-5px) scale(1.025);
+  border-color: rgba(0, 87, 168, 0.25);
+  box-shadow: 0 18px 35px rgba(16, 47, 59, 0.11);
+}
+
+.glomed-partner-card:hover::before {
+  transform: scaleX(1);
+}
+
+/* =========================================
+   FLAGS
+========================================= */
+
+.glomed-partner-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 17px;
+}
+
+.glomed-partner-flag {
+  display: block;
+  width: 65px;
+  height: 44px;
+  object-fit: contain;
+  border: 1px solid #edf0f5;
+  border-radius: 7px;
+  background: #ffffff;
+  filter: drop-shadow(0 3px 5px rgba(16, 47, 59, 0.10));
+  transition:
+    transform 0.35s ease,
+    filter 0.35s ease;
+}
+
+.glomed-partner-card:hover .glomed-partner-flag {
+  transform: scale(1.12);
+  filter: drop-shadow(0 6px 9px rgba(0, 87, 168, 0.20));
+}
+
+.glomed-partner-code {
+  color: #a3acb9;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+/* =========================================
+   CARD TEXT
+========================================= */
+
+.glomed-partner-card-content {
+  flex: 0 0 auto;
+}
+
+.glomed-partner-card-content h3 {
+  margin: 0 0 6px;
+  color: var(--partners-navy);
+  font-size: 21px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.glomed-partner-subtitle {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--partners-green);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.glomed-partner-card-content p {
+  margin: 0;
+  color: #687386;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+/* =========================================
+   CARD FOOTER
+========================================= */
+
+.glomed-partner-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.glomed-partner-line {
+  width: 36px;
+  height: 3px;
+  border-radius: 5px;
+  background: var(--partners-yellow);
+  transition: width 0.35s ease;
+}
+
+.glomed-partner-card:hover .glomed-partner-line {
+  width: 58px;
+}
+
+.glomed-partner-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  background: #edf5fb;
+  color: var(--partners-blue);
+  font-size: 17px;
+  transition:
+    color 0.3s ease,
+    background 0.3s ease,
+    transform 0.3s ease;
+}
+
+.glomed-partner-card:hover .glomed-partner-arrow {
+  transform: translate(2px, -2px);
+  background: var(--partners-blue);
+  color: #ffffff;
+}
+
+/* =========================================
+   BOTTOM CTA
+========================================= */
+
+.glomed-partners-bottom {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 28px;
+  padding: 21px 24px;
+  border: 1px solid #e0e9ef;
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+.glomed-partners-bottom-icon {
+  display: flex;
+  flex: 0 0 42px;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: #fff6d8;
+  color: #9b7710;
+  font-size: 22px;
+}
+
+.glomed-partners-bottom p {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0;
+}
+
+.glomed-partners-bottom p strong {
+  color: var(--partners-navy);
+  font-size: 14px;
+}
+
+.glomed-partners-bottom p span {
+  color: #687386;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.glomed-partners-cta {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 17px;
+  border-radius: 9px;
+  background: var(--partners-blue);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease;
+}
+
+.glomed-partners-cta:hover {
+  transform: translateY(-2px);
+  background: var(--partners-navy);
+  color: #ffffff;
+}
+
+/* =========================================
+   ENTRANCE ANIMATION
+========================================= */
+
+@keyframes glomed-partner-enter {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1024px) {
+  .glomed-partners {
+    padding: 70px 22px;
+  }
+
+  .glomed-partners-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+  .glomed-partners {
+    padding: 55px 16px;
+  }
+
+  .glomed-partners-heading {
+    margin-bottom: 30px;
+  }
+
+  .glomed-partners-heading h2 {
+    font-size: 31px;
+    letter-spacing: -0.7px;
+  }
+
+  .glomed-partners-eyebrow {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+  }
+
+  .glomed-partners-intro {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .glomed-partners-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .glomed-partner-card {
+    padding: 19px;
+    border-radius: 15px;
+  }
+
+  .glomed-partner-card-top {
+    margin-bottom: 14px;
+  }
+
+  .glomed-partner-flag {
+    width: 60px;
+    height: 40px;
+  }
+
+  .glomed-partner-card-content h3 {
+    font-size: 20px;
+  }
+
+  .glomed-partner-card-content p {
+    font-size: 13px;
+  }
+
+  .glomed-partner-card-footer {
+    margin-top: 12px;
+  }
+
+  .glomed-partners-bottom {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 13px;
+    padding: 18px;
+  }
+
+  .glomed-partners-bottom p {
+    flex-basis: calc(100% - 60px);
+  }
+
+  .glomed-partners-cta {
+    width: 100%;
+    padding: 13px 16px;
+  }
+}
+
+/* =========================================
+   ACCESSIBILITY
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .glomed-partner-card,
+  .glomed-partner-card::before,
+  .glomed-partner-flag,
+  .glomed-partner-arrow,
+  .glomed-partner-line,
+  .glomed-partners-cta {
+    animation: none;
+    transition: none;
+  }
+
+  .glomed-partner-card {
+    opacity: 1;
+  }
+
+  .glomed-partner-card:hover {
+    transform: none;
+  }
+}

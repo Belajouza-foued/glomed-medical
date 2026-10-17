@@ -7,6 +7,7 @@ import Topbar from "./components/Topbar"
 import Gallery from "./components/Gallery"
 import Testimonials from "./components/Testimonials"
 import Contact from "./components/Contact"
+import PartnerShips from "./components/Partnerships"
 const services = [
   {
     number: "01",
@@ -60,6 +61,7 @@ export default function Home() {
     <main>
          <Hero/>
       <Services/>
+      <PartnerShips />
       <Gallery/>
       <About/>
       <Testimonials/>
