@@ -1,0 +1,135 @@
+
+/* ========================================
+   WHATSAPP FLOATING BUTTON — GLOMED
+======================================== */
+
+.glomed-whatsapp {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  background: #25D366;
+  color: #fff;
+  font-size: 32px;
+  text-decoration: none;
+
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.35);
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+
+  animation: glomed-whatsapp-pulse 2.5s infinite;
+}
+
+.glomed-whatsapp:hover {
+  background: #128C7E;
+  color: #fff;
+  transform: translateY(-4px) scale(1.06);
+  box-shadow: 0 12px 30px rgba(18, 140, 126, 0.4);
+  animation: none;
+}
+
+.glomed-whatsapp i {
+  line-height: 1;
+}
+
+/* Tooltip desktop */
+
+.glomed-whatsapp-tooltip {
+  position: absolute;
+  right: 72px;
+  top: 50%;
+  transform: translate(8px, -50%);
+
+  width: max-content;
+  max-width: 230px;
+  padding: 10px 14px;
+  border-radius: 8px;
+
+  background: #123D32;
+  color: #fff;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease,
+    visibility 0.25s ease;
+}
+
+.glomed-whatsapp:hover .glomed-whatsapp-tooltip,
+.glomed-whatsapp:focus-visible .glomed-whatsapp-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -50%);
+}
+
+/* Animation discrète */
+
+@keyframes glomed-whatsapp-pulse {
+  0%, 100% {
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.30);
+  }
+
+  50% {
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.30),
+                0 0 0 10px rgba(37, 211, 102, 0.10);
+  }
+}
+
+/* Tablette */
+
+@media (max-width: 768px) {
+  .glomed-whatsapp {
+    right: 18px;
+    bottom: 20px;
+    width: 56px;
+    height: 56px;
+    font-size: 29px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 480px) {
+  .glomed-whatsapp {
+    right: 15px;
+    bottom: 16px;
+    width: 52px;
+    height: 52px;
+    font-size: 27px;
+  }
+
+  .glomed-whatsapp-tooltip {
+    display: none;
+  }
+}
+
+/* Respect des préférences d'accessibilité */
+
+@media (prefers-reduced-motion: reduce) {
+  .glomed-whatsapp {
+    animation: none;
+    transition: none;
+  }
+}
+.glomed-whatsapp {
+  background: #25D366;
+  color: #fff;
+}

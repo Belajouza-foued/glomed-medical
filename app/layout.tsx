@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { LanguageProvider } from "./contexts/LanguageContext";
 import "./globals.css";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   <LanguageProvider>
     {children}
   </LanguageProvider>
+    <WhatsAppButton />
 </body>
     </html>
   );
