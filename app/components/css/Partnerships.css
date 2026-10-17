@@ -49,10 +49,13 @@
   justify-content: center;
   gap: 10px;
   margin-bottom: 17px;
-  color: var(--partners-green);
+  color: var(--blue);
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 2px;
+}
+.span-medical {
+  color: var(--green);
 }
 
 .glomed-partners-dot {
@@ -73,7 +76,7 @@
 }
 
 .glomed-partners-heading h2 span {
-  color: var(--partners-blue);
+  color: var(--green);
 }
 
 .glomed-partners-intro {
@@ -318,9 +321,9 @@
   gap: 10px;
   padding: 12px 17px;
   border-radius: 9px;
-  background: var(--partners-blue);
+  background: var(--cyan);
   color: #ffffff;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   text-decoration: none;
   transition:
@@ -330,7 +333,7 @@
 
 .glomed-partners-cta:hover {
   transform: translateY(-2px);
-  background: var(--partners-navy);
+  background: var(--blue);
   color: #ffffff;
 }
 

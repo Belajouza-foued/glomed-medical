@@ -1,6 +1,6 @@
 
 "use client";
-
+import Link from "next/link";
 import "./css/Partnerships.css";
 
 
@@ -61,11 +61,10 @@ export default function Partnerships() {
             NOTRE RÉSEAU INTERNATIONAL
           </span>
 
-          <h2>
-            Nos <span>partenariats</span>
-            <br />
-            au-delà des frontières
-          </h2>
+            <h2 className="section-title">
+              Gestions des Services ,
+              <span className="span-medical"> Medicaux.</span>
+            </h2>
 
           <p className="glomed-partners-intro">
             Glomed Group facilite les échanges et la coordination autour
@@ -123,9 +122,9 @@ export default function Partnerships() {
               Un accompagnement pensé autour des besoins de chaque patient.
             </span>
           </p>
-          <a href="/contact" className="glomed-partners-cta">
+          <Link href="/contact" className="glomed-partners-cta">
             Parlons de votre projet <span>→</span>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

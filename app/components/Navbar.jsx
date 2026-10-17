@@ -75,7 +75,7 @@ function closeMenu() {
     <header className="glomed-header">
       <div className="glomed-nav-container">
       <a
-  href="#home"
+  href="/"
   className="glomed-brand"
   aria-label="Glomed Group - Accueil"
   onClick={closeMenu}

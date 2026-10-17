@@ -676,6 +676,43 @@
     align-self: flex-start;
   }
 
+.glomed-mobile-actions {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 14px;
+  position: relative;
+  overflow: visible;
+}
+
+.glomed-mobile-actions .glomed-language {
+  position: relative;
+  align-self: flex-start;
+  flex-shrink: 0;
+}
+
+.glomed-mobile-actions .glomed-language-trigger {
+  position: relative;
+  z-index: 1001;
+}
+
+.glomed-mobile-actions .glomed-language-menu {
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 8px);
+  right: auto;
+  transform: translateY(-50%);
+  z-index: 1002;
+  min-width: 130px;
+}
+
+@media (max-width: 480px) {
+  .glomed-mobile-actions .glomed-language-menu {
+    left: calc(100% + 6px);
+    right: auto;
+  }
+}
+
   .glomed-mobile-actions.glomed-cta  {
     width: 100%;
     flex: auto;
