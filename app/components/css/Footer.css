@@ -195,7 +195,7 @@
 }
 
 .glomed-footer-navigation a:hover {
-  color: #71c6b3;
+  color: var(--yellow);
   transform: translateX(4px);
 }
 
@@ -227,7 +227,7 @@
 }
 
 .glomed-footer-contact a:hover {
-  color: #71c6b3;
+  color: var(--yellow);
 }
 
 .glomed-footer-contact i {

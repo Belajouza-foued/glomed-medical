@@ -775,3 +775,950 @@
     transition-duration: 0.01ms !important;
   }
 }
+/*page services*/
+
+/* ========================================
+   RESPONSIVE — SERVICES GLOMED
+======================================== */
+
+.services,
+.medical-process {
+  width: 100%;
+  overflow: hidden;
+}
+
+.services .container,
+.medical-process .container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+.services__heading,
+.medical-process__heading {
+  max-width: 850px;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.services__list {
+  row-gap: 24px;
+}
+
+.services__item {
+  display: flex;
+}
+
+.services__row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+  min-width: 0;
+}
+
+.services__content,
+.medical-process__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.services__item-title,
+.medical-process__content h3 {
+  overflow-wrap: anywhere;
+}
+
+.services__item-text,
+.medical-process__content p {
+  overflow-wrap: break-word;
+}
+
+.medical-process__list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.medical-process__item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-width: 0;
+}
+
+.medical-process__number,
+.medical-process__icon,
+.medical-process__check {
+  flex-shrink: 0;
+}
+
+.medical-process__cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.medical-process__cta > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.services__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+/* Tablettes */
+@media (max-width: 991px) {
+  .services .container,
+  .medical-process .container {
+    padding-inline: 20px;
+  }
+
+  .services__heading,
+  .medical-process__heading {
+    margin-bottom: 36px;
+  }
+
+  .services__row {
+    gap: 14px;
+  }
+
+  .medical-process__cta {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 576px) {
+  .services .container,
+  .medical-process .container {
+    padding-inline: 16px;
+  }
+
+  .services__heading,
+  .medical-process__heading {
+    margin-bottom: 28px;
+  }
+
+  .services__row {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .services__icon {
+    flex-shrink: 0;
+  }
+
+  .services__arrow {
+    display: none;
+  }
+
+  .medical-process__item {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .medical-process__number {
+    min-width: 32px;
+  }
+
+  .medical-process__check {
+    display: none;
+  }
+
+  .medical-process__cta {
+    margin-top: 32px;
+  }
+
+  .services__cta {
+    max-width: 100%;
+    white-space: normal;
+  }
+}
+/*new form service*/
+
+/* =========================================================
+   GLOMED GROUP — SERVICES.CSS
+   Introduction + prestations + parcours médical + responsive
+========================================================= */
+
+.glomed-services-page {
+  --glomed-blue: #0057a8;
+  --glomed-dark-blue: #003b73;
+  --glomed-light-blue: #eaf3fb;
+  --glomed-red: #d71920;
+  --glomed-dark-red: #a80f15;
+  --glomed-yellow: #f4c430;
+  --glomed-green: #2f7d68;
+  --glomed-dark: #102f3b;
+  --glomed-text: #435563;
+  --glomed-white: #ffffff;
+
+  width: 100%;
+  overflow: hidden;
+  color: var(--glomed-dark);
+  background: var(--glomed-white);
+  font-family: "Montserrat", sans-serif;
+}
+
+.glomed-services-page *,
+.glomed-services-page *::before,
+.glomed-services-page *::after {
+  box-sizing: border-box;
+}
+
+.glomed-services-page img {
+  max-width: 100%;
+}
+
+.glomed-services-page a {
+  text-decoration: none;
+}
+
+/* =========================================================
+   1. INTRODUCTION — IMAGE 50% / TEXTE 50%
+========================================================= */
+
+.glomed-services-page .services-intro {
+  position: relative;
+  padding: 75px 0;
+  background:
+    radial-gradient(
+      circle at 90% 10%,
+      rgba(0, 87, 168, 0.07),
+      transparent 35%
+    ),
+    var(--glomed-white);
+}
+
+.glomed-services-page .services-intro > .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.glomed-services-page .services-intro__row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  gap: 40px;
+  margin: 0;
+}
+
+.glomed-services-page .services-intro__image-col,
+.glomed-services-page .services-intro__content-col {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0;
+}
+
+/* Image */
+
+.glomed-services-page .services-intro__image-col {
+  animation: glomedServicesImageIn 0.8s ease both;
+}
+
+.glomed-services-page .services-intro__image-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  background: var(--glomed-light-blue);
+  box-shadow: 0 18px 45px rgba(16, 47, 59, 0.14);
+}
+
+.glomed-services-page .services-intro__image {
+  display: block;
+  width: 100%;
+  height: 540px;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.6s ease;
+}
+
+.glomed-services-page .services-intro__image-wrapper:hover
+.services-intro__image {
+  transform: scale(1.035);
+}
+
+.glomed-services-page .services-intro__image-label {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  left: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 15px 18px;
+  color: var(--glomed-white);
+  background: rgba(0, 59, 115, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.5;
+  backdrop-filter: blur(8px);
+}
+
+.glomed-services-page .services-intro__image-label i {
+  color: var(--glomed-yellow);
+  font-size: 1.35rem;
+  flex-shrink: 0;
+}
+
+/* Texte : centré horizontalement et verticalement */
+
+.glomed-services-page .services-intro__content-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: glomedServicesContentIn 0.8s ease both;
+}
+
+.glomed-services-page .services-intro__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+  text-align: center;
+}
+
+.glomed-services-page .services__eyebrow {
+  display: inline-block;
+  margin: 0 auto 12px;
+  color: var(--glomed-blue);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1.7;
+  text-transform: uppercase;
+}
+
+.glomed-services-page .services-intro__content h1 {
+  width: 100%;
+  margin: 8px 0 20px;
+  color: var(--glomed-dark-blue);
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2rem, 3.2vw, 3.1rem);
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.glomed-services-page .services-intro__content h1 span {
+  display: block;
+  color: var(--glomed-red);
+}
+
+.glomed-services-page .services-intro__lead {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto 30px;
+  color: var(--glomed-text);
+  font-size: 0.98rem;
+  font-weight: 400;
+  line-height: 1.9;
+  text-align: center;
+}
+
+/* Liste des prestations de l'introduction */
+
+.glomed-services-page .services-intro__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  margin: 0 0 28px;
+  text-align: left;
+}
+
+.glomed-services-page .services-intro__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  width: 100%;
+  padding: 16px;
+  background: #f7faff;
+  border: 1px solid #e2edf7;
+  border-radius: 12px;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.glomed-services-page .services-intro__item:hover {
+  transform: translateY(-3px);
+  border-color: rgba(0, 87, 168, 0.3);
+  box-shadow: 0 10px 25px rgba(0, 59, 115, 0.08);
+}
+
+.glomed-services-page .services-intro__item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 46px;
+  width: 46px;
+  height: 46px;
+  color: var(--glomed-blue);
+  background: #e2effb;
+  border-radius: 12px;
+  font-size: 1.35rem;
+}
+
+.glomed-services-page .services-intro__item h3 {
+  margin: 2px 0 7px;
+  color: var(--glomed-dark-blue);
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.glomed-services-page .services-intro__item p {
+  margin: 0;
+  color: var(--glomed-text);
+  font-size: 0.86rem;
+  line-height: 1.8;
+}
+
+/* Bouton d'introduction */
+
+.glomed-services-page .services-intro__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 15px 25px;
+  color: var(--glomed-white);
+  background: var(--glomed-red);
+  border: 2px solid var(--glomed-red);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.glomed-services-page .services-intro__button:hover {
+  color: var(--glomed-white);
+  background: var(--glomed-dark-red);
+  border-color: var(--glomed-dark-red);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(215, 25, 32, 0.2);
+}
+
+.glomed-services-page .services-intro__button i {
+  font-size: 1.1rem;
+  transition: transform 0.25s ease;
+}
+
+.glomed-services-page .services-intro__button:hover i {
+  transform: translateX(4px);
+}
+
+.glomed-services-page .services-intro__disclaimer {
+  width: 100%;
+  margin: 20px auto 0;
+  color: #71818b;
+  font-size: 0.75rem;
+  line-height: 1.7;
+  text-align: center;
+}
+
+/* =========================================================
+   2. TITRES DES SECTIONS
+========================================================= */
+
+.glomed-services-page .section-title {
+  margin: 0 0 18px;
+  color: var(--glomed-dark-blue);
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.glomed-services-page .section-lead {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto 42px;
+  color: var(--glomed-text);
+  font-size: 0.98rem;
+  line-height: 1.9;
+  text-align: center;
+}
+
+/* =========================================================
+   3. SECTION DES PRESTATIONS
+========================================================= */
+
+.glomed-services-page .services {
+  position: relative;
+  padding: 80px 0;
+  background: var(--glomed-light-blue);
+}
+
+.glomed-services-page .services > .container,
+.glomed-services-page .medical-process > .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.glomed-services-page .services .row {
+  row-gap: 25px;
+}
+
+.glomed-services-page .services .service-card,
+.glomed-services-page .services .services__card,
+.glomed-services-page .services .service-item {
+  height: 100%;
+  padding: 30px 24px;
+  background: var(--glomed-white);
+  border: 1px solid rgba(0, 87, 168, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(16, 47, 59, 0.05);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.glomed-services-page .services .service-card:hover,
+.glomed-services-page .services .services__card:hover,
+.glomed-services-page .services .service-item:hover {
+  transform: translateY(-7px);
+  border-color: rgba(0, 87, 168, 0.3);
+  box-shadow: 0 18px 35px rgba(16, 47, 59, 0.11);
+}
+
+.glomed-services-page .services .service-card i,
+.glomed-services-page .services .services__card i,
+.glomed-services-page .services .service-item i {
+  color: var(--glomed-blue);
+  font-size: 2.2rem;
+}
+
+.glomed-services-page .services .service-card h3,
+.glomed-services-page .services .services__card h3,
+.glomed-services-page .services .service-item h3 {
+  margin: 18px 0 12px;
+  color: var(--glomed-dark-blue);
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.glomed-services-page .services .service-card p,
+.glomed-services-page .services .services__card p,
+.glomed-services-page .services .service-item p {
+  margin-bottom: 0;
+  color: var(--glomed-text);
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+/* Listes éventuelles dans les cartes */
+
+.glomed-services-page .services .service-card ul,
+.glomed-services-page .services .services__card ul,
+.glomed-services-page .services .service-item ul {
+  padding-left: 20px;
+  color: var(--glomed-text);
+}
+
+.glomed-services-page .services .service-card li,
+.glomed-services-page .services .services__card li,
+.glomed-services-page .services .service-item li {
+  margin-bottom: 8px;
+  font-size: 0.88rem;
+  line-height: 1.7;
+}
+
+/* =========================================================
+   4. PARCOURS MÉDICAL
+========================================================= */
+
+.glomed-services-page .medical-process {
+  position: relative;
+  padding: 85px 0;
+  background: var(--glomed-white);
+}
+
+.glomed-services-page .medical-process .row {
+  row-gap: 25px;
+}
+
+.glomed-services-page .medical-process .process-card,
+.glomed-services-page .medical-process .process-step,
+.glomed-services-page .medical-process .medical-process__item {
+  position: relative;
+  height: 100%;
+  padding: 28px 22px;
+  background: #f7faff;
+  border: 1px solid #e1edf8;
+  border-radius: 15px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+}
+
+.glomed-services-page .medical-process .process-card:hover,
+.glomed-services-page .medical-process .process-step:hover,
+.glomed-services-page .medical-process .medical-process__item:hover {
+  background: var(--glomed-white);
+  transform: translateY(-5px);
+  box-shadow: 0 14px 30px rgba(16, 47, 59, 0.09);
+}
+
+.glomed-services-page .medical-process .process-number,
+.glomed-services-page .medical-process .process-step__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  margin-bottom: 18px;
+  color: var(--glomed-white);
+  background: var(--glomed-blue);
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.glomed-services-page .medical-process .process-card i,
+.glomed-services-page .medical-process .process-step i,
+.glomed-services-page .medical-process .medical-process__item i {
+  color: var(--glomed-green);
+  font-size: 1.8rem;
+}
+
+.glomed-services-page .medical-process .process-card h3,
+.glomed-services-page .medical-process .process-step h3,
+.glomed-services-page .medical-process .medical-process__item h3 {
+  margin: 14px 0 10px;
+  color: var(--glomed-dark-blue);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.glomed-services-page .medical-process .process-card p,
+.glomed-services-page .medical-process .process-step p,
+.glomed-services-page .medical-process .medical-process__item p {
+  margin: 0;
+  color: var(--glomed-text);
+  font-size: 0.88rem;
+  line-height: 1.8;
+}
+
+/* =========================================================
+   5. BOUTONS GÉNÉRAUX ET CTA
+========================================================= */
+
+.glomed-services-page .services-cta,
+.glomed-services-page .services__cta {
+  padding: 55px 25px;
+  color: var(--glomed-white);
+  background: var(--glomed-dark-blue);
+  border-radius: 18px;
+  text-align: center;
+}
+
+.glomed-services-page .services-cta h2,
+.glomed-services-page .services__cta h2 {
+  margin: 0 0 15px;
+  color: var(--glomed-white);
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.7rem, 3vw, 2.4rem);
+  line-height: 1.35;
+}
+
+.glomed-services-page .services-cta p,
+.glomed-services-page .services__cta p {
+  max-width: 700px;
+  margin: 0 auto 25px;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.8;
+}
+
+.glomed-services-page .services-cta a,
+.glomed-services-page .services__cta a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 24px;
+  color: var(--glomed-white);
+  background: var(--glomed-red);
+  border: 1px solid var(--glomed-red);
+  border-radius: 8px;
+  font-weight: 700;
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.glomed-services-page .services-cta a:hover,
+.glomed-services-page .services__cta a:hover {
+  color: var(--glomed-white);
+  background: var(--glomed-dark-red);
+  transform: translateY(-2px);
+}
+
+/* =========================================================
+   6. ANIMATIONS
+========================================================= */
+
+@keyframes glomedServicesImageIn {
+  from {
+    opacity: 0;
+    transform: translateX(-35px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes glomedServicesContentIn {
+  from {
+    opacity: 0;
+    transform: translateX(35px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* =========================================================
+   7. TABLETTES — DEUX COLONNES CONSERVÉES
+========================================================= */
+
+@media (max-width: 991px) {
+  .glomed-services-page .services-intro {
+    padding: 55px 0;
+  }
+
+  .glomed-services-page .services-intro__row {
+    gap: 24px;
+  }
+
+  .glomed-services-page .services-intro__image {
+    height: 460px;
+  }
+
+  .glomed-services-page .services-intro__content h1 {
+    font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+  }
+
+  .glomed-services-page .services-intro__lead {
+    font-size: 0.9rem;
+    line-height: 1.8;
+  }
+
+  .glomed-services-page .services-intro__list {
+    gap: 14px;
+  }
+
+  .glomed-services-page .services-intro__item {
+    gap: 12px;
+    padding: 13px;
+  }
+
+  .glomed-services-page .services-intro__item-icon {
+    flex-basis: 40px;
+    width: 40px;
+    height: 40px;
+    font-size: 1.15rem;
+  }
+
+  .glomed-services-page .services-intro__item h3 {
+    font-size: 0.9rem;
+  }
+
+  .glomed-services-page .services-intro__item p {
+    font-size: 0.8rem;
+  }
+
+  .glomed-services-page .services-intro__button {
+    padding: 13px 18px;
+    font-size: 0.85rem;
+  }
+
+  .glomed-services-page .services,
+  .glomed-services-page .medical-process {
+    padding: 65px 0;
+  }
+}
+
+/* =========================================================
+   8. MOBILES — IMAGE AU-DESSUS DU TEXTE
+========================================================= */
+
+@media (max-width: 767px) {
+  .glomed-services-page .services-intro {
+    padding: 35px 0 45px;
+  }
+
+  .glomed-services-page .services-intro > .container {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .glomed-services-page .services-intro__row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 30px;
+  }
+
+  .glomed-services-page .services-intro__image {
+    height: 350px;
+  }
+
+  .glomed-services-page .services-intro__image-label {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+    gap: 9px;
+    padding: 12px;
+    font-size: 0.8rem;
+  }
+
+  .glomed-services-page .services-intro__content-col {
+    justify-content: center;
+  }
+
+  .glomed-services-page .services-intro__content {
+    min-height: auto;
+  }
+
+  .glomed-services-page .services__eyebrow {
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+  }
+
+  .glomed-services-page .services-intro__content h1 {
+    margin: 8px 0 16px;
+    font-size: clamp(2rem, 7vw, 2.6rem);
+  }
+
+  .glomed-services-page .services-intro__lead {
+    margin-bottom: 25px;
+    font-size: 0.92rem;
+  }
+
+  .glomed-services-page .services-intro__item {
+    padding: 15px;
+  }
+
+  .glomed-services-page .services-intro__item h3 {
+    font-size: 0.95rem;
+  }
+
+  .glomed-services-page .services-intro__item p {
+    font-size: 0.84rem;
+  }
+
+  .glomed-services-page .section-lead {
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+  }
+
+  .glomed-services-page .services,
+  .glomed-services-page .medical-process {
+    padding: 50px 0;
+  }
+}
+
+/* =========================================================
+   9. PETITS TÉLÉPHONES
+========================================================= */
+
+@media (max-width: 420px) {
+  .glomed-services-page .services-intro > .container,
+  .glomed-services-page .services > .container,
+  .glomed-services-page .medical-process > .container {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+
+  .glomed-services-page .services-intro__image {
+    height: 280px;
+  }
+
+  .glomed-services-page .services-intro__content h1 {
+    font-size: 1.9rem;
+  }
+
+  .glomed-services-page .services-intro__item {
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .glomed-services-page .services-intro__item-icon {
+    flex-basis: 36px;
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+
+  .glomed-services-page .services-intro__item h3 {
+    font-size: 0.86rem;
+  }
+
+  .glomed-services-page .services-intro__item p {
+    font-size: 0.79rem;
+  }
+
+  .glomed-services-page .services-intro__button {
+    width: 100%;
+    padding: 13px 14px;
+  }
+}
+
+/* =========================================================
+   10. ACCESSIBILITÉ — RÉDUIRE LES ANIMATIONS
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .glomed-services-page *,
+  .glomed-services-page *::before,
+  .glomed-services-page *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.title-parcours {
+  text-align: center;
+}

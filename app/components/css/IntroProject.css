@@ -1,0 +1,105 @@
+
+/* ---------- APPEL À L'ACTION ---------- */
+.apage-cta {
+  padding: 4.5rem 0;
+  color: var(--white);
+  background: linear-gradient(120deg, var(--blue-navy) 0%, var(--blue-dark) 100%);
+}
+.apage-cta-inner { display: grid; grid-template-columns: 1.4fr auto; gap: 2rem; align-items: center; }
+.apage-cta-kicker { margin-bottom: 0.8rem; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; color: var(--yellow); }
+.apage-cta h2 { font-family: var(--font-display); font-size: clamp(1.7rem, 3.4vw, 2.5rem); line-height: 1.15; }
+.apage-cta h2 span { color: var(--yellow); }
+.apage-cta p:last-child { margin-top: 1rem; max-width: 56ch; line-height: 1.7; color: rgba(255,255,255,.85); }
+
+.apage-actions { display: flex; flex-wrap: wrap; gap: 0.9rem; }
+.apage-button {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  padding: 0.95rem 1.6rem; border-radius: 999px; border: 2px solid transparent;
+  font-weight: 700; font-size: 0.95rem; white-space: nowrap; text-shadow: none;
+  transition: background var(--transition), color var(--transition), transform var(--transition);
+}
+.apage-button-primary { background: var(--yellow); color: var(--blue-navy); }
+.apage-button-primary:hover { background: var(--white); transform: translateY(-2px); }
+.apage-button-whatsapp { background: var(--green); color: var(--white); }
+.apage-button-whatsapp:hover { background: #256452; transform: translateY(-2px); }
+.apage-button:focus-visible,
+.apage-breadcrumb a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+
+/* ---------- Tablette ---------- */
+@media (max-width: 900px) {
+  .apage-cta-inner { grid-template-columns: 1fr; }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 600px) {
+  .apage-hero { --veil-left: 0.5; --veil-mid: 0.5; --veil-right: 0.45; padding: 3.5rem 0; min-height: 0; }
+  .apage-cta { padding: 3.5rem 0; }
+  .apage-actions { flex-direction: column; }
+  .apage-button { width: 100%; white-space: normal; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .apage-button { transition: none; }
+  .apage-button:hover { transform: none; }
+}
+/* =========================================
+   HERO À PROPOS — ANIMATIONS D'ENTRÉE
+   À coller à la fin de about-page.css
+   Aucun changement dans le JSX : on utilise tes classes existantes.
+========================================= */
+
+@keyframes apage-slide-in {
+  from { opacity: 0; transform: translateX(-60px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes apage-line-grow {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+/* Chaque élément glisse depuis la gauche, l'un après l'autre */
+.apage-breadcrumb,
+.apage-eyebrow,
+.apage-hero h1,
+.apage-hero h1 span,
+.apage-hero-text {
+  animation: apage-slide-in 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.apage-breadcrumb   { animation-delay: 0.10s; }
+.apage-eyebrow      { animation-delay: 0.30s; }
+.apage-hero h1      { animation-delay: 0.50s; }
+.apage-hero h1 span { animation-delay: 0.75s; }   /* 2e ligne du titre, en jaune */
+.apage-hero-text    { animation-delay: 1.00s; }
+
+/* Petite ligne jaune qui se trace sous le texte d'introduction */
+.apage-hero-text::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+  margin-top: 1.4rem;
+  border-radius: 4px;
+  background: var(--yellow);
+  transform-origin: left;
+  animation: apage-line-grow 0.8s ease 1.4s both;
+}
+
+/* Mobile : glissement plus court pour ne pas sortir de l'écran */
+@media (max-width: 600px) {
+  @keyframes apage-slide-in {
+    from { opacity: 0; transform: translateX(-30px); }
+    to   { opacity: 1; transform: translateX(0); }
+  }
+}
+
+/* Accessibilité : pas d'animation si l'utilisateur la désactive */
+@media (prefers-reduced-motion: reduce) {
+  .apage-breadcrumb,
+  .apage-eyebrow,
+  .apage-hero h1,
+  .apage-hero h1 span,
+  .apage-hero-text,
+  .apage-hero-text::after { animation: none; }
+}

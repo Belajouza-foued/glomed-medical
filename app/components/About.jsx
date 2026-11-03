@@ -162,7 +162,7 @@ export default function About() {
                 <div className="about-accordion-panel">
                   <div className="about-accordion-inner">
                     Nous facilitons la coordination des services
-                    liés à votre projet et la mise en relation avec
+                    liés à votre soin et la mise en relation avec
                     les professionnels ou établissements de santé concernés.
                     L’évaluation de votre état de santé, le choix des
                     traitements et les décisions médicales relèvent
@@ -196,7 +196,7 @@ export default function About() {
             </div>
 
             <a href="#contact" className="about-button">
-              Parlons de votre projet
+           Votre parcours de santé
               <i className="bi bi-arrow-right" aria-hidden="true" />
             </a>
           </div>

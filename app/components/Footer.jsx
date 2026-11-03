@@ -2,13 +2,13 @@ import "./css/Footer.css";
 
 export default function Footer() {
   const navigation = [
-    { label: "Accueil", href: "#home" },
-    { label: "Services", href: "#services" },
-    { label: "À propos", href: "#about" },
-    { label: "Contact", href: "#contact" },
+    { label: "Accueil", href: "/home" },
+    { label: "Services", href: "/services" },
+    { label: "À propos", href: "/about" },
+    { label: "Contact", href: "/contact" },
   ];
 
-const phone = "+21693767950";
+const phone = "+216 93 767 950";
 const whatsapp = phone.replace(/\D/g, "");
 const whatsappUrl = `https://wa.me/${whatsapp}`;
   const email = "groupglomed@gmail.com";
@@ -125,7 +125,7 @@ const whatsappUrl = `https://wa.me/${whatsapp}`;
           </li>
         </ul>
 
-        <a href="#contact" className="glomed-footer-cta">
+        <a href="/contact" className="glomed-footer-cta">
           Organiser un séjour
           <i className="bi bi-arrow-up-right" aria-hidden="true" />
         </a>

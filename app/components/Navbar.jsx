@@ -2,26 +2,29 @@
 "use client";
 
 import { useState } from "react";
+import { useLanguage } from "../contexts/LanguageContext";
 import Link from "next/link";
 import "./css/Navbar.css";
 
 const languages = [
-  { code: "FR", label: "Français" },
-  { code: "EN", label: "English" },
-  { code: "AR", label: "العربية" },
+  { code: "fr", label: "Français" },
+  { code: "en", label: "English" },
+  { code: "ar", label: "العربية" },
 ];
 
 export default function Navbar() {
-  const [language, setLanguage] = useState("FR");
+  const { language, setLanguage, t, dir } = useLanguage();
+
   const [languageOpen, setLanguageOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [surgeryOpen, setSurgeryOpen] = useState(false);
 
-function closeMenu() {
-  setMobileOpen(false);
-  setLanguageOpen(false);
-  setSurgeryOpen(false);
-}
+  function closeMenu() {
+    setMobileOpen(false);
+    setLanguageOpen(false);
+    setSurgeryOpen(false);
+  }
+
   function renderLanguageSelector() {
     return (
       <div className="glomed-language">
@@ -31,7 +34,7 @@ function closeMenu() {
           aria-expanded={languageOpen}
           onClick={() => setLanguageOpen((open) => !open)}
         >
-          {language}
+          {language.toUpperCase()}
           <span className="glomed-chevron">▾</span>
         </button>
 
@@ -42,7 +45,9 @@ function closeMenu() {
                 key={item.code}
                 type="button"
                 className={
-                  language === item.code ? "glomed-language-selected" : ""
+                  language === item.code
+                    ? "glomed-language-selected"
+                    : ""
                 }
                 onClick={() => {
                   setLanguage(item.code);
@@ -66,37 +71,38 @@ function closeMenu() {
         className="glomed-cta"
         onClick={closeMenu}
       >
-        Organiser un séjour <span>↗</span>
+        {t("navCTA")} <span>↗</span>
       </a>
     );
   }
 
   return (
-    <header className="glomed-header">
+    <header className="glomed-header" dir={dir}>
       <div className="glomed-nav-container">
-      <a
-  href="/"
-  className="glomed-brand"
-  aria-label="Glomed Group - Accueil"
-  onClick={closeMenu}
->
-  <img
-    src="/assets/logo/logo-glomed.jpeg"
-    alt="Glomed Group"
-    className="glomed-brand-mark"
-  />
-   </a>
-   <div className="glomed-brand-caption">
-    <Link href="#services" className="glomed-brand-title">
-    GESTION DE SERVICE MEDICAUX
-    </Link>
- 
-  </div>
+
+        <a
+          href="/"
+          className="glomed-brand"
+          aria-label="Glomed Group - Accueil"
+          onClick={closeMenu}
+        >
+          <img
+            src="/assets/logo/logo-glomed.jpeg"
+            alt="Glomed Group"
+            className="glomed-brand-mark"
+          />
+        </a>
+
+        <div className="glomed-brand-caption">
+          <Link href="/services" className="glomed-brand-title">
+            {t("topbarService")}
+          </Link>
+        </div>
 
         <button
           type="button"
           className={`glomed-menu-toggle ${mobileOpen ? "is-open" : ""}`}
-          aria-label={mobileOpen ? "Fermer le menu" : "Ouvrir le menu"}
+          aria-label={mobileOpen ? t("navClose") : t("navOpen")}
           aria-expanded={mobileOpen}
           aria-controls="glomed-navigation"
           onClick={() => {
@@ -112,59 +118,78 @@ function closeMenu() {
         <nav
           id="glomed-navigation"
           className={`glomed-nav ${mobileOpen ? "is-open" : ""}`}
-          aria-label="Navigation principale"
+          aria-label={t("navLabel")}
         >
-          <Link href="/" onClick={closeMenu}>Accueil</Link>
-          <Link href="#services" onClick={closeMenu}>Services</Link>
-          {/* MENU CHIRURGIE */}
-<div
-  className={`glomed-nav-dropdown ${
-    surgeryOpen ? "is-open" : ""
-  }`}
->
-  <button
-    type="button"
-    className="glomed-nav-dropdown-trigger"
-    aria-haspopup="true"
-    aria-expanded={surgeryOpen}
-    onClick={() => setSurgeryOpen((prev) => !prev)}
-  >
-    Chirurgie
-    <span className="glomed-chevron" aria-hidden="true">
-      ⌄
-    </span>
-  </button>
+          <Link href="/" onClick={closeMenu}>
+            {t("navHome")}
+          </Link>
 
-  <div className="glomed-nav-dropdown-menu">
-    <Link href="/#orthopedie" onClick={() => setSurgeryOpen(false)}>
-      Orthopédie
-    </Link>
-   
-<Link href="/chirurgie/cardiologie" onClick={closeMenu}>
-  Cardiologie
-</Link>
+          <Link href="/services" onClick={closeMenu}>
+            {t("navServices")}
+          </Link>
 
-    <Link href="/#pneumologie" onClick={() => setSurgeryOpen(false)}>
-      Pneumologie
-    </Link>
-    <Link href="/#urologie" onClick={() => setSurgeryOpen(false)}>
-      Urologie
-    </Link>
-    <Link href="/#pediatrie" onClick={() => setSurgeryOpen(false)}>
-      Pédiatrie
-    </Link>
-    <Link href="/#gastro-enterologie" onClick={() => setSurgeryOpen(false)}>
-      Gastro-entérologie
-    </Link>
-    <Link href="/#ophtalmologie" onClick={() => setSurgeryOpen(false)}>
-      Ophtalmologie
-    </Link>
-  </div>
-</div>
+          <div
+            className={`glomed-nav-dropdown ${
+              surgeryOpen ? "is-open" : ""
+            }`}
+          >
+            <button
+              type="button"
+              className="glomed-nav-dropdown-trigger"
+              aria-haspopup="true"
+              aria-expanded={surgeryOpen}
+              onClick={() => setSurgeryOpen((prev) => !prev)}
+            >
+              {t("navSurgery")}
+              <span className="glomed-chevron" aria-hidden="true">
+                ⌄
+              </span>
+            </button>
 
+            <div className="glomed-nav-dropdown-menu">
 
-          <a href="#about" onClick={closeMenu}>À propos</a>
-          <a href="#contact" onClick={closeMenu}>Contact</a>
+              <Link href="/chirurgie/orthopedie" onClick={closeMenu}>
+                {t("navOrthopedics")}
+              </Link>
+
+              <Link href="/chirurgie/cardiologie" onClick={closeMenu}>
+                {t("navCardiology")}
+              </Link>
+
+              <Link href="/chirurgie/pneumologie" onClick={closeMenu}>
+                {t("navPneumology")}
+              </Link>
+
+              <Link href="/chirurgie/urologie" onClick={closeMenu}>
+                {t("navUrology")}
+              </Link>
+
+              <Link href="/chirurgie/pediatrie" onClick={closeMenu}>
+                {t("navPediatrics")}
+              </Link>
+
+              <Link href="/chirurgie/gastro-enterologie" onClick={closeMenu}>
+                {t("navGastro")}
+              </Link>
+
+              <Link href="/chirurgie/ophtalmologie" onClick={closeMenu}>
+                {t("navOphthalmology")}
+              </Link>
+
+              <Link href="/chirurgie/gynecologie" onClick={closeMenu}>
+                {t("navGynecology")}
+              </Link>
+
+            </div>
+          </div>
+
+          <Link href="/about" onClick={closeMenu}>
+            {t("navAbout")}
+          </Link>
+
+          <Link href="/contact" onClick={closeMenu}>
+            {t("navContact")}
+          </Link>
 
           <div className="glomed-mobile-actions">
             {renderLanguageSelector()}
@@ -176,6 +201,7 @@ function closeMenu() {
           {renderLanguageSelector()}
           {renderCTA()}
         </div>
+
       </div>
     </header>
   );

@@ -8,7 +8,7 @@ import "./css/Hero.css"
 const slides = [
   {
     image:
-      "/images/sante.avif",
+      "/images/glomed-an.avif",
     alt: "Professionnels de santé dans un environnement médical",
     icon: "bi bi-heart-pulse",
     eyebrow: "VOTRE PARTENAIRE SANTÉ EN TUNISIE",
@@ -16,7 +16,7 @@ const slides = [
     accent: "accompagné à chaque étape.",
     text:
       "Glomed Group vous accompagne dans l'organisation de votre séjour médical en Tunisie : coordination, hébergement, transferts et orientation vers des professionnels partenaires.",
-    primary: "Parler de mon projet",
+    primary: "Parcours de Soins",
     secondary: "Découvrir nos services",
   },
   {
@@ -57,6 +57,20 @@ const slides = [
   primary: "Organiser mon séjour",
   secondary: "Découvrir nos services",
 },
+
+{
+  image: "/images/sante.avif",
+  alt: "Environnement médical moderne et accompagnement des patients",
+  icon: "bi bi-heart-pulse",
+  eyebrow: "GLOMED GROUP · VOTRE PARTENAIRE SANTÉ EN TUNISIE",
+  title: "Votre parcours de santé,",
+  accent: "un accompagnement à chaque étape.",
+  text:
+    "Bilans médicaux, consultations spécialisées, chirurgie, radiologie et rééducation : Glomed Group vous accompagne également dans l'organisation de votre séjour en Tunisie, avec coordination, hébergement et transferts auprès de professionnels et établissements partenaires.",
+  primary: "Votre parcours de santé",
+  secondary: "Découvrir nos services",
+},
+
 ];
 
 export default function Hero() {

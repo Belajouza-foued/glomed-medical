@@ -1,29 +1,32 @@
 
+"use client";
+
 import "./css/Topbar.css";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export default function Topbar() {
+  const { t, dir } = useLanguage();
+
   return (
-    <div className="glomed-topbar">
+    <div className="glomed-topbar" dir={dir}>
       <div className="glomed-topbar-inner">
 
-        {/* NOM DU SERVICE */}
         <div className="glomed-topbar-brand">
           <i className="bi bi-heart-pulse" aria-hidden="true" />
-          <span>Gestion des services médicaux</span>
+          <span>{t("topbarService")}</span>
         </div>
 
-        {/* COORDONNÉES ET RÉSEAUX SOCIAUX */}
         <div className="glomed-topbar-info">
 
           <span className="glomed-topbar-item">
             <i className="bi bi-geo-alt" aria-hidden="true" />
-            Tunisie
+            {t("topbarLocation")}
           </span>
 
           <a
-            href="mailto:contact@glomed.tn"
+            href="mailto:groupglomed@gmail.com"
             className="glomed-topbar-item"
-            aria-label="Envoyer un e-mail"
+            aria-label={t("topbarEmail")}
           >
             <i className="bi bi-envelope" aria-hidden="true" />
             <span>groupglomed@gmail.com</span>
@@ -32,13 +35,12 @@ export default function Topbar() {
           <a
             href="tel:+21693767950"
             className="glomed-topbar-item"
-            aria-label="Appeler Glomed Group"
+            aria-label={t("topbarPhone")}
           >
             <i className="bi bi-telephone" aria-hidden="true" />
-            <span>+216 93 767 950</span>
+            <span dir="ltr">+216 93 767 950</span>
           </a>
 
-          {/* RÉSEAUX SOCIAUX */}
           <div className="glomed-topbar-socials">
             <a
               href="https://www.facebook.com/VOTRE-PAGE"

@@ -1,0 +1,530 @@
+
+.specialite-page {
+  --specialite-blue: #0057a8;
+  --specialite-red: #d71920;
+  --specialite-green: #2f7d68;
+  --specialite-yellow: #f4c430;
+  color: #172033;
+  overflow: hidden;
+}
+
+.specialite-page * {
+  box-sizing: border-box;
+}
+
+.specialite-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 48px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 76px 24px;
+}
+
+.specialite-hero-content {
+  max-width: 560px;
+}
+
+.specialite-eyebrow,
+.specialite-section-heading > span,
+.specialite-contact > div > span {
+  display: inline-block;
+  color: var(--specialite-green);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  line-height: 1.7;
+}
+
+.specialite-hero h1 {
+  margin: 18px 0 12px;
+  color: var(--specialite-blue);
+  font-size: clamp(36px, 4vw, 54px);
+  line-height: 1.12;
+}
+
+.specialite-hero h2 {
+  margin: 0 0 18px;
+  font-size: clamp(21px, 2.5vw, 29px);
+  line-height: 1.35;
+}
+
+.specialite-hero-content > p,
+.specialite-section-heading > p,
+.specialite-contact p {
+  color: #687386;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.specialite-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 50px;
+  margin-top: 18px;
+  padding: 13px 24px;
+  border-radius: 6px;
+  background: var(--specialite-red);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.specialite-cta:hover {
+  background: #a80f15;
+  transform: translateY(-2px);
+}
+
+.specialite-hero-image {
+  position: relative;
+  width: 100%;
+  min-height: 390px;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #eaf3fb;
+}
+
+.specialite-hero-image img {
+  object-fit: cover;
+}
+
+.specialite-services {
+  padding: 76px 24px;
+  background: #f5f8fc;
+}
+
+.specialite-section-heading {
+  max-width: 760px;
+  margin: 0 auto 38px;
+  text-align: center;
+}
+
+.specialite-section-heading h2,
+.specialite-contact h2 {
+  margin: 12px 0;
+  color: var(--specialite-blue);
+  font-size: clamp(27px, 3vw, 36px);
+  line-height: 1.3;
+}
+
+.specialite-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+.specialite-service-card {
+  padding: 28px 24px;
+  border: 1px solid #e2e7ef;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 6px 24px rgb(16 47 59 / 5%);
+}
+
+.specialite-check {
+  display: inline-grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border-radius: 50%;
+  background: #e5f4ed;
+  color: var(--specialite-green);
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.specialite-service-card h3 {
+  margin: 18px 0 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.specialite-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+  max-width: 1152px;
+  margin: 70px auto;
+  padding: 42px;
+  border-radius: 16px;
+  background: #eaf3fb;
+}
+
+.specialite-contact > div {
+  max-width: 700px;
+}
+
+.specialite-contact .specialite-cta {
+  flex-shrink: 0;
+}
+
+@media (max-width: 900px) {
+  .specialite-hero {
+    gap: 28px;
+  }
+
+  .specialite-hero-image {
+    min-height: 320px;
+  }
+
+  .specialite-services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .specialite-contact {
+    margin: 50px 24px;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .specialite-hero {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 42px 20px;
+  }
+
+  .specialite-hero-image {
+    min-height: 260px;
+  }
+
+  .specialite-services {
+    padding: 48px 20px;
+  }
+
+  .specialite-services-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .specialite-service-card {
+    padding: 22px;
+  }
+
+  .specialite-contact {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 35px 20px;
+    padding: 26px 22px;
+  }
+
+  .specialite-contact .specialite-cta {
+    width: 100%;
+  }
+}
+/*new*/
+
+/* Introduction de la spécialité */
+.specialite-intro {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  text-align: center;
+}
+
+.specialite-intro p {
+  color: #687386;
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+/* Grille responsive des cartes */
+.specialite-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  align-items: stretch;
+}
+
+/* Cartes maladies, interventions et examens */
+.specialite-service-card {
+  position: relative;
+  height: 100%;
+  padding: 28px 24px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e2e7ef;
+  border-radius: 16px;
+  box-shadow: 0 5px 18px rgba(16, 47, 59, 0.05);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+/* Barre décorative en haut */
+.specialite-service-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #0057a8, #2f7d68);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.specialite-service-card:hover {
+  transform: translateY(-7px);
+  border-color: #b8d5ec;
+  box-shadow: 0 16px 35px rgba(0, 87, 168, 0.13);
+}
+
+.specialite-service-card:hover::before {
+  transform: scaleX(1);
+}
+
+.specialite-service-card h3 {
+  margin: 12px 0;
+  color: #102f3b;
+  font-size: 1.12rem;
+  line-height: 1.5;
+}
+
+.specialite-service-card p {
+  margin: 0;
+  color: #687386;
+  font-size: 0.96rem;
+  line-height: 1.8;
+}
+
+.specialite-check {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  color: #0057a8;
+  background: #eaf3fb;
+  border-radius: 12px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  transition:
+    color 0.3s ease,
+    background 0.3s ease,
+    transform 0.3s ease;
+}
+
+.specialite-service-card:hover .specialite-check {
+  color: #fff;
+  background: #0057a8;
+  transform: scale(1.08);
+}
+
+/* Tablettes */
+@media (max-width: 992px) {
+  .specialite-services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 600px) {
+  .specialite-services-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .specialite-service-card {
+    padding: 23px 20px;
+  }
+
+  .specialite-service-card:hover {
+    transform: translateY(-3px);
+  }
+
+  .specialite-intro {
+    padding: 40px 20px;
+  }
+}
+
+/* Respect des préférences d'accessibilité */
+@media (prefers-reduced-motion: reduce) {
+  .specialite-service-card,
+  .specialite-service-card::before,
+  .specialite-check {
+    transition: none;
+  }
+
+  .specialite-service-card:hover,
+  .specialite-service-card:hover .specialite-check {
+    transform: none;
+  }
+}
+/*faq accordion*/
+
+/* FAQ accordéon */
+.specialite-faq {
+  padding: 75px 24px;
+  background: #f5f8fc;
+}
+
+.specialite-faq .specialite-section-heading {
+  max-width: 760px;
+  margin: 0 auto 35px;
+  text-align: center;
+}
+
+.specialite-faq .specialite-section-heading > span {
+  color: #0057a8;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.specialite-faq .specialite-section-heading h2 {
+  margin: 12px 0;
+  color: #102f3b;
+  font-size: clamp(1.7rem, 3vw, 2.4rem);
+  line-height: 1.3;
+}
+
+.specialite-faq .specialite-section-heading p {
+  color: #687386;
+  line-height: 1.8;
+}
+
+.specialite-faq-list {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.specialite-faq-item {
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e2e7ef;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(16, 47, 59, 0.04);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.specialite-faq-item[open] {
+  border-color: #b8d5ec;
+  box-shadow: 0 8px 24px rgba(0, 87, 168, 0.08);
+}
+
+.specialite-faq-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 22px 24px;
+  color: #102f3b;
+  font-weight: 700;
+  line-height: 1.6;
+  cursor: pointer;
+  list-style: none;
+}
+
+.specialite-faq-question::-webkit-details-marker {
+  display: none;
+}
+
+.specialite-faq-question::marker {
+  content: "";
+}
+
+.specialite-faq-question:hover {
+  color: #0057a8;
+}
+
+.specialite-faq-icon {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: #0057a8;
+  background: #eaf3fb;
+  font-size: 1.35rem;
+  transition: transform 0.25s ease, color 0.25s ease,
+    background 0.25s ease;
+}
+
+.specialite-faq-item[open] .specialite-faq-icon {
+  transform: rotate(45deg);
+  color: #fff;
+  background: #0057a8;
+}
+
+.specialite-faq-answer {
+  padding: 0 24px 22px;
+  animation: faqReveal 0.25s ease;
+}
+
+.specialite-faq-answer p {
+  margin: 0;
+  color: #687386;
+  font-size: 0.97rem;
+  line-height: 1.85;
+}
+
+@keyframes faqReveal {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .specialite-faq {
+    padding: 50px 16px;
+  }
+
+  .specialite-faq-question {
+    padding: 18px 16px;
+    font-size: 0.95rem;
+  }
+
+  .specialite-faq-answer {
+    padding: 0 16px 18px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .specialite-faq-item,
+  .specialite-faq-icon {
+    transition: none;
+  }
+
+  .specialite-faq-answer {
+    animation: none;
+  }
+}
+/*maladie*/
+
+.urologie-maladie-image {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+@media (max-width: 768px) {
+  .urologie-maladie-image {
+    height: 180px;
+  }
+}
+

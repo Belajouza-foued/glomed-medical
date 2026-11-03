@@ -190,10 +190,10 @@ export default function Services() {
               </p>
             </div>
 
-            <a href="/#contact" className="services__cta">
-              Nous contacter
-              <i className="bi bi-arrow-right" aria-hidden="true" />
-            </a>
+           <a href="/contact" className="glomed-footer-cta">
+          Organiser un séjour
+          <i className="bi bi-arrow-up-right" aria-hidden="true" />
+        </a>
           </div>
         </div>
       </section>

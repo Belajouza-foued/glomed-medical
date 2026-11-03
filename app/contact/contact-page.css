@@ -1,0 +1,63 @@
+/* =========================================
+   PAGE CONTACT — styles propres à la page
+   (le formulaire garde css/Contact.css)
+========================================= */
+
+/*intro*/
+
+.cpage { font-family: var(--font-body); }
+.cpage-container { width: min(var(--container), 92%); margin-inline: auto; }
+
+.cpage-heading { max-width: 680px; margin: 0 auto 1.8rem; text-align: center; }
+.cpage-kicker { margin-bottom: 2rem; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; color: var(--green); }
+.cpage-heading h2 { font-family: var(--font-display); font-size: clamp(1.7rem, 3.4vw, 2.5rem); line-height: 1.15; color: var(--blue-navy); }
+.cpage-heading h2 span { color: var(--blue); }
+
+/* ---------- Coordonnées ---------- */
+.cpage-infos { padding: 3rem 0; background: var(--off-white); }
+.cpage-infos-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; }
+.cpage-info {
+  display: flex; align-items: center; gap: 0.9rem; height: 100%;
+  padding: 1.1rem 1.2rem; background: var(--white);
+  border: 1px solid var(--border); border-left: 4px solid var(--green); border-radius: var(--radius-md);
+  transition: transform var(--transition), box-shadow var(--transition), border-left-color var(--transition);
+}
+a.cpage-info:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-left-color: var(--yellow); }
+.cpage-info-icon {
+  flex: 0 0 44px; display: grid; place-items: center; width: 44px; height: 44px; border-radius: 13px;
+  background: var(--blue-light); color: var(--blue); font-size: 1.2rem;
+}
+.cpage-info-text { display: flex; flex-direction: column; min-width: 0; }
+.cpage-info-text small { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-muted); }
+.cpage-info-text strong { font-size: 0.92rem; color: var(--blue-navy); overflow-wrap: anywhere; }
+
+/* ---------- Étapes ---------- */
+.cpage-steps { padding: 4.5rem 0; color: var(--white); background: linear-gradient(120deg, var(--blue-navy) 0%, var(--blue-dark) 100%); }
+.cpage-heading-light h2 { color: var(--white); }
+.cpage-heading-light h2 span { color: var(--yellow); }
+.cpage-heading-light .cpage-kicker { color: var(--yellow); }
+.cpage-steps-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+.cpage-steps-list li { padding-top: 1rem; border-top: 2px solid rgba(255,255,255,.3); }
+.cpage-steps-list span { font-family: var(--font-display); font-size: 1.6rem; font-weight: 700; color: var(--yellow); }
+.cpage-steps-list h3 { margin: 0.3rem 0 0.4rem; font-size: 1.05rem; }
+.cpage-steps-list p { font-size: 0.93rem; line-height: 1.65; color: rgba(255,255,255,.85); }
+
+a.cpage-info:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+
+/* ---------- Tablette ---------- */
+@media (max-width: 1024px) {
+  .cpage-infos-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 700px) {
+  .cpage-infos { padding: 3.5rem 0; }
+  .cpage-infos-grid { grid-template-columns: 1fr; gap: 0.8rem; }
+  .cpage-steps { padding: 3.5rem 0; }
+  .cpage-steps-list { grid-template-columns: 1fr; gap: 1.4rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cpage-info { transition: none; }
+  a.cpage-info:hover { transform: none; }
+}

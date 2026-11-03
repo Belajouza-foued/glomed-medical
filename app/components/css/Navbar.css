@@ -839,3 +839,34 @@
     font-size: 10px;
   }
 }
+/*new/
+
+/* =====================================
+   ARABIC RTL
+===================================== */
+
+.glomed-header[dir="rtl"] .glomed-nav-container {
+  direction: rtl;
+}
+
+.glomed-header[dir="rtl"] .glomed-nav {
+  direction: rtl;
+}
+
+.glomed-header[dir="rtl"] .glomed-nav-dropdown-menu {
+  text-align: right;
+}
+
+.glomed-header[dir="rtl"] .glomed-language-menu {
+  text-align: right;
+}
+
+.glomed-header[dir="rtl"] .glomed-chevron {
+  margin-right: 6px;
+  margin-left: 0;
+}
+
+.glomed-header[dir="rtl"] .glomed-cta span {
+  display: inline-block;
+  transform: scaleX(-1);
+}

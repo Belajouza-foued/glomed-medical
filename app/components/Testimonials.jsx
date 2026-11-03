@@ -9,31 +9,57 @@ const testimonials = {
     eyebrow: "TÉMOIGNAGES",
     title: "Ils nous ont fait confiance",
     description:
-      "Découvrez les témoignages de patients accompagnés dans leur parcours de soins en Tunisie.",
+      "Découvrez les expériences de patients accompagnés dans l'organisation de leur parcours de soins en Tunisie.",
     reviews: [
+      {
+        name: "Amine B.",
+        country: "🇩🇿 Algérie",
+        service: "Accompagnement médical",
+        text: "J'ai apprécié la disponibilité de l'équipe et les informations reçues pour préparer mon séjour médical en Tunisie.",
+        image: "https://i.pravatar.cc/100?img=11",
+        alt: "Portrait illustratif d'un homme",
+      },
+    
+{
+  name: "Fatou S.",
+  country: "🇸🇳 Sénégal",
+  service: "Organisation du séjour",
+  text: "L'équipe m'a aidée à mieux comprendre les différentes étapes et à organiser mon déplacement en Tunisie.",
+  image: "/images/profil-senegal.png",
+  alt: "Portrait d'une femme sénégalaise",
+},
+
+      {
+        name: "Ahmed K.",
+        country: "🇸🇦 Arabie saoudite",
+        service: "Coordination du parcours",
+        text: "J'ai apprécié la qualité des échanges et l'accompagnement proposé tout au long de la préparation de mon séjour.",
+        image: "https://i.pravatar.cc/100?img=12",
+        alt: "Portrait illustratif d'un homme",
+      },
+      {
+        name: "Mariam A.",
+        country: "🇦🇪 Émirats arabes unis",
+        service: "Assistance et coordination",
+        text: "Une équipe attentive qui m'a apporté des informations utiles pour organiser les différentes étapes de mon séjour.",
+        image: "https://i.pravatar.cc/100?img=44",
+        alt: "Portrait illustratif d'une femme",
+      },
       {
         name: "Sophie M.",
         country: "🇫🇷 France",
-        service: "Accompagnement médical",
-        text: "Une équipe à l’écoute qui m’a accompagnée dans l’organisation de mon séjour médical en Tunisie.",
-        image: "https://i.pravatar.cc/100?img=47",
-        alt: "Portrait de Sophie",
+        service: "Organisation du séjour",
+        text: "J'ai apprécié la clarté des informations et la disponibilité de l'équipe pour répondre à mes questions.",
+        image: "https://i.pravatar.cc/100?img=45",
+        alt: "Portrait illustratif d'une femme",
       },
       {
         name: "Marc D.",
         country: "🇧🇪 Belgique",
-        service: "Organisation du séjour",
-        text: "Les différentes étapes de mon séjour ont été bien organisées. J’ai apprécié la disponibilité de l’équipe.",
-        image: "https://i.pravatar.cc/100?img=12",
-        alt: "Portrait de Marc",
-      },
-      {
-        name: "Laura B.",
-        country: "🇨🇭 Suisse",
-        service: "Coordination du parcours",
-        text: "J’ai bénéficié d’informations claires et d’un accompagnement rassurant avant et pendant mon séjour.",
-        image: "https://i.pravatar.cc/100?img=44",
-        alt: "Portrait de Laura",
+        service: "Accompagnement personnalisé",
+        text: "Les échanges ont été simples et rassurants. J'ai pu obtenir les informations nécessaires pour préparer mon séjour.",
+        image: "https://i.pravatar.cc/100?img=13",
+        alt: "Portrait illustratif d'un homme",
       },
     ],
   },
@@ -42,33 +68,55 @@ const testimonials = {
     eyebrow: "TESTIMONIALS",
     title: "They trusted us",
     description:
-      "Discover the experiences of patients supported throughout their healthcare journey in Tunisia.",
+      "Discover the experiences of patients supported throughout the organization of their healthcare journey in Tunisia.",
     reviews: [
-    
-{
-  name: "Ahmed K.",
-  country: "🇸🇦 Saudi Arabia",
-  service: "Medical assistance",
-  text: "I appreciated the team's support and the organization of my medical stay in Tunisia.",
-  image: "https://i.pravatar.cc/100?img=11",
-  alt: "Illustrative portrait of a man",
-},
-
+      {
+        name: "Amine B.",
+        country: "🇩🇿 Algeria",
+        service: "Medical assistance",
+        text: "I appreciated the team's availability and the information provided to prepare my medical stay in Tunisia.",
+        image: "https://i.pravatar.cc/100?img=11",
+        alt: "Illustrative portrait of a man",
+      },
+      {
+        name: "Fatou S.",
+        country: "🇸🇳 Senegal",
+        service: "Stay organization",
+        text: "The team helped me understand the different steps and organize my trip to Tunisia.",
+        image: "https://i.pravatar.cc/100?img=48",
+        alt: "Illustrative portrait of a woman",
+      },
+      {
+        name: "Ahmed K.",
+        country: "🇸🇦 Saudi Arabia",
+        service: "Care coordination",
+        text: "I appreciated the communication and the support provided while preparing my stay.",
+        image: "https://i.pravatar.cc/100?img=12",
+        alt: "Illustrative portrait of a man",
+      },
+      {
+        name: "Mariam A.",
+        country: "🇦🇪 United Arab Emirates",
+        service: "Assistance and coordination",
+        text: "An attentive team that provided useful information to help organize the different stages of my stay.",
+        image: "https://i.pravatar.cc/100?img=44",
+        alt: "Illustrative portrait of a woman",
+      },
+      {
+        name: "Sophie M.",
+        country: "🇫🇷 France",
+        service: "Stay organization",
+        text: "I appreciated the clear information and the team's availability to answer my questions.",
+        image: "https://i.pravatar.cc/100?img=45",
+        alt: "Illustrative portrait of a woman",
+      },
       {
         name: "Marc D.",
         country: "🇧🇪 Belgium",
-        service: "Stay organization",
-        text: "The different stages of my stay were well organized. I appreciated the team's availability.",
-        image: "https://i.pravatar.cc/100?img=12",
-        alt: "Portrait of Marc",
-      },
-      {
-        name: "Laura B.",
-        country: "🇨🇭 Switzerland",
-        service: "Care coordination",
-        text: "I received clear information and reassuring support before and during my stay.",
-        image: "https://i.pravatar.cc/100?img=44",
-        alt: "Portrait of Laura",
+        service: "Personalized assistance",
+        text: "Communication was simple and reassuring. I received the information I needed to prepare my stay.",
+        image: "https://i.pravatar.cc/100?img=13",
+        alt: "Illustrative portrait of a man",
       },
     ],
   },
@@ -81,15 +129,19 @@ export default function Testimonials() {
   return (
     <section className="testimonials" id="avis">
       <div className="testimonials-container">
+
         <div className="testimonials-heading">
           <span className="testimonials-eyebrow">
             {content.eyebrow}
           </span>
 
-         <h2>
-  Ils nous ont fait
-  <span> confiance.</span>
-</h2>
+          <h2>
+            {content.title.split(" ").slice(0, -1).join(" ")}
+            {" "}
+            <span>
+              {content.title.split(" ").slice(-1)}
+            </span>
+          </h2>
 
           <p>{content.description}</p>
         </div>
@@ -164,6 +216,7 @@ export default function Testimonials() {
             </article>
           ))}
         </div>
+
       </div>
     </section>
   );

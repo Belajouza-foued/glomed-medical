@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import IntroProject from "./components/IntroProject";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import About from "./components/About";
@@ -8,6 +9,7 @@ import Gallery from "./components/Gallery"
 import Testimonials from "./components/Testimonials"
 import Contact from "./components/Contact"
 import PartnerShips from "./components/Partnerships"
+import Rehabilitation from "./components/Rehabilitation"
 const services = [
   {
     number: "01",
@@ -60,13 +62,14 @@ export default function Home() {
     <Navbar />
     <main>
          <Hero/>
+         <Gallery/>
       <Services/>
       <PartnerShips />
-      <Gallery/>
-      <About/>
+            <About/>
+            <Rehabilitation/>
       <Testimonials/>
-           <Contact/>
-     
+                 <Contact/>
+          <IntroProject/>
 
        
     </main>
