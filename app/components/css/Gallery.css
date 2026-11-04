@@ -153,10 +153,23 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(calc(-50% - 9px));
   }
 }
 
+@keyframes galleryMoveRTL {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(50% + 9px));
+  }
+}
+/* DIRECTION ARABE */
+
+.gallerySection[dir="rtl"] .galleryMarqueeTrack {
+  animation-name: galleryMoveRTL;
+}
 /* TABLETTE */
 
 @media (max-width: 900px) {

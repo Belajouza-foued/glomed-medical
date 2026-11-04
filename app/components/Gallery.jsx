@@ -2,101 +2,113 @@
 "use client";
 
 import Link from "next/link";
+import { useLanguage } from "../contexts/LanguageContext";
 import "./css/Gallery.css";
 
 const galleryImages = [
   {
     src: "/images/chirugie-urolo.avif",
-    alt: "Soins en urologie",
-    title: "Urologie",
+    titleKey: "galleryUrology",
+    altKey: "galleryAltUrology",
     slug: "urologie",
   },
   {
     src: "/images/chirugie-pediatre.avif",
-    alt: "Soins en pédiatrie",
-    title: "Pédiatrie",
+    titleKey: "galleryPediatrics",
+    altKey: "galleryAltPediatrics",
     slug: "pediatrie",
   },
   {
     src: "/images/chirugie-gas.avif",
-    alt: "Soins en gastro-entérologie",
-    title: "Gastro-entérologie",
+    titleKey: "galleryGastro",
+    altKey: "galleryAltGastro",
     slug: "gastro-enterologie",
   },
   {
     src: "/images/chirugie-pneumon.avif",
-    alt: "Soins en pneumologie",
-    title: "Pneumologie",
+    titleKey: "galleryPneumology",
+    altKey: "galleryAltPneumology",
     slug: "pneumologie",
   },
   {
     src: "/images/chirigue-cardiologue-1.avif",
-    alt: "Soins en cardiologie",
-    title: "Cardiologie",
+    titleKey: "galleryCardiology",
+    altKey: "galleryAltCardiology",
     slug: "cardiologie",
   },
   {
     src: "/images/chirugie-ophtal.avif",
-    alt: "Soins en ophtalmologie",
-    title: "Ophtalmologie",
+    titleKey: "galleryOphthalmology",
+    altKey: "galleryAltOphthalmology",
     slug: "ophtalmologie",
   },
   {
     src: "/images/chirigue-ortho.avif",
-    alt: "Soins en orthopédie",
-    title: "Orthopédie",
+    titleKey: "galleryOrthopedics",
+    altKey: "galleryAltOrthopedics",
     slug: "orthopedie",
   },
-    {
+  {
     src: "/images/gynecologie-1.jpeg",
-    alt: "Soins en orthopédie",
-    title: "Gynecologie",
+    titleKey: "galleryGynecology",
+    altKey: "galleryAltGynecology",
     slug: "gynecologie",
   },
 ];
 
 export default function Gallery() {
+  const { t, dir } = useLanguage();
+
   const repeatedImages = [...galleryImages, ...galleryImages];
 
   return (
-    <section className="gallerySection" aria-label="Nos spécialités médicales">
+    <section
+      className="gallerySection"
+      dir={dir}
+      aria-label={t("galleryLabel")}
+    >
       <div className="galleryHeader">
-        <span className="galleryEyebrow">GLOMED GROUP · TUNISIE</span>
+        <span className="galleryEyebrow">
+          {t("galleryEyebrow")}
+        </span>
 
         <h2>
-          Des soins spécialisés,
+          {t("galleryTitle")}
           <br />
-          <em>un accompagnement humain</em>
+          <em>{t("galleryAccent")}</em>
         </h2>
 
-        <p>
-          Découvrez nos spécialités médicales et bénéficiez d’un
-          accompagnement personnalisé pour votre parcours de soins en Tunisie.
-        </p>
+        <p>{t("galleryDescription")}</p>
       </div>
 
       <div className="galleryMarquee">
         <div className="galleryMarqueeTrack">
           {repeatedImages.map((item, index) => (
-            <article className="galleryMarqueeItem" key={`${item.title}-${index}`}>
+            <article
+              className="galleryMarqueeItem"
+              key={`${item.slug}-${index}`}
+            >
               <Link
                 href={`/chirurgie/${item.slug}`}
                 className="galleryCardLink"
-                aria-label={`Découvrir la spécialité ${item.title}`}
+                aria-label={`${t("galleryDiscover")} ${t(item.titleKey)}`}
               >
                 <div className="galleryPhoto">
                   <img
                     src={item.src}
-                    alt={item.alt}
+                    alt={t(item.altKey)}
                     loading="lazy"
                     draggable="false"
                   />
 
                   <div className="galleryPhotoOverlay">
                     <span className="galleryPhotoNumber">
-                      {String((index % galleryImages.length) + 1).padStart(2, "0")}
+                      {String(
+                        (index % galleryImages.length) + 1
+                      ).padStart(2, "0")}
                     </span>
-                    <h3>{item.title}</h3>
+
+                    <h3>{t(item.titleKey)}</h3>
                   </div>
                 </div>
               </Link>

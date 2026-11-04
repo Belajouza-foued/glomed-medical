@@ -353,6 +353,7 @@
     background-color 250ms ease;
 }
 
+
 .medical-process__item:hover .medical-process__icon {
   color: #fff;
   background: #2f7d68;
@@ -413,7 +414,9 @@
 }
 
 /* CTA */
-
+.medical-process__icon:hover {
+color: var(--white) !important;
+}
 .medical-process__cta {
   display: flex;
   align-items: center;

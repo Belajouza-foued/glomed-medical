@@ -3,77 +3,49 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import "./css/Hero.css"
+import { useLanguage } from "../contexts/LanguageContext";
+import "./css/Hero.css";
 
 const slides = [
   {
-    image:
-      "/images/glomed-an.avif",
-    alt: "Professionnels de santé dans un environnement médical",
+    image: "/images/glomed-an.avif",
     icon: "bi bi-heart-pulse",
-    eyebrow: "VOTRE PARTENAIRE SANTÉ EN TUNISIE",
-    title: "Glomed Group,",
-    accent: "accompagné à chaque étape.",
-    text:
-      "Glomed Group vous accompagne dans l'organisation de votre séjour médical en Tunisie : coordination, hébergement, transferts et orientation vers des professionnels partenaires.",
-    primary: "Parcours de Soins",
-    secondary: "Découvrir nos services",
+    number: 1,
+    primaryLink: "#contact",
+    secondaryLink: "#services",
   },
   {
-    image:
-   "/images/glomed-group.avif",
-    alt: "Environnement de soins esthétiques",
+    image: "/images/glomed-group.avif",
     icon: "bi bi-stars",
-    eyebrow: "ESTHÉTIQUE ET BIEN-ÊTRE",
-    title: "Prenez soin de vous,",
-    accent: "en toute sérénité.",
-    text:
-      "Nous vous aidons à organiser votre projet de soins esthétiques et à coordonner les différentes étapes de votre séjour avec les professionnels concernés.",
-    primary: "Découvrir nos services",
-    secondary: "Nous contacter",
+    number: 2,
+    primaryLink: "#services",
+    secondaryLink: "#contact",
   },
   {
-    image:
-      "/images/glomed-guide.avif",
-    alt: "Équipe médicale dans un établissement de santé",
+    image: "/images/glomed-guide.avif",
     icon: "bi bi-airplane",
-    eyebrow: "VOTRE SÉJOUR MÉDICAL ORGANISÉ",
-    title: "De votre arrivée",
-    accent: "à votre accompagnement.",
-    text:
-      "Hébergement, transferts et coordination : nous vous aidons à préparer votre séjour en Tunisie selon votre demande et vos besoins.",
-    primary: "Organiser un séjour",
-    secondary: "Comment ça marche ?",
+    number: 3,
+    primaryLink: "#contact",
+    secondaryLink: "#about",
   },
   {
-  image: "/images/glomed-ch.avif",
-  alt: "Équipe médicale dans un bloc opératoire moderne",
-  icon: "bi bi-hospital",
-  eyebrow: "CHIRURGIE ET SÉJOUR MÉDICAL EN TUNISIE",
-  title: "Votre chirurgie,",
-  accent: "un séjour organisé avec soin.",
-  text:
-    "Glomed Group vous accompagne dans la préparation de votre séjour chirurgical en Tunisie : coordination des rendez-vous, organisation des transferts, hébergement et mise en relation avec des professionnels de santé partenaires.",
-  primary: "Organiser mon séjour",
-  secondary: "Découvrir nos services",
-},
-
-{
-  image: "/images/sante.avif",
-  alt: "Environnement médical moderne et accompagnement des patients",
-  icon: "bi bi-heart-pulse",
-  eyebrow: "GLOMED GROUP · VOTRE PARTENAIRE SANTÉ EN TUNISIE",
-  title: "Votre parcours de santé,",
-  accent: "un accompagnement à chaque étape.",
-  text:
-    "Bilans médicaux, consultations spécialisées, chirurgie, radiologie et rééducation : Glomed Group vous accompagne également dans l'organisation de votre séjour en Tunisie, avec coordination, hébergement et transferts auprès de professionnels et établissements partenaires.",
-  primary: "Votre parcours de santé",
-  secondary: "Découvrir nos services",
-},
-
+    image: "/images/glomed-ch.avif",
+    icon: "bi bi-hospital",
+    number: 4,
+    primaryLink: "#contact",
+    secondaryLink: "#services",
+  },
+  {
+    image: "/images/sante.avif",
+    icon: "bi bi-heart-pulse",
+    number: 5,
+    primaryLink: "#contact",
+    secondaryLink: "#services",
+  },
 ];
 
 export default function Hero() {
+  const { t, dir } = useLanguage();
   const [active, setActive] = useState(0);
 
   useEffect(() => {
@@ -89,103 +61,141 @@ export default function Hero() {
   };
 
   return (
-    <section className="hero" id="home" aria-label="Présentation de Glomed Group">
-      {slides.map((slide, index) => (
-        <article
-          key={slide.image}
-          className={`hero-slide ${index === active ? "active" : ""}`}
-          aria-hidden={index !== active}
-        >
-          <img
-            src={slide.image}
-            alt={slide.alt}
-            fetchPriority={index === 0 ? "high" : "auto"}
-          />
+    <section
+      className="hero"
+      id="home"
+      dir={dir}
+      aria-label={t("heroLabel")}
+    >
+      {slides.map((slide, index) => {
+        const number = slide.number;
 
-          <div className="hero-slide__overlay" />
+        return (
+          <article
+            key={slide.image}
+            className={`hero-slide ${index === active ? "active" : ""}`}
+            aria-hidden={index !== active}
+          >
+            <img
+              src={slide.image}
+              alt={t(`hero${number}Alt`)}
+              fetchPriority={index === 0 ? "high" : "auto"}
+            />
 
-          <div className="container hero-slide__container">
-            <div className="hero-content">
-              <span className="hero-eyebrow">
-                <i className={slide.icon} aria-hidden="true" />
-                {slide.eyebrow}
-              </span>
+            <div className="hero-slide__overlay" />
+<div className="hero-decoration" aria-hidden="true">
+  <div className="hero-decoration-ring">
+    <img
+      src="/assets/logo/logo-glomed.jpeg"
+      alt=""
+    />
+  </div>
 
-              <h1>
-                {slide.title}
-                <span>{slide.accent}</span>
-              </h1>
+  <span className="hero-decoration-icon icon-one">
+    <i className="bi bi-heart-pulse" />
+  </span>
 
-              <p>{slide.text}</p>
+  <span className="hero-decoration-icon icon-two">
+    <i className="bi bi-hospital" />
+  </span>
 
-              <div className="hero-actions">
-                <Link href="#contact" className="btn-primary-custom">
-                  {slide.primary}
-                  <i className="bi bi-arrow-right" aria-hidden="true" />
-                </Link>
+  <span className="hero-decoration-icon icon-three">
+    <i className="bi bi-airplane" />
+  </span>
+</div>
+            <div className="container hero-slide__container">
+              <div className="hero-content">
 
-                <Link
-                  href={index === 2 ? "#about" : "#services"}
-                  className="btn-outline-custom"
-                >
-                  {slide.secondary}
-                </Link>
-              </div>
-
-              <div className="hero-trust">
-                <span className="hero-trust-icon">
-                  <i className="bi bi-check-lg" aria-hidden="true" />
+                <span className="hero-eyebrow">
+                  <i className={slide.icon} aria-hidden="true" />
+                  {t(`hero${number}Eyebrow`)}
                 </span>
-                <span>
-                  <strong>Un accompagnement personnalisé</strong>
-                  <small>De la préparation à l'organisation du séjour</small>
-                </span>
+
+                <h1>
+                  {t(`hero${number}Title`)}
+                  <span>{t(`hero${number}Accent`)}</span>
+                </h1>
+
+                <p>{t(`hero${number}Text`)}</p>
+
+                <div className="hero-actions">
+                  <Link
+                    href={slide.primaryLink}
+                    className="btn-primary-custom"
+                  >
+                    {t(`hero${number}Primary`)}
+                    <i className="bi bi-arrow-right" aria-hidden="true" />
+                  </Link>
+
+                  <Link
+                    href={slide.secondaryLink}
+                    className="btn-outline-custom"
+                  >
+                    {t(`hero${number}Secondary`)}
+                  </Link>
+                </div>
+
+                <div className="hero-trust">
+                  <span className="hero-trust-icon">
+                    <i className="bi bi-check-lg" aria-hidden="true" />
+                  </span>
+
+                  <span>
+                    <strong>{t("heroTrustTitle")}</strong>
+                    <small>{t("heroTrustText")}</small>
+                  </span>
+                </div>
+
               </div>
             </div>
-          </div>
-        </article>
-      ))}
+          </article>
+        );
+      })}
 
       <div className="hero-bottom-line">
         <div className="container hero-bottom-inner">
-          <span>ACCOMPAGNEMENT</span>
+          <span>{t("heroBottom1")}</span>
           <span className="hero-bottom-separator">✳</span>
-          <span>COORDINATION</span>
+          <span>{t("heroBottom2")}</span>
           <span className="hero-bottom-separator">✳</span>
-          <span>SÉJOUR MÉDICAL</span>
+          <span>{t("heroBottom3")}</span>
         </div>
       </div>
 
-      <div className="hero-dots" aria-label="Choisir une diapositive">
+      <div
+        className="hero-dots"
+        aria-label={t("heroDotsLabel")}
+      >
         {slides.map((slide, index) => (
           <button
             key={slide.image}
             type="button"
             className={`hero-dot ${index === active ? "active" : ""}`}
-            aria-label={`Afficher la diapositive ${index + 1}`}
+            aria-label={`${t("heroDotLabel")} ${index + 1}`}
             aria-pressed={index === active}
             onClick={() => goTo(index)}
           />
         ))}
       </div>
 
-     <button
-  type="button"
-  className="hero-arrow hero-arrow--prev"
-  aria-label="Diapositive précédente"
-  onClick={() => goTo(active - 1)}
->
-  <span aria-hidden="true">←</span>
-</button>
+      <button
+        type="button"
+        className="hero-arrow hero-arrow--prev"
+        aria-label={t("heroPrevious")}
+        onClick={() => goTo(active - 1)}
+      >
+        <span aria-hidden="true">←</span>
+      </button>
 
-<button
-  type="button"
-  className="hero-arrow hero-arrow--next"
-  aria-label="Diapositive suivante"
-  onClick={() => goTo(active + 1)}
->
-  <span aria-hidden="true">→</span>
-</button>
+      <button
+        type="button"
+        className="hero-arrow hero-arrow--next"
+        aria-label={t("heroNext")}
+        onClick={() => goTo(active + 1)}
+      >
+        <span aria-hidden="true">→</span>
+      </button>
+
     </section>
   );
 }

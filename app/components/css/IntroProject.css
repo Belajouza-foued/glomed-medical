@@ -1,105 +1,121 @@
-
-/* ---------- APPEL À L'ACTION ---------- */
-.apage-cta {
-  padding: 4.5rem 0;
-  color: var(--white);
-  background: linear-gradient(120deg, var(--blue-navy) 0%, var(--blue-dark) 100%);
-}
-.apage-cta-inner { display: grid; grid-template-columns: 1.4fr auto; gap: 2rem; align-items: center; }
-.apage-cta-kicker { margin-bottom: 0.8rem; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; color: var(--yellow); }
-.apage-cta h2 { font-family: var(--font-display); font-size: clamp(1.7rem, 3.4vw, 2.5rem); line-height: 1.15; }
-.apage-cta h2 span { color: var(--yellow); }
-.apage-cta p:last-child { margin-top: 1rem; max-width: 56ch; line-height: 1.7; color: rgba(255,255,255,.85); }
-
-.apage-actions { display: flex; flex-wrap: wrap; gap: 0.9rem; }
-.apage-button {
-  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
-  padding: 0.95rem 1.6rem; border-radius: 999px; border: 2px solid transparent;
-  font-weight: 700; font-size: 0.95rem; white-space: nowrap; text-shadow: none;
-  transition: background var(--transition), color var(--transition), transform var(--transition);
-}
-.apage-button-primary { background: var(--yellow); color: var(--blue-navy); }
-.apage-button-primary:hover { background: var(--white); transform: translateY(-2px); }
-.apage-button-whatsapp { background: var(--green); color: var(--white); }
-.apage-button-whatsapp:hover { background: #256452; transform: translateY(-2px); }
-.apage-button:focus-visible,
-.apage-breadcrumb a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
-
-/* ---------- Tablette ---------- */
-@media (max-width: 900px) {
-  .apage-cta-inner { grid-template-columns: 1fr; }
-}
-
-/* ---------- Mobile ---------- */
-@media (max-width: 600px) {
-  .apage-hero { --veil-left: 0.5; --veil-mid: 0.5; --veil-right: 0.45; padding: 3.5rem 0; min-height: 0; }
-  .apage-cta { padding: 3.5rem 0; }
-  .apage-actions { flex-direction: column; }
-  .apage-button { width: 100%; white-space: normal; }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .apage-button { transition: none; }
-  .apage-button:hover { transform: none; }
-}
 /* =========================================
-   HERO À PROPOS — ANIMATIONS D'ENTRÉE
-   À coller à la fin de about-page.css
-   Aucun changement dans le JSX : on utilise tes classes existantes.
+   INTRO PROJET — bandeau d'appel à l'action
+   Autonome : ne dépend d'aucune classe de page.
 ========================================= */
 
-@keyframes apage-slide-in {
-  from { opacity: 0; transform: translateX(-60px); }
-  to   { opacity: 1; transform: translateX(0); }
+/* La section laisse de l'air autour du bloc */
+.ipro {
+  padding: clamp(2.5rem, 6vw, 4.5rem) 0;
+  background: var(--off-white);
+  font-family: var(--font-body);
 }
 
-@keyframes apage-line-grow {
-  from { transform: scaleX(0); }
-  to   { transform: scaleX(1); }
+/* Bloc centré : marges gauche/droite, jamais collé aux bords de l'écran */
+.ipro-panel {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  width: min(100% - 3rem, var(--container));   /* 1,5rem de marge de chaque côté */
+  margin-inline: auto;
+  padding: clamp(2rem, 5vw, 3.5rem) clamp(1.5rem, 5vw, 4rem);
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) auto;
+  align-items: center;
+  gap: clamp(1.6rem, 4vw, 3.5rem);
+  color: var(--white);
+  background: linear-gradient(120deg, var(--blue-navy) 0%, var(--blue-dark) 100%);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
 }
 
-/* Chaque élément glisse depuis la gauche, l'un après l'autre */
-.apage-breadcrumb,
-.apage-eyebrow,
-.apage-hero h1,
-.apage-hero h1 span,
-.apage-hero-text {
-  animation: apage-slide-in 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
-}
-
-.apage-breadcrumb   { animation-delay: 0.10s; }
-.apage-eyebrow      { animation-delay: 0.30s; }
-.apage-hero h1      { animation-delay: 0.50s; }
-.apage-hero h1 span { animation-delay: 0.75s; }   /* 2e ligne du titre, en jaune */
-.apage-hero-text    { animation-delay: 1.00s; }
-
-/* Petite ligne jaune qui se trace sous le texte d'introduction */
-.apage-hero-text::after {
+/* Décors : deux halos de couleur */
+.ipro-panel::before,
+.ipro-panel::after {
   content: "";
-  display: block;
-  width: 70px;
-  height: 4px;
-  margin-top: 1.4rem;
-  border-radius: 4px;
-  background: var(--yellow);
-  transform-origin: left;
-  animation: apage-line-grow 0.8s ease 1.4s both;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.ipro-panel::before {
+  top: -150px; right: -110px; width: 380px; height: 380px;
+  background: radial-gradient(circle, rgba(244, 196, 48, 0.24), transparent 68%);
+}
+.ipro-panel::after {
+  bottom: -190px; left: -130px; width: 420px; height: 420px;
+  background: radial-gradient(circle, rgba(47, 125, 104, 0.38), transparent 68%);
 }
 
-/* Mobile : glissement plus court pour ne pas sortir de l'écran */
+.ipro-text { min-width: 0; }
+
+.ipro-kicker {
+  display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem;
+  font-size: 0.78rem; font-weight: 800; letter-spacing: 0.12em; color: var(--yellow);
+}
+.ipro-kicker::before { content: ""; width: 34px; height: 3px; border-radius: 3px; background: var(--yellow); }
+
+.ipro h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3.6vw, 2.6rem);
+  line-height: 1.18; font-weight: 700;
+  overflow-wrap: break-word; text-wrap: balance;
+}
+.ipro h2 span { color: var(--yellow); }
+
+.ipro-lead { margin-top: 1rem; max-width: 56ch; font-size: 1rem; line-height: 1.75; color: rgba(255, 255, 255, 0.84); }
+
+/* ---------- Boutons ---------- */
+.ipro-actions { display: flex; flex-direction: column; gap: 0.85rem; min-width: 250px; }
+
+.ipro-button {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.7rem;
+  min-height: 52px; padding: 0.9rem 1.6rem;
+  border: 2px solid transparent; border-radius: 999px;
+  font-family: inherit; font-size: 0.95rem; font-weight: 700; line-height: 1.2; text-align: center;
+  transition: transform var(--transition), background var(--transition), color var(--transition), box-shadow var(--transition);
+}
+.ipro-button i { font-size: 1.15rem; }
+.ipro-button:hover { transform: translateY(-3px); }
+.ipro-button:focus-visible { outline: 3px solid var(--white); outline-offset: 3px; }
+
+.ipro-button-primary { background: var(--yellow); color: var(--blue-navy); box-shadow: 0 10px 24px rgba(244, 196, 48, 0.28); }
+.ipro-button-primary:hover { background: var(--white); }
+.ipro-arrow { transition: transform 0.25s ease; }
+.ipro-button-primary:hover .ipro-arrow { transform: translate(3px, -3px); }
+
+.ipro-button-whatsapp { background: rgba(255, 255, 255, 0.08); color: var(--white); border-color: rgba(255, 255, 255, 0.55); }
+.ipro-button-whatsapp:hover { background: var(--green); border-color: var(--green); }
+
+/* ---------- Tablette : une colonne, boutons côte à côte ---------- */
+@media (max-width: 900px) {
+  .ipro-panel { grid-template-columns: 1fr; }
+  .ipro-actions { flex-direction: row; flex-wrap: wrap; min-width: 0; }
+  .ipro-button { flex: 1 1 220px; }
+}
+
+/* ---------- Mobile : marges plus petites, boutons pleine largeur ---------- */
 @media (max-width: 600px) {
-  @keyframes apage-slide-in {
-    from { opacity: 0; transform: translateX(-30px); }
-    to   { opacity: 1; transform: translateX(0); }
+  .ipro { padding: 2rem 0; }
+  .ipro-panel {
+    width: calc(100% - 2rem);                  /* 1rem de marge de chaque côté */
+    padding: 1.8rem 1.3rem;
+    border-radius: var(--radius-md);
   }
+  .ipro-panel::before { width: 260px; height: 260px; top: -110px; right: -100px; }
+  .ipro-panel::after  { width: 280px; height: 280px; bottom: -150px; left: -110px; }
+  .ipro-lead { font-size: 0.94rem; }
+  .ipro-actions { flex-direction: column; }
+  .ipro-button { flex: 0 0 auto; width: 100%; }
 }
 
-/* Accessibilité : pas d'animation si l'utilisateur la désactive */
+/* ---------- Très petits écrans ---------- */
+@media (max-width: 360px) {
+  .ipro-panel { width: calc(100% - 1.5rem); padding: 1.5rem 1rem; }
+  .ipro h2 { font-size: 1.45rem; }
+  .ipro-button { font-size: 0.88rem; }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .apage-breadcrumb,
-  .apage-eyebrow,
-  .apage-hero h1,
-  .apage-hero h1 span,
-  .apage-hero-text,
-  .apage-hero-text::after { animation: none; }
+  .ipro-button, .ipro-arrow { transition: none; }
+  .ipro-button:hover { transform: none; }
 }
