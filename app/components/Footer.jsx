@@ -150,7 +150,7 @@ export default function Footer() {
               <li>
                 <a href={`tel:${phone}`}>
                   <i className="bi bi-telephone" aria-hidden="true" />
-                  <span>{phone}</span>
+                  <span dir="ltr">{phone}</span>
                 </a>
               </li>
 
