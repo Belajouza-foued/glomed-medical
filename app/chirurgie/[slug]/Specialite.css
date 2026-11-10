@@ -528,3 +528,31 @@
   }
 }
 
+/*ortho traduction arabe*/
+
+/* Direction arabe */
+.specialite-page[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+.specialite-page[dir="rtl"] .specialite-section-heading,
+.specialite-page[dir="rtl"] .specialite-service-card {
+  text-align: right;
+}
+
+.specialite-page[dir="rtl"] .specialite-faq-question {
+  text-align: right;
+  flex-direction: row-reverse;
+}
+
+.specialite-page[dir="rtl"] .specialite-contact {
+  direction: rtl;
+}
+/*img*/
+
+.specialite-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}

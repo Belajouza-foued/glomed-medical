@@ -7,6 +7,7 @@ import Topbar from "../components/Topbar";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import IntroProject from "../components/IntroProject"
+import AboutStory from "../components/AboutStory";
 export const metadata = {
   title: "À propos | Glomed Group",
   description:
@@ -20,28 +21,7 @@ export default function AboutPage() {
       <Navbar/>
     <main className="apage">
       {/* HERO */}
-      <section className="apage-hero">
-        <div className="apage-container apage-hero-content">
-          <nav className="apage-breadcrumb" aria-label="Fil d’Ariane">
-            <Link href="/">Accueil</Link>
-            <span aria-hidden="true">/</span>
-            <span aria-current="page">À propos</span>
-          </nav>
-
-          <p className="apage-eyebrow">GLOMED GROUP · À PROPOS</p>
-
-          <h1>
-            Une équipe à l’écoute
-            <span> de votre soin médical.</span>
-          </h1>
-
-          <p className="apage-hero-text">
-            Découvrez qui nous sommes, ce qui guide notre travail et la façon
-            dont nous vous accompagnons avant, pendant et après votre séjour en
-            Tunisie.
-          </p>
-        </div>
-      </section>
+      <AboutStory/>
 
       {/* TON COMPOSANT ABOUT (image + accordéon) */}
       <About />

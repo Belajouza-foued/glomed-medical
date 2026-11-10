@@ -1,9 +1,13 @@
+
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useLanguage } from "../contexts/LanguageContext";
 import "./css/About.css";
 
 export default function About() {
+  const { t, dir } = useLanguage();
+
   const imageRef = useRef(null);
   const [imageVisible, setImageVisible] = useState(false);
 
@@ -28,30 +32,34 @@ export default function About() {
   }, []);
 
   return (
-    <section id="about" className="about-section">
+    <section
+      id="about"
+      className="about-section"
+      dir={dir}
+    >
       <div className="container">
-        {/* En-tête */}
+
+        {/* EN-TÊTE */}
         <div className="about-heading">
           <span className="about-label">
-            QUI SOMMES-NOUS ?
+            {t("aboutLabel")}
           </span>
 
           <h2>
-            La coordination au service de
-            <span> votre séjour médical.</span>
+            {t("aboutTitle")}<br></br>
+            <span className="">{t("aboutAccent")}</span>
           </h2>
 
           <p>
-            Glomed Group vous accompagne dans l’organisation
-            des services liés à votre séjour médical en Tunisie,
-            avec une approche personnalisée, claire et attentive
-            à vos besoins.
+            {t("aboutDescription")}
           </p>
         </div>
 
-        {/* Contenu */}
+        {/* CONTENU */}
         <div className="about-grid">
-             <div
+
+          {/* IMAGE ANIMÉE */}
+          <div
             ref={imageRef}
             className={`about-image-wrap ${
               imageVisible ? "about-image-visible" : ""
@@ -59,7 +67,7 @@ export default function About() {
           >
             <img
               src="/images/glomed-doc-1.avif"
-              alt="Professionnel de santé dans un environnement médical"
+              alt={t("aboutImageAlt")}
               loading="lazy"
             />
 
@@ -72,10 +80,8 @@ export default function About() {
               </div>
 
               <div className="about-badge-text">
-                <strong>Un séjour mieux organisé</strong>
-                <span>
-                  Un accompagnement adapté à vos besoins.
-                </span>
+                <strong>{t("aboutBadgeTitle")}</strong>
+                <span>{t("aboutBadgeText")}</span>
               </div>
             </div>
 
@@ -84,28 +90,30 @@ export default function About() {
               aria-hidden="true"
             />
           </div>
+
+          {/* TEXTE ET ACCORDÉONS */}
           <div className="about-content">
+
             <span className="about-eyebrow">
-              NOTRE IDENTITÉ ET NOTRE MISSION
+              {t("aboutEyebrow")}
             </span>
 
             <h3>
-              Votre partenaire pour organiser votre séjour médical en Tunisie.
+              {t("aboutHeading")}
             </h3>
 
             <p className="about-intro">
-              Glomed Group est une agence spécialisée dans la gestion
-              et la coordination des services liés au séjour médical.
-              Nous facilitons l’organisation de votre venue en Tunisie
-              et vous accompagnons dans les aspects pratiques de votre séjour.
+              {t("aboutIntro")}
             </p>
 
             <div className="about-accordion">
+
+              {/* ACCORDÉON 1 */}
               <details className="about-accordion-item" open>
                 <summary>
                   <span className="about-accordion-number">01</span>
                   <span className="about-accordion-title">
-                    Qui sommes-nous ?
+                    {t("aboutAccordion1Title")}
                   </span>
                   <span
                     className="about-accordion-icon"
@@ -115,20 +123,17 @@ export default function About() {
 
                 <div className="about-accordion-panel">
                   <div className="about-accordion-inner">
-                    Glomed Group accompagne les personnes qui souhaitent
-                    organiser un séjour médical en Tunisie. Notre rôle
-                    est de faciliter la coordination entre les demandes
-                    des patients, les professionnels de santé concernés
-                    et les prestataires nécessaires à l’organisation du séjour.
+                    {t("aboutAccordion1Text")}
                   </div>
                 </div>
               </details>
 
+              {/* ACCORDÉON 2 */}
               <details className="about-accordion-item">
                 <summary>
                   <span className="about-accordion-number">02</span>
                   <span className="about-accordion-title">
-                    Notre mission
+                    {t("aboutAccordion2Title")}
                   </span>
                   <span
                     className="about-accordion-icon"
@@ -138,20 +143,17 @@ export default function About() {
 
                 <div className="about-accordion-panel">
                   <div className="about-accordion-inner">
-                    Notre mission est de simplifier l’organisation
-                    de votre séjour en vous aidant à préparer les
-                    différentes étapes : prise de contact, coordination
-                    des rendez-vous, organisation des déplacements
-                    et recherche d’un hébergement adapté à vos besoins.
+                    {t("aboutAccordion2Text")}
                   </div>
                 </div>
               </details>
 
+              {/* ACCORDÉON 3 */}
               <details className="about-accordion-item">
                 <summary>
                   <span className="about-accordion-number">03</span>
                   <span className="about-accordion-title">
-                    Gestion des services liés au séjour médical
+                    {t("aboutAccordion3Title")}
                   </span>
                   <span
                     className="about-accordion-icon"
@@ -161,21 +163,17 @@ export default function About() {
 
                 <div className="about-accordion-panel">
                   <div className="about-accordion-inner">
-                    Nous facilitons la coordination des services
-                    liés à votre soin et la mise en relation avec
-                    les professionnels ou établissements de santé concernés.
-                    L’évaluation de votre état de santé, le choix des
-                    traitements et les décisions médicales relèvent
-                    des professionnels de santé compétents.
+                    {t("aboutAccordion3Text")}
                   </div>
                 </div>
               </details>
 
+              {/* ACCORDÉON 4 */}
               <details className="about-accordion-item">
                 <summary>
                   <span className="about-accordion-number">04</span>
                   <span className="about-accordion-title">
-                    Nos valeurs et nos engagements
+                    {t("aboutAccordion4Title")}
                   </span>
                   <span
                     className="about-accordion-icon"
@@ -185,24 +183,23 @@ export default function About() {
 
                 <div className="about-accordion-panel">
                   <div className="about-accordion-inner">
-                    Nous privilégions l’écoute, la clarté des informations,
-                    la disponibilité et un accompagnement adapté à chaque
-                    demande. Notre objectif est de faciliter l’organisation
-                    pratique de votre séjour, dans le respect de votre
-                    confidentialité et du rôle des professionnels de santé.
+                    {t("aboutAccordion4Text")}
                   </div>
                 </div>
               </details>
+
             </div>
 
+            {/* BOUTON */}
             <a href="#contact" className="about-button">
-           Votre parcours de santé
-              <i className="bi bi-arrow-right" aria-hidden="true" />
+              {t("aboutCTA")}
+              <i
+                className="bi bi-arrow-right"
+                aria-hidden="true"
+              />
             </a>
-          </div>
 
-          {/* Image animée : conservée */}
-       
+          </div>
         </div>
       </div>
     </section>

@@ -70,8 +70,7 @@ export default function Home() {
       <Testimonials/>
                  <Contact/>
           <IntroProject/>
-
-       
+      
     </main>
     <Footer />
     </>

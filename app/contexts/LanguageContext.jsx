@@ -199,6 +199,142 @@ ctaText:
 ctaButton: "Organiser un séjour",
 
 },
+/*partner*/
+// PARTNERSHIPS
+partnersEyebrow: "NOTRE OUVERTURE INTERNATIONALE",
+partnersTitle: "Un réseau international,",
+partnersAccent: "une destination : la Tunisie.",
+partnersDescription:
+  "Depuis l'Afrique, les pays du Golfe et l'Europe, Glomed Group accompagne les patients dans l'organisation de leur parcours de soins en Tunisie, en facilitant la coordination avec les professionnels et établissements de santé partenaires.",
+partnersRegionAfrica: "Afrique",
+partnersRegionGulf: "Golfe",
+partnersRegionEurope: "Europe",
+partnersDestination: "Une destination : la Tunisie.",
+partnersBottomText:
+  "Un accompagnement pensé autour des besoins de chaque patient.",
+partnersCTA: "Parlons de vos soins",
+partnersFlag: "Drapeau",
+
+// PAYS
+countryAlgeria: "Algérie",
+countryLibya: "Libye",
+countryMauritania: "Mauritanie",
+countryIvoryCoast: "Côte d'Ivoire",
+countryBurkinaFaso: "Burkina Faso",
+countryNiger: "Niger",
+countryCameroon: "Cameroun",
+countryGabon: "Gabon",
+countrySaudiArabia: "Arabie saoudite",
+countryUAE: "Émirats arabes unis",
+countryQatar: "Qatar",
+countryKuwait: "Koweït",
+countryBahrain: "Bahreïn",
+countryOman: "Oman",
+countryFrance: "France",
+countryItaly: "Italie",
+countryGermany: "Allemagne",
+/*about*/
+// ABOUT SECTION
+aboutLabel: "QUI SOMMES-NOUS ?",
+aboutTitle: "La coordination au service de",
+aboutAccent: "votre séjour médical.",
+aboutDescription:
+  "Glomed Group vous accompagne dans l’organisation des services liés à votre séjour médical en Tunisie, avec une approche personnalisée, claire et attentive à vos besoins.",
+
+aboutImageAlt: "Professionnel de santé dans un environnement médical",
+aboutBadgeTitle: "Un séjour mieux organisé",
+aboutBadgeText: "Un accompagnement adapté à vos besoins.",
+
+aboutEyebrow: "NOTRE IDENTITÉ ET NOTRE MISSION",
+aboutHeading: "Votre partenaire pour organiser votre séjour médical en Tunisie.",
+aboutIntro:
+  "Glomed Group est une agence spécialisée dans la gestion et la coordination des services liés au séjour médical. Nous facilitons l’organisation de votre venue en Tunisie et vous accompagnons dans les aspects pratiques de votre séjour.",
+
+aboutAccordion1Title: "Qui sommes-nous ?",
+aboutAccordion1Text:
+  "Glomed Group accompagne les personnes qui souhaitent organiser un séjour médical en Tunisie. Notre rôle est de faciliter la coordination entre les demandes des patients, les professionnels de santé concernés et les prestataires nécessaires à l’organisation du séjour.",
+
+aboutAccordion2Title: "Notre mission",
+aboutAccordion2Text:
+  "Notre mission est de simplifier l’organisation de votre séjour en vous aidant à préparer les différentes étapes : prise de contact, coordination des rendez-vous, organisation des déplacements et recherche d’un hébergement adapté à vos besoins.",
+aboutAccordion3Title: "Gestion des services liés au séjour médical",
+aboutAccordion3Text:
+  "Nous facilitons la coordination des services liés à votre soin et la mise en relation avec les professionnels ou établissements de santé concernés. L’évaluation de votre état de santé, le choix des traitements et les décisions médicales relèvent des professionnels de santé compétents.",
+aboutAccordion4Title: "Nos valeurs et nos engagements",
+aboutAccordion4Text:
+  "Nous privilégions l’écoute, la clarté des informations, la disponibilité et un accompagnement adapté à chaque demande. Notre objectif est de faciliter l’organisation pratique de votre séjour, dans le respect de votre confidentialité et du rôle des professionnels de santé.",
+aboutCTA: "Votre parcours de santé",
+/*reeducation*/
+rehabEyebrow: "RÉÉDUCATION ET RÉADAPTATION",
+rehabTitle: "Bien récupérer",
+rehabAccent: " après votre opération.",
+rehabDescription: "Une bonne récupération fait partie du parcours de soins. Glomed Group coordonne pour vous la rééducation, la réadaptation et la convalescence, selon les recommandations de l’équipe médicale.",
+rehabStep: "Étape",
+rehabStep1Title: "Suivi post-opératoire",
+rehabStep1Text: "Coordination des contrôles et des rendez-vous avec l’équipe médicale dans les jours qui suivent l’intervention.",
+rehabStep2Title: "Rééducation fonctionnelle",
+rehabStep2Text: "Organisation des séances de kinésithérapie prescrites par le médecin, pour retrouver progressivement mobilité et force.",
+rehabStep3Title: "Réadaptation",
+rehabStep3Text: "Accompagnement pour reprendre pas à pas les gestes du quotidien, selon le programme défini par les professionnels de santé.",
+rehabStep4Title: "Convalescence et retour",
+rehabStep4Text: "Hébergement adapté pendant la récupération, puis préparation du retour et des rendez-vous de suivi.",
+rehabImageAlt: "Séance de rééducation après une opération",
+rehabBadgeTitle: "Une récupération encadrée",
+rehabBadgeText: "Selon le programme de votre médecin",
+rehabGoal1: "Soulager la douleur",
+rehabGoal2: "Retrouver la mobilité",
+rehabGoal3: "Reprendre ses activités",
+rehabDisclaimer: "Le programme de rééducation, sa durée et ses exercices sont définis par les professionnels de santé, après évaluation individuelle. Glomed Group coordonne l’organisation pratique.",
+rehabCTA: "Organiser ma récupération",
+/*testimonial*/
+   eyebrow: "TÉMOIGNAGES",
+    title: "Ils nous ont fait",
+    accent: "confiance",
+    description:
+      "Découvrez les expériences de patients accompagnés dans l'organisation de leur parcours de soins en Tunisie.",
+    starsLabel: "5 étoiles",
+    
+        name: "Amine B.",
+        country: "🇩🇿 Algérie",
+        service: "Accompagnement médical",
+        text: "J'ai apprécié la disponibilité de l'équipe et les informations reçues pour préparer mon séjour médical en Tunisie.",
+        image: "https://i.pravatar.cc/100?img=11",
+        alt: "Portrait illustratif d'un homme",
+      
+        name: "Fatou S.",
+        country: "🇸🇳 Sénégal",
+        service: "Organisation du séjour",
+        text: "L'équipe m'a aidée à mieux comprendre les différentes étapes et à organiser mon déplacement en Tunisie.",
+        image: "/images/profil-senegal.png",
+        alt: "Portrait d'une femme sénégalaise",
+      
+        name: "Ahmed K.",
+        country: "🇸🇦 Arabie saoudite",
+        service: "Coordination du parcours",
+        text: "J'ai apprécié la qualité des échanges et l'accompagnement proposé tout au long de la préparation de mon séjour.",
+        image: "https://i.pravatar.cc/100?img=12",
+        alt: "Portrait illustratif d'un homme",
+     
+        name: "Mariam A.",
+        country: "🇦🇪 Émirats arabes unis",
+        service: "Assistance et coordination",
+        text: "Une équipe attentive qui m'a apporté des informations utiles pour organiser les différentes étapes de mon séjour.",
+        image: "https://i.pravatar.cc/100?img=44",
+        alt: "Portrait illustratif d'une femme",
+      
+        name: "Sophie M.",
+        country: "🇫🇷 France",
+        service: "Organisation du séjour",
+        text: "J'ai apprécié la clarté des informations et la disponibilité de l'équipe pour répondre à mes questions.",
+        image: "https://i.pravatar.cc/100?img=45",
+        alt: "Portrait illustratif d'une femme",
+    
+        name: "Marc D.",
+        country: "🇧🇪 Belgique",
+        service: "Accompagnement personnalisé",
+        text: "Les échanges ont été simples et rassurants. J'ai pu obtenir les informations nécessaires pour préparer mon séjour.",
+        image: "https://i.pravatar.cc/100?img=13",
+        alt: "Portrait illustratif d'un homme",
   },
 
   en: {
@@ -304,6 +440,142 @@ galleryAltCardiology: "Cardiology care",
 galleryAltOphthalmology: "Eye care",
 galleryAltOrthopedics: "Orthopedic care",
 galleryAltGynecology: "Gynecological care",
+/*partner*/
+// PARTNERSHIPS
+partnersEyebrow: "OUR INTERNATIONAL REACH",
+partnersTitle: "An international network,",
+partnersAccent: "one destination: Tunisia.",
+partnersDescription:
+  "From Africa, the Gulf countries and Europe, Glomed Group supports patients in organizing their healthcare journey in Tunisia, facilitating coordination with partner healthcare professionals and medical institutions.",
+partnersRegionAfrica: "Africa",
+partnersRegionGulf: "Gulf",
+partnersRegionEurope: "Europe",
+partnersDestination: "One destination: Tunisia.",
+partnersBottomText:
+  "Personalized support designed around each patient's needs.",
+partnersCTA: "Let's discuss your healthcare needs",
+partnersFlag: "Flag",
+
+// COUNTRIES
+countryAlgeria: "Algeria",
+countryLibya: "Libya",
+countryMauritania: "Mauritania",
+countryIvoryCoast: "Ivory Coast",
+countryBurkinaFaso: "Burkina Faso",
+countryNiger: "Niger",
+countryCameroon: "Cameroon",
+countryGabon: "Gabon",
+countrySaudiArabia: "Saudi Arabia",
+countryUAE: "United Arab Emirates",
+countryQatar: "Qatar",
+countryKuwait: "Kuwait",
+countryBahrain: "Bahrain",
+countryOman: "Oman",
+countryFrance: "France",
+countryItaly: "Italy",
+countryGermany: "Germany",
+/*about*/
+// ABOUT SECTION
+aboutLabel: "WHO ARE WE?",
+aboutTitle: "Coordination dedicated to",
+aboutAccent: "your medical stay.",
+aboutDescription:
+  "Glomed Group supports you in organizing the services related to your medical stay in Tunisia, with a personalized, clear approach tailored to your needs.",
+
+aboutImageAlt: "Healthcare professional in a medical environment",
+aboutBadgeTitle: "A better-organized stay",
+aboutBadgeText: "Support tailored to your needs.",
+
+aboutEyebrow: "OUR IDENTITY AND OUR MISSION",
+aboutHeading: "Your partner in organizing your medical stay in Tunisia.",
+aboutIntro:
+  "Glomed Group is an agency specializing in the management and coordination of services related to medical stays. We make your arrival in Tunisia easier and support you with the practical aspects of your stay.",
+
+aboutAccordion1Title: "Who are we?",
+aboutAccordion1Text:
+  "Glomed Group supports people who wish to organize a medical stay in Tunisia. Our role is to facilitate coordination between patients' requests, the relevant healthcare professionals and the service providers needed to organize the stay.",
+
+aboutAccordion2Title: "Our mission",
+aboutAccordion2Text:
+  "Our mission is to simplify the organization of your stay by helping you prepare each step: initial contact, appointment coordination, travel arrangements and finding accommodation suited to your needs.",
+
+aboutAccordion3Title: "Management of medical stay services",
+aboutAccordion3Text:
+  "We facilitate the coordination of services related to your care and help connect you with the relevant healthcare professionals and institutions. Assessments of your health, treatment choices and medical decisions remain the responsibility of qualified healthcare professionals.",
+
+aboutAccordion4Title: "Our values and commitments",
+aboutAccordion4Text:
+  "We prioritize attentive listening, clear information, availability and support tailored to every request. Our goal is to make the practical organization of your stay easier while respecting your privacy and the role of healthcare professionals.",
+
+aboutCTA: "Your healthcare journey",
+/*reeducation*/
+rehabEyebrow: "REHABILITATION AND RECOVERY",
+rehabTitle: "Recover well",
+rehabAccent: " after your surgery.",
+rehabDescription: "A good recovery is an essential part of your care journey. Glomed Group coordinates rehabilitation, recovery support and convalescence according to the medical team's recommendations.",
+rehabStep: "Step",
+rehabStep1Title: "Post-operative follow-up",
+rehabStep1Text: "Coordination of medical check-ups and appointments with the healthcare team in the days following surgery.",
+rehabStep2Title: "Functional rehabilitation",
+rehabStep2Text: "Organization of physiotherapy sessions prescribed by your doctor to gradually restore mobility and strength.",
+rehabStep3Title: "Recovery and adaptation",
+rehabStep3Text: "Support in gradually resuming everyday activities according to the programme established by healthcare professionals.",
+rehabStep4Title: "Convalescence and return",
+rehabStep4Text: "Suitable accommodation during recovery, followed by assistance in preparing your return and follow-up appointments.",
+rehabImageAlt: "Rehabilitation session following surgery",
+rehabBadgeTitle: "Supervised recovery",
+rehabBadgeText: "According to your doctor's programme",
+rehabGoal1: "Relieve pain",
+rehabGoal2: "Restore mobility",
+rehabGoal3: "Resume daily activities",
+rehabDisclaimer: "The rehabilitation programme, its duration and exercises are determined by healthcare professionals following an individual assessment. Glomed Group coordinates the practical arrangements.",
+rehabCTA: "Organize my recovery",
+/*testimonial*/
+    eyebrow: "TESTIMONIALS",
+    title: "They trusted",
+    accent: "us",
+    description:
+      "Discover the experiences of patients supported throughout the organization of their healthcare journey in Tunisia.",
+    starsLabel: "5 stars",
+           name: "Amine B.",
+        country: "🇩🇿 Algeria",
+        service: "Medical assistance",
+        text: "I appreciated the team's availability and the information provided to prepare my medical stay in Tunisia.",
+        image: "https://i.pravatar.cc/100?img=11",
+        alt: "Illustrative portrait of a man",
+    
+        name: "Fatou S.",
+        country: "🇸🇳 Senegal",
+        service: "Stay organization",
+        text: "The team helped me understand the different steps and organize my trip to Tunisia.",
+        image: "/images/profil-senegal.png",
+        alt: "Portrait of a Senegalese woman",
+      
+        name: "Ahmed K.",
+        country: "🇸🇦 Saudi Arabia",
+        service: "Care coordination",
+        text: "I appreciated the communication and the support provided while preparing my stay.",
+        image: "https://i.pravatar.cc/100?img=12",
+        alt: "Illustrative portrait of a man",
+    
+        name: "Mariam A.",
+        country: "🇦🇪 United Arab Emirates",
+        service: "Assistance and coordination",
+        text: "An attentive team that provided useful information to help organize the different stages of my stay.",
+        image: "https://i.pravatar.cc/100?img=44",
+        alt: "Illustrative portrait of a woman",
+             name: "Sophie M.",
+        country: "🇫🇷 France",
+        service: "Stay organization",
+        text: "I appreciated the clear information and the team's availability to answer my questions.",
+        image: "https://i.pravatar.cc/100?img=45",
+        alt: "Illustrative portrait of a woman",
+             name: "Marc D.",
+        country: "🇧🇪 Belgium",
+        service: "Personalized assistance",
+        text: "Communication was simple and reassuring. I received the information I needed to prepare my stay.",
+        image: "https://i.pravatar.cc/100?img=13",
+        alt: "Illustrative portrait of a man",
       
   },
 
@@ -498,6 +770,139 @@ ctaTitle: "هل تخططون لإقامة طبية في تونس؟",
 ctaText:
   "أرسلوا لنا طلبكم لمناقشة إمكانيات المرافقة والخطوات القادمة.",
 ctaButton: "تنظيم الإقامة",
+/*partner*/
+// PARTNERSHIPS
+partnersEyebrow: "انفتاحنا الدولي",
+partnersTitle: "شبكة دولية،",
+partnersAccent: "ووجهة واحدة: تونس.",
+partnersDescription:
+  "من أفريقيا ودول الخليج وأوروبا، ترافق مجموعة Glomed المرضى في تنظيم رحلتهم العلاجية في تونس، وتسهل التنسيق مع المهنيين والمؤسسات الصحية الشريكة.",
+partnersRegionAfrica: "أفريقيا",
+partnersRegionGulf: "الخليج",
+partnersRegionEurope: "أوروبا",
+partnersDestination: "وجهة واحدة: تونس.",
+partnersBottomText:
+  "مرافقة شخصية تراعي احتياجات كل مريض.",
+partnersCTA: "لنتحدث عن احتياجاتكم العلاجية",
+partnersFlag: "علم",
+
+// COUNTRIES
+countryAlgeria: "الجزائر",
+countryLibya: "ليبيا",
+countryMauritania: "موريتانيا",
+countryIvoryCoast: "ساحل العاج",
+countryBurkinaFaso: "بوركينا فاسو",
+countryNiger: "النيجر",
+countryCameroon: "الكاميرون",
+countryGabon: "الغابون",
+countrySaudiArabia: "المملكة العربية السعودية",
+countryUAE: "الإمارات العربية المتحدة",
+countryQatar: "قطر",
+countryKuwait: "الكويت",
+countryBahrain: "البحرين",
+countryOman: "سلطنة عمان",
+countryFrance: "فرنسا",
+countryItaly: "إيطاليا",
+countryGermany: "ألمانيا",
+/*about*/
+// ABOUT SECTION
+aboutLabel: "من نحن؟",
+aboutTitle: "التنسيق في خدمة",
+aboutAccent: "رحلتكم العلاجية",
+aboutDescription:
+  "ترافقكم مجموعة Glomed في تنظيم الخدمات المرتبطة بإقامتكم العلاجية في تونس، من خلال نهج شخصي وواضح يراعي احتياجاتكم.",
+
+aboutImageAlt: "مهني صحي في بيئة طبية",
+aboutBadgeTitle: "إقامة أكثر تنظيماً",
+aboutBadgeText: "مرافقة تتناسب مع احتياجاتكم.",
+
+aboutEyebrow: "هويتنا ورسالتنا",
+aboutHeading: "شريككم في تنظيم إقامتكم العلاجية في تونس.",
+aboutIntro:
+  "مجموعة Glomed وكالة متخصصة في إدارة وتنسيق الخدمات المرتبطة بالإقامة العلاجية. نسهّل تنظيم قدومكم إلى تونس ونرافقكم في الجوانب العملية لإقامتكم.",
+
+aboutAccordion1Title: "من نحن؟",
+aboutAccordion1Text:
+  "ترافق مجموعة Glomed الأشخاص الراغبين في تنظيم إقامة علاجية في تونس. ويتمثل دورنا في تسهيل التنسيق بين طلبات المرضى والمهنيين الصحيين المعنيين ومقدمي الخدمات الضرورية لتنظيم الإقامة.",
+
+aboutAccordion2Title: "رسالتنا",
+aboutAccordion2Text:
+  "تتمثل رسالتنا في تسهيل تنظيم إقامتكم ومساعدتكم على التحضير لمختلف المراحل: التواصل الأولي، وتنسيق المواعيد، وتنظيم التنقلات، والبحث عن إقامة مناسبة لاحتياجاتكم.",
+
+aboutAccordion3Title: "إدارة الخدمات المرتبطة بالإقامة العلاجية",
+aboutAccordion3Text:
+  "نعمل على تسهيل تنسيق الخدمات المرتبطة برعايتكم وربطكم بالمهنيين والمؤسسات الصحية المعنية. أما تقييم حالتكم الصحية واختيار العلاجات واتخاذ القرارات الطبية، فهي من اختصاص المهنيين الصحيين المؤهلين.",
+
+aboutAccordion4Title: "قيمنا والتزاماتنا",
+aboutAccordion4Text:
+  "نحرص على حسن الإصغاء ووضوح المعلومات والتوفر وتقديم مرافقة تتناسب مع كل طلب. هدفنا هو تسهيل التنظيم العملي لإقامتكم مع احترام خصوصيتكم ودور المهنيين الصحيين.",
+aboutCTA: "مساركم الصحي",
+/*reeducation*/
+rehabEyebrow: "إعادة التأهيل والتعافي",
+rehabTitle: "تعافٍ أفضل",
+rehabAccent: " بعد العملية الجراحية.",
+rehabDescription: "يشكل التعافي الجيد جزءاً أساسياً من رحلة العلاج. تتولى Glomed Group تنسيق خدمات إعادة التأهيل والتعافي والنقاهة وفقاً لتوصيات الفريق الطبي.",
+rehabStep: "المرحلة",
+rehabStep1Title: "المتابعة بعد العملية",
+rehabStep1Text: "تنسيق الفحوصات والمواعيد مع الفريق الطبي خلال الأيام التي تلي العملية الجراحية.",
+rehabStep2Title: "إعادة التأهيل الوظيفي",
+rehabStep2Text: "تنظيم جلسات العلاج الطبيعي التي يصفها الطبيب لاستعادة الحركة والقوة تدريجياً.",
+rehabStep3Title: "استعادة القدرة على الحركة",
+rehabStep3Text: "مرافقتكم لاستعادة الأنشطة اليومية تدريجياً وفق البرنامج الذي يحدده المختصون في الرعاية الصحية.",
+rehabStep4Title: "النقاهة والعودة",
+rehabStep4Text: "تنظيم إقامة مناسبة خلال فترة التعافي، ثم التحضير للعودة ومواعيد المتابعة.",
+rehabImageAlt: "جلسة إعادة تأهيل بعد عملية جراحية",
+rehabBadgeTitle: "تعافٍ تحت الإشراف",
+rehabBadgeText: "وفقاً للبرنامج الذي يحدده طبيبكم",
+rehabGoal1: "تخفيف الألم",
+rehabGoal2: "استعادة الحركة",
+rehabGoal3: "استئناف الأنشطة اليومية",
+rehabDisclaimer: "يحدد المختصون في الرعاية الصحية برنامج إعادة التأهيل ومدته والتمارين المناسبة بعد تقييم كل حالة على حدة. وتتولى Glomed Group تنسيق الجوانب التنظيمية.",
+rehabCTA: "تنظيم مرحلة التعافي",
+/*testimonial*/
+eyebrow: "آراء وتجارب المرضى",
+    title: "لقد وضعوا",
+    accent: "ثقتهم بنا",
+    description:
+      "اكتشفوا تجارب المرضى الذين رافقناهم في تنظيم رحلة علاجهم وإقامتهم في تونس.",
+    starsLabel: "خمس نجوم",
+           name: "Amine B.",
+        country: "🇩🇿 الجزائر",
+        service: "المرافقة الطبية",
+        text: "أعجبتني سرعة استجابة الفريق والمعلومات التي قدموها لي للتحضير لإقامتي العلاجية في تونس.",
+        image: "https://i.pravatar.cc/100?img=11",
+        alt: "صورة توضيحية لرجل",
+              name: "Fatou S.",
+        country: "🇸🇳 السنغال",
+        service: "تنظيم الإقامة",
+        text: "ساعدني الفريق على فهم مختلف المراحل بشكل أفضل وتنظيم رحلتي إلى تونس.",
+        image: "/images/profil-senegal.png",
+        alt: "صورة امرأة سنغالية",
+             name: "Ahmed K.",
+        country: "🇸🇦 المملكة العربية السعودية",
+        service: "تنسيق الرحلة العلاجية",
+        text: "أعجبتني جودة التواصل والمرافقة التي قدمها الفريق خلال فترة التحضير لإقامتي.",
+        image: "https://i.pravatar.cc/100?img=12",
+        alt: "صورة توضيحية لرجل",
+      
+        name: "Mariam A.",
+        country: "🇦🇪 الإمارات العربية المتحدة",
+        service: "المساعدة والتنسيق",
+        text: "فريق مهتم قدم لي معلومات مفيدة لتنظيم مختلف مراحل إقامتي في تونس.",
+        image: "https://i.pravatar.cc/100?img=44",
+        alt: "صورة توضيحية لامرأة",
+             name: "Sophie M.",
+        country: "🇫🇷 فرنسا",
+        service: "تنظيم الإقامة",
+        text: "أعجبتني وضوح المعلومات واستعداد الفريق للإجابة عن جميع استفساراتي.",
+        image: "https://i.pravatar.cc/100?img=45",
+        alt: "صورة توضيحية لامرأة",
+              name: "Marc D.",
+        country: "🇧🇪 بلجيكا",
+        service: "المرافقة الشخصية",
+        text: "كان التواصل سهلاً ومطمئناً، وتمكنت من الحصول على المعلومات اللازمة للتحضير لإقامتي.",
+        image: "https://i.pravatar.cc/100?img=13",
+        alt: "صورة توضيحية لرجل",
   },
 
 

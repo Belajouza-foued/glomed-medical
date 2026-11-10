@@ -7,9 +7,11 @@ import "./css/Testimonials.css";
 const testimonials = {
   fr: {
     eyebrow: "TÉMOIGNAGES",
-    title: "Ils nous ont fait confiance",
+    title: "Ils nous ont fait",
+    accent: "confiance",
     description:
       "Découvrez les expériences de patients accompagnés dans l'organisation de leur parcours de soins en Tunisie.",
+    starsLabel: "5 étoiles",
     reviews: [
       {
         name: "Amine B.",
@@ -19,16 +21,14 @@ const testimonials = {
         image: "https://i.pravatar.cc/100?img=11",
         alt: "Portrait illustratif d'un homme",
       },
-    
-{
-  name: "Fatou S.",
-  country: "🇸🇳 Sénégal",
-  service: "Organisation du séjour",
-  text: "L'équipe m'a aidée à mieux comprendre les différentes étapes et à organiser mon déplacement en Tunisie.",
-  image: "/images/profil-senegal.png",
-  alt: "Portrait d'une femme sénégalaise",
-},
-
+      {
+        name: "Fatou S.",
+        country: "🇸🇳 Sénégal",
+        service: "Organisation du séjour",
+        text: "L'équipe m'a aidée à mieux comprendre les différentes étapes et à organiser mon déplacement en Tunisie.",
+        image: "/images/profil-senegal.png",
+        alt: "Portrait d'une femme sénégalaise",
+      },
       {
         name: "Ahmed K.",
         country: "🇸🇦 Arabie saoudite",
@@ -66,9 +66,11 @@ const testimonials = {
 
   en: {
     eyebrow: "TESTIMONIALS",
-    title: "They trusted us",
+    title: "They trusted",
+    accent: "us",
     description:
       "Discover the experiences of patients supported throughout the organization of their healthcare journey in Tunisia.",
+    starsLabel: "5 stars",
     reviews: [
       {
         name: "Amine B.",
@@ -83,8 +85,8 @@ const testimonials = {
         country: "🇸🇳 Senegal",
         service: "Stay organization",
         text: "The team helped me understand the different steps and organize my trip to Tunisia.",
-        image: "https://i.pravatar.cc/100?img=48",
-        alt: "Illustrative portrait of a woman",
+        image: "/images/profil-senegal.png",
+        alt: "Portrait of a Senegalese woman",
       },
       {
         name: "Ahmed K.",
@@ -120,32 +122,95 @@ const testimonials = {
       },
     ],
   },
+
+  ar: {
+    eyebrow: "آراء وتجارب المرضى",
+    title: "لقد وضعوا",
+    accent: "ثقتهم بنا",
+    description:
+      "اكتشفوا تجارب المرضى الذين رافقناهم في تنظيم رحلة علاجهم وإقامتهم في تونس.",
+    starsLabel: "خمس نجوم",
+    reviews: [
+      {
+        name: "Amine B.",
+        country: "🇩🇿 الجزائر",
+        service: "المرافقة الطبية",
+        text: "أعجبتني سرعة استجابة الفريق والمعلومات التي قدموها لي للتحضير لإقامتي العلاجية في تونس.",
+        image: "https://i.pravatar.cc/100?img=11",
+        alt: "صورة توضيحية لرجل",
+      },
+      {
+        name: "Fatou S.",
+        country: "🇸🇳 السنغال",
+        service: "تنظيم الإقامة",
+        text: "ساعدني الفريق على فهم مختلف المراحل بشكل أفضل وتنظيم رحلتي إلى تونس.",
+        image: "/images/profil-senegal.png",
+        alt: "صورة امرأة سنغالية",
+      },
+      {
+        name: "Ahmed K.",
+        country: "🇸🇦 المملكة العربية السعودية",
+        service: "تنسيق الرحلة العلاجية",
+        text: "أعجبتني جودة التواصل والمرافقة التي قدمها الفريق خلال فترة التحضير لإقامتي.",
+        image: "https://i.pravatar.cc/100?img=12",
+        alt: "صورة توضيحية لرجل",
+      },
+      {
+        name: "Mariam A.",
+        country: "🇦🇪 الإمارات العربية المتحدة",
+        service: "المساعدة والتنسيق",
+        text: "فريق مهتم قدم لي معلومات مفيدة لتنظيم مختلف مراحل إقامتي في تونس.",
+        image: "https://i.pravatar.cc/100?img=44",
+        alt: "صورة توضيحية لامرأة",
+      },
+      {
+        name: "Sophie M.",
+        country: "🇫🇷 فرنسا",
+        service: "تنظيم الإقامة",
+        text: "أعجبتني وضوح المعلومات واستعداد الفريق للإجابة عن جميع استفساراتي.",
+        image: "https://i.pravatar.cc/100?img=45",
+        alt: "صورة توضيحية لامرأة",
+      },
+      {
+        name: "Marc D.",
+        country: "🇧🇪 بلجيكا",
+        service: "المرافقة الشخصية",
+        text: "كان التواصل سهلاً ومطمئناً، وتمكنت من الحصول على المعلومات اللازمة للتحضير لإقامتي.",
+        image: "https://i.pravatar.cc/100?img=13",
+        alt: "صورة توضيحية لرجل",
+      },
+    ],
+  },
 };
 
 export default function Testimonials() {
-  const { language } = useLanguage();
+  const { language, dir } = useLanguage();
+
   const content = testimonials[language] || testimonials.fr;
 
   return (
-    <section className="testimonials" id="avis">
+    <section
+      className="testimonials"
+      id="avis"
+      dir={dir}
+    >
       <div className="testimonials-container">
 
+        {/* En-tête */}
         <div className="testimonials-heading">
           <span className="testimonials-eyebrow">
             {content.eyebrow}
           </span>
 
           <h2>
-            {content.title.split(" ").slice(0, -1).join(" ")}
-            {" "}
-            <span>
-              {content.title.split(" ").slice(-1)}
-            </span>
+            {content.title}{" "}
+            <span>{content.accent}</span>
           </h2>
 
           <p>{content.description}</p>
         </div>
 
+        {/* Cartes témoignages */}
         <div className="testimonials-grid">
           {content.reviews.map((review) => (
             <article
@@ -153,6 +218,7 @@ export default function Testimonials() {
               key={review.name}
             >
               <div className="testimonial-top">
+
                 <div className="testimonial-avatar">
                   <img
                     src={review.image}
@@ -199,7 +265,7 @@ export default function Testimonials() {
 
               <div
                 className="testimonial-stars"
-                aria-label="5 étoiles"
+                aria-label={content.starsLabel}
               >
                 ★★★★★
               </div>
@@ -213,6 +279,7 @@ export default function Testimonials() {
                   {review.service}
                 </span>
               </div>
+
             </article>
           ))}
         </div>

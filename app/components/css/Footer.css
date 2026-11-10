@@ -495,3 +495,19 @@
     width: 93px;
   }
 }
+
+/* ---------- VERSION ARABE RTL ---------- */
+
+.glomed-footer[dir="rtl"] .glomed-footer-navigation a,
+.glomed-footer[dir="rtl"] .glomed-footer-contact a,
+.glomed-footer[dir="rtl"] .glomed-footer-contact li > span {
+  flex-direction: row;
+}
+
+.glomed-footer[dir="rtl"] .glomed-footer-navigation i {
+  transform: rotate(180deg);
+}
+
+.glomed-footer[dir="rtl"] .glomed-footer-bottom {
+  direction: rtl;
+}
