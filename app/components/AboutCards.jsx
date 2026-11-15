@@ -28,7 +28,7 @@ const CARDS = [
   { icon: "bi bi-telephone-inbound", image: "/images/suivi.jpg", hoverImage: "/images/suivi-1.jpg", tone: "default" },
   // --- nouvelles cartes ---
   { icon: "bi bi-activity", image: "/images/plane.avif", hoverImage: "/images/ambulance.avif", tone: "red" },
-  { icon: "bi bi-gem", image: "/images/vip.avif", hoverImage: "/images/voiture-luxe.avif", tone: "gold" },
+  { icon: "bi bi-gem", image: "/images/acces-vip.avif", hoverImage: "/images/acces-vip-1.avif", tone: "gold" },
   { icon: "bi bi-compass", image: "/images/tourisme.avif", hoverImage: "/images/sahara-douz.avif", tone: "green" },
 ];
 

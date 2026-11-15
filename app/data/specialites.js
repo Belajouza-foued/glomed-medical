@@ -1556,12 +1556,453 @@ cardiologie: {
       },
     ],
   },
+  it : 
+{
+  title: "Cardiologia",
+  subtitle: "Prendetevi cura della salute del vostro cuore",
+  description:
+    "Glomed Group vi accompagna nell'organizzazione del vostro percorso di cure cardiologiche in Tunisia, dalla visita specialistica agli esami e all'orientamento verso un'assistenza adeguata.",
+  intro:
+    "La cardiologia è la specialità medica dedicata al cuore e al sistema cardiovascolare. Consente di prevenire, diagnosticare e trattare le malattie cardiache e i disturbi della circolazione sanguigna. Glomed Group facilita l'organizzazione del vostro soggiorno medico in Tunisia e il coordinamento con i professionisti sanitari.",
+  image: "/images/cardiologie.jpg",
+  alt: "Assistenza cardiologica e visita medica",
+
+  services: [
+    "Visite cardiologiche",
+    "Check-up ed esami cardiovascolari",
+    "Valutazione della salute cardiaca",
+    "Orientamento verso cardiologi e cardiochirurghi specialisti",
+    "Organizzazione del percorso di cure in Tunisia",
+  ],
+
+  maladies: [
+    {
+      nom: "Malattia coronarica",
+      description:
+        "Patologia causata dal restringimento o dall'ostruzione delle arterie che irrorano il muscolo cardiaco. Può provocare dolore toracico e, in alcuni casi, un infarto.",
+      image: "/cardiologie/corona.avif",
+    },
+    {
+      nom: "Insufficienza cardiaca",
+      description:
+        "Condizione in cui il cuore non riesce più a pompare il sangue con sufficiente efficacia per soddisfare le esigenze dell'organismo.",
+      image: "/cardiologie/insuffisance.avif",
+    },
+    {
+      nom: "Disturbi del ritmo cardiaco",
+      description:
+        "Alterazioni del ritmo del cuore, come la fibrillazione atriale, la tachicardia o la bradicardia, che richiedono una valutazione medica.",
+      image: "/cardiologie/trouble-cardio.avif",
+    },
+    {
+      nom: "Valvulopatie",
+      description:
+        "Malattie che colpiscono una o più valvole cardiache e possono alterare la normale circolazione del sangue.",
+      image: "/cardiologie/valveo.avif",
+    },
+    {
+      nom: "Ipertensione arteriosa",
+      description:
+        "Aumento persistente della pressione arteriosa che incrementa, tra gli altri, il rischio di malattie cardiovascolari e richiede un monitoraggio adeguato.",
+      image: "/cardiologie/hyper.avif",
+    },
+    {
+      nom: "Aterosclerosi",
+      description:
+        "Accumulo progressivo di depositi nelle pareti delle arterie, che può ridurre la circolazione sanguigna e provocare complicanze cardiovascolari.",
+      image: "/cardiologie/dilatation.avif",
+    },
+    {
+      nom: "Cardiomiopatie",
+      description:
+        "Malattie del muscolo cardiaco che possono compromettere la capacità del cuore di contrarsi o riempirsi correttamente.",
+      image: "/cardiologie/cardiomepathie.avif",
+    },
+    {
+      nom: "Malattie dell'aorta",
+      description:
+        "Patologie che interessano la principale arteria del corpo, tra cui alcuni aneurismi o restringimenti, che possono richiedere una valutazione specialistica.",
+      image: "/cardiologie/aorte.avif",
+    },
+    {
+      nom: "Pericardite",
+      description:
+        "Infiammazione del pericardio, la membrana che circonda il cuore. Può provocare dolore toracico e richiede una valutazione medica per identificarne la causa e stabilire il trattamento più appropriato.",
+      image: "/cardiologie/pericarte.avif",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Bypass coronarico",
+      description:
+        "Intervento chirurgico che crea un nuovo percorso per il sangue, permettendogli di aggirare alcune arterie coronarie ostruite.",
+    },
+    {
+      nom: "Chirurgia delle valvole cardiache",
+      description:
+        "Intervento finalizzato, a seconda della situazione, alla riparazione o alla sostituzione di una valvola cardiaca che non funziona correttamente.",
+    },
+    {
+      nom: "Chirurgia cardiaca a cuore aperto",
+      description:
+        "Tecnica utilizzata per alcuni interventi sul cuore. Il tipo di intervento dipende dalla patologia diagnosticata e dalla valutazione dell'équipe medica.",
+    },
+    {
+      nom: "Angioplastica e impianto di stent",
+      description:
+        "Procedura generalmente eseguita mediante catetere per dilatare un'arteria ristretta. Può essere inserito uno stent per mantenerla aperta. Non si tratta di un intervento a cuore aperto.",
+    },
+    {
+      nom: "Impianto di pacemaker",
+      description:
+        "Inserimento di un dispositivo medico che permette di regolare alcuni ritmi cardiaci troppo lenti.",
+    },
+    {
+      nom: "Trattamento delle malattie dell'aorta",
+      description:
+        "Trattamento specialistico di alcune patologie dell'aorta, che può richiedere un intervento chirurgico o una procedura endovascolare.",
+    },
+  ],
+
+  examens: [
+    "Elettrocardiogramma (ECG)",
+    "Ecocardiografia",
+    "Test da sforzo, se indicato",
+    "Holter ECG per monitorare il ritmo cardiaco",
+    "Misurazione della pressione arteriosa",
+    "Esami del sangue specifici per la valutazione cardiovascolare",
+    "TAC cardiaca o coronarografia secondo l'indicazione medica",
+    "Risonanza magnetica cardiaca per analizzare la struttura e il funzionamento del muscolo cardiaco",
+    "Scintigrafia miocardica per valutare la circolazione sanguigna nel muscolo cardiaco",
+  ],
+
+  diagnostic: [
+    {
+      nom: "Elettrocardiogramma (ECG)",
+      description:
+        "Registra l'attività elettrica del cuore per individuare alcuni disturbi del ritmo e anomalie cardiache.",
+    },
+    {
+      nom: "Ecocardiografia",
+      description:
+        "Esame a ultrasuoni che permette di osservare la struttura del cuore, il funzionamento delle valvole e la capacità di pompaggio.",
+    },
+    {
+      nom: "Holter cardiaco",
+      description:
+        "Registrazione continua dell'attività elettrica del cuore per un periodo determinato, al fine di individuare eventuali disturbi intermittenti del ritmo.",
+    },
+    {
+      nom: "Test da sforzo",
+      description:
+        "Valuta la risposta del cuore a uno sforzo fisico controllato, quando l'esame è indicato dal medico.",
+    },
+    {
+      nom: "Coronarografia",
+      description:
+        "Esame specialistico che permette di visualizzare le arterie coronarie e individuare eventuali restringimenti o ostruzioni.",
+    },
+    {
+      nom: "TAC cardiaca",
+      description:
+        "Esame diagnostico per immagini che consente di ottenere immagini dettagliate del cuore e di alcune strutture vascolari, secondo l'indicazione medica.",
+    },
+    {
+      nom: "Risonanza magnetica cardiaca",
+      description:
+        "La risonanza magnetica cardiaca fornisce immagini dettagliate del cuore e può aiutare a valutare il muscolo cardiaco, alcune infiammazioni e diverse anomalie strutturali.",
+    },
+    {
+      nom: "PET scan (PET-TC)",
+      description:
+        "Esame diagnostico per immagini che utilizza un tracciante per studiare alcune attività dei tessuti. In cardiologia può essere utilizzato, in situazioni specifiche, per valutare l'infiammazione o la vitalità del muscolo cardiaco.",
+    },
+    {
+      nom: "Esami del sangue",
+      description:
+        "Possono contribuire a valutare alcuni fattori di rischio cardiovascolare o a individuare segni di sofferenza cardiaca, in base al contesto clinico.",
+    },
+    {
+      nom: "Scintigrafia miocardica",
+      description:
+        "Esame diagnostico per immagini che utilizza un tracciante radioattivo per studiare la circolazione sanguigna nel muscolo cardiaco, in particolare nella valutazione di alcune forme di ischemia miocardica.",
+    },
+    {
+      nom: "Misurazione dell'indice caviglia-braccio (ABI)",
+      description:
+        "Esame non invasivo che confronta la pressione arteriosa alla caviglia e al braccio per individuare una possibile arteriopatia periferica associata al rischio cardiovascolare.",
+    },
+  ],
+
+  faq: [
+    {
+      question: "Che cos'è la cardiologia?",
+      reponse:
+        "La cardiologia è la specialità medica che studia il cuore e i vasi sanguigni. Si occupa in particolare della diagnosi, della prevenzione e del monitoraggio delle malattie cardiovascolari.",
+    },
+    {
+      question: "Quali malattie vengono trattate in cardiologia?",
+      reponse:
+        "L'assistenza cardiologica può riguardare le malattie coronariche, l'insufficienza cardiaca, i disturbi del ritmo, le malattie delle valvole, l'ipertensione arteriosa e alcune patologie del muscolo cardiaco. Il trattamento dipende dalla diagnosi stabilita dal medico.",
+    },
+    {
+      question: "Quando è necessario un intervento di cardiochirurgia?",
+      reponse:
+        "Un intervento chirurgico può essere preso in considerazione per alcune malattie coronariche, valvolari o aortiche. La decisione dipende dagli esami, dalla gravità della patologia, dai trattamenti disponibili e dal parere di un'équipe specializzata.",
+    },
+    {
+      question: "Qual è la differenza tra TAC e risonanza magnetica cardiaca?",
+      reponse:
+        "La TAC utilizza i raggi X e può aiutare a esaminare le strutture cardiache e le arterie coronarie. La risonanza magnetica utilizza un campo magnetico e consente un'analisi dettagliata del muscolo cardiaco e di alcuni tessuti. La scelta dipende dalla necessità clinica.",
+    },
+    {
+      question: "A cosa serve la PET scan in cardiologia?",
+      reponse:
+        "La PET scan, chiamata anche PET-TC, può essere utilizzata in alcune situazioni specialistiche per valutare l'attività dei tessuti cardiaci, in particolare nella ricerca di infiammazioni o nella valutazione della vitalità del muscolo cardiaco. Non è necessaria per tutti i pazienti.",
+    },
+    {
+      question: "Quali documenti preparare prima di una visita cardiologica?",
+      reponse:
+        "Se disponibili, preparate i vostri referti medici, i precedenti ECG, le ecografie cardiache, i risultati delle analisi, le prescrizioni mediche e gli esami di diagnostica per immagini. Il medico stabilirà quali ulteriori esami siano necessari.",
+    },
+    {
+      question: "Glomed Group può organizzare un soggiorno medico in Tunisia?",
+      reponse:
+        "Glomed Group può accompagnarvi nell'organizzazione del vostro percorso medico, in particolare nel coordinamento degli appuntamenti, dell'alloggio e dei trasferimenti, in base ai servizi offerti e alla disponibilità delle strutture partner.",
+    },
+    {
+      question: "Come ottenere un orientamento verso uno specialista?",
+      reponse:
+        "Potete contattare Glomed Group per presentare la vostra richiesta e trasmettere i documenti medici utili. L'orientamento specialistico e le decisioni terapeutiche devono essere confermati dai professionisti sanitari interessati.",
+    },
+  ],
+},
+de : 
+{
+  title: "Kardiologie",
+  subtitle: "Kümmern Sie sich um die Gesundheit Ihres Herzens",
+  description:
+    "Glomed Group unterstützt Sie bei der Organisation Ihres kardiologischen Behandlungswegs in Tunesien – von der fachärztlichen Beratung über diagnostische Untersuchungen bis hin zur Vermittlung einer geeigneten medizinischen Versorgung.",
+  intro:
+    "Die Kardiologie ist das medizinische Fachgebiet, das sich mit dem Herzen und dem Herz-Kreislauf-System befasst. Sie dient der Vorbeugung, Diagnose und Behandlung von Herzerkrankungen und Durchblutungsstörungen. Glomed Group erleichtert die Organisation Ihres medizinischen Aufenthalts in Tunesien und die Koordination mit medizinischen Fachkräften.",
+  image: "/images/cardiologie.jpg",
+  alt: "Kardiologische Betreuung und ärztliche Untersuchung",
+
+  services: [
+    "Kardiologische Untersuchungen",
+    "Kardiologische Vorsorgeuntersuchungen und Diagnostik",
+    "Beurteilung der Herzgesundheit",
+    "Vermittlung an spezialisierte Kardiologen und Herzchirurgen",
+    "Organisation des Behandlungswegs in Tunesien",
+  ],
+
+  maladies: [
+    {
+      nom: "Koronare Herzkrankheit",
+      description:
+        "Erkrankung, die durch eine Verengung oder einen Verschluss der Arterien verursacht wird, die den Herzmuskel mit Blut versorgen. Sie kann Brustschmerzen und in bestimmten Fällen einen Herzinfarkt auslösen.",
+      image: "/cardiologie/corona.avif",
+    },
+    {
+      nom: "Herzinsuffizienz",
+      description:
+        "Erkrankung, bei der das Herz nicht mehr ausreichend Blut pumpen kann, um den Bedarf des Körpers zu decken.",
+      image: "/cardiologie/insuffisance.avif",
+    },
+    {
+      nom: "Herzrhythmusstörungen",
+      description:
+        "Unregelmäßigkeiten des Herzrhythmus, wie Vorhofflimmern, Tachykardie oder Bradykardie, die eine ärztliche Abklärung erfordern.",
+      image: "/cardiologie/trouble-cardio.avif",
+    },
+    {
+      nom: "Herzklappenerkrankungen",
+      description:
+        "Erkrankungen, die eine oder mehrere Herzklappen betreffen und den normalen Blutfluss beeinträchtigen können.",
+      image: "/cardiologie/valveo.avif",
+    },
+    {
+      nom: "Arterielle Hypertonie",
+      description:
+        "Anhaltend erhöhter Blutdruck, der unter anderem das Risiko für Herz-Kreislauf-Erkrankungen erhöht und eine angemessene Kontrolle erfordert.",
+      image: "/cardiologie/hyper.avif",
+    },
+    {
+      nom: "Atherosklerose",
+      description:
+        "Fortschreitende Ablagerungen in den Arterienwänden, die den Blutfluss einschränken und zu Herz-Kreislauf-Komplikationen führen können.",
+      image: "/cardiologie/dilatation.avif",
+    },
+    {
+      nom: "Kardiomyopathien",
+      description:
+        "Erkrankungen des Herzmuskels, die die Fähigkeit des Herzens beeinträchtigen können, sich richtig zusammenzuziehen oder mit Blut zu füllen.",
+      image: "/cardiologie/cardiomepathie.avif",
+    },
+    {
+      nom: "Erkrankungen der Aorta",
+      description:
+        "Erkrankungen der Hauptschlagader des Körpers, darunter bestimmte Aneurysmen oder Verengungen, die eine fachärztliche Beurteilung erforderlich machen können.",
+      image: "/cardiologie/aorte.avif",
+    },
+    {
+      nom: "Perikarditis",
+      description:
+        "Entzündung des Herzbeutels, der Membran, die das Herz umgibt. Sie kann Brustschmerzen verursachen und erfordert eine ärztliche Abklärung, um die Ursache festzustellen und eine geeignete Behandlung zu bestimmen.",
+      image: "/cardiologie/pericarte.avif",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Koronararterien-Bypass",
+      description:
+        "Chirurgischer Eingriff, bei dem ein neuer Blutweg geschaffen wird, um bestimmte verengte oder verschlossene Herzkranzgefäße zu umgehen.",
+    },
+    {
+      nom: "Herzklappenchirurgie",
+      description:
+        "Eingriff zur Reparatur oder zum Ersatz einer nicht richtig funktionierenden Herzklappe, abhängig von der jeweiligen medizinischen Situation.",
+    },
+    {
+      nom: "Offene Herzchirurgie",
+      description:
+        "Chirurgisches Verfahren, das bei bestimmten Herzoperationen eingesetzt wird. Die Art des Eingriffs hängt von der diagnostizierten Erkrankung und der Beurteilung des medizinischen Teams ab.",
+    },
+    {
+      nom: "Angioplastie und Stentimplantation",
+      description:
+        "Ein Verfahren, das in der Regel mithilfe eines Katheters durchgeführt wird, um eine verengte Arterie zu erweitern. Ein Stent kann eingesetzt werden, um die Arterie offen zu halten. Es handelt sich nicht um eine Operation am offenen Herzen.",
+    },
+    {
+      nom: "Implantation eines Herzschrittmachers",
+      description:
+        "Einsetzen eines medizinischen Geräts, das bestimmte zu langsame Herzrhythmen regulieren kann.",
+    },
+    {
+      nom: "Behandlung von Aortenerkrankungen",
+      description:
+        "Fachärztliche Behandlung bestimmter Erkrankungen der Aorta, die einen chirurgischen Eingriff oder ein endovaskuläres Verfahren erforderlich machen kann.",
+    },
+  ],
+
+  examens: [
+    "Elektrokardiogramm (EKG)",
+    "Echokardiographie",
+    "Belastungs-EKG, sofern medizinisch angezeigt",
+    "Langzeit-EKG zur Überwachung des Herzrhythmus",
+    "Messung des Blutdrucks",
+    "Blutuntersuchungen zur kardiovaskulären Abklärung",
+    "Herz-CT oder Koronarangiographie je nach medizinischer Indikation",
+    "Kardiale MRT zur Untersuchung der Struktur und Funktion des Herzmuskels",
+    "Myokardszintigraphie zur Beurteilung der Durchblutung des Herzmuskels",
+  ],
+
+  diagnostic: [
+    {
+      nom: "Elektrokardiogramm (EKG)",
+      description:
+        "Zeichnet die elektrische Aktivität des Herzens auf, um bestimmte Herzrhythmusstörungen und Herzauffälligkeiten zu erkennen.",
+    },
+    {
+      nom: "Echokardiographie",
+      description:
+        "Ultraschalluntersuchung, mit der die Struktur des Herzens, die Funktion der Herzklappen und die Pumpleistung beurteilt werden können.",
+    },
+    {
+      nom: "Langzeit-EKG",
+      description:
+        "Kontinuierliche Aufzeichnung der elektrischen Herzaktivität über einen bestimmten Zeitraum, um mögliche zeitweise auftretende Herzrhythmusstörungen zu erkennen.",
+    },
+    {
+      nom: "Belastungs-EKG",
+      description:
+        "Beurteilt die Reaktion des Herzens auf eine kontrollierte körperliche Belastung, sofern die Untersuchung ärztlich angezeigt ist.",
+    },
+    {
+      nom: "Koronarangiographie",
+      description:
+        "Spezialisierte Untersuchung zur Darstellung der Herzkranzgefäße und zur Erkennung möglicher Verengungen oder Verschlüsse.",
+    },
+    {
+      nom: "Herz-CT",
+      description:
+        "Bildgebende Untersuchung, die detaillierte Aufnahmen des Herzens und bestimmter Gefäßstrukturen ermöglicht, sofern medizinisch angezeigt.",
+    },
+    {
+      nom: "Kardiale Magnetresonanztomographie (MRT)",
+      description:
+        "Die kardiale MRT liefert detaillierte Bilder des Herzens und kann bei der Beurteilung des Herzmuskels, bestimmter Entzündungen und verschiedener struktureller Veränderungen helfen.",
+    },
+    {
+      nom: "PET-Scan (Positronen-Emissions-Tomographie)",
+      description:
+        "Bildgebende Untersuchung mit einem speziellen Tracer zur Darstellung bestimmter Stoffwechselaktivitäten im Gewebe. In der Kardiologie kann sie in ausgewählten Fällen zur Beurteilung von Entzündungen oder der Vitalität des Herzmuskels eingesetzt werden.",
+    },
+    {
+      nom: "Blutuntersuchungen",
+      description:
+        "Können je nach medizinischem Zusammenhang zur Beurteilung bestimmter kardiovaskulärer Risikofaktoren oder zur Erkennung von Anzeichen einer Herzschädigung beitragen.",
+    },
+    {
+      nom: "Myokardszintigraphie",
+      description:
+        "Bildgebende Untersuchung mit einem radioaktiven Tracer zur Beurteilung der Durchblutung des Herzmuskels, insbesondere bei bestimmten Untersuchungen auf eine Myokardischämie.",
+    },
+    {
+      nom: "Messung des Knöchel-Arm-Index (ABI)",
+      description:
+        "Nicht invasive Untersuchung, bei der der Blutdruck am Knöchel mit dem am Arm verglichen wird, um eine mögliche periphere arterielle Verschlusskrankheit zu erkennen, die mit einem erhöhten kardiovaskulären Risiko verbunden sein kann.",
+    },
+  ],
+
+  faq: [
+    {
+      question: "Was ist Kardiologie?",
+      reponse:
+        "Die Kardiologie ist das medizinische Fachgebiet, das sich mit dem Herzen und den Blutgefäßen befasst. Dazu gehören insbesondere die Diagnose, Vorbeugung und Überwachung von Herz-Kreislauf-Erkrankungen.",
+    },
+    {
+      question: "Welche Erkrankungen werden in der Kardiologie behandelt?",
+      reponse:
+        "Die kardiologische Versorgung kann koronare Herzkrankheiten, Herzinsuffizienz, Herzrhythmusstörungen, Herzklappenerkrankungen, arterielle Hypertonie und bestimmte Erkrankungen des Herzmuskels umfassen. Die Behandlung richtet sich nach der ärztlich gestellten Diagnose.",
+    },
+    {
+      question: "Wann ist eine Herzoperation notwendig?",
+      reponse:
+        "Ein chirurgischer Eingriff kann bei bestimmten Erkrankungen der Herzkranzgefäße, Herzklappen oder der Aorta in Betracht gezogen werden. Die Entscheidung hängt von den Untersuchungsergebnissen, dem Schweregrad der Erkrankung, den möglichen Behandlungen und der Einschätzung eines spezialisierten medizinischen Teams ab.",
+    },
+    {
+      question: "Was ist der Unterschied zwischen einem Herz-CT und einer kardialen MRT?",
+      reponse:
+        "Das CT verwendet Röntgenstrahlen und kann insbesondere bei der Untersuchung der Herzstrukturen und der Herzkranzgefäße helfen. Die MRT arbeitet mit einem Magnetfeld und ermöglicht eine detaillierte Untersuchung des Herzmuskels und bestimmter Gewebe. Die Wahl hängt von der medizinischen Fragestellung ab.",
+    },
+    {
+      question: "Wozu dient ein PET-Scan in der Kardiologie?",
+      reponse:
+        "Ein PET-Scan kann in bestimmten spezialisierten Situationen eingesetzt werden, um die Aktivität von Herzgewebe zu beurteilen, insbesondere bei der Suche nach Entzündungen oder zur Beurteilung der Vitalität des Herzmuskels. Er ist nicht für alle Patienten erforderlich.",
+    },
+    {
+      question: "Welche Unterlagen sollte man vor einer kardiologischen Untersuchung vorbereiten?",
+      reponse:
+        "Falls vorhanden, sollten Sie Ihre medizinischen Befunde, frühere EKG-Aufzeichnungen, Herzultraschalluntersuchungen, Laborergebnisse, Medikamentenverordnungen und bildgebenden Untersuchungen vorbereiten. Der Arzt entscheidet, welche zusätzlichen Untersuchungen erforderlich sind.",
+    },
+    {
+      question: "Kann Glomed Group einen medizinischen Aufenthalt in Tunesien organisieren?",
+      reponse:
+        "Glomed Group kann Sie bei der Organisation Ihres medizinischen Behandlungswegs unterstützen, insbesondere bei der Koordination von Terminen, Unterkunft und Transfers, abhängig von den angebotenen Dienstleistungen und der Verfügbarkeit der Partnereinrichtungen.",
+    },
+    {
+      question: "Wie kann man eine Überweisung an einen Facharzt erhalten?",
+      reponse:
+        "Sie können Glomed Group kontaktieren, Ihre Anfrage schildern und die relevanten medizinischen Unterlagen übermitteln. Die fachärztliche Empfehlung und die Behandlungsentscheidungen müssen von den zuständigen medizinischen Fachkräften bestätigt werden.",
+    },
+  ],
+}
+
 },
 
-
-
-
- 
 
 pneumologie: {
   fr: {
@@ -2187,14 +2628,424 @@ pneumologie: {
       },
     ],
   },
+
+it : {
+  title: "Pneumologia",
+  subtitle: "Prendetevi cura della vostra salute respiratoria",
+  description:
+    "Glomed Group vi accompagna nell'organizzazione del vostro percorso di cure respiratorie in Tunisia, dalla visita specialistica agli esami e all'orientamento verso un'assistenza adeguata.",
+  intro:
+    "La pneumologia è la specialità medica dedicata ai polmoni e alle vie respiratorie. Si occupa della prevenzione, della diagnosi e del trattamento delle malattie respiratorie, nonché della valutazione della funzionalità polmonare. Glomed Group facilita l'organizzazione del vostro soggiorno medico in Tunisia e il coordinamento con i professionisti sanitari.",
+  image: "/images/pneumologie.jpg",
+  alt: "Visita e assistenza pneumologica",
+
+  services: [
+    "Visite pneumologiche",
+    "Valutazione della funzionalità respiratoria",
+    "Valutazione delle malattie polmonari",
+    "Indagine sui disturbi respiratori del sonno",
+    "Orientamento verso pneumologi ed équipe specializzate",
+    "Organizzazione del percorso di cure in Tunisia",
+  ],
+
+  maladies: [
+    {
+      nom: "Asma",
+      image: "/pneumologie/asthme.avif",
+      description:
+        "Malattia infiammatoria cronica delle vie respiratorie che può provocare episodi di difficoltà respiratoria, tosse, respiro sibilante e senso di oppressione toracica.",
+    },
+    {
+      nom: "Broncopneumopatia cronica ostruttiva (BPCO)",
+      image: "/pneumologie/bronchite-chronique.avif",
+      description:
+        "Malattia respiratoria cronica che limita il flusso d'aria nei polmoni e può causare affanno persistente.",
+    },
+    {
+      nom: "Polmonite",
+      image: "/pneumologie/pneumonie.avif",
+      description:
+        "Infezione dei polmoni che può provocare febbre, tosse, dolore toracico e difficoltà respiratorie.",
+    },
+    {
+      nom: "Pleurite",
+      image: "/pneumologie/pleuresie.avif",
+      description:
+        "Infiammazione della pleura, la membrana che riveste i polmoni, che può provocare dolore toracico accentuato dalla respirazione e talvolta affanno.",
+    },
+    {
+      nom: "Tumore del polmone",
+      image: "/pneumologie/cancer-poument.avif",
+      description:
+        "Malattia caratterizzata dallo sviluppo di cellule tumorali nei polmoni. La diagnosi e il trattamento richiedono una valutazione specialistica.",
+    },
+    {
+      nom: "Fibrosi polmonare",
+      image: "/pneumologie/Fibrose-pulmonaire.avif",
+      description:
+        "Patologia caratterizzata dalla formazione di tessuto cicatriziale nei polmoni, che può rendere più difficile la respirazione.",
+    },
+    {
+      nom: "Apnea ostruttiva del sonno",
+      image: "/pneumologie/apne.avif",
+      description:
+        "Disturbo caratterizzato da ripetute interruzioni della respirazione durante il sonno, che possono comprometterne la qualità e influire sulla salute.",
+    },
+    {
+      nom: "Bronchite cronica",
+      image: "/pneumologie/bronchite.avif",
+      description:
+        "Infiammazione prolungata dei bronchi che può causare tosse persistente ed espettorazione.",
+    },
+    {
+      nom: "Embolia polmonare",
+      image: "/pneumologie/embolie.avif",
+      description:
+        "Ostruzione di un'arteria polmonare, spesso causata da un coagulo di sangue. Può rappresentare un'emergenza medica.",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Broncoscopia",
+      description:
+        "Esame eseguito con uno strumento flessibile introdotto nelle vie respiratorie per esaminarle e, se necessario, effettuare prelievi di campioni.",
+    },
+    {
+      nom: "Biopsia polmonare",
+      description:
+        "Prelievo di un campione di tessuto polmonare da analizzare quando necessario per la diagnosi.",
+    },
+    {
+      nom: "Chirurgia dei noduli polmonari",
+      description:
+        "Un intervento può essere preso in considerazione per alcuni noduli polmonari, in base alla loro natura, alla loro evoluzione e alla valutazione specialistica.",
+    },
+    {
+      nom: "Chirurgia del tumore del polmone",
+      description:
+        "Per alcuni tumori localizzati, un intervento chirurgico può essere preso in considerazione dopo una valutazione completa e una decisione condivisa da un'équipe specializzata.",
+    },
+    {
+      nom: "Drenaggio pleurico",
+      description:
+        "Procedura destinata a rimuovere aria o liquido presenti intorno al polmone in determinate situazioni cliniche.",
+    },
+    {
+      nom: "Riabilitazione respiratoria",
+      description:
+        "Programma personalizzato che comprende esercizi e assistenza per migliorare le capacità funzionali e la qualità della vita respiratoria.",
+    },
+  ],
+
+  examens: [
+    "Prove di funzionalità respiratoria (PFR)",
+    "Spirometria",
+    "Radiografia del torace",
+    "TAC toracica",
+    "Emogasanalisi, secondo indicazione",
+    "Broncoscopia, se necessaria",
+    "Studio del sonno in caso di sospetta apnea",
+    "Test del cammino di 6 minuti",
+    "Misurazione della saturazione di ossigeno (pulsossimetria)",
+  ],
+
+  diagnostic: [
+    {
+      nom: "Prove di funzionalità respiratoria (PFR)",
+      description:
+        "Insieme di test che consentono di valutare i volumi polmonari, i flussi d'aria e alcune caratteristiche della funzionalità respiratoria.",
+    },
+    {
+      nom: "Spirometria",
+      description:
+        "Misura la quantità di aria inspirata ed espirata e la velocità dell'espirazione, contribuendo alla diagnosi di alcune malattie respiratorie.",
+    },
+    {
+      nom: "Radiografia del torace",
+      description:
+        "Esame che utilizza i raggi X per osservare i polmoni e alcune strutture del torace.",
+    },
+    {
+      nom: "TAC toracica",
+      description:
+        "Esame diagnostico per immagini dettagliato che permette di osservare i polmoni, i bronchi e le strutture toraciche.",
+    },
+    {
+      nom: "Risonanza magnetica toracica",
+      description:
+        "Esame diagnostico per immagini utilizzato in alcune indicazioni per studiare specifiche strutture del torace. Non rappresenta l'esame di prima scelta per tutte le malattie polmonari.",
+    },
+    {
+      nom: "PET scan (PET-TC)",
+      description:
+        "Esame diagnostico per immagini che può essere utilizzato, in particolare, nella valutazione di alcuni tumori polmonari, in base alla situazione clinica e alle indicazioni mediche.",
+    },
+    {
+      nom: "Broncoscopia",
+      description:
+        "Consente allo specialista di esaminare l'interno delle vie respiratorie e, se necessario, effettuare prelievi di campioni.",
+    },
+    {
+      nom: "Studio del sonno",
+      description:
+        "La poligrafia o la polisonnografia permette di valutare la respirazione durante il sonno quando si sospetta un disturbo respiratorio notturno.",
+    },
+    {
+      nom: "Emogasanalisi",
+      description:
+        "Analisi che permette di valutare, tra l'altro, i livelli di ossigeno e anidride carbonica nel sangue, secondo l'indicazione medica.",
+    },
+  ],
+
+  faq: [
+    {
+      question: "Che cos'è la pneumologia?",
+      reponse:
+        "La pneumologia è la specialità medica dedicata ai polmoni e alle vie respiratorie. Si occupa in particolare di asma, BPCO, infezioni polmonari e alcune malattie respiratorie croniche.",
+    },
+    {
+      question: "Quando è necessario consultare uno pneumologo?",
+      reponse:
+        "Una visita può essere utile in caso di tosse persistente, affanno, respiro sibilante, infezioni polmonari ricorrenti o sospetti disturbi respiratori durante il sonno.",
+    },
+    {
+      question: "Quali esami permettono di valutare i polmoni?",
+      reponse:
+        "In base ai sintomi, il medico può prescrivere una spirometria, prove di funzionalità respiratoria, una radiografia o una TAC toracica oppure altri esami adeguati alla situazione.",
+    },
+    {
+      question: "Qual è la differenza tra una TAC toracica e una PET scan?",
+      reponse:
+        "La TAC fornisce immagini dettagliate dell'anatomia del torace. La PET scan studia l'attività metabolica di alcuni tessuti e può contribuire, in particolare, alla valutazione di alcuni tumori. La scelta dipende dalla necessità clinica.",
+    },
+    {
+      question: "È sempre necessario un intervento chirurgico?",
+      reponse:
+        "No. Molte malattie respiratorie vengono trattate con farmaci, monitoraggio o riabilitazione respiratoria. Un intervento viene preso in considerazione soltanto in determinate situazioni, dopo una valutazione specialistica.",
+    },
+    {
+      question: "Come preparare un soggiorno medico in pneumologia in Tunisia?",
+      reponse:
+        "Preparate, se disponibili, i vostri referti medici, gli esami di diagnostica per immagini, i risultati delle prove di funzionalità respiratoria, le prescrizioni e i trattamenti in corso. Glomed Group può accompagnarvi nell'organizzazione del percorso e dei servizi concordati.",
+    },
+    {
+      question: "Come ottenere un orientamento verso uno specialista?",
+      reponse:
+        "Potete contattare Glomed Group per presentare la vostra richiesta e trasmettere i documenti medici utili. La diagnosi e le decisioni terapeutiche devono essere confermate dai professionisti sanitari interessati.",
+    },
+  ],
+},
+de : 
+{
+  title: "Pneumologie",
+  subtitle: "Kümmern Sie sich um Ihre Atemwegsgesundheit",
+  description:
+    "Glomed Group unterstützt Sie bei der Organisation Ihres Behandlungswegs im Bereich der Atemwegserkrankungen in Tunesien – von der fachärztlichen Beratung über diagnostische Untersuchungen bis hin zur Vermittlung einer geeigneten medizinischen Versorgung.",
+  intro:
+    "Die Pneumologie ist das medizinische Fachgebiet, das sich mit der Lunge und den Atemwegen befasst. Sie umfasst die Vorbeugung, Diagnose und Behandlung von Atemwegserkrankungen sowie die Beurteilung der Lungenfunktion. Glomed Group erleichtert die Organisation Ihres medizinischen Aufenthalts in Tunesien und die Koordination mit medizinischen Fachkräften.",
+  image: "/images/pneumologie.jpg",
+  alt: "Pneumologische Untersuchung und medizinische Betreuung",
+
+  services: [
+    "Pneumologische Untersuchungen",
+    "Überprüfung der Lungenfunktion",
+    "Beurteilung von Lungenerkrankungen",
+    "Untersuchung schlafbezogener Atmungsstörungen",
+    "Vermittlung an Pneumologen und spezialisierte medizinische Teams",
+    "Organisation des Behandlungswegs in Tunesien",
+  ],
+
+  maladies: [
+    {
+      nom: "Asthma",
+      image: "/pneumologie/asthme.avif",
+      description:
+        "Chronisch entzündliche Erkrankung der Atemwege, die zu anfallsweiser Atemnot, Husten, pfeifender Atmung und einem Engegefühl in der Brust führen kann.",
+    },
+    {
+      nom: "Chronisch obstruktive Lungenerkrankung (COPD)",
+      image: "/pneumologie/bronchite-chronique.avif",
+      description:
+        "Chronische Atemwegserkrankung, die den Luftstrom in der Lunge einschränkt und zu anhaltender Atemnot führen kann.",
+    },
+    {
+      nom: "Lungenentzündung",
+      image: "/pneumologie/pneumonie.avif",
+      description:
+        "Infektion der Lunge, die Fieber, Husten, Brustschmerzen und Atembeschwerden verursachen kann.",
+    },
+    {
+      nom: "Pleuritis",
+      image: "/pneumologie/pleuresie.avif",
+      description:
+        "Entzündung des Brustfells, der Membran, die die Lunge umgibt. Sie kann atemabhängige Brustschmerzen und manchmal Atemnot verursachen.",
+    },
+    {
+      nom: "Lungenkrebs",
+      image: "/pneumologie/cancer-poument.avif",
+      description:
+        "Erkrankung, die durch die Entwicklung bösartiger Zellen in der Lunge gekennzeichnet ist. Diagnose und Behandlung erfordern eine fachärztliche Beurteilung.",
+    },
+    {
+      nom: "Lungenfibrose",
+      image: "/pneumologie/Fibrose-pulmonaire.avif",
+      description:
+        "Erkrankung, bei der sich Narbengewebe in der Lunge bildet und dadurch das Atmen erschwert werden kann.",
+    },
+    {
+      nom: "Obstruktive Schlafapnoe",
+      image: "/pneumologie/apne.avif",
+      description:
+        "Störung mit wiederholten Atemaussetzern während des Schlafs, die die Schlafqualität beeinträchtigen und Auswirkungen auf die Gesundheit haben können.",
+    },
+    {
+      nom: "Chronische Bronchitis",
+      image: "/pneumologie/bronchite.avif",
+      description:
+        "Anhaltende Entzündung der Bronchien, die zu dauerhaftem Husten und Auswurf führen kann.",
+    },
+    {
+      nom: "Lungenembolie",
+      image: "/pneumologie/embolie.avif",
+      description:
+        "Verschluss einer Lungenarterie, häufig durch ein Blutgerinnsel. Es kann sich um einen medizinischen Notfall handeln.",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Bronchoskopie",
+      description:
+        "Untersuchung mit einem flexiblen Instrument, das in die Atemwege eingeführt wird, um diese zu betrachten und bei Bedarf Gewebeproben zu entnehmen.",
+    },
+    {
+      nom: "Lungenbiopsie",
+      description:
+        "Entnahme einer Lungengewebeprobe zur Analyse, wenn dies für die Diagnose erforderlich ist.",
+    },
+    {
+      nom: "Operation von Lungenknoten",
+      description:
+        "Bei bestimmten Lungenknoten kann abhängig von ihrer Beschaffenheit, ihrer Entwicklung und der fachärztlichen Beurteilung ein chirurgischer Eingriff in Betracht gezogen werden.",
+    },
+    {
+      nom: "Lungenkrebsoperation",
+      description:
+        "Bei bestimmten lokal begrenzten Tumoren kann nach einer umfassenden Untersuchung und einer Entscheidung durch ein spezialisiertes Team eine Operation in Betracht gezogen werden.",
+    },
+    {
+      nom: "Pleuradrainage",
+      description:
+        "Verfahren zur Entfernung von Luft oder Flüssigkeit aus dem Raum um die Lunge in bestimmten medizinischen Situationen.",
+    },
+    {
+      nom: "Atemrehabilitation",
+      description:
+        "Individuell angepasstes Programm mit Übungen und Betreuung zur Verbesserung der körperlichen Leistungsfähigkeit und der Lebensqualität im Hinblick auf die Atmung.",
+    },
+  ],
+
+  examens: [
+    "Lungenfunktionsdiagnostik",
+    "Spirometrie",
+    "Röntgenaufnahme des Brustkorbs",
+    "Thorax-CT",
+    "Blutgasanalyse, je nach Indikation",
+    "Bronchoskopie, falls erforderlich",
+    "Schlafuntersuchung bei Verdacht auf Schlafapnoe",
+    "6-Minuten-Gehtest",
+    "Messung der Sauerstoffsättigung (Pulsoxymetrie)",
+  ],
+
+  diagnostic: [
+    {
+      nom: "Lungenfunktionsdiagnostik",
+      description:
+        "Zusammenstellung verschiedener Tests zur Beurteilung der Lungenvolumina, der Luftströmung und bestimmter Merkmale der Atemfunktion.",
+    },
+    {
+      nom: "Spirometrie",
+      description:
+        "Misst die ein- und ausgeatmete Luftmenge sowie die Ausatemgeschwindigkeit und unterstützt dadurch die Diagnose bestimmter Atemwegserkrankungen.",
+    },
+    {
+      nom: "Röntgenaufnahme des Brustkorbs",
+      description:
+        "Untersuchung mit Röntgenstrahlen zur Darstellung der Lunge und bestimmter Strukturen des Brustkorbs.",
+    },
+    {
+      nom: "Thorax-CT",
+      description:
+        "Detaillierte bildgebende Untersuchung zur Darstellung der Lunge, der Bronchien und der Strukturen des Brustkorbs.",
+    },
+    {
+      nom: "Thorax-MRT",
+      description:
+        "Bildgebende Untersuchung, die bei bestimmten medizinischen Fragestellungen zur Darstellung ausgewählter Strukturen im Brustkorb eingesetzt wird. Sie ist nicht bei allen Lungenerkrankungen die Untersuchung der ersten Wahl.",
+    },
+    {
+      nom: "PET-Scan (Positronen-Emissions-Tomographie)",
+      description:
+        "Bildgebende Untersuchung, die insbesondere bei der Abklärung bestimmter Lungentumoren eingesetzt werden kann, abhängig von der klinischen Situation und den medizinischen Empfehlungen.",
+    },
+    {
+      nom: "Bronchoskopie",
+      description:
+        "Ermöglicht dem Facharzt, die Atemwege von innen zu untersuchen und bei Bedarf Gewebeproben zu entnehmen.",
+    },
+    {
+      nom: "Schlafuntersuchung",
+      description:
+        "Eine Polygraphie oder Polysomnographie ermöglicht die Beurteilung der Atmung während des Schlafs, wenn der Verdacht auf eine nächtliche Atemstörung besteht.",
+    },
+    {
+      nom: "Blutgasanalyse",
+      description:
+        "Untersuchung zur Beurteilung unter anderem der Sauerstoff- und Kohlendioxidwerte im Blut, sofern medizinisch angezeigt.",
+    },
+  ],
+
+  faq: [
+    {
+      question: "Was ist Pneumologie?",
+      reponse:
+        "Die Pneumologie ist das medizinische Fachgebiet, das sich mit der Lunge und den Atemwegen befasst. Sie behandelt unter anderem Asthma, COPD, Lungeninfektionen und bestimmte chronische Atemwegserkrankungen.",
+    },
+    {
+      question: "Wann sollte man einen Pneumologen aufsuchen?",
+      reponse:
+        "Eine fachärztliche Untersuchung kann bei anhaltendem Husten, Atemnot, pfeifender Atmung, wiederkehrenden Lungeninfektionen oder dem Verdacht auf schlafbezogene Atemstörungen sinnvoll sein.",
+    },
+    {
+      question: "Welche Untersuchungen dienen der Beurteilung der Lunge?",
+      reponse:
+        "Abhängig von den Symptomen kann der Arzt eine Spirometrie, eine Lungenfunktionsdiagnostik, eine Röntgenaufnahme oder ein Thorax-CT sowie weitere geeignete Untersuchungen veranlassen.",
+    },
+    {
+      question: "Was ist der Unterschied zwischen einem Thorax-CT und einem PET-Scan?",
+      reponse:
+        "Ein CT liefert detaillierte Bilder der anatomischen Strukturen im Brustkorb. Ein PET-Scan untersucht die Stoffwechselaktivität bestimmter Gewebe und kann insbesondere bei der Abklärung bestimmter Krebserkrankungen hilfreich sein. Die Wahl hängt von der medizinischen Fragestellung ab.",
+    },
+    {
+      question: "Ist ein chirurgischer Eingriff immer notwendig?",
+      reponse:
+        "Nein. Viele Atemwegserkrankungen werden mit Medikamenten, regelmäßiger Überwachung oder Atemrehabilitation behandelt. Ein chirurgischer Eingriff wird nur in bestimmten Situationen nach einer fachärztlichen Beurteilung in Betracht gezogen.",
+    },
+    {
+      question: "Wie bereitet man einen medizinischen Aufenthalt im Bereich Pneumologie in Tunesien vor?",
+      reponse:
+        "Bereiten Sie, sofern vorhanden, Ihre medizinischen Befunde, bildgebenden Untersuchungen, Ergebnisse der Lungenfunktionstests, ärztlichen Verordnungen und aktuellen Behandlungen vor. Glomed Group kann Sie bei der Organisation des Behandlungswegs und der vereinbarten Dienstleistungen unterstützen.",
+    },
+    {
+      question: "Wie kann man eine Überweisung an einen Facharzt erhalten?",
+      reponse:
+        "Sie können Glomed Group kontaktieren, Ihre Anfrage schildern und die relevanten medizinischen Unterlagen übermitteln. Die Diagnose und die Behandlungsentscheidungen müssen von den zuständigen medizinischen Fachkräften bestätigt werden.",
+    },
+  ],
 },
 
-
-
-
-
-
-
+},
 
 urologie: {
   fr: {
@@ -2667,6 +3518,478 @@ urologie: {
       },
     ],
   },
+  it : 
+{
+  title: "Urologia",
+  subtitle: "Diagnosi e trattamento delle malattie urinarie e genitali",
+  description:
+    "Glomed Group accompagna i pazienti nel loro percorso di cure urologiche in Tunisia, dalla visita specialistica al trattamento e al monitoraggio medico.",
+  image: "/images/urologie.jpg",
+  alt: "Assistenza medica in urologia",
+
+  intro: {
+    titre: "Un'assistenza urologica adeguata a ogni paziente",
+    texte:
+      "L'urologia è una specialità medica e chirurgica che si occupa delle malattie dei reni, delle vie urinarie e dell'apparato genitale maschile. In Tunisia, Glomed Group facilita l'organizzazione delle visite, degli esami e dei trattamenti presso professionisti sanitari.",
+  },
+
+  services: [
+    "Visita e orientamento verso uno specialista in urologia",
+    "Valutazione dei disturbi urinari",
+    "Trattamento dei calcoli urinari",
+    "Diagnosi e monitoraggio delle malattie della prostata",
+    "Assistenza per gli interventi urologici",
+    "Organizzazione del soggiorno medico e del follow-up",
+  ],
+
+  maladies: [
+    {
+      nom: "Calcoli renali e urinari",
+      description:
+        "Formazione di calcoli nei reni o nelle vie urinarie, che può provocare dolori intensi o coliche renali.",
+      image: "/urologie/calcul.webp",
+    },
+    {
+      nom: "Tumore del rene",
+      description:
+        "Tumore che si sviluppa nei tessuti del rene e richiede una valutazione specialistica per determinare il trattamento più appropriato.",
+      image: "/urologie/cancer.avif",
+    },
+    {
+      nom: "Ipertrofia prostatica benigna",
+      description:
+        "Aumento del volume della prostata che può causare difficoltà nella minzione e risvegli notturni.",
+      image: "/urologie/Hypertrophie.avif",
+    },
+    {
+      nom: "Infezioni urinarie",
+      description:
+        "Infezioni che colpiscono le vie urinarie e richiedono una diagnosi e un trattamento adeguati.",
+      image: "/urologie/infection.avif",
+    },
+    {
+      nom: "Tumore della vescica",
+      description:
+        "Malattia che può manifestarsi, tra gli altri sintomi, con la presenza di sangue nelle urine e che richiede accertamenti specialistici.",
+      image: "/urologie/vessie.avif",
+    },
+    {
+      nom: "Tumore della prostata",
+      description:
+        "Tumore della prostata che richiede una valutazione specialistica per determinare lo stadio della malattia e le opzioni terapeutiche più appropriate.",
+      image: "/urologie/cancer-prostate.avif",
+    },
+    {
+      nom: "Incontinenza urinaria",
+      description:
+        "Perdita involontaria di urina che può avere diverse cause e richiede una valutazione medica personalizzata.",
+      image: "/urologie/perte.avif",
+    },
+    {
+      nom: "Varicocele",
+      description:
+        "Dilatazione delle vene intorno al testicolo che può provocare fastidio o essere associata a problemi di fertilità.",
+      image: "/urologie/dilatation.avif",
+    },
+    {
+      nom: "Disturbi della fertilità maschile",
+      description:
+        "Difficoltà di concepimento che possono richiedere una valutazione urologica e andrologica per individuare le possibili cause.",
+      image: "/urologie/trouble.avif",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Ureteroscopia",
+      description:
+        "Intervento endoscopico che consente di esaminare le vie urinarie e trattare alcuni calcoli, in base alla loro localizzazione.",
+    },
+    {
+      nom: "Litotrissia",
+      description:
+        "Tecnica che utilizza onde d'urto per frammentare alcuni calcoli urinari, quando questo metodo è indicato.",
+    },
+    {
+      nom: "Resezione transuretrale della prostata",
+      description:
+        "Intervento endoscopico che può essere proposto per trattare alcuni sintomi urinari legati all'ipertrofia prostatica benigna.",
+    },
+    {
+      nom: "Chirurgia della prostata",
+      description:
+        "Trattamento chirurgico scelto in base alla patologia, al suo stadio e alle condizioni generali del paziente.",
+    },
+    {
+      nom: "Cistoscopia",
+      description:
+        "Esame endoscopico che consente di osservare l'interno della vescica e dell'uretra.",
+    },
+    {
+      nom: "Chirurgia del varicocele",
+      description:
+        "Intervento che può essere proposto in determinate situazioni, in particolare in presenza di dolore o problemi di fertilità.",
+    },
+  ],
+
+  examens: [
+    "Ecografia renale e vescicale",
+    "Ecografia prostatica",
+    "Esame delle urine e urinocoltura",
+    "Dosaggio del PSA secondo indicazione medica",
+    "TAC delle vie urinarie",
+    "Risonanza magnetica della prostata, secondo indicazione",
+    "Cistoscopia",
+    "Uroflussometria",
+    "Studio urodinamico in base ai sintomi",
+  ],
+
+  diagnostic: [
+    "Valutazione clinica e anamnesi medica",
+    "Analisi biologiche e delle urine",
+    "Esami di diagnostica per immagini adeguati ai sintomi",
+    "Esami endoscopici, se necessari",
+    "Valutazione specialistica prima di un eventuale intervento",
+  ],
+
+  faq: [
+    {
+      question: "Quando è necessario consultare un urologo?",
+      reponse:
+        "Una visita può essere indicata in caso di dolore durante la minzione, presenza di sangue nelle urine, calcoli urinari, disturbi della prostata o difficoltà a urinare.",
+    },
+    {
+      question: "Quali esami possono essere necessari in urologia?",
+      reponse:
+        "In base ai sintomi, lo specialista può prescrivere un esame delle urine, un'ecografia, una TAC, una risonanza magnetica o un esame endoscopico.",
+    },
+    {
+      question: "I calcoli urinari richiedono sempre un intervento chirurgico?",
+      reponse:
+        "No. Il trattamento dipende in particolare dalle dimensioni e dalla localizzazione del calcolo, dai sintomi e dall'eventuale presenza di complicanze.",
+    },
+    {
+      question: "Glomed Group organizza il soggiorno medico in Tunisia?",
+      reponse:
+        "Glomed Group accompagna i pazienti nell'organizzazione del percorso medico e del soggiorno, in coordinamento con i professionisti sanitari e le strutture interessate.",
+    },
+  ],
+},
+de : 
+{
+  title: "Urologie",
+  subtitle: "Diagnose und Behandlung von Harnwegs- und Genitalerkrankungen",
+  description:
+    "Glomed Group begleitet Patienten bei ihrem urologischen Behandlungsweg in Tunesien – von der fachärztlichen Untersuchung über die Behandlung bis hin zur medizinischen Nachsorge.",
+  image: "/images/urologie.jpg",
+  alt: "Medizinische Versorgung im Bereich Urologie",
+
+  intro: {
+    titre: "Eine individuell angepasste urologische Versorgung für jeden Patienten",
+    texte:
+      "Die Urologie ist ein medizinisches und chirurgisches Fachgebiet, das sich mit Erkrankungen der Nieren, der Harnwege und der männlichen Geschlechtsorgane befasst. In Tunesien erleichtert Glomed Group die Organisation von Beratungsgesprächen, Untersuchungen und Behandlungen durch medizinische Fachkräfte.",
+  },
+
+  services: [
+    "Fachärztliche Beratung und Vermittlung an einen Urologen",
+    "Abklärung von Harnwegsbeschwerden",
+    "Behandlung von Harnsteinen",
+    "Diagnose und Überwachung von Prostataerkrankungen",
+    "Unterstützung bei urologischen Eingriffen",
+    "Organisation des medizinischen Aufenthalts und der Nachsorge",
+  ],
+
+  maladies: [
+    {
+      nom: "Nieren- und Harnsteine",
+      description:
+        "Bildung von Steinen in den Nieren oder Harnwegen, die starke Schmerzen oder eine Nierenkolik verursachen können.",
+      image: "/urologie/calcul.webp",
+    },
+    {
+      nom: "Nierenkrebs",
+      description:
+        "Tumor, der sich im Nierengewebe entwickelt und eine fachärztliche Beurteilung erfordert, um die geeignete Behandlung festzulegen.",
+      image: "/urologie/cancer.avif",
+    },
+    {
+      nom: "Gutartige Prostatavergrößerung",
+      description:
+        "Vergrößerung der Prostata, die zu Schwierigkeiten beim Wasserlassen und nächtlichem Aufwachen führen kann.",
+      image: "/urologie/Hypertrophie.avif",
+    },
+    {
+      nom: "Harnwegsinfektionen",
+      description:
+        "Infektionen der Harnwege, die eine angemessene Diagnose und Behandlung erfordern.",
+      image: "/urologie/infection.avif",
+    },
+    {
+      nom: "Blasenkrebs",
+      description:
+        "Erkrankung, die sich unter anderem durch Blut im Urin bemerkbar machen kann und eine fachärztliche Abklärung erfordert.",
+      image: "/urologie/vessie.avif",
+    },
+    {
+      nom: "Prostatakrebs",
+      description:
+        "Tumorerkrankung der Prostata, die eine fachärztliche Untersuchung erfordert, um das Krankheitsstadium und die geeigneten Behandlungsmöglichkeiten festzustellen.",
+      image: "/urologie/cancer-prostate.avif",
+    },
+    {
+      nom: "Harninkontinenz",
+      description:
+        "Unwillkürlicher Urinverlust, der verschiedene Ursachen haben kann und eine individuelle medizinische Abklärung erfordert.",
+      image: "/urologie/perte.avif",
+    },
+    {
+      nom: "Varikozele",
+      description:
+        "Erweiterung der Venen im Bereich des Hodens, die Beschwerden verursachen oder mit Fruchtbarkeitsproblemen verbunden sein kann.",
+      image: "/urologie/dilatation.avif",
+    },
+    {
+      nom: "Störungen der männlichen Fruchtbarkeit",
+      description:
+        "Schwierigkeiten, ein Kind zu zeugen, die eine urologische und andrologische Untersuchung zur Ermittlung möglicher Ursachen erforderlich machen können.",
+      image: "/urologie/trouble.avif",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Ureteroskopie",
+      description:
+        "Endoskopischer Eingriff zur Untersuchung der Harnwege und zur Behandlung bestimmter Harnsteine, abhängig von ihrer Lage.",
+    },
+    {
+      nom: "Lithotripsie",
+      description:
+        "Verfahren, bei dem Stoßwellen eingesetzt werden, um bestimmte Harnsteine zu zertrümmern, sofern diese Methode medizinisch angezeigt ist.",
+    },
+    {
+      nom: "Transurethrale Resektion der Prostata",
+      description:
+        "Endoskopischer Eingriff, der zur Behandlung bestimmter Beschwerden beim Wasserlassen aufgrund einer gutartigen Prostatavergrößerung angeboten werden kann.",
+    },
+    {
+      nom: "Prostataoperation",
+      description:
+        "Chirurgische Behandlung, die abhängig von der Erkrankung, ihrem Stadium und dem allgemeinen Gesundheitszustand des Patienten ausgewählt wird.",
+    },
+    {
+      nom: "Zystoskopie",
+      description:
+        "Endoskopische Untersuchung zur Betrachtung des Inneren der Harnblase und der Harnröhre.",
+    },
+    {
+      nom: "Varikozelenoperation",
+      description:
+        "Chirurgischer Eingriff, der in bestimmten Situationen angeboten werden kann, insbesondere bei Schmerzen oder Fruchtbarkeitsproblemen.",
+    },
+  ],
+
+  examens: [
+    "Ultraschalluntersuchung der Nieren und Harnblase",
+    "Prostata-Ultraschall",
+    "Urinanalyse und Urinkultur",
+    "PSA-Bestimmung je nach medizinischer Indikation",
+    "CT-Untersuchung der Harnwege",
+    "MRT der Prostata je nach medizinischer Indikation",
+    "Zystoskopie",
+    "Uroflowmetrie",
+    "Urodynamische Untersuchung je nach Symptomen",
+  ],
+
+  diagnostic: [
+    "Klinische Untersuchung und Erhebung der Krankengeschichte",
+    "Laboruntersuchungen und Urinanalysen",
+    "Den Symptomen entsprechende bildgebende Untersuchungen",
+    "Endoskopische Untersuchungen, falls erforderlich",
+    "Fachärztliche Abklärung vor einem möglichen Eingriff",
+  ],
+
+  faq: [
+    {
+      question: "Wann sollte man einen Urologen aufsuchen?",
+      reponse:
+        "Eine urologische Untersuchung kann bei Schmerzen oder Beschwerden beim Wasserlassen, Blut im Urin, Harnsteinen, Prostatabeschwerden oder Schwierigkeiten beim Wasserlassen angezeigt sein.",
+    },
+    {
+      question: "Welche Untersuchungen können in der Urologie erforderlich sein?",
+      reponse:
+        "Abhängig von den Symptomen kann der Facharzt eine Urinanalyse, eine Ultraschalluntersuchung, eine CT, eine MRT oder eine endoskopische Untersuchung veranlassen.",
+    },
+    {
+      question: "Müssen Harnsteine immer operiert werden?",
+      reponse:
+        "Nein. Die Behandlung hängt insbesondere von der Größe und Lage des Steins, den Symptomen und dem möglichen Vorliegen von Komplikationen ab.",
+    },
+    {
+      question: "Organisiert Glomed Group den medizinischen Aufenthalt in Tunesien?",
+      reponse:
+        "Glomed Group unterstützt Patienten bei der Organisation ihres medizinischen Behandlungswegs und ihres Aufenthalts in Abstimmung mit den zuständigen medizinischen Fachkräften und Einrichtungen.",
+    },
+  ],
+},
+de : 
+{
+  title: "Urologie",
+  subtitle: "Diagnose und Behandlung von Harnwegs- und Genitalerkrankungen",
+  description:
+    "Glomed Group begleitet Patienten bei ihrem urologischen Behandlungsweg in Tunesien – von der fachärztlichen Untersuchung über die Behandlung bis hin zur medizinischen Nachsorge.",
+  image: "/images/urologie.jpg",
+  alt: "Medizinische Versorgung im Bereich Urologie",
+
+  intro: {
+    titre: "Eine individuell angepasste urologische Versorgung für jeden Patienten",
+    texte:
+      "Die Urologie ist ein medizinisches und chirurgisches Fachgebiet, das sich mit Erkrankungen der Nieren, der Harnwege und der männlichen Geschlechtsorgane befasst. In Tunesien erleichtert Glomed Group die Organisation von Beratungsgesprächen, Untersuchungen und Behandlungen durch medizinische Fachkräfte.",
+  },
+
+  services: [
+    "Fachärztliche Beratung und Vermittlung an einen Urologen",
+    "Abklärung von Harnwegsbeschwerden",
+    "Behandlung von Harnsteinen",
+    "Diagnose und Überwachung von Prostataerkrankungen",
+    "Unterstützung bei urologischen Eingriffen",
+    "Organisation des medizinischen Aufenthalts und der Nachsorge",
+  ],
+
+  maladies: [
+    {
+      nom: "Nieren- und Harnsteine",
+      description:
+        "Bildung von Steinen in den Nieren oder Harnwegen, die starke Schmerzen oder eine Nierenkolik verursachen können.",
+      image: "/urologie/calcul.webp",
+    },
+    {
+      nom: "Nierenkrebs",
+      description:
+        "Tumor, der sich im Nierengewebe entwickelt und eine fachärztliche Beurteilung erfordert, um die geeignete Behandlung festzulegen.",
+      image: "/urologie/cancer.avif",
+    },
+    {
+      nom: "Gutartige Prostatavergrößerung",
+      description:
+        "Vergrößerung der Prostata, die zu Schwierigkeiten beim Wasserlassen und nächtlichem Aufwachen führen kann.",
+      image: "/urologie/Hypertrophie.avif",
+    },
+    {
+      nom: "Harnwegsinfektionen",
+      description:
+        "Infektionen der Harnwege, die eine angemessene Diagnose und Behandlung erfordern.",
+      image: "/urologie/infection.avif",
+    },
+    {
+      nom: "Blasenkrebs",
+      description:
+        "Erkrankung, die sich unter anderem durch Blut im Urin bemerkbar machen kann und eine fachärztliche Abklärung erfordert.",
+      image: "/urologie/vessie.avif",
+    },
+    {
+      nom: "Prostatakrebs",
+      description:
+        "Tumorerkrankung der Prostata, die eine fachärztliche Untersuchung erfordert, um das Krankheitsstadium und die geeigneten Behandlungsmöglichkeiten festzustellen.",
+      image: "/urologie/cancer-prostate.avif",
+    },
+    {
+      nom: "Harninkontinenz",
+      description:
+        "Unwillkürlicher Urinverlust, der verschiedene Ursachen haben kann und eine individuelle medizinische Abklärung erfordert.",
+      image: "/urologie/perte.avif",
+    },
+    {
+      nom: "Varikozele",
+      description:
+        "Erweiterung der Venen im Bereich des Hodens, die Beschwerden verursachen oder mit Fruchtbarkeitsproblemen verbunden sein kann.",
+      image: "/urologie/dilatation.avif",
+    },
+    {
+      nom: "Störungen der männlichen Fruchtbarkeit",
+      description:
+        "Schwierigkeiten, ein Kind zu zeugen, die eine urologische und andrologische Untersuchung zur Ermittlung möglicher Ursachen erforderlich machen können.",
+      image: "/urologie/trouble.avif",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Ureteroskopie",
+      description:
+        "Endoskopischer Eingriff zur Untersuchung der Harnwege und zur Behandlung bestimmter Harnsteine, abhängig von ihrer Lage.",
+    },
+    {
+      nom: "Lithotripsie",
+      description:
+        "Verfahren, bei dem Stoßwellen eingesetzt werden, um bestimmte Harnsteine zu zertrümmern, sofern diese Methode medizinisch angezeigt ist.",
+    },
+    {
+      nom: "Transurethrale Resektion der Prostata",
+      description:
+        "Endoskopischer Eingriff, der zur Behandlung bestimmter Beschwerden beim Wasserlassen aufgrund einer gutartigen Prostatavergrößerung angeboten werden kann.",
+    },
+    {
+      nom: "Prostataoperation",
+      description:
+        "Chirurgische Behandlung, die abhängig von der Erkrankung, ihrem Stadium und dem allgemeinen Gesundheitszustand des Patienten ausgewählt wird.",
+    },
+    {
+      nom: "Zystoskopie",
+      description:
+        "Endoskopische Untersuchung zur Betrachtung des Inneren der Harnblase und der Harnröhre.",
+    },
+    {
+      nom: "Varikozelenoperation",
+      description:
+        "Chirurgischer Eingriff, der in bestimmten Situationen angeboten werden kann, insbesondere bei Schmerzen oder Fruchtbarkeitsproblemen.",
+    },
+  ],
+
+  examens: [
+    "Ultraschalluntersuchung der Nieren und Harnblase",
+    "Prostata-Ultraschall",
+    "Urinanalyse und Urinkultur",
+    "PSA-Bestimmung je nach medizinischer Indikation",
+    "CT-Untersuchung der Harnwege",
+    "MRT der Prostata je nach medizinischer Indikation",
+    "Zystoskopie",
+    "Uroflowmetrie",
+    "Urodynamische Untersuchung je nach Symptomen",
+  ],
+
+  diagnostic: [
+    "Klinische Untersuchung und Erhebung der Krankengeschichte",
+    "Laboruntersuchungen und Urinanalysen",
+    "Den Symptomen entsprechende bildgebende Untersuchungen",
+    "Endoskopische Untersuchungen, falls erforderlich",
+    "Fachärztliche Abklärung vor einem möglichen Eingriff",
+  ],
+
+  faq: [
+    {
+      question: "Wann sollte man einen Urologen aufsuchen?",
+      reponse:
+        "Eine urologische Untersuchung kann bei Schmerzen oder Beschwerden beim Wasserlassen, Blut im Urin, Harnsteinen, Prostatabeschwerden oder Schwierigkeiten beim Wasserlassen angezeigt sein.",
+    },
+    {
+      question: "Welche Untersuchungen können in der Urologie erforderlich sein?",
+      reponse:
+        "Abhängig von den Symptomen kann der Facharzt eine Urinanalyse, eine Ultraschalluntersuchung, eine CT, eine MRT oder eine endoskopische Untersuchung veranlassen.",
+    },
+    {
+      question: "Müssen Harnsteine immer operiert werden?",
+      reponse:
+        "Nein. Die Behandlung hängt insbesondere von der Größe und Lage des Steins, den Symptomen und dem möglichen Vorliegen von Komplikationen ab.",
+    },
+    {
+      question: "Organisiert Glomed Group den medizinischen Aufenthalt in Tunesien?",
+      reponse:
+        "Glomed Group unterstützt Patienten bei der Organisation ihres medizinischen Behandlungswegs und ihres Aufenthalts in Abstimmung mit den zuständigen medizinischen Fachkräften und Einrichtungen.",
+    },
+  ],
+}
+
 },
  
 
@@ -3309,6 +4632,433 @@ pediatrie: {
       },
     ],
   },
+  it : {
+  title: "Pediatria",
+  subtitle: "La salute dei bambini al centro delle nostre priorità",
+  description:
+    "Glomed Group accompagna le famiglie nell'organizzazione del percorso medico dei propri figli in Tunisia, facilitando il coordinamento con i professionisti sanitari.",
+
+  intro:
+    "La pediatria è la specialità medica dedicata alla salute dei neonati, dei bambini e degli adolescenti. Comprende la prevenzione, il monitoraggio della crescita, la diagnosi e il trattamento delle malattie infantili. Glomed Group facilita l'organizzazione del soggiorno medico e il coordinamento con i professionisti sanitari in Tunisia.",
+
+  image: "/images/pediatrie.jpg",
+  alt: "Assistenza pediatrica",
+
+  services: [
+    "Visite pediatriche",
+    "Monitoraggio della crescita e dello sviluppo",
+    "Valutazione delle malattie infantili",
+    "Esami adatti ai bambini",
+    "Orientamento verso pediatri e specialisti",
+    "Assistenza alle famiglie",
+    "Organizzazione del percorso di cura in Tunisia",
+    "Consigli sulla nutrizione e sull'alimentazione infantile",
+    "Monitoraggio delle vaccinazioni e prevenzione delle malattie",
+  ],
+
+  maladies: [
+    {
+      nom: "Asma infantile",
+      image: "/pediatrie/asthme-enfant.avif",
+      description:
+        "Malattia infiammatoria delle vie respiratorie che può provocare tosse, sibili e difficoltà respiratorie.",
+    },
+    {
+      nom: "Bronchiolite",
+      image: "/pediatrie/broncholite.avif",
+      description:
+        "Infezione respiratoria frequente nei neonati, che può causare tosse, respirazione accelerata e difficoltà nell'alimentazione.",
+    },
+    {
+      nom: "Otite",
+      image: "/pediatrie/otite.avif",
+      description:
+        "Infiammazione o infezione dell'orecchio che può provocare dolore, febbre e talvolta una temporanea riduzione dell'udito.",
+    },
+    {
+      nom: "Gastroenterite",
+      image: "/pediatrie/gastro-enterite.avif",
+      description:
+        "Infezione dell'apparato digerente che può causare diarrea, vomito e rischio di disidratazione.",
+    },
+    {
+      nom: "Allergie infantili",
+      image: "/pediatrie/allergie.avif",
+      description:
+        "Reazioni del sistema immunitario a determinate sostanze, che possono provocare manifestazioni cutanee, digestive o respiratorie.",
+    },
+    {
+      nom: "Anemia nei bambini",
+      image: "/pediatrie/anemie.avif",
+      description:
+        "Riduzione dell'emoglobina nel sangue che può provocare stanchezza, pallore o diminuzione dell'energia.",
+    },
+    {
+      nom: "Diabete di tipo 1",
+      image: "/pediatrie/diabete.avif",
+      description:
+        "Malattia cronica in cui il pancreas non produce più una quantità sufficiente di insulina e che richiede un monitoraggio medico regolare.",
+    },
+    {
+      nom: "Disturbi della crescita",
+      image: "/pediatrie/trouble-croissance.avif",
+      description:
+        "Evoluzione dell'altezza o del peso che può richiedere una valutazione della crescita e dello sviluppo del bambino.",
+    },
+    {
+      nom: "Infezioni urinarie",
+      image: "/pediatrie/infection-urinaire.avif",
+      description:
+        "Infezioni delle vie urinarie che possono manifestarsi con febbre, dolore o disturbi urinari a seconda dell'età.",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Gestione delle urgenze pediatriche",
+      description:
+        "Valutazione medica tempestiva dei sintomi acuti del bambino per determinare le cure necessarie.",
+    },
+    {
+      nom: "Chirurgia pediatrica",
+      description:
+        "Orientamento verso un'équipe di chirurgia pediatrica quando determinate patologie richiedono un intervento.",
+    },
+    {
+      nom: "Trattamento delle malformazioni congenite",
+      description:
+        "Valutazione delle anomalie presenti dalla nascita e orientamento verso gli specialisti più adatti per determinare le cure o gli interventi necessari.",
+    },
+    {
+      nom: "Trattamento delle tonsille e delle adenoidi",
+      description:
+        "In alcune situazioni otorinolaringoiatriche può essere preso in considerazione un intervento dopo una valutazione specialistica.",
+    },
+    {
+      nom: "Monitoraggio delle malattie croniche",
+      description:
+        "Organizzazione del monitoraggio medico dei bambini affetti da patologie che richiedono controlli e cure regolari.",
+    },
+    {
+      nom: "Assistenza nutrizionale",
+      description:
+        "Valutazione delle esigenze nutrizionali del bambino e orientamento verso i professionisti più adatti, se necessario.",
+    },
+  ],
+
+  examens: [
+    "Visita clinica pediatrica",
+    "Misurazione del peso, dell'altezza e della circonferenza cranica in base all'età",
+    "Analisi del sangue",
+    "Esame delle urine",
+    "Ecografia, secondo indicazione medica",
+    "Radiografia, secondo indicazione medica",
+    "Test allergologici, se necessari",
+    "Valutazione dello sviluppo psicomotorio",
+    "Misurazione della saturazione di ossigeno, se necessaria",
+  ],
+
+  diagnostic: [
+    {
+      nom: "Visita clinica pediatrica",
+      description:
+        "Valutazione dello stato generale del bambino, dei suoi sintomi, dei precedenti clinici e dei segni clinici.",
+    },
+    {
+      nom: "Valutazione della crescita",
+      description:
+        "Misurazione del peso, dell'altezza e, in base all'età, della circonferenza cranica per monitorare lo sviluppo del bambino.",
+    },
+    {
+      nom: "Analisi del sangue",
+      description:
+        "Esami di laboratorio che possono aiutare a individuare un'infezione, un'anemia o altre anomalie in base ai sintomi.",
+    },
+    {
+      nom: "Elettrocardiogramma (ECG)",
+      description:
+        "Registra l'attività elettrica del cuore per aiutare a valutare alcuni disturbi del ritmo o sintomi cardiaci nel bambino.",
+    },
+    {
+      nom: "Screening dell'udito",
+      description:
+        "Esame che consente di valutare l'udito del bambino e individuare un'eventuale riduzione uditiva che richieda un monitoraggio specialistico.",
+    },
+    {
+      nom: "Esame delle urine",
+      description:
+        "Esame utilizzato in particolare per individuare un'infezione urinaria o alcune anomalie delle vie urinarie.",
+    },
+    {
+      nom: "Ecografia pediatrica",
+      description:
+        "Esame di diagnostica per immagini senza raggi X che consente di esaminare determinati organi in base al quesito medico.",
+    },
+    {
+      nom: "Radiografia",
+      description:
+        "Esame di diagnostica per immagini eseguito solo quando indicato, adottando precauzioni adeguate all'età del bambino.",
+    },
+    {
+      nom: "Test allergologici",
+      description:
+        "Esami che possono contribuire a identificare un'allergia sospetta, in base ai sintomi e alla valutazione medica.",
+    },
+    {
+      nom: "Valutazione dello sviluppo",
+      description:
+        "Valutazione delle capacità motorie, del linguaggio, delle interazioni e delle altre tappe dello sviluppo in base all'età.",
+    },
+  ],
+
+  faq: [
+    {
+      question: "Di cosa si occupa la pediatria?",
+      reponse:
+        "La pediatria riguarda la salute dei neonati, dei bambini e degli adolescenti, in particolare la loro crescita, il loro sviluppo e le malattie infantili.",
+    },
+    {
+      question: "Quando consultare un pediatra?",
+      reponse:
+        "Una visita può essere utile per il monitoraggio della crescita, in caso di sintomi persistenti, infezioni ricorrenti, disturbi alimentari o qualsiasi preoccupazione relativa allo sviluppo del bambino.",
+    },
+    {
+      question: "Quali documenti preparare per una visita?",
+      reponse:
+        "Se disponibili, preparate il libretto sanitario, i referti medici, i risultati degli esami, le prescrizioni e le informazioni sui trattamenti in corso.",
+    },
+    {
+      question: "Quali esami possono essere effettuati su un bambino?",
+      reponse:
+        "Gli esami dipendono dall'età, dai sintomi e dalla valutazione medica. Possono comprendere una visita clinica, analisi di laboratorio o esami di diagnostica per immagini, se necessari.",
+    },
+    {
+      question: "Come organizzare un soggiorno medico pediatrico in Tunisia?",
+      reponse:
+        "Potete contattare Glomed Group per presentare la vostra richiesta e i documenti disponibili. L'organizzazione dipende dalle esigenze del bambino e dall'orientamento dei professionisti sanitari.",
+    },
+    {
+      question: "Gli esami sono uguali per tutti i bambini?",
+      reponse:
+        "No. Gli esami e le cure vengono adattati all'età, allo stato di salute e alla situazione di ogni bambino, dopo una valutazione medica.",
+    },
+  ],
+},
+
+de: {
+  title: "Pädiatrie",
+  subtitle: "Die Gesundheit der Kinder steht im Mittelpunkt unserer Prioritäten",
+  description:
+    "Glomed Group unterstützt Familien bei der Organisation der medizinischen Versorgung ihrer Kinder in Tunesien und erleichtert die Koordination mit medizinischem Fachpersonal.",
+
+  intro:
+    "Die Pädiatrie ist das medizinische Fachgebiet, das sich mit der Gesundheit von Säuglingen, Kindern und Jugendlichen befasst. Sie umfasst die Prävention, die Überwachung des Wachstums, die Diagnose und die Behandlung von Kinderkrankheiten. Glomed Group erleichtert die Organisation des medizinischen Aufenthalts und die Koordination mit medizinischem Fachpersonal in Tunesien.",
+
+  image: "/images/pediatrie.jpg",
+  alt: "Pädiatrische Versorgung",
+
+  services: [
+    "Pädiatrische Sprechstunden",
+    "Überwachung des Wachstums und der Entwicklung",
+    "Abklärung von Kinderkrankheiten",
+    "Kindgerechte Untersuchungen",
+    "Vermittlung an Kinderärzte und Fachärzte",
+    "Unterstützung der Familien",
+    "Organisation des Behandlungsablaufs in Tunesien",
+    "Beratung zu Ernährung und Säuglings- und Kindernahrung",
+    "Überwachung der Impfungen und Krankheitsprävention",
+  ],
+
+  maladies: [
+    {
+      nom: "Asthma bei Kindern",
+      image: "/pediatrie/asthme-enfant.avif",
+      description:
+        "Entzündliche Erkrankung der Atemwege, die Husten, pfeifende Atemgeräusche und Atembeschwerden verursachen kann.",
+    },
+    {
+      nom: "Bronchiolitis",
+      image: "/pediatrie/broncholite.avif",
+      description:
+        "Häufige Atemwegsinfektion bei Säuglingen, die Husten, beschleunigte Atmung und Schwierigkeiten bei der Nahrungsaufnahme verursachen kann.",
+    },
+    {
+      nom: "Mittelohrentzündung",
+      image: "/pediatrie/otite.avif",
+      description:
+        "Entzündung oder Infektion des Ohres, die Schmerzen, Fieber und manchmal eine vorübergehende Hörminderung verursachen kann.",
+    },
+    {
+      nom: "Gastroenteritis",
+      image: "/pediatrie/gastro-enterite.avif",
+      description:
+        "Infektion des Verdauungstrakts, die Durchfall, Erbrechen und das Risiko einer Dehydrierung verursachen kann.",
+    },
+    {
+      nom: "Allergien bei Kindern",
+      image: "/pediatrie/allergie.avif",
+      description:
+        "Reaktionen des Immunsystems auf bestimmte Stoffe, die Haut-, Verdauungs- oder Atemwegsbeschwerden hervorrufen können.",
+    },
+    {
+      nom: "Anämie bei Kindern",
+      image: "/pediatrie/anemie.avif",
+      description:
+        "Verminderung des Hämoglobingehalts im Blut, die Müdigkeit, Blässe oder einen Energiemangel verursachen kann.",
+    },
+    {
+      nom: "Typ-1-Diabetes",
+      image: "/pediatrie/diabete.avif",
+      description:
+        "Chronische Erkrankung, bei der die Bauchspeicheldrüse nicht mehr ausreichend Insulin produziert und die eine regelmäßige medizinische Betreuung erfordert.",
+    },
+    {
+      nom: "Wachstumsstörungen",
+      image: "/pediatrie/trouble-croissance.avif",
+      description:
+        "Veränderungen der Körpergröße oder des Gewichts, die eine Beurteilung des Wachstums und der Entwicklung des Kindes erforderlich machen können.",
+    },
+    {
+      nom: "Harnwegsinfektionen",
+      image: "/pediatrie/infection-urinaire.avif",
+      description:
+        "Infektionen der Harnwege, die sich je nach Alter durch Fieber, Schmerzen oder Beschwerden beim Wasserlassen äußern können.",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Behandlung pädiatrischer Notfälle",
+      description:
+        "Zeitnahe medizinische Beurteilung akuter Symptome des Kindes, um die erforderliche Versorgung festzulegen.",
+    },
+    {
+      nom: "Kinderchirurgie",
+      description:
+        "Vermittlung an ein kinderchirurgisches Team, wenn bestimmte Erkrankungen einen operativen Eingriff erfordern.",
+    },
+    {
+      nom: "Behandlung angeborener Fehlbildungen",
+      description:
+        "Beurteilung von Anomalien, die bereits bei der Geburt vorhanden sind, und Vermittlung an geeignete Fachärzte, um die erforderliche Behandlung oder mögliche Eingriffe festzulegen.",
+    },
+    {
+      nom: "Behandlung der Mandeln und Rachenmandeln",
+      description:
+        "In bestimmten HNO-medizinischen Situationen kann nach einer fachärztlichen Beurteilung ein Eingriff in Betracht gezogen werden.",
+    },
+    {
+      nom: "Betreuung bei chronischen Erkrankungen",
+      description:
+        "Organisation der medizinischen Betreuung von Kindern mit Erkrankungen, die regelmäßige Kontrollen und Behandlungen erfordern.",
+    },
+    {
+      nom: "Ernährungsberatung",
+      description:
+        "Beurteilung des Ernährungsbedarfs des Kindes und bei Bedarf Vermittlung an geeignete Fachkräfte.",
+    },
+  ],
+
+  examens: [
+    "Pädiatrische klinische Untersuchung",
+    "Messung von Gewicht, Körpergröße und Kopfumfang entsprechend dem Alter",
+    "Blutuntersuchungen",
+    "Urinuntersuchung",
+    "Ultraschalluntersuchung je nach medizinischer Indikation",
+    "Röntgenuntersuchung je nach medizinischer Indikation",
+    "Allergietests, falls erforderlich",
+    "Beurteilung der psychomotorischen Entwicklung",
+    "Messung der Sauerstoffsättigung, falls erforderlich",
+  ],
+
+  diagnostic: [
+    {
+      nom: "Pädiatrische klinische Untersuchung",
+      description:
+        "Beurteilung des Allgemeinzustands des Kindes, seiner Symptome, seiner Krankengeschichte und der klinischen Anzeichen.",
+    },
+    {
+      nom: "Wachstumsuntersuchung",
+      description:
+        "Messung des Gewichts, der Körpergröße und je nach Alter des Kopfumfangs, um die Entwicklung des Kindes zu überwachen.",
+    },
+    {
+      nom: "Blutuntersuchungen",
+      description:
+        "Laboruntersuchungen, die je nach Symptomen helfen können, eine Infektion, eine Anämie oder andere Auffälligkeiten festzustellen.",
+    },
+    {
+      nom: "Elektrokardiogramm (EKG)",
+      description:
+        "Zeichnet die elektrische Aktivität des Herzens auf, um bestimmte Herzrhythmusstörungen oder Herzbeschwerden bei Kindern zu beurteilen.",
+    },
+    {
+      nom: "Hörscreening",
+      description:
+        "Untersuchung zur Beurteilung des Hörvermögens des Kindes und zur Erkennung einer möglichen Hörminderung, die eine fachärztliche Betreuung erfordert.",
+    },
+    {
+      nom: "Urinuntersuchung",
+      description:
+        "Untersuchung, die insbesondere zur Feststellung einer Harnwegsinfektion oder bestimmter Auffälligkeiten der Harnwege eingesetzt wird.",
+    },
+    {
+      nom: "Pädiatrische Ultraschalluntersuchung",
+      description:
+        "Bildgebende Untersuchung ohne Röntgenstrahlen, mit der je nach medizinischer Fragestellung bestimmte Organe untersucht werden können.",
+    },
+    {
+      nom: "Röntgenuntersuchung",
+      description:
+        "Bildgebende Untersuchung, die nur bei entsprechender Indikation durchgeführt wird und bei der altersgerechte Vorsichtsmaßnahmen getroffen werden.",
+    },
+    {
+      nom: "Allergietests",
+      description:
+        "Untersuchungen, die dazu beitragen können, eine vermutete Allergie anhand der Symptome und der medizinischen Beurteilung festzustellen.",
+    },
+    {
+      nom: "Beurteilung der Entwicklung",
+      description:
+        "Beurteilung der motorischen Fähigkeiten, der Sprachentwicklung, der sozialen Interaktionen und weiterer Entwicklungsschritte entsprechend dem Alter.",
+    },
+  ],
+
+  faq: [
+    {
+      question: "Welche Erkrankungen behandelt die Pädiatrie?",
+      reponse:
+        "Die Pädiatrie befasst sich mit der Gesundheit von Säuglingen, Kindern und Jugendlichen, insbesondere mit ihrem Wachstum, ihrer Entwicklung und Kinderkrankheiten.",
+    },
+    {
+      question: "Wann sollte man einen Kinderarzt aufsuchen?",
+      reponse:
+        "Eine Untersuchung kann bei der Überwachung des Wachstums, anhaltenden Symptomen, wiederkehrenden Infektionen, Ernährungsproblemen oder bei Fragen zur Entwicklung des Kindes sinnvoll sein.",
+    },
+    {
+      question: "Welche Unterlagen sollte man zu einer Untersuchung mitbringen?",
+      reponse:
+        "Falls vorhanden, bringen Sie bitte das Gesundheitsheft des Kindes, medizinische Berichte, Untersuchungsergebnisse, ärztliche Verordnungen und Informationen zu laufenden Behandlungen mit.",
+    },
+    {
+      question: "Welche Untersuchungen können bei einem Kind durchgeführt werden?",
+      reponse:
+        "Die Untersuchungen hängen vom Alter, den Symptomen und der medizinischen Beurteilung ab. Sie können eine klinische Untersuchung, Laboranalysen oder bei Bedarf bildgebende Verfahren umfassen.",
+    },
+    {
+      question: "Wie kann man einen pädiatrischen medizinischen Aufenthalt in Tunesien organisieren?",
+      reponse:
+        "Sie können Glomed Group kontaktieren, um Ihre Anfrage und die verfügbaren medizinischen Unterlagen vorzulegen. Die Organisation richtet sich nach den Bedürfnissen des Kindes und der Empfehlung des medizinischen Fachpersonals.",
+    },
+    {
+      question: "Sind die Untersuchungen für alle Kinder gleich?",
+      reponse:
+        "Nein. Untersuchungen und Behandlungen werden nach einer medizinischen Beurteilung an das Alter, den Gesundheitszustand und die individuelle Situation jedes Kindes angepasst.",
+    },
+  ],
+},
+
+
 },
 
 
@@ -3938,6 +5688,423 @@ pediatrie: {
       },
     ],
   },
+
+it: {
+  title: "Gastroenterologia",
+  subtitle: "Prendetevi cura della vostra salute digestiva",
+  description:
+    "Glomed Group vi accompagna nell'organizzazione del vostro percorso di cure digestive in Tunisia, dalla visita specialistica agli esami e all'orientamento verso un'assistenza adeguata.",
+
+  intro:
+    "La gastroenterologia è la specialità medica dedicata all'apparato digerente, in particolare all'esofago, allo stomaco, all'intestino, al fegato, alla cistifellea e al pancreas. Glomed Group facilita il coordinamento con i professionisti sanitari e l'organizzazione del vostro soggiorno medico in Tunisia.",
+
+  image: "/images/gastro.jpg",
+  alt: "Visita gastroenterologica",
+
+  services: [
+    "Visite gastroenterologiche",
+    "Valutazione dei disturbi digestivi",
+    "Esami e valutazione delle malattie del fegato",
+    "Accertamenti delle malattie intestinali",
+    "Orientamento verso gastroenterologi specializzati",
+    "Consigli per la nutrizione e la salute digestiva",
+    "Organizzazione del percorso di cura in Tunisia",
+    "Monitoraggio delle malattie digestive croniche",
+    "Preparazione e coordinamento degli esami digestivi",
+  ],
+
+  maladies: [
+    {
+      nom: "Reflusso gastroesofageo",
+      image: "/gastro-enterologie/reflux.avif",
+      description:
+        "Risalita del contenuto dello stomaco verso l'esofago, che può provocare bruciore, rigurgito o disturbi digestivi.",
+    },
+    {
+      nom: "Gastrite",
+      image: "/gastro-enterologie/gastrite.avif",
+      description:
+        "Infiammazione della mucosa dello stomaco che può essere associata a dolore o fastidio digestivo.",
+    },
+    {
+      nom: "Ulcera gastroduodenale",
+      image: "/gastro-enterologie/ulcere-1.avif",
+      description:
+        "Lesione della mucosa dello stomaco o del duodeno che può provocare dolore e, talvolta, complicazioni.",
+    },
+    {
+      nom: "Malattia celiaca",
+      image: "/gastro-enterologie/coaliaque.avif",
+      description:
+        "Malattia autoimmune scatenata dal glutine nelle persone predisposte, che può causare sintomi digestivi e carenze nutrizionali.",
+    },
+    {
+      nom: "Malattia di Crohn",
+      image: "/gastro-enterologie/grone.avif",
+      description:
+        "Malattia infiammatoria cronica che può interessare diverse parti del tratto digestivo e provocare dolori addominali e diarrea.",
+    },
+    {
+      nom: "Rettocolite ulcerosa",
+      image: "/gastro-enterologie/diare.avif",
+      description:
+        "Malattia infiammatoria cronica del colon e del retto che può causare diarrea, talvolta accompagnata da sangue.",
+    },
+    {
+      nom: "Sindrome dell'intestino irritabile",
+      image: "/gastro-enterologie/intestin.avif",
+      description:
+        "Disturbo funzionale digestivo che può associare dolori addominali, gonfiore e alterazioni del transito intestinale.",
+    },
+    {
+      nom: "Epatite",
+      image: "/gastro-enterologie/hepathite.avif",
+      description:
+        "Infiammazione del fegato che può avere diverse cause e richiedere accertamenti specifici.",
+    },
+    {
+      nom: "Calcoli biliari",
+      image: "/urologie/calcul.webp",
+      description:
+        "Formazione di calcoli nella cistifellea che può talvolta provocare dolori addominali o complicazioni.",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Gastroscopia",
+      description:
+        "Esame endoscopico che consente di esplorare l'esofago, lo stomaco e il duodeno, con prelievi se necessario.",
+    },
+    {
+      nom: "Colonscopia",
+      description:
+        "Esame endoscopico del colon che consente di individuare alcune anomalie e di effettuare prelievi o procedure appropriate.",
+    },
+    {
+      nom: "Polipectomia digestiva",
+      description:
+        "Rimozione di alcuni polipi durante un'endoscopia, quando indicato.",
+    },
+    {
+      nom: "Legatura endoscopica delle varici esofagee",
+      description:
+        "Procedura specialistica che può essere utilizzata per trattare alcune varici dell'esofago e prevenirne le complicazioni.",
+    },
+    {
+      nom: "Dilatazione endoscopica",
+      description:
+        "Procedura che consente di allargare alcune zone ristrette del tubo digerente in situazioni selezionate.",
+    },
+    {
+      nom: "Trattamento delle malattie del fegato",
+      description:
+        "Valutazione specialistica e coordinamento delle cure per alcune malattie epatiche, in base alla loro causa e gravità.",
+    },
+  ],
+
+  examens: [
+    "Gastroscopia",
+    "Colonscopia",
+    "Ecografia addominale",
+    "TAC addominale, secondo indicazione medica",
+    "Analisi del sangue per la valutazione epatica e digestiva",
+    "Ricerca di Helicobacter pylori",
+    "Analisi delle feci, in base ai sintomi",
+    "Elastografia epatica, secondo indicazione medica",
+    "Entero-RM per alcune malattie intestinali",
+  ],
+
+  diagnostic: [
+    {
+      nom: "Gastroscopia",
+      description:
+        "Esame che consente di osservare la mucosa dell'esofago, dello stomaco e del duodeno e di effettuare prelievi se necessario.",
+    },
+    {
+      nom: "Colonscopia",
+      description:
+        "Esplorazione dell'interno del colon per individuare infiammazioni, polipi o altre anomalie.",
+    },
+    {
+      nom: "Ecografia addominale",
+      description:
+        "Esame di diagnostica per immagini che consente di esaminare in particolare il fegato, la cistifellea e altri organi addominali.",
+    },
+    {
+      nom: "Esami del sangue per la funzionalità epatica",
+      description:
+        "Analisi che permettono di valutare alcuni parametri legati al fegato e di orientare ulteriori accertamenti in base ai risultati.",
+    },
+    {
+      nom: "Ricerca di Helicobacter pylori",
+      description:
+        "Test che possono rilevare questo batterio associato ad alcune gastriti e ulcere gastroduodenali.",
+    },
+    {
+      nom: "Analisi delle feci",
+      description:
+        "Esame biologico che può individuare alcune infezioni, infiammazioni o anomalie digestive in base ai sintomi.",
+    },
+    {
+      nom: "TAC addominale",
+      description:
+        "Esame di diagnostica per immagini che consente di esplorare gli organi addominali in determinate situazioni cliniche.",
+    },
+    {
+      nom: "Entero-RM",
+      description:
+        "Esame di diagnostica per immagini specialistico che può aiutare a valutare alcune malattie dell'intestino tenue, in particolare la malattia di Crohn.",
+    },
+    {
+      nom: "Elastografia epatica",
+      description:
+        "Esame non invasivo che consente di valutare la rigidità del fegato e di contribuire alla valutazione di un'eventuale fibrosi.",
+    },
+  ],
+
+  faq: [
+    {
+      question: "Di cosa si occupa la gastroenterologia?",
+      reponse:
+        "La gastroenterologia riguarda le malattie dell'apparato digerente, in particolare quelle dell'esofago, dello stomaco, dell'intestino, del fegato, della cistifellea e del pancreas.",
+    },
+    {
+      question: "Quando consultare un gastroenterologo?",
+      reponse:
+        "Una visita può essere indicata in caso di dolori addominali persistenti, disturbi del transito intestinale, reflusso frequente o anomalie negli esami digestivi o epatici.",
+    },
+    {
+      question: "A cosa servono la gastroscopia e la colonscopia?",
+      reponse:
+        "La gastroscopia esamina la parte superiore del tubo digerente, mentre la colonscopia esamina il colon. Il medico determina l'esame più adatto a ogni situazione.",
+    },
+    {
+      question: "È necessario prepararsi agli esami digestivi?",
+      reponse:
+        "Alcuni esami richiedono una preparazione specifica, in particolare la colonscopia. È importante seguire attentamente le istruzioni fornite dall'équipe medica.",
+    },
+    {
+      question: "Come preparare un soggiorno medico di gastroenterologia in Tunisia?",
+      reponse:
+        "Se disponibili, preparate i vostri referti medici, le analisi, gli esami di diagnostica per immagini, le prescrizioni e le informazioni sui trattamenti in corso. Glomed Group può facilitare il coordinamento del percorso concordato.",
+    },
+    {
+      question: "Gli interventi sono necessari per tutte le malattie digestive?",
+      reponse:
+        "No. Molte patologie digestive vengono trattate con terapie mediche, modifiche adeguate dello stile di vita o monitoraggio. Le procedure endoscopiche o chirurgiche dipendono dalla valutazione specialistica.",
+    },
+  ],
+},
+
+de: {
+  title: "Gastroenterologie",
+  subtitle: "Achten Sie auf Ihre Verdauungsgesundheit",
+  description:
+    "Glomed Group unterstützt Sie bei der Organisation Ihrer medizinischen Versorgung im Bereich der Verdauung in Tunesien – von der fachärztlichen Beratung über Untersuchungen bis hin zur Vermittlung einer geeigneten Behandlung.",
+
+  intro:
+    "Die Gastroenterologie ist das medizinische Fachgebiet, das sich mit dem Verdauungssystem befasst, insbesondere mit der Speiseröhre, dem Magen, dem Darm, der Leber, der Gallenblase und der Bauchspeicheldrüse. Glomed Group erleichtert die Koordination mit medizinischem Fachpersonal und die Organisation Ihres medizinischen Aufenthalts in Tunesien.",
+
+  image: "/images/gastro.jpg",
+  alt: "Gastroenterologische Untersuchung",
+
+  services: [
+    "Gastroenterologische Sprechstunden",
+    "Abklärung von Verdauungsbeschwerden",
+    "Untersuchung von Lebererkrankungen",
+    "Abklärung von Darmerkrankungen",
+    "Vermittlung an spezialisierte Gastroenterologen",
+    "Ernährungsberatung für die Verdauungsgesundheit",
+    "Organisation des Behandlungsablaufs in Tunesien",
+    "Betreuung bei chronischen Verdauungserkrankungen",
+    "Vorbereitung und Koordination von Verdauungsuntersuchungen",
+  ],
+
+  maladies: [
+    {
+      nom: "Gastroösophageale Refluxkrankheit",
+      image: "/gastro-enterologie/reflux.avif",
+      description:
+        "Rückfluss von Mageninhalt in die Speiseröhre, der Sodbrennen, Aufstoßen oder Verdauungsbeschwerden verursachen kann.",
+    },
+    {
+      nom: "Gastritis",
+      image: "/gastro-enterologie/gastrite.avif",
+      description:
+        "Entzündung der Magenschleimhaut, die mit Schmerzen oder Verdauungsbeschwerden verbunden sein kann.",
+    },
+    {
+      nom: "Magen- und Zwölffingerdarmgeschwür",
+      image: "/gastro-enterologie/ulcere-1.avif",
+      description:
+        "Schädigung der Schleimhaut des Magens oder des Zwölffingerdarms, die Schmerzen und manchmal Komplikationen verursachen kann.",
+    },
+    {
+      nom: "Zöliakie",
+      image: "/gastro-enterologie/coaliaque.avif",
+      description:
+        "Autoimmunerkrankung, die bei betroffenen Personen durch Gluten ausgelöst wird und Verdauungsbeschwerden sowie Nährstoffmängel verursachen kann.",
+    },
+    {
+      nom: "Morbus Crohn",
+      image: "/gastro-enterologie/grone.avif",
+      description:
+        "Chronisch entzündliche Erkrankung, die verschiedene Abschnitte des Verdauungstrakts betreffen und Bauchschmerzen sowie Durchfall verursachen kann.",
+    },
+    {
+      nom: "Colitis ulcerosa",
+      image: "/gastro-enterologie/diare.avif",
+      description:
+        "Chronisch entzündliche Erkrankung des Dickdarms und des Enddarms, die Durchfall verursachen kann, manchmal auch mit Blutbeimengungen.",
+    },
+    {
+      nom: "Reizdarmsyndrom",
+      image: "/gastro-enterologie/intestin.avif",
+      description:
+        "Funktionelle Verdauungsstörung, die mit Bauchschmerzen, Blähungen und Veränderungen der Darmtätigkeit einhergehen kann.",
+    },
+    {
+      nom: "Hepatitis",
+      image: "/gastro-enterologie/hepathite.avif",
+      description:
+        "Entzündung der Leber, die verschiedene Ursachen haben kann und eine entsprechende medizinische Abklärung erfordert.",
+    },
+    {
+      nom: "Gallensteine",
+      image: "/urologie/calcul.webp",
+      description:
+        "Bildung von Steinen in der Gallenblase, die manchmal Bauchschmerzen oder Komplikationen verursachen können.",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Gastroskopie",
+      description:
+        "Endoskopische Untersuchung zur Darstellung der Speiseröhre, des Magens und des Zwölffingerdarms, gegebenenfalls mit Gewebeproben.",
+    },
+    {
+      nom: "Koloskopie",
+      description:
+        "Endoskopische Untersuchung des Dickdarms zur Erkennung bestimmter Auffälligkeiten und gegebenenfalls zur Entnahme von Gewebeproben oder Durchführung geeigneter Maßnahmen.",
+    },
+    {
+      nom: "Endoskopische Polypektomie",
+      description:
+        "Entfernung bestimmter Polypen während einer endoskopischen Untersuchung, sofern dies medizinisch angezeigt ist.",
+    },
+    {
+      nom: "Endoskopische Ligatur von Ösophagusvarizen",
+      description:
+        "Spezialisierter Eingriff, der zur Behandlung bestimmter Krampfadern in der Speiseröhre und zur Vorbeugung möglicher Komplikationen eingesetzt werden kann.",
+    },
+    {
+      nom: "Endoskopische Dilatation",
+      description:
+        "Verfahren zur Erweiterung bestimmter verengter Bereiche des Verdauungstrakts in ausgewählten Fällen.",
+    },
+    {
+      nom: "Behandlung von Lebererkrankungen",
+      description:
+        "Fachärztliche Beurteilung und Koordination der Versorgung bei bestimmten Lebererkrankungen, abhängig von deren Ursache und Schweregrad.",
+    },
+  ],
+
+  examens: [
+    "Gastroskopie",
+    "Koloskopie",
+    "Ultraschalluntersuchung des Bauchraums",
+    "Computertomographie des Bauchraums, je nach medizinischer Indikation",
+    "Blutuntersuchungen zur Beurteilung der Leber- und Verdauungsfunktion",
+    "Nachweis von Helicobacter pylori",
+    "Stuhluntersuchung, je nach Symptomen",
+    "Leberelastographie, je nach medizinischer Indikation",
+    "MR-Enterographie bei bestimmten Darmerkrankungen",
+  ],
+
+  diagnostic: [
+    {
+      nom: "Gastroskopie",
+      description:
+        "Untersuchung zur Darstellung der Schleimhaut von Speiseröhre, Magen und Zwölffingerdarm, gegebenenfalls mit Entnahme von Gewebeproben.",
+    },
+    {
+      nom: "Koloskopie",
+      description:
+        "Untersuchung des Inneren des Dickdarms zur Erkennung von Entzündungen, Polypen oder anderen Auffälligkeiten.",
+    },
+    {
+      nom: "Ultraschalluntersuchung des Bauchraums",
+      description:
+        "Bildgebende Untersuchung zur Darstellung insbesondere der Leber, der Gallenblase und anderer Bauchorgane.",
+    },
+    {
+      nom: "Leberfunktionsdiagnostik durch Blutuntersuchungen",
+      description:
+        "Blutanalysen zur Beurteilung bestimmter Leberwerte und zur Planung weiterer Untersuchungen auf Grundlage der Ergebnisse.",
+    },
+    {
+      nom: "Nachweis von Helicobacter pylori",
+      description:
+        "Tests, mit denen dieses Bakterium nachgewiesen werden kann, das mit bestimmten Formen von Gastritis und Magengeschwüren verbunden ist.",
+    },
+    {
+      nom: "Stuhluntersuchung",
+      description:
+        "Laboruntersuchung, mit der je nach Symptomen bestimmte Infektionen, Entzündungen oder Verdauungsauffälligkeiten festgestellt werden können.",
+    },
+    {
+      nom: "Computertomographie des Bauchraums",
+      description:
+        "Bildgebende Untersuchung zur Darstellung der Bauchorgane in bestimmten klinischen Situationen.",
+    },
+    {
+      nom: "MR-Enterographie",
+      description:
+        "Spezialisierte bildgebende Untersuchung, die bei der Beurteilung bestimmter Erkrankungen des Dünndarms, insbesondere Morbus Crohn, helfen kann.",
+    },
+    {
+      nom: "Leberelastographie",
+      description:
+        "Nicht invasive Untersuchung zur Messung der Lebersteifigkeit und zur Beurteilung einer möglichen Leberfibrose.",
+    },
+  ],
+
+  faq: [
+    {
+      question: "Welche Erkrankungen behandelt die Gastroenterologie?",
+      reponse:
+        "Die Gastroenterologie befasst sich mit Erkrankungen des Verdauungssystems, insbesondere der Speiseröhre, des Magens, des Darms, der Leber, der Gallenblase und der Bauchspeicheldrüse.",
+    },
+    {
+      question: "Wann sollte man einen Gastroenterologen aufsuchen?",
+      reponse:
+        "Eine fachärztliche Beratung kann bei anhaltenden Bauchschmerzen, Störungen der Darmtätigkeit, häufigem Reflux oder Auffälligkeiten bei Verdauungs- oder Leberuntersuchungen sinnvoll sein.",
+    },
+    {
+      question: "Wozu dienen Gastroskopie und Koloskopie?",
+      reponse:
+        "Die Gastroskopie untersucht den oberen Teil des Verdauungstrakts, während die Koloskopie den Dickdarm untersucht. Der Arzt entscheidet, welche Untersuchung für die jeweilige Situation geeignet ist.",
+    },
+    {
+      question: "Muss man sich auf Verdauungsuntersuchungen vorbereiten?",
+      reponse:
+        "Einige Untersuchungen erfordern eine besondere Vorbereitung, insbesondere die Koloskopie. Befolgen Sie genau die Anweisungen des medizinischen Teams.",
+    },
+    {
+      question: "Wie kann man einen gastroenterologischen medizinischen Aufenthalt in Tunesien vorbereiten?",
+      reponse:
+        "Falls vorhanden, halten Sie Ihre medizinischen Berichte, Laborergebnisse, bildgebenden Untersuchungen, ärztlichen Verordnungen und Informationen zu laufenden Behandlungen bereit. Glomed Group kann die Koordination des vereinbarten Behandlungsablaufs erleichtern.",
+    },
+    {
+      question: "Sind Eingriffe bei allen Verdauungserkrankungen notwendig?",
+      reponse:
+        "Nein. Viele Verdauungserkrankungen werden mit Medikamenten, geeigneten Änderungen des Lebensstils oder regelmäßiger Überwachung behandelt. Endoskopische oder chirurgische Eingriffe hängen von der fachärztlichen Beurteilung ab.",
+    },
+  ],
+},
+
 },
 
  
