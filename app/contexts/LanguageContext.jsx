@@ -29,7 +29,12 @@ const translations = {
     navGastro: "Gastro-entérologie",
     navOphthalmology: "Ophtalmologie",
     navGynecology: "Gynécologie",
-
+/*new dis*/
+navOncology: "Oncologie",
+navHematology: "Hématologie",
+navENT: "ORL",
+navGeneralSurgery: "Chirurgie générale",
+  navVascularSurgery: "Chirurgie vasculaire",
     navOpen: "Ouvrir le menu",
     navClose: "Fermer le menu",
     navLabel: "Navigation principale",
@@ -360,8 +365,13 @@ rehabCTA: "Organiser ma récupération",
     navGastro: "Gastroenterology",
     navOphthalmology: "Ophthalmology",
     navGynecology: "Gynecology",
-
-    navOpen: "Open menu",
+/*new dis*/
+   navOncology: "Oncology",
+navHematology: "Hematology",
+navENT: "ENT",
+navGeneralSurgery: "General Surgery",
+navVascularSurgery: "Vascular Surgery",
+navOpen: "Open menu",
     navClose: "Close menu",
     navLabel: "Main navigation",
     /*hero*/
@@ -602,8 +612,13 @@ rehabCTA: "Organize my recovery",
     navGastro: "طب الجهاز الهضمي",
     navOphthalmology: "طب العيون",
     navGynecology: "طب النساء",
-
-    navOpen: "فتح القائمة",
+/*new dis*/
+   navOncology: "طب الأورام",
+navHematology: "أمراض الدم",
+navENT: "طب الأنف والأذن والحنجرة",
+navGeneralSurgery: "الجراحة العامة",
+ navVascularSurgery: "جراحة الأوعية الدموية",
+navOpen: "فتح القائمة",
     navClose: "إغلاق القائمة",
     navLabel: "القائمة الرئيسية",
     /*hero*/
@@ -905,6 +920,667 @@ eyebrow: "آراء وتجارب المرضى",
         alt: "صورة توضيحية لرجل",
   },
 
+it: {
+  // TOPBAR
+  topbarService: "Gestione dei servizi medici",
+  topbarLocation: "Tunisia",
+  topbarEmail: "Invia un'e-mail",
+  topbarPhone: "Chiama Glomed Group",
+
+  // NAVBAR
+  navHome: "Home",
+  navServices: "Servizi",
+  navSurgery: "Specialità",
+  navAbout: "Chi siamo",
+  navContact: "Contatti",
+  navCTA: "Organizza un soggiorno",
+
+  navOrthopedics: "Ortopedia",
+  navCardiology: "Cardiologia",
+  navPneumology: "Pneumologia",
+  navUrology: "Urologia",
+  navPediatrics: "Pediatria",
+  navGastro: "Gastroenterologia",
+  navOphthalmology: "Oftalmologia",
+  navGynecology: "Ginecologia",
+  navOncology: "Oncologia",
+  navHematology: "Ematologia",
+  navENT: "Otorinolaringoiatria",
+  navGeneralSurgery: "Chirurgia generale",
+  navVascularSurgery: "Chirurgia vascolare",
+  navOpen: "Apri il menu",
+  navClose: "Chiudi il menu",
+  navLabel: "Navigazione principale",
+
+  // HERO
+  hero1Alt: "Professionisti sanitari in un ambiente medico",
+  hero1Eyebrow: "IL TUO PARTNER SANITARIO IN TUNISIA",
+  hero1Title: "Glomed Group,",
+  hero1Accent: "al tuo fianco in ogni fase.",
+  hero1Text: "Glomed Group ti accompagna nell'organizzazione del tuo soggiorno medico in Tunisia: coordinamento, alloggio, trasferimenti e orientamento verso professionisti sanitari partner.",
+  hero1Primary: "Percorso di cura",
+  hero1Secondary: "Scopri i nostri servizi",
+
+  hero2Alt: "Ambiente dedicato alle cure estetiche",
+  hero2Eyebrow: "ESTETICA E BENESSERE",
+  hero2Title: "Prenditi cura di te,",
+  hero2Accent: "in tutta tranquillità.",
+  hero2Text: "Ti aiutiamo a organizzare il tuo progetto di cure estetiche e a coordinare le diverse fasi del soggiorno con i professionisti interessati.",
+  hero2Primary: "Scopri i nostri servizi",
+  hero2Secondary: "Contattaci",
+
+  hero3Alt: "Équipe medica in una struttura sanitaria",
+  hero3Eyebrow: "IL TUO SOGGIORNO MEDICO ORGANIZZATO",
+  hero3Title: "Dal tuo arrivo",
+  hero3Accent: "fino alla tua assistenza.",
+  hero3Text: "Alloggio, trasferimenti e coordinamento: ti aiutiamo a preparare il tuo soggiorno in Tunisia in base alla tua richiesta e alle tue esigenze.",
+  hero3Primary: "Organizza un soggiorno",
+  hero3Secondary: "Come funziona?",
+
+  hero4Alt: "Équipe medica in una moderna sala operatoria",
+  hero4Eyebrow: "CHIRURGIA E SOGGIORNO MEDICO IN TUNISIA",
+  hero4Title: "Il tuo intervento chirurgico,",
+  hero4Accent: "un soggiorno organizzato con cura.",
+  hero4Text: "Glomed Group ti accompagna nella preparazione del tuo soggiorno chirurgico in Tunisia: coordinamento degli appuntamenti, organizzazione dei trasferimenti, alloggio e contatto con professionisti sanitari partner.",
+  hero4Primary: "Organizza il mio soggiorno",
+  hero4Secondary: "Scopri i nostri servizi",
+
+  hero5Alt: "Ambiente medico moderno e assistenza ai pazienti",
+  hero5Eyebrow: "GLOMED GROUP · IL TUO PARTNER SANITARIO IN TUNISIA",
+  hero5Title: "Il tuo percorso sanitario,",
+  hero5Accent: "un'assistenza in ogni fase.",
+  hero5Text: "Esami medici, visite specialistiche, chirurgia, radiologia e riabilitazione: Glomed Group ti accompagna anche nell'organizzazione del tuo soggiorno in Tunisia, coordinando alloggio e trasferimenti con professionisti e strutture sanitarie partner.",
+  hero5Primary: "Il tuo percorso sanitario",
+  hero5Secondary: "Scopri i nostri servizi",
+
+  heroTrustTitle: "Un'assistenza personalizzata",
+  heroTrustText: "Dalla preparazione all'organizzazione del soggiorno",
+  heroBottom1: "ASSISTENZA",
+  heroBottom2: "COORDINAMENTO",
+  heroBottom3: "SOGGIORNO MEDICO",
+  heroLabel: "Presentazione di Glomed Group",
+  heroDotsLabel: "Seleziona una diapositiva",
+  heroDotLabel: "Mostra la diapositiva",
+  heroPrevious: "Diapositiva precedente",
+  heroNext: "Diapositiva successiva",
+
+  // GALLERY
+  galleryEyebrow: "GLOMED GROUP · TUNISIA",
+  galleryTitle: "Cure specialistiche,",
+  galleryAccent: "un'assistenza umana",
+  galleryDescription: "Scopri le nostre specialità mediche e beneficia di un'assistenza personalizzata per il tuo percorso di cura in Tunisia.",
+  galleryLabel: "Le nostre specialità mediche",
+  galleryDiscover: "Scopri la specialità",
+
+  galleryUrology: "Urologia",
+  galleryPediatrics: "Pediatria",
+  galleryGastro: "Gastroenterologia",
+  galleryPneumology: "Pneumologia",
+  galleryCardiology: "Cardiologia",
+  galleryOphthalmology: "Oftalmologia",
+  galleryOrthopedics: "Ortopedia",
+  galleryGynecology: "Ginecologia",
+
+  galleryAltUrology: "Cure urologiche",
+  galleryAltPediatrics: "Cure pediatriche",
+  galleryAltGastro: "Cure gastroenterologiche",
+  galleryAltPneumology: "Cure pneumologiche",
+  galleryAltCardiology: "Cure cardiologiche",
+  galleryAltOphthalmology: "Cure oftalmologiche",
+  galleryAltOrthopedics: "Cure ortopediche",
+  galleryAltGynecology: "Cure ginecologiche",
+
+  // SERVICES
+  services: {
+    fr: {
+      eyebrow: "I NOSTRI AMBITI DI ASSISTENZA",
+      title: "Gestione dei servizi",
+      accent: "medici.",
+      description: "Glomed Group ti accompagna nell'organizzazione del tuo soggiorno medico in Tunisia, dalla prima richiesta agli aspetti pratici del tuo viaggio.",
+
+      services: [
+        {
+          icon: "bi bi-heart-pulse",
+          title: "Chirurgia estetica",
+          text: "Organizzazione e coordinamento del tuo progetto con professionisti sanitari partner, in base alla tua richiesta.",
+        },
+        {
+          icon: "bi bi-person-hearts",
+          title: "Medicina estetica",
+          text: "Assistenza per le tue richieste di trattamenti estetici e orientamento verso i professionisti interessati.",
+        },
+        {
+          icon: "bi bi-scissors",
+          title: "Trapianto di capelli",
+          text: "Supporto nell'organizzazione del soggiorno e nel contatto con professionisti specializzati.",
+        },
+        {
+          icon: "bi bi-emoji-smile",
+          title: "Impianti dentali",
+          text: "Coordinamento della tua richiesta di cure odontoiatriche e organizzazione pratica del soggiorno.",
+        },
+        {
+          icon: "bi bi-activity",
+          title: "Altre specialità mediche",
+          text: "Valutazione della tua richiesta e orientamento verso professionisti o strutture adeguate, in base alle possibilità disponibili.",
+        },
+        {
+          icon: "bi bi-clipboard2-pulse",
+          title: "Follow-up e appuntamenti",
+          text: "Supporto nel coordinamento degli appuntamenti e delle informazioni necessarie per preparare il soggiorno.",
+        },
+      ],
+
+      note: "Le cure, le indicazioni mediche, i trattamenti e i risultati attesi vengono valutati dai professionisti sanitari competenti. Ogni intervento dipende dal loro parere e dalla tua situazione individuale.",
+
+      processEyebrow: "UN PERCORSO IN 6 FASI",
+      processTitle: "Dalla tua richiesta",
+      processAccent: "al tuo soggiorno in Tunisia.",
+      processDescription: "Ogni fase viene preparata insieme a te per rendere l'organizzazione del soggiorno più chiara e semplice.",
+
+      steps: [
+        {
+          icon: "bi bi-chat-dots",
+          title: "La tua richiesta",
+          text: "Ci presenti il tuo progetto, le tue aspettative e le cure che desideri prendere in considerazione.",
+        },
+        {
+          icon: "bi bi-file-earmark-medical",
+          title: "Orientamento medico",
+          text: "Con il tuo consenso, facilitiamo la trasmissione delle informazioni necessarie ai professionisti sanitari interessati. Il medico valuta la tua situazione.",
+        },
+        {
+          icon: "bi bi-calendar-check",
+          title: "Organizzazione del soggiorno",
+          text: "Ti aiutiamo a coordinare gli appuntamenti, le date previste e gli aspetti pratici del soggiorno.",
+        },
+        {
+          icon: "bi bi-airplane",
+          title: "Accoglienza e trasferimenti",
+          text: "In base alla formula concordata, organizziamo l'accoglienza e i trasferimenti tra aeroporto, alloggio e luoghi degli appuntamenti.",
+        },
+        {
+          icon: "bi bi-building",
+          title: "Alloggio",
+          text: "Ti assistiamo nella ricerca o nella prenotazione di un alloggio adatto alla durata prevista del soggiorno.",
+        },
+        {
+          icon: "bi bi-heart",
+          title: "Assistenza sul posto",
+          text: "Facilitiamo il coordinamento pratico durante il soggiorno. Le decisioni e le cure mediche restano sotto la responsabilità dei professionisti sanitari.",
+        },
+      ],
+
+      ctaEyebrow: "IL TUO PROGETTO INIZIA QUI",
+      ctaTitle: "Stai pensando a un soggiorno medico in Tunisia?",
+      ctaText: "Presentaci la tua richiesta per discutere le possibilità di assistenza e le prossime fasi.",
+      ctaButton: "Organizza un soggiorno",
+    },
+  },
+
+  // PARTNERSHIPS
+  partnersEyebrow: "LA NOSTRA APERTURA INTERNAZIONALE",
+  partnersTitle: "Una rete internazionale,",
+  partnersAccent: "una destinazione: la Tunisia.",
+  partnersDescription: "Dall'Africa, dai Paesi del Golfo e dall'Europa, Glomed Group accompagna i pazienti nell'organizzazione del loro percorso di cura in Tunisia, facilitando il coordinamento con professionisti e strutture sanitarie partner.",
+  partnersRegionAfrica: "Africa",
+  partnersRegionGulf: "Golfo",
+  partnersRegionEurope: "Europa",
+  partnersDestination: "Una destinazione: la Tunisia.",
+  partnersBottomText: "Un'assistenza pensata intorno alle esigenze di ogni paziente.",
+  partnersCTA: "Parliamo delle tue cure",
+  partnersFlag: "Bandiera",
+
+  // COUNTRIES
+  countryAlgeria: "Algeria",
+  countryLibya: "Libia",
+  countryMauritania: "Mauritania",
+  countryIvoryCoast: "Costa d'Avorio",
+  countryBurkinaFaso: "Burkina Faso",
+  countryNiger: "Niger",
+  countryCameroon: "Camerun",
+  countryGabon: "Gabon",
+  countrySaudiArabia: "Arabia Saudita",
+  countryUAE: "Emirati Arabi Uniti",
+  countryQatar: "Qatar",
+  countryKuwait: "Kuwait",
+  countryBahrain: "Bahrein",
+  countryOman: "Oman",
+  countryFrance: "Francia",
+  countryItaly: "Italia",
+  countryGermany: "Germania",
+
+  // ABOUT
+  aboutLabel: "CHI SIAMO?",
+  aboutTitle: "Il coordinamento al servizio del",
+  aboutAccent: "tuo soggiorno medico.",
+  aboutDescription: "Glomed Group ti accompagna nell'organizzazione dei servizi legati al tuo soggiorno medico in Tunisia, con un approccio personalizzato, chiaro e attento alle tue esigenze.",
+
+  aboutImageAlt: "Professionista sanitario in un ambiente medico",
+  aboutBadgeTitle: "Un soggiorno meglio organizzato",
+  aboutBadgeText: "Un'assistenza adeguata alle tue esigenze.",
+
+  aboutEyebrow: "LA NOSTRA IDENTITÀ E LA NOSTRA MISSIONE",
+  aboutHeading: "Il tuo partner per organizzare il tuo soggiorno medico in Tunisia.",
+  aboutIntro: "Glomed Group è un'agenzia specializzata nella gestione e nel coordinamento dei servizi legati al soggiorno medico. Facilitiamo l'organizzazione del tuo viaggio in Tunisia e ti assistiamo negli aspetti pratici del soggiorno.",
+
+  aboutAccordion1Title: "Chi siamo?",
+  aboutAccordion1Text: "Glomed Group accompagna le persone che desiderano organizzare un soggiorno medico in Tunisia. Il nostro ruolo è facilitare il coordinamento tra le richieste dei pazienti, i professionisti sanitari interessati e i fornitori di servizi necessari all'organizzazione del soggiorno.",
+
+  aboutAccordion2Title: "La nostra missione",
+  aboutAccordion2Text: "La nostra missione è semplificare l'organizzazione del tuo soggiorno aiutandoti a preparare le diverse fasi: primo contatto, coordinamento degli appuntamenti, organizzazione degli spostamenti e ricerca di un alloggio adatto alle tue esigenze.",
+
+  aboutAccordion3Title: "Gestione dei servizi legati al soggiorno medico",
+  aboutAccordion3Text: "Facilitiamo il coordinamento dei servizi legati alle tue cure e il contatto con i professionisti o le strutture sanitarie interessate. La valutazione del tuo stato di salute, la scelta dei trattamenti e le decisioni mediche spettano ai professionisti sanitari competenti.",
+
+  aboutAccordion4Title: "I nostri valori e i nostri impegni",
+  aboutAccordion4Text: "Diamo priorità all'ascolto, alla chiarezza delle informazioni, alla disponibilità e a un'assistenza adeguata a ogni richiesta. Il nostro obiettivo è facilitare l'organizzazione pratica del tuo soggiorno, nel rispetto della tua riservatezza e del ruolo dei professionisti sanitari.",
+  aboutCTA: "Il tuo percorso sanitario",
+
+  // REHABILITATION
+  rehabEyebrow: "RIABILITAZIONE E RECUPERO",
+  rehabTitle: "Recuperare al meglio",
+  rehabAccent: "dopo l'intervento.",
+  rehabDescription: "Un buon recupero fa parte del percorso di cura. Glomed Group coordina per te la riabilitazione, il recupero funzionale e la convalescenza, secondo le raccomandazioni dell'équipe medica.",
+  rehabStep: "Fase",
+  rehabStep1Title: "Follow-up post-operatorio",
+  rehabStep1Text: "Coordinamento dei controlli e degli appuntamenti con l'équipe medica nei giorni successivi all'intervento.",
+  rehabStep2Title: "Riabilitazione funzionale",
+  rehabStep2Text: "Organizzazione delle sedute di fisioterapia prescritte dal medico per recuperare gradualmente mobilità e forza.",
+  rehabStep3Title: "Recupero funzionale",
+  rehabStep3Text: "Assistenza per riprendere gradualmente le attività quotidiane, secondo il programma definito dai professionisti sanitari.",
+  rehabStep4Title: "Convalescenza e rientro",
+  rehabStep4Text: "Alloggio adeguato durante il recupero, seguito dalla preparazione del rientro e degli appuntamenti di controllo.",
+  rehabImageAlt: "Seduta di riabilitazione dopo un intervento",
+  rehabBadgeTitle: "Un recupero seguito",
+  rehabBadgeText: "Secondo il programma del tuo medico",
+  rehabGoal1: "Alleviare il dolore",
+  rehabGoal2: "Recuperare la mobilità",
+  rehabGoal3: "Riprendere le proprie attività",
+  rehabDisclaimer: "Il programma di riabilitazione, la sua durata e gli esercizi vengono definiti dai professionisti sanitari dopo una valutazione individuale. Glomed Group coordina l'organizzazione pratica.",
+  rehabCTA: "Organizza il mio recupero",
+
+  // TESTIMONIALS
+  eyebrow: "TESTIMONIANZE",
+  title: "Si sono affidati a noi",
+  accent: "con fiducia",
+  description: "Scopri le esperienze dei pazienti accompagnati nell'organizzazione del loro percorso di cura in Tunisia.",
+  starsLabel: "5 stelle",
+
+  name: "Amine B.",
+  country: "🇩🇿 Algeria",
+  service: "Assistenza medica",
+  text: "Ho apprezzato la disponibilità del team e le informazioni ricevute per preparare il mio soggiorno medico in Tunisia.",
+  image: "https://i.pravatar.cc/100?img=11",
+  alt: "Ritratto illustrativo di un uomo",
+
+  name: "Fatou S.",
+  country: "🇸🇳 Senegal",
+  service: "Organizzazione del soggiorno",
+  text: "Il team mi ha aiutata a comprendere meglio le diverse fasi e a organizzare il mio viaggio in Tunisia.",
+  image: "/images/profil-senegal.png",
+  alt: "Ritratto di una donna senegalese",
+
+  name: "Ahmed K.",
+  country: "🇸🇦 Arabia Saudita",
+  service: "Coordinamento del percorso",
+  text: "Ho apprezzato la qualità degli scambi e l'assistenza offerta durante tutta la preparazione del mio soggiorno.",
+  image: "https://i.pravatar.cc/100?img=12",
+  alt: "Ritratto illustrativo di un uomo",
+
+  name: "Mariam A.",
+  country: "🇦🇪 Emirati Arabi Uniti",
+  service: "Assistenza e coordinamento",
+  text: "Un team attento che mi ha fornito informazioni utili per organizzare le diverse fasi del mio soggiorno.",
+  image: "https://i.pravatar.cc/100?img=44",
+  alt: "Ritratto illustrativo di una donna",
+
+  name: "Sophie M.",
+  country: "🇫🇷 Francia",
+  service: "Organizzazione del soggiorno",
+  text: "Ho apprezzato la chiarezza delle informazioni e la disponibilità del team nel rispondere alle mie domande.",
+  image: "https://i.pravatar.cc/100?img=45",
+  alt: "Ritratto illustrativo di una donna",
+
+  name: "Marc D.",
+  country: "🇧🇪 Belgio",
+  service: "Assistenza personalizzata",
+  text: "Gli scambi sono stati semplici e rassicuranti. Ho potuto ottenere le informazioni necessarie per preparare il mio soggiorno.",
+  image: "https://i.pravatar.cc/100?img=13",
+  alt: "Ritratto illustrativo di un uomo",
+},
+
+de: {
+  // TOPBAR
+  topbarService: "Organisation medizinischer Dienstleistungen",
+  topbarLocation: "Tunesien",
+  topbarEmail: "E-Mail senden",
+  topbarPhone: "Glomed Group anrufen",
+
+  // NAVBAR
+  navHome: "Startseite",
+  navServices: "Dienstleistungen",
+  navSurgery: "Fachgebiete",
+  navAbout: "Über uns",
+  navContact: "Kontakt",
+  navCTA: "Aufenthalt organisieren",
+
+  navOrthopedics: "Orthopädie",
+  navCardiology: "Kardiologie",
+  navPneumology: "Pneumologie",
+  navUrology: "Urologie",
+  navPediatrics: "Pädiatrie",
+  navGastro: "Gastroenterologie",
+  navOphthalmology: "Augenheilkunde",
+  navGynecology: "Gynäkologie",
+  navOncology: "Onkologie",
+  navHematology: "Hämatologie",
+  navENT: "HNO",
+  navGeneralSurgery: "Allgemeinchirurgie",
+  navVascularSurgery: "Gefäßchirurgie",
+  navOpen: "Menü öffnen",
+  navClose: "Menü schließen",
+  navLabel: "Hauptnavigation",
+
+  // HERO
+  hero1Alt: "Gesundheitsfachkräfte in einer medizinischen Umgebung",
+  hero1Eyebrow: "IHR GESUNDHEITSPARTNER IN TUNESIEN",
+  hero1Title: "Glomed Group,",
+  hero1Accent: "an Ihrer Seite bei jedem Schritt.",
+  hero1Text: "Glomed Group begleitet Sie bei der Organisation Ihres medizinischen Aufenthalts in Tunesien: Koordination, Unterkunft, Transfers und Vermittlung an medizinische Partner.",
+  hero1Primary: "Ihr Behandlungsweg",
+  hero1Secondary: "Unsere Dienstleistungen entdecken",
+
+  hero2Alt: "Umgebung für ästhetische Behandlungen",
+  hero2Eyebrow: "ÄSTHETIK UND WOHLBEFINDEN",
+  hero2Title: "Kümmern Sie sich um sich selbst,",
+  hero2Accent: "ganz entspannt.",
+  hero2Text: "Wir helfen Ihnen, Ihr Projekt für ästhetische Behandlungen zu organisieren und die verschiedenen Schritte Ihres Aufenthalts mit den zuständigen Fachkräften zu koordinieren.",
+  hero2Primary: "Unsere Dienstleistungen entdecken",
+  hero2Secondary: "Kontaktieren Sie uns",
+
+  hero3Alt: "Medizinisches Team in einer Gesundheitseinrichtung",
+  hero3Eyebrow: "IHR ORGANISIERTER MEDIZINISCHER AUFENTHALT",
+  hero3Title: "Von Ihrer Ankunft",
+  hero3Accent: "bis zu Ihrer Betreuung.",
+  hero3Text: "Unterkunft, Transfers und Koordination: Wir helfen Ihnen, Ihren Aufenthalt in Tunesien entsprechend Ihrer Anfrage und Ihren Bedürfnissen vorzubereiten.",
+  hero3Primary: "Aufenthalt organisieren",
+  hero3Secondary: "Wie funktioniert es?",
+
+  hero4Alt: "Medizinisches Team in einem modernen Operationssaal",
+  hero4Eyebrow: "CHIRURGIE UND MEDIZINISCHER AUFENTHALT IN TUNESIEN",
+  hero4Title: "Ihr chirurgischer Eingriff,",
+  hero4Accent: "ein sorgfältig organisierter Aufenthalt.",
+  hero4Text: "Glomed Group begleitet Sie bei der Vorbereitung Ihres chirurgischen Aufenthalts in Tunesien: Koordination der Termine, Organisation der Transfers, Unterkunft und Kontaktvermittlung zu medizinischen Partnern.",
+  hero4Primary: "Meinen Aufenthalt organisieren",
+  hero4Secondary: "Unsere Dienstleistungen entdecken",
+
+  hero5Alt: "Moderne medizinische Umgebung und Patientenbetreuung",
+  hero5Eyebrow: "GLOMED GROUP · IHR GESUNDHEITSPARTNER IN TUNESIEN",
+  hero5Title: "Ihr Gesundheitsweg,",
+  hero5Accent: "Begleitung bei jedem Schritt.",
+  hero5Text: "Medizinische Untersuchungen, Facharzttermine, Chirurgie, Radiologie und Rehabilitation: Glomed Group unterstützt Sie auch bei der Organisation Ihres Aufenthalts in Tunesien und koordiniert Unterkunft und Transfers mit medizinischen Fachkräften und Partnereinrichtungen.",
+  hero5Primary: "Ihr Gesundheitsweg",
+  hero5Secondary: "Unsere Dienstleistungen entdecken",
+
+  heroTrustTitle: "Persönliche Betreuung",
+  heroTrustText: "Von der Vorbereitung bis zur Organisation Ihres Aufenthalts",
+  heroBottom1: "BETREUUNG",
+  heroBottom2: "KOORDINATION",
+  heroBottom3: "MEDIZINISCHER AUFENTHALT",
+  heroLabel: "Vorstellung von Glomed Group",
+  heroDotsLabel: "Folie auswählen",
+  heroDotLabel: "Folie anzeigen",
+  heroPrevious: "Vorherige Folie",
+  heroNext: "Nächste Folie",
+
+  // GALLERY
+  galleryEyebrow: "GLOMED GROUP · TUNESIEN",
+  galleryTitle: "Spezialisierte Behandlungen,",
+  galleryAccent: "menschliche Betreuung",
+  galleryDescription: "Entdecken Sie unsere medizinischen Fachgebiete und profitieren Sie von einer persönlichen Begleitung auf Ihrem Behandlungsweg in Tunesien.",
+  galleryLabel: "Unsere medizinischen Fachgebiete",
+  galleryDiscover: "Fachgebiet entdecken",
+
+  galleryUrology: "Urologie",
+  galleryPediatrics: "Pädiatrie",
+  galleryGastro: "Gastroenterologie",
+  galleryPneumology: "Pneumologie",
+  galleryCardiology: "Kardiologie",
+  galleryOphthalmology: "Augenheilkunde",
+  galleryOrthopedics: "Orthopädie",
+  galleryGynecology: "Gynäkologie",
+
+  galleryAltUrology: "Urologische Versorgung",
+  galleryAltPediatrics: "Pädiatrische Versorgung",
+  galleryAltGastro: "Gastroenterologische Versorgung",
+  galleryAltPneumology: "Pneumologische Versorgung",
+  galleryAltCardiology: "Kardiologische Versorgung",
+  galleryAltOphthalmology: "Augenärztliche Versorgung",
+  galleryAltOrthopedics: "Orthopädische Versorgung",
+  galleryAltGynecology: "Gynäkologische Versorgung",
+
+  // SERVICES
+  services: {
+    fr: {
+      eyebrow: "UNSERE BEREICHE DER BETREUUNG",
+      title: "Organisation medizinischer",
+      accent: "Dienstleistungen.",
+      description: "Glomed Group begleitet Sie bei der Organisation Ihres medizinischen Aufenthalts in Tunesien – von Ihrer ersten Anfrage bis hin zu den praktischen Aspekten Ihrer Reise.",
+
+      services: [
+        {
+          icon: "bi bi-heart-pulse",
+          title: "Ästhetische Chirurgie",
+          text: "Organisation und Koordination Ihres Vorhabens mit medizinischen Partnern entsprechend Ihrer Anfrage.",
+        },
+        {
+          icon: "bi bi-person-hearts",
+          title: "Ästhetische Medizin",
+          text: "Betreuung Ihrer Anfragen zu ästhetischen Behandlungen und Vermittlung an die zuständigen Fachkräfte.",
+        },
+        {
+          icon: "bi bi-scissors",
+          title: "Haartransplantation",
+          text: "Unterstützung bei der Organisation Ihres Aufenthalts und bei der Kontaktaufnahme mit spezialisierten Fachkräften.",
+        },
+        {
+          icon: "bi bi-emoji-smile",
+          title: "Zahnimplantate",
+          text: "Koordination Ihrer Anfrage zu Zahnbehandlungen und Organisation der praktischen Aspekte Ihres Aufenthalts.",
+        },
+        {
+          icon: "bi bi-activity",
+          title: "Weitere medizinische Fachgebiete",
+          text: "Prüfung Ihrer Anfrage und Vermittlung an geeignete Fachkräfte oder Einrichtungen entsprechend den verfügbaren Möglichkeiten.",
+        },
+        {
+          icon: "bi bi-clipboard2-pulse",
+          title: "Nachsorge und Termine",
+          text: "Unterstützung bei der Koordination von Terminen und den Informationen, die zur Vorbereitung Ihres Aufenthalts benötigt werden.",
+        },
+      ],
+
+      note: "Medizinische Versorgung, Indikationen, Behandlungen und erwartete Ergebnisse werden von den zuständigen Gesundheitsfachkräften beurteilt. Jeder Eingriff hängt von deren Einschätzung und Ihrer individuellen Situation ab.",
+
+      processEyebrow: "EIN ABLAUF IN 6 SCHRITTEN",
+      processTitle: "Von Ihrer Anfrage",
+      processAccent: "bis zu Ihrem Aufenthalt in Tunesien.",
+      processDescription: "Jeder Schritt wird gemeinsam mit Ihnen vorbereitet, damit die Organisation Ihres Aufenthalts klarer und einfacher wird.",
+
+      steps: [
+        {
+          icon: "bi bi-chat-dots",
+          title: "Ihre Anfrage",
+          text: "Sie stellen uns Ihr Vorhaben, Ihre Erwartungen und die Behandlungen vor, die Sie in Betracht ziehen möchten.",
+        },
+        {
+          icon: "bi bi-file-earmark-medical",
+          title: "Medizinische Orientierung",
+          text: "Mit Ihrer Zustimmung erleichtern wir die Übermittlung der erforderlichen Informationen an die zuständigen Gesundheitsfachkräfte. Der Arzt beurteilt Ihre Situation.",
+        },
+        {
+          icon: "bi bi-calendar-check",
+          title: "Organisation des Aufenthalts",
+          text: "Wir helfen Ihnen bei der Koordination der Termine, der geplanten Reisedaten und der praktischen Aspekte Ihres Aufenthalts.",
+        },
+        {
+          icon: "bi bi-airplane",
+          title: "Empfang und Transfers",
+          text: "Je nach vereinbartem Angebot organisieren wir Ihren Empfang und Ihre Transfers zwischen Flughafen, Unterkunft und den Orten Ihrer Termine.",
+        },
+        {
+          icon: "bi bi-building",
+          title: "Unterkunft",
+          text: "Wir unterstützen Sie bei der Suche oder Buchung einer Unterkunft, die zur geplanten Dauer Ihres Aufenthalts passt.",
+        },
+        {
+          icon: "bi bi-heart",
+          title: "Betreuung vor Ort",
+          text: "Wir erleichtern die praktische Koordination während Ihres Aufenthalts. Medizinische Entscheidungen und Behandlungen liegen weiterhin in der Verantwortung der Gesundheitsfachkräfte.",
+        },
+      ],
+
+      ctaEyebrow: "IHR VORHABEN BEGINNT HIER",
+      ctaTitle: "Planen Sie einen medizinischen Aufenthalt in Tunesien?",
+      ctaText: "Teilen Sie uns Ihre Anfrage mit, damit wir die Betreuungsmöglichkeiten und die nächsten Schritte besprechen können.",
+      ctaButton: "Aufenthalt organisieren",
+    },
+  },
+
+  // PARTNERSHIPS
+  partnersEyebrow: "UNSERE INTERNATIONALE AUSRICHTUNG",
+  partnersTitle: "Ein internationales Netzwerk,",
+  partnersAccent: "ein Reiseziel: Tunesien.",
+  partnersDescription: "Aus Afrika, den Golfstaaten und Europa begleitet Glomed Group Patienten bei der Organisation ihres Behandlungswegs in Tunesien und erleichtert die Koordination mit medizinischen Fachkräften und Partnereinrichtungen.",
+  partnersRegionAfrica: "Afrika",
+  partnersRegionGulf: "Golfstaaten",
+  partnersRegionEurope: "Europa",
+  partnersDestination: "Ein Reiseziel: Tunesien.",
+  partnersBottomText: "Eine Betreuung, die auf die Bedürfnisse jedes Patienten abgestimmt ist.",
+  partnersCTA: "Sprechen wir über Ihre Behandlung",
+  partnersFlag: "Flagge",
+
+  // COUNTRIES
+  countryAlgeria: "Algerien",
+  countryLibya: "Libyen",
+  countryMauritania: "Mauretanien",
+  countryIvoryCoast: "Elfenbeinküste",
+  countryBurkinaFaso: "Burkina Faso",
+  countryNiger: "Niger",
+  countryCameroon: "Kamerun",
+  countryGabon: "Gabun",
+  countrySaudiArabia: "Saudi-Arabien",
+  countryUAE: "Vereinigte Arabische Emirate",
+  countryQatar: "Katar",
+  countryKuwait: "Kuwait",
+  countryBahrain: "Bahrain",
+  countryOman: "Oman",
+  countryFrance: "Frankreich",
+  countryItaly: "Italien",
+  countryGermany: "Deutschland",
+
+  // ABOUT
+  aboutLabel: "WER SIND WIR?",
+  aboutTitle: "Koordination im Dienste Ihres",
+  aboutAccent: "medizinischen Aufenthalts.",
+  aboutDescription: "Glomed Group begleitet Sie bei der Organisation der Dienstleistungen rund um Ihren medizinischen Aufenthalt in Tunesien – mit einem persönlichen, transparenten und auf Ihre Bedürfnisse abgestimmten Ansatz.",
+
+  aboutImageAlt: "Gesundheitsfachkraft in einer medizinischen Umgebung",
+  aboutBadgeTitle: "Ein besser organisierter Aufenthalt",
+  aboutBadgeText: "Eine Betreuung, die auf Ihre Bedürfnisse abgestimmt ist.",
+
+  aboutEyebrow: "UNSERE IDENTITÄT UND UNSERE MISSION",
+  aboutHeading: "Ihr Partner für die Organisation Ihres medizinischen Aufenthalts in Tunesien.",
+  aboutIntro: "Glomed Group ist eine Agentur, die auf die Verwaltung und Koordination von Dienstleistungen rund um medizinische Aufenthalte spezialisiert ist. Wir erleichtern die Organisation Ihrer Reise nach Tunesien und unterstützen Sie bei den praktischen Aspekten Ihres Aufenthalts.",
+
+  aboutAccordion1Title: "Wer sind wir?",
+  aboutAccordion1Text: "Glomed Group begleitet Menschen, die einen medizinischen Aufenthalt in Tunesien organisieren möchten. Unsere Aufgabe ist es, die Koordination zwischen den Anfragen der Patienten, den zuständigen Gesundheitsfachkräften und den für die Organisation des Aufenthalts erforderlichen Dienstleistern zu erleichtern.",
+
+  aboutAccordion2Title: "Unsere Mission",
+  aboutAccordion2Text: "Unsere Mission ist es, die Organisation Ihres Aufenthalts zu vereinfachen und Sie bei den verschiedenen Schritten zu unterstützen: Kontaktaufnahme, Koordination der Termine, Organisation der Fahrten und Suche nach einer Unterkunft, die Ihren Bedürfnissen entspricht.",
+
+  aboutAccordion3Title: "Organisation der Dienstleistungen rund um den medizinischen Aufenthalt",
+  aboutAccordion3Text: "Wir erleichtern die Koordination der mit Ihrer Behandlung verbundenen Dienstleistungen und die Kontaktvermittlung zu den zuständigen Fachkräften oder Gesundheitseinrichtungen. Die Beurteilung Ihres Gesundheitszustands, die Wahl der Behandlungen und medizinische Entscheidungen liegen in der Verantwortung der zuständigen Gesundheitsfachkräfte.",
+
+  aboutAccordion4Title: "Unsere Werte und Verpflichtungen",
+  aboutAccordion4Text: "Wir legen Wert auf Zuhören, klare Informationen, Verfügbarkeit und eine Betreuung, die auf jede Anfrage abgestimmt ist. Unser Ziel ist es, die praktische Organisation Ihres Aufenthalts unter Wahrung Ihrer Privatsphäre und der Zuständigkeiten der Gesundheitsfachkräfte zu erleichtern.",
+  aboutCTA: "Ihr Gesundheitsweg",
+
+  // REHABILITATION
+  rehabEyebrow: "REHABILITATION UND WIEDERHERSTELLUNG",
+  rehabTitle: "Gut genesen",
+  rehabAccent: "nach Ihrer Operation.",
+  rehabDescription: "Eine gute Genesung ist Teil des Behandlungswegs. Glomed Group koordiniert für Sie Rehabilitation, funktionelle Wiederherstellung und Erholungsphase gemäß den Empfehlungen des medizinischen Teams.",
+  rehabStep: "Schritt",
+  rehabStep1Title: "Nachoperative Betreuung",
+  rehabStep1Text: "Koordination der Kontrolluntersuchungen und Termine mit dem medizinischen Team in den Tagen nach dem Eingriff.",
+  rehabStep2Title: "Funktionelle Rehabilitation",
+  rehabStep2Text: "Organisation der vom Arzt verordneten Physiotherapiesitzungen, um Beweglichkeit und Kraft schrittweise wiederzuerlangen.",
+  rehabStep3Title: "Wiederherstellung der Selbstständigkeit",
+  rehabStep3Text: "Unterstützung bei der schrittweisen Wiederaufnahme alltäglicher Aktivitäten gemäß dem von den Gesundheitsfachkräften festgelegten Programm.",
+  rehabStep4Title: "Genesung und Rückreise",
+  rehabStep4Text: "Eine geeignete Unterkunft während der Genesungsphase sowie die Vorbereitung der Rückreise und der Nachsorgetermine.",
+  rehabImageAlt: "Rehabilitationssitzung nach einer Operation",
+  rehabBadgeTitle: "Begleitete Genesung",
+  rehabBadgeText: "Gemäß dem Behandlungsplan Ihres Arztes",
+  rehabGoal1: "Schmerzen lindern",
+  rehabGoal2: "Beweglichkeit wiedererlangen",
+  rehabGoal3: "Aktivitäten wieder aufnehmen",
+  rehabDisclaimer: "Das Rehabilitationsprogramm, seine Dauer und die Übungen werden nach einer individuellen Beurteilung von den Gesundheitsfachkräften festgelegt. Glomed Group koordiniert die praktische Organisation.",
+  rehabCTA: "Meine Genesung organisieren",
+
+  // TESTIMONIALS
+  eyebrow: "ERFAHRUNGSBERICHTE",
+  title: "Sie haben uns",
+  accent: "ihr Vertrauen geschenkt",
+  description: "Entdecken Sie die Erfahrungen von Patienten, die bei der Organisation ihres Behandlungswegs in Tunesien begleitet wurden.",
+  starsLabel: "5 Sterne",
+
+  name: "Amine B.",
+  country: "🇩🇿 Algerien",
+  service: "Medizinische Betreuung",
+  text: "Ich habe die Verfügbarkeit des Teams und die Informationen geschätzt, die ich zur Vorbereitung meines medizinischen Aufenthalts in Tunesien erhalten habe.",
+  image: "https://i.pravatar.cc/100?img=11",
+  alt: "Symbolisches Porträt eines Mannes",
+
+  name: "Fatou S.",
+  country: "🇸🇳 Senegal",
+  service: "Organisation des Aufenthalts",
+  text: "Das Team hat mir geholfen, die verschiedenen Schritte besser zu verstehen und meine Reise nach Tunesien zu organisieren.",
+  image: "/images/profil-senegal.png",
+  alt: "Porträt einer senegalesischen Frau",
+
+  name: "Ahmed K.",
+  country: "🇸🇦 Saudi-Arabien",
+  service: "Koordination des Behandlungswegs",
+  text: "Ich habe die Qualität der Kommunikation und die Unterstützung während der gesamten Vorbereitung meines Aufenthalts geschätzt.",
+  image: "https://i.pravatar.cc/100?img=12",
+  alt: "Symbolisches Porträt eines Mannes",
+
+  name: "Mariam A.",
+  country: "🇦🇪 Vereinigte Arabische Emirate",
+  service: "Unterstützung und Koordination",
+  text: "Ein aufmerksames Team, das mir hilfreiche Informationen zur Organisation der verschiedenen Schritte meines Aufenthalts gegeben hat.",
+  image: "https://i.pravatar.cc/100?img=44",
+  alt: "Symbolisches Porträt einer Frau",
+
+  name: "Sophie M.",
+  country: "🇫🇷 Frankreich",
+  service: "Organisation des Aufenthalts",
+  text: "Ich habe die klaren Informationen und die Verfügbarkeit des Teams bei der Beantwortung meiner Fragen sehr geschätzt.",
+  image: "https://i.pravatar.cc/100?img=45",
+  alt: "Symbolisches Porträt einer Frau",
+
+  name: "Marc D.",
+  country: "🇧🇪 Belgien",
+  service: "Persönliche Betreuung",
+  text: "Die Kommunikation war unkompliziert und beruhigend. Ich konnte alle notwendigen Informationen erhalten, um meinen Aufenthalt vorzubereiten.",
+  image: "https://i.pravatar.cc/100?img=13",
+  alt: "Symbolisches Porträt eines Mannes",
+},
+
+
 
 
 };
@@ -913,7 +1589,7 @@ export function LanguageProvider({ children }) {
   const [language, setLanguage] = useState("fr");
 
   const changeLanguage = (lang) => {
-    if (["fr", "en", "ar"].includes(lang)) {
+    if (["fr", "en", "ar", "it", "de"].includes(lang)) {
       setLanguage(lang);
     }
   };

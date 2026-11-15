@@ -181,6 +181,125 @@ const testimonials = {
       },
     ],
   },
+
+it: {
+  eyebrow: "TESTIMONIANZE",
+  title: "Si sono affidati a noi",
+  accent: "con fiducia",
+  description:
+    "Scoprite le esperienze dei pazienti che abbiamo accompagnato nell'organizzazione del loro percorso di cure in Tunisia.",
+  starsLabel: "5 stelle",
+  reviews: [
+    {
+      name: "Amine B.",
+      country: "🇩🇿 Algeria",
+      service: "Assistenza medica",
+      text: "Ho apprezzato la disponibilità del team e le informazioni ricevute per preparare il mio soggiorno medico in Tunisia.",
+      image: "https://i.pravatar.cc/100?img=11",
+      alt: "Ritratto illustrativo di un uomo",
+    },
+    {
+      name: "Fatou S.",
+      country: "🇸🇳 Senegal",
+      service: "Organizzazione del soggiorno",
+      text: "Il team mi ha aiutata a comprendere meglio le diverse fasi e a organizzare il mio viaggio in Tunisia.",
+      image: "/images/profil-senegal.png",
+      alt: "Ritratto di una donna senegalese",
+    },
+    {
+      name: "Ahmed K.",
+      country: "🇸🇦 Arabia Saudita",
+      service: "Coordinamento del percorso",
+      text: "Ho apprezzato la qualità della comunicazione e l'assistenza offerta durante tutta la preparazione del mio soggiorno.",
+      image: "https://i.pravatar.cc/100?img=12",
+      alt: "Ritratto illustrativo di un uomo",
+    },
+    {
+      name: "Mariam A.",
+      country: "🇦🇪 Emirati Arabi Uniti",
+      service: "Assistenza e coordinamento",
+      text: "Un team attento che mi ha fornito informazioni utili per organizzare le diverse fasi del mio soggiorno.",
+      image: "https://i.pravatar.cc/100?img=44",
+      alt: "Ritratto illustrativo di una donna",
+    },
+    {
+      name: "Sophie M.",
+      country: "🇫🇷 Francia",
+      service: "Organizzazione del soggiorno",
+      text: "Ho apprezzato la chiarezza delle informazioni e la disponibilità del team nel rispondere alle mie domande.",
+      image: "https://i.pravatar.cc/100?img=45",
+      alt: "Ritratto illustrativo di una donna",
+    },
+    {
+      name: "Marc D.",
+      country: "🇧🇪 Belgio",
+      service: "Assistenza personalizzata",
+      text: "La comunicazione è stata semplice e rassicurante. Ho potuto ottenere tutte le informazioni necessarie per preparare il mio soggiorno.",
+      image: "https://i.pravatar.cc/100?img=13",
+      alt: "Ritratto illustrativo di un uomo",
+    },
+  ],
+},
+
+de: {
+  eyebrow: "ERFAHRUNGSBERICHTE",
+  title: "Sie haben uns",
+  accent: "ihr Vertrauen geschenkt",
+  description:
+    "Entdecken Sie die Erfahrungen von Patienten, die wir bei der Organisation ihres medizinischen Aufenthalts in Tunesien begleitet haben.",
+  starsLabel: "5 Sterne",
+  reviews: [
+    {
+      name: "Amine B.",
+      country: "🇩🇿 Algerien",
+      service: "Medizinische Betreuung",
+      text: "Ich habe die Verfügbarkeit des Teams und die Informationen, die ich zur Vorbereitung meines medizinischen Aufenthalts in Tunesien erhalten habe, sehr geschätzt.",
+      image: "https://i.pravatar.cc/100?img=11",
+      alt: "Symbolisches Porträt eines Mannes",
+    },
+    {
+      name: "Fatou S.",
+      country: "🇸🇳 Senegal",
+      service: "Organisation des Aufenthalts",
+      text: "Das Team hat mir geholfen, die verschiedenen Schritte besser zu verstehen und meine Reise nach Tunesien zu organisieren.",
+      image: "/images/profil-senegal.png",
+      alt: "Porträt einer senegalesischen Frau",
+    },
+    {
+      name: "Ahmed K.",
+      country: "🇸🇦 Saudi-Arabien",
+      service: "Koordination des Behandlungsablaufs",
+      text: "Ich habe die Qualität der Kommunikation und die angebotene Unterstützung während der gesamten Vorbereitung meines Aufenthalts sehr geschätzt.",
+      image: "https://i.pravatar.cc/100?img=12",
+      alt: "Symbolisches Porträt eines Mannes",
+    },
+    {
+      name: "Mariam A.",
+      country: "🇦🇪 Vereinigte Arabische Emirate",
+      service: "Betreuung und Koordination",
+      text: "Ein aufmerksames Team, das mir hilfreiche Informationen zur Organisation der verschiedenen Schritte meines Aufenthalts gegeben hat.",
+      image: "https://i.pravatar.cc/100?img=44",
+      alt: "Symbolisches Porträt einer Frau",
+    },
+    {
+      name: "Sophie M.",
+      country: "🇫🇷 Frankreich",
+      service: "Organisation des Aufenthalts",
+      text: "Ich habe die klaren Informationen und die Hilfsbereitschaft des Teams bei der Beantwortung meiner Fragen sehr geschätzt.",
+      image: "https://i.pravatar.cc/100?img=45",
+      alt: "Symbolisches Porträt einer Frau",
+    },
+    {
+      name: "Marc D.",
+      country: "🇧🇪 Belgien",
+      service: "Individuelle Betreuung",
+      text: "Die Kommunikation war unkompliziert und beruhigend. Ich konnte alle notwendigen Informationen zur Vorbereitung meines Aufenthalts erhalten.",
+      image: "https://i.pravatar.cc/100?img=13",
+      alt: "Symbolisches Porträt eines Mannes",
+    },
+  ],
+},
+
 };
 
 export default function Testimonials() {

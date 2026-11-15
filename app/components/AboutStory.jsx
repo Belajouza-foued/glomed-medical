@@ -87,6 +87,50 @@ const translations = {
     alt3: "تنقلات منظمة للمرضى في تونس",
     alt4: "إقامة مناسبة للإقامة العلاجية",
   },
+  it: {
+  label: "CHI È GLOMED GROUP",
+  title: "Il vostro partner per organizzare",
+  accent: "il vostro soggiorno medico in Tunisia.",
+  text1:
+    "Glomed Group è un’agenzia specializzata nella gestione e nel coordinamento dei servizi legati al soggiorno medico. Facilitiamo l’organizzazione del vostro viaggio in Tunisia, dalla prima richiesta fino al termine del vostro soggiorno.",
+  text2:
+    "Il nostro ruolo è facilitare il coordinamento tra le vostre richieste, i professionisti sanitari interessati e i fornitori di servizi necessari: le decisioni mediche restano sempre di competenza dei medici.",
+  points: [
+    "Ascolto attento e accompagnamento personalizzato",
+    "Coordinamento degli appuntamenti con le équipe mediche",
+    "Organizzazione dei trasferimenti e dell’alloggio",
+    "Riservatezza delle vostre informazioni e chiarezza in ogni fase",
+  ],
+  button: "Parliamo del vostro progetto",
+  badgeTitle: "Un soggiorno organizzato al meglio",
+  badgeText: "Assistenza su misura",
+  alt1: "Professionista sanitario e assistenza ai pazienti",
+  alt2: "Il team di Glomed Group attento alle esigenze dei pazienti",
+  alt3: "Trasferimenti organizzati per i pazienti in Tunisia",
+  alt4: "Alloggio adeguato al soggiorno medico",
+},
+de: {
+  label: "ÜBER GLOMED GROUP",
+  title: "Ihr Partner für die Organisation",
+  accent: "Ihres medizinischen Aufenthalts in Tunesien.",
+  text1:
+    "Glomed Group ist eine Agentur, die auf die Verwaltung und Koordination von Dienstleistungen rund um den medizinischen Aufenthalt spezialisiert ist. Wir erleichtern die Organisation Ihrer Reise nach Tunesien – von Ihrer ersten Anfrage bis zum Ende Ihres Aufenthalts.",
+  text2:
+    "Unsere Aufgabe ist es, die Koordination zwischen Ihren Anliegen, den zuständigen medizinischen Fachkräften und den erforderlichen Dienstleistern zu erleichtern. Medizinische Entscheidungen bleiben stets den Ärzten vorbehalten.",
+  points: [
+    "Aufmerksames Zuhören und persönliche Betreuung",
+    "Koordination der Termine mit den medizinischen Teams",
+    "Organisation von Transfers und Unterkünften",
+    "Vertraulicher Umgang mit Ihren Informationen und Transparenz in jeder Phase",
+  ],
+  button: "Sprechen wir über Ihr Vorhaben",
+  badgeTitle: "Ein besser organisierter Aufenthalt",
+  badgeText: "Individuelle Betreuung",
+  alt1: "Medizinisches Fachpersonal und Betreuung von Patienten",
+  alt2: "Das Team von Glomed Group hört den Patienten aufmerksam zu",
+  alt3: "Organisierte Transfers für Patienten in Tunesien",
+  alt4: "Geeignete Unterkunft für den medizinischen Aufenthalt",
+},
 };
 
 function hideOnError(e) {

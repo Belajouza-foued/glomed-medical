@@ -10,6 +10,8 @@ import Testimonials from "./components/Testimonials"
 import Contact from "./components/Contact"
 import PartnerShips from "./components/Partnerships"
 import Rehabilitation from "./components/Rehabilitation"
+import AbroadMissions from "./components/AbroadMissions"
+import MedicalImaging from "./components/MedicalImaging"
 const services = [
   {
     number: "01",
@@ -63,10 +65,12 @@ export default function Home() {
     <main>
          <Hero/>
          <Gallery/>
-      <Services/>
+       <Services/>
+       <AbroadMissions/>
       <PartnerShips />
             <About/>
             <Rehabilitation/>
+            <MedicalImaging/>
       <Testimonials/>
                  <Contact/>
           <IntroProject/>

@@ -103,6 +103,74 @@ const translations = {
       "يرجى التحقق من جميع الحقول المطلوبة والموافقة على سياسة الخصوصية.",
     footerCaption: "إدارة الخدمات الطبية · تونس",
   },
+
+it: {
+  eyebrow: "CONTATTACI",
+  title: "La vostra salute,",
+  accent: "la nostra priorità.",
+  description:
+    "State pensando a un soggiorno medico in Tunisia? Il nostro team vi accompagna nell'organizzazione del vostro percorso, con ascolto, professionalità e attenzione.",
+  trust: "Un'assistenza personalizzata",
+  formTitle: "Il vostro percorso di salute",
+  formDescription:
+    "Compilate questo modulo. Il nostro team vi contatterà al più presto.",
+  firstName: "Nome *",
+  firstNamePh: "Il vostro nome",
+  lastName: "Cognome *",
+  lastNamePh: "Il vostro cognome",
+  email: "Indirizzo e-mail *",
+  phone: "Telefono / WhatsApp *",
+  message: "Il vostro messaggio *",
+  messagePlaceholder: "Come possiamo assistervi?",
+  consent:
+    "Acconsento all'utilizzo dei miei dati di contatto per ricevere una risposta alla mia richiesta e dichiaro di aver preso visione dell'informativa sulla privacy. *",
+  submit: "Invia la mia richiesta",
+  sending: "Invio in corso...",
+  success:
+    "La vostra richiesta è stata inviata correttamente. Il nostro team vi contatterà al più presto.",
+  error:
+    "Invio non riuscito. Riprova oppure contattaci direttamente.",
+  note:
+    "I vostri dati vengono utilizzati per elaborare la vostra richiesta. Non inviate documenti medici riservati tramite questo modulo.",
+  validation:
+    "Verificate i campi obbligatori e accettate l'informativa sulla privacy.",
+  footerCaption: "GESTIONE DEI SERVIZI MEDICI · TUNISIA",
+},
+
+
+de: {
+  eyebrow: "KONTAKTIEREN SIE UNS",
+  title: "Ihre Gesundheit,",
+  accent: "unsere Priorität.",
+  description:
+    "Planen Sie einen medizinischen Aufenthalt in Tunesien? Unser Team begleitet Sie bei der Organisation Ihres Aufenthalts mit Aufmerksamkeit, Professionalität und persönlicher Betreuung.",
+  trust: "Individuelle Betreuung",
+  formTitle: "Ihr Gesundheitsaufenthalt",
+  formDescription:
+    "Füllen Sie dieses Formular aus. Unser Team wird sich in Kürze mit Ihnen in Verbindung setzen.",
+  firstName: "Vorname *",
+  firstNamePh: "Ihr Vorname",
+  lastName: "Nachname *",
+  lastNamePh: "Ihr Nachname",
+  email: "E-Mail-Adresse *",
+  phone: "Telefon / WhatsApp *",
+  message: "Ihre Nachricht *",
+  messagePlaceholder: "Wie können wir Sie unterstützen?",
+  consent:
+    "Ich stimme der Verwendung meiner Kontaktdaten zu, damit ich eine Antwort auf meine Anfrage erhalten kann, und habe die Datenschutzerklärung zur Kenntnis genommen. *",
+  submit: "Anfrage senden",
+  sending: "Wird gesendet...",
+  success:
+    "Ihre Anfrage wurde erfolgreich gesendet. Unser Team wird sich in Kürze mit Ihnen in Verbindung setzen.",
+  error:
+    "Das Senden ist fehlgeschlagen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt.",
+  note:
+    "Ihre Angaben werden zur Bearbeitung Ihrer Anfrage verwendet. Bitte senden Sie keine vertraulichen medizinischen Dokumente über dieses Formular.",
+  validation:
+    "Bitte überprüfen Sie die Pflichtfelder und akzeptieren Sie die Datenschutzerklärung.",
+  footerCaption: "ORGANISATION MEDIZINISCHER DIENSTLEISTUNGEN · TUNESIEN",
+},
+
 };
 
 export default function Contact() {

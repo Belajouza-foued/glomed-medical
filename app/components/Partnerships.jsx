@@ -10,6 +10,13 @@ const flag = (code) =>
   `https://flagcdn.com/w160/${code.toLowerCase()}.png`;
 
 const countries = [
+    // Europe
+  { key: "France", code: "FR", region: "partnersRegionEurope" },
+  { key: "Italy", code: "IT", region: "partnersRegionEurope" },
+{ key: "Germany", code: "DE", region: "partnersRegionEurope" },
+{ key: "Austria", code: "AT", region: "partnersRegionEurope" },
+{ key: "Switzerland", code: "CH", region: "partnersRegionEurope" },
+{ key: "Canada", code: "CA", region: "NorthAmerica" },
   // Afrique du Nord
   { key: "countryAlgeria", code: "DZ", region: "partnersRegionAfrica" },
   { key: "countryLibya", code: "LY", region: "partnersRegionAfrica" },
@@ -31,11 +38,7 @@ const countries = [
   { key: "countryKuwait", code: "KW", region: "partnersRegionGulf" },
   { key: "countryBahrain", code: "BH", region: "partnersRegionGulf" },
   { key: "countryOman", code: "OM", region: "partnersRegionGulf" },
-
-  // Europe
-  { key: "countryFrance", code: "FR", region: "partnersRegionEurope" },
-  { key: "countryItaly", code: "IT", region: "partnersRegionEurope" },
-  ];
+    ];
 
 export default function Partnerships() {
   const { t, dir } = useLanguage();

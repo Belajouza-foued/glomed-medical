@@ -345,6 +345,185 @@ const translations = {
       "أرسلوا لنا طلبكم لمناقشة إمكانيات المرافقة والخطوات القادمة.",
     ctaButton: "تنظيم الإقامة",
   },
+
+it: {
+  eyebrow: "I NOSTRI SERVIZI DI ASSISTENZA",
+  title: "Gestione dei servizi",
+  accent: "medici.",
+  description:
+    "Glomed Group vi accompagna nell'organizzazione del vostro soggiorno medico in Tunisia, dalla prima richiesta agli aspetti pratici del vostro viaggio.",
+
+  services: [
+    {
+      icon: "bi bi-heart-pulse",
+      title: "Chirurgia estetica",
+      text: "Organizzazione e coordinamento del vostro progetto con professionisti sanitari partner, in base alle vostre esigenze.",
+    },
+    {
+      icon: "bi bi-person-hearts",
+      title: "Medicina estetica",
+      text: "Assistenza per le vostre richieste di trattamenti estetici e orientamento verso i professionisti competenti.",
+    },
+    {
+      icon: "bi bi-scissors",
+      title: "Trapianto di capelli",
+      text: "Supporto nell'organizzazione del vostro soggiorno e nel contatto con professionisti specializzati.",
+    },
+    {
+      icon: "bi bi-emoji-smile",
+      title: "Impianti dentali",
+      text: "Coordinamento della vostra richiesta di cure dentali e organizzazione pratica del vostro soggiorno.",
+    },
+    {
+      icon: "bi bi-activity",
+      title: "Altre specialità mediche",
+      text: "Valutazione della vostra richiesta e orientamento verso i professionisti o le strutture più adatte, in base alle possibilità disponibili.",
+    },
+    {
+      icon: "bi bi-clipboard2-pulse",
+      title: "Assistenza e appuntamenti",
+      text: "Supporto nel coordinamento degli appuntamenti e nella raccolta delle informazioni necessarie per preparare il vostro soggiorno.",
+    },
+  ],
+
+  note:
+    "Le cure, le indicazioni mediche, i trattamenti e i risultati attesi vengono valutati dai professionisti sanitari competenti. Ogni intervento dipende dal loro parere e dalla vostra situazione individuale.",
+
+  processEyebrow: "UN PERCORSO IN 6 FASI",
+  processTitle: "Dalla vostra richiesta",
+  processAccent: "al vostro soggiorno in Tunisia.",
+  processDescription:
+    "Ogni fase viene preparata insieme a voi per rendere l'organizzazione del vostro soggiorno più chiara e semplice.",
+
+  steps: [
+    {
+      icon: "bi bi-chat-dots",
+      title: "La vostra richiesta",
+      text: "Ci presentate il vostro progetto, le vostre aspettative e i trattamenti che desiderate prendere in considerazione.",
+    },
+    {
+      icon: "bi bi-file-earmark-medical",
+      title: "Orientamento medico",
+      text: "Con il vostro consenso, facilitiamo la trasmissione delle informazioni necessarie ai professionisti sanitari interessati. Il medico valuta la vostra situazione.",
+    },
+    {
+      icon: "bi bi-calendar-check",
+      title: "Organizzazione del soggiorno",
+      text: "Vi aiutiamo a coordinare gli appuntamenti, le date previste e gli aspetti pratici del vostro soggiorno.",
+    },
+    {
+      icon: "bi bi-airplane",
+      title: "Accoglienza e trasferimenti",
+      text: "In base al servizio concordato, organizziamo la vostra accoglienza e i trasferimenti tra l'aeroporto, l'alloggio e i luoghi degli appuntamenti.",
+    },
+    {
+      icon: "bi bi-building",
+      title: "Alloggio",
+      text: "Vi assistiamo nella ricerca o nella prenotazione di un alloggio adatto alla durata prevista del vostro soggiorno.",
+    },
+    {
+      icon: "bi bi-heart",
+      title: "Assistenza sul posto",
+      text: "Facilitiamo il coordinamento pratico durante il vostro soggiorno. Le decisioni e le cure mediche restano sotto la responsabilità dei professionisti sanitari.",
+    },
+  ],
+
+  ctaEyebrow: "IL VOSTRO PROGETTO INIZIA QUI",
+  ctaTitle: "State pensando a un soggiorno medico in Tunisia?",
+  ctaText:
+    "Presentateci la vostra richiesta per discutere le possibilità di assistenza e le prossime fasi.",
+  ctaButton: "Organizzare un soggiorno",
+},
+
+de: {
+  eyebrow: "UNSERE BETREUUNGSBEREICHE",
+  title: "Organisation medizinischer",
+  accent: "Dienstleistungen.",
+  description:
+    "Glomed Group begleitet Sie bei der Organisation Ihres medizinischen Aufenthalts in Tunesien – von Ihrer ersten Anfrage bis hin zu den praktischen Aspekten Ihrer Reise.",
+
+  services: [
+    {
+      icon: "bi bi-heart-pulse",
+      title: "Ästhetische Chirurgie",
+      text: "Organisation und Koordination Ihres Vorhabens mit unseren medizinischen Partnern, entsprechend Ihren Wünschen.",
+    },
+    {
+      icon: "bi bi-person-hearts",
+      title: "Ästhetische Medizin",
+      text: "Unterstützung bei Ihren Anfragen zu ästhetischen Behandlungen und Vermittlung an die zuständigen Fachkräfte.",
+    },
+    {
+      icon: "bi bi-scissors",
+      title: "Haartransplantation",
+      text: "Unterstützung bei der Organisation Ihres Aufenthalts und bei der Kontaktaufnahme mit spezialisierten Fachkräften.",
+    },
+    {
+      icon: "bi bi-emoji-smile",
+      title: "Zahnimplantate",
+      text: "Koordination Ihrer Anfrage zu zahnmedizinischen Behandlungen und praktische Organisation Ihres Aufenthalts.",
+    },
+    {
+      icon: "bi bi-activity",
+      title: "Weitere medizinische Fachgebiete",
+      text: "Prüfung Ihrer Anfrage und Vermittlung an geeignete Fachkräfte oder Einrichtungen entsprechend den verfügbaren Möglichkeiten.",
+    },
+    {
+      icon: "bi bi-clipboard2-pulse",
+      title: "Betreuung und Termine",
+      text: "Unterstützung bei der Koordination von Terminen und den Informationen, die zur Vorbereitung Ihres Aufenthalts erforderlich sind.",
+    },
+  ],
+
+  note:
+    "Medizinische Leistungen, Indikationen, Behandlungen und erwartete Ergebnisse werden von den zuständigen medizinischen Fachkräften beurteilt. Jeder Eingriff hängt von deren Einschätzung und Ihrer individuellen Situation ab.",
+
+  processEyebrow: "IHR ABLAUF IN 6 SCHRITTEN",
+  processTitle: "Von Ihrer Anfrage",
+  processAccent: "bis zu Ihrem Aufenthalt in Tunesien.",
+  processDescription:
+    "Jeder Schritt wird gemeinsam mit Ihnen vorbereitet, damit die Organisation Ihres Aufenthalts klarer und einfacher wird.",
+
+  steps: [
+    {
+      icon: "bi bi-chat-dots",
+      title: "Ihre Anfrage",
+      text: "Sie stellen uns Ihr Vorhaben, Ihre Erwartungen und die Behandlungen vor, die Sie in Betracht ziehen.",
+    },
+    {
+      icon: "bi bi-file-earmark-medical",
+      title: "Medizinische Beratung",
+      text: "Mit Ihrer Zustimmung erleichtern wir die Übermittlung der erforderlichen Informationen an die zuständigen medizinischen Fachkräfte. Der Arzt beurteilt Ihre Situation.",
+    },
+    {
+      icon: "bi bi-calendar-check",
+      title: "Organisation des Aufenthalts",
+      text: "Wir unterstützen Sie bei der Koordination der Termine, der geplanten Reisedaten und der praktischen Aspekte Ihres Aufenthalts.",
+    },
+    {
+      icon: "bi bi-airplane",
+      title: "Empfang und Transfer",
+      text: "Je nach vereinbarter Leistung organisieren wir Ihren Empfang und Ihre Transfers zwischen Flughafen, Unterkunft und den Orten Ihrer Termine.",
+    },
+    {
+      icon: "bi bi-building",
+      title: "Unterkunft",
+      text: "Wir unterstützen Sie bei der Suche oder Buchung einer Unterkunft, die zur geplanten Dauer Ihres Aufenthalts passt.",
+    },
+    {
+      icon: "bi bi-heart",
+      title: "Betreuung vor Ort",
+      text: "Wir erleichtern die organisatorische Koordination während Ihres Aufenthalts. Medizinische Entscheidungen und Behandlungen liegen weiterhin in der Verantwortung der medizinischen Fachkräfte.",
+    },
+  ],
+
+  ctaEyebrow: "IHR VORHABEN BEGINNT HIER",
+  ctaTitle: "Planen Sie einen medizinischen Aufenthalt in Tunesien?",
+  ctaText:
+    "Teilen Sie uns Ihre Anfrage mit, damit wir die Betreuungsmöglichkeiten und die nächsten Schritte besprechen können.",
+  ctaButton: "Aufenthalt organisieren",
+},
+
 };
 
 export default function Services() {

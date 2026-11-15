@@ -1,0 +1,184 @@
+/* =========================================
+   IMAGERIE MÉDICALE — gimg-
+   CSS autonome : ne dépend d'aucune autre page.
+========================================= */
+
+.gimg {
+  padding: clamp(3.5rem, 7vw, 6rem) 0;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(0, 87, 168, 0.07), transparent 35%),
+    radial-gradient(circle at 0% 100%, rgba(47, 125, 104, 0.07), transparent 35%),
+    var(--white);
+  font-family: var(--font-body);
+  overflow: hidden;
+}
+.gimg-container { width: min(var(--container), 92%); margin-inline: auto; }
+
+/* ---------- Bannière avec image de fond (scanner.avif) ---------- */
+.gimg {
+  /* ▼ Réglages de l'image ▼ */
+  --gimg-bg: url("/images/scanner-2.avif");   /* chemin de l'image dans public/ */
+  --gimg-bg-pos: center;                    /* position : horizontal vertical (ex. center 30%) */
+  --gimg-veil: 0.55;                        /* voile : 0 = image pure, 1 = très sombre */
+}
+.gimg-banner {
+  display: flex; align-items: center; justify-content: center;
+  min-height: clamp(300px, 42vh, 420px);
+  margin-bottom: 2.4rem;
+  padding: clamp(2.2rem, 5vw, 3.5rem) clamp(1.2rem, 4vw, 3rem);
+  border-radius: var(--radius-lg);
+  color: var(--white);
+  background:
+    linear-gradient(180deg, rgba(16, 47, 59, var(--gimg-veil)), rgba(0, 59, 115, var(--gimg-veil))),
+    var(--gimg-bg) var(--gimg-bg-pos) / cover no-repeat;
+  background-color: var(--blue-navy);
+  box-shadow: var(--shadow);
+  text-shadow: 0 1px 14px rgba(0, 0, 0, 0.45);
+}
+.gimg-banner .gimg-head { margin: 0 auto; }
+.gimg-banner .gimg-label { color: var(--yellow); }
+.gimg-banner .gimg-head h2 { color: var(--white); }
+.gimg-banner .gimg-head h2 span { color: var(--yellow); }
+.gimg-banner .gimg-head p { color: rgba(255, 255, 255, 0.92); }
+
+/* ---------- Titre ---------- */
+.gimg-head { max-width: 760px; margin: 0 auto 2.2rem; text-align: center; }
+.gimg-label {
+  display: inline-flex; align-items: center; gap: 0.7rem; margin-bottom: 0.9rem;
+  font-size: 0.78rem; font-weight: 800; letter-spacing: 0.12em; color: var(--blue);
+}
+.gimg-label::before { content: ""; width: 34px; height: 3px; border-radius: 3px; background: var(--yellow); }
+.gimg-head h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.9rem, 4vw, 2.9rem); line-height: 1.15; font-weight: 700; color: var(--blue-navy);
+}
+.gimg-head h2 span { color: var(--green); }
+.gimg-head p { margin-top: 1.1rem; line-height: 1.8; color: var(--text-muted); }
+
+/* ---------- Filtres ---------- */
+.gimg-filters { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; margin-bottom: 2.2rem; }
+.gimg-filter {
+  padding: 0.55rem 1.2rem; border: 2px solid var(--border); border-radius: 999px;
+  background: var(--white); color: var(--blue-navy);
+  font: inherit; font-size: 0.88rem; font-weight: 700; cursor: pointer;
+  transition: background var(--transition), color var(--transition), border-color var(--transition), transform var(--transition);
+}
+.gimg-filter:hover { border-color: var(--blue); transform: translateY(-2px); }
+.gimg-filter.is-active { background: var(--blue); border-color: var(--blue); color: var(--white); }
+.gimg-filter:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+
+/* ---------- Grille : 3 / 2 / 1 ---------- */
+.gimg-grid {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.3rem;
+}
+
+/* ---------- Carte examen ---------- */
+.gimg-card {
+  position: relative; display: flex; flex-direction: column;
+  padding: 1.5rem 1.5rem 1.4rem;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--blue);
+  border-radius: var(--radius-md);
+  box-shadow: 0 8px 25px rgba(16, 47, 59, 0.06);
+  transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+}
+.gimg-card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(16, 47, 59, 0.13); }
+
+.gimg-type-none    { border-top-color: var(--green); }
+.gimg-type-nuclear { border-top-color: var(--yellow); }
+
+.gimg-card-top { display: flex; align-items: center; justify-content: space-between; gap: 0.8rem; margin-bottom: 1.1rem; }
+.gimg-icon {
+  display: grid; place-items: center; flex-shrink: 0;
+  width: 58px; height: 58px; border-radius: 18px;
+  background: var(--blue-light); color: var(--blue); font-size: 1.6rem;
+  transition: background var(--transition), color var(--transition), transform 0.4s ease;
+}
+.gimg-card:hover .gimg-icon { background: var(--blue); color: var(--white); transform: rotate(-8deg) scale(1.06); }
+.gimg-type-none:hover .gimg-icon    { background: var(--green); }
+.gimg-type-nuclear:hover .gimg-icon { background: var(--yellow); color: var(--blue-navy); }
+
+.gimg-badge {
+  padding: 0.28rem 0.75rem; border-radius: 999px;
+  background: var(--blue-light); color: var(--blue);
+  font-size: 0.7rem; font-weight: 800; letter-spacing: 0.03em; text-align: center;
+}
+.gimg-type-none .gimg-badge    { background: #e4f3ee; color: var(--green); }
+.gimg-type-nuclear .gimg-badge { background: var(--yellow-light); color: #8a6a00; }
+
+.gimg-card h3 { margin: 0 0 0.5rem; font-size: 1.12rem; font-weight: 800; line-height: 1.25; color: var(--blue-navy); }
+.gimg-card > p { margin: 0 0 1.1rem; font-size: 0.92rem; line-height: 1.7; color: var(--text-muted); }
+
+.gimg-uses { list-style: none; margin: auto 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.gimg-uses li {
+  padding: 0.25rem 0.7rem; border: 1px solid var(--border); border-radius: 999px;
+  font-size: 0.78rem; font-weight: 600; color: var(--text);
+}
+
+/* ---------- Bas ---------- */
+.gimg-footer { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; margin-top: 2.5rem; }
+.gimg-note {
+  flex: 1; display: flex; align-items: flex-start; gap: 0.7rem; margin: 0; padding: 0.9rem 1.1rem;
+  font-size: 0.84rem; line-height: 1.65; color: var(--text-muted);
+  background: var(--yellow-light); border-inline-start: 4px solid var(--yellow); border-radius: var(--radius-sm);
+}
+.gimg-note i { flex-shrink: 0; margin-top: 2px; color: #8a6a00; font-size: 1.05rem; }
+.gimg-button {
+  display: inline-flex; flex-shrink: 0; align-items: center; justify-content: center; gap: 0.7rem;
+  padding: 0.95rem 1.8rem; border-radius: 999px;
+  background: var(--blue); color: var(--white); font-weight: 700; font-size: 0.95rem;
+  transition: background var(--transition), transform var(--transition);
+}
+.gimg-button i { transition: transform 0.25s ease; }
+.gimg-button:hover { background: var(--blue-dark); transform: translateY(-3px); }
+.gimg-button:hover i { transform: translateX(5px); }
+[dir="rtl"] .gimg-button:hover i { transform: translateX(-5px); }
+.gimg-button:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+
+/* ---------- Animations : apparition au défilement ET au changement de filtre ---------- */
+.gimg.is-ready:not(.is-visible) .gimg-card { opacity: 0; }
+.gimg.is-ready.is-visible .gimg-card {
+  animation: gimg-enter 0.6s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+  animation-delay: calc(var(--i, 0) * 70ms);
+}
+.gimg.is-ready .gimg-banner,
+.gimg.is-ready .gimg-filters,
+.gimg.is-ready .gimg-footer { opacity: 0; transform: translateY(18px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.gimg.is-ready.is-visible .gimg-banner,
+.gimg.is-ready.is-visible .gimg-filters,
+.gimg.is-ready.is-visible .gimg-footer { opacity: 1; transform: none; }
+.gimg.is-ready.is-visible .gimg-filters { transition-delay: 0.2s; }
+.gimg.is-ready.is-visible .gimg-footer { transition-delay: 0.7s; }
+
+@keyframes gimg-enter { from { opacity: 0; transform: translateY(30px) scale(0.96); } }
+
+/* ---------- Tablette : 2 colonnes ---------- */
+@media (max-width: 1024px) {
+  .gimg-banner { min-height: clamp(280px, 38vh, 380px); }
+  .gimg-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.1rem; }
+  .gimg-footer { flex-direction: column; align-items: stretch; }
+  .gimg-button { align-self: center; }
+}
+
+/* ---------- Mobile : 1 colonne, la carte devient une ligne ---------- */
+@media (max-width: 600px) {
+  .gimg { --gimg-veil: 0.62; }
+  .gimg-banner { min-height: 0; margin-bottom: 1.8rem; border-radius: var(--radius-md); }
+  .gimg-grid { grid-template-columns: 1fr; gap: 0.9rem; }
+  .gimg-card { padding: 1.2rem 1.1rem; }
+  .gimg-icon { width: 50px; height: 50px; font-size: 1.4rem; border-radius: 15px; }
+  .gimg-filters { gap: 0.45rem; }
+  .gimg-filter { padding: 0.5rem 0.95rem; font-size: 0.82rem; }
+  .gimg-button { width: 100%; }
+}
+
+/* ---------- Accessibilité ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .gimg.is-ready:not(.is-visible) .gimg-card { opacity: 1; }
+  .gimg.is-ready.is-visible .gimg-card { animation: none; }
+  .gimg.is-ready .gimg-banner, .gimg.is-ready .gimg-filters, .gimg.is-ready .gimg-footer { opacity: 1; transform: none; transition: none; }
+  .gimg-card, .gimg-icon, .gimg-filter, .gimg-button, .gimg-button i { transition: none; }
+  .gimg-card:hover, .gimg-card:hover .gimg-icon, .gimg-filter:hover, .gimg-button:hover { transform: none; }
+}

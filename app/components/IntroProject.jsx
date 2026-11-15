@@ -35,6 +35,28 @@ const translations = {
     contact: "اتصلوا بنا",
     whatsapp: "راسلونا عبر واتساب",
   },
+
+it: {
+  kicker: "PARLIAMO DEL VOSTRO PROGETTO",
+  title: "Un soggiorno medico in Tunisia",
+  accent: "da organizzare?",
+  description:
+    "Presentateci la vostra richiesta: vi risponderemo per discutere le possibilità di assistenza e i prossimi passi.",
+  contact: "Contattaci",
+  whatsapp: "Scrivi su WhatsApp",
+},
+
+de: {
+  kicker: "SPRECHEN WIR ÜBER IHR VORHABEN",
+  title: "Ein medizinischer Aufenthalt in Tunesien",
+  accent: "steht an?",
+  description:
+    "Teilen Sie uns Ihre Anfrage mit. Wir melden uns bei Ihnen, um die Betreuungsmöglichkeiten und die nächsten Schritte zu besprechen.",
+  contact: "Kontaktieren Sie uns",
+  whatsapp: "Per WhatsApp schreiben",
+},
+
+
 };
 
 export default function IntroProject() {

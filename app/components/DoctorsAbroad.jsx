@@ -121,6 +121,74 @@ const translations = {
     disclaimer:
       "تُجرى التدخلات من قبل مهنيي الصحة وفقاً لتقييمهم واللوائح المحلية ومدى توفر المؤسسات الصحية المستضيفة.",
   },
+  it: {
+  eyebrow: "MISSIONI MEDICHE INTERNAZIONALI",
+  title: "I nostri medici si recano",
+  accent: "presso i vostri pazienti.",
+  description:
+    "Glomed Group non si limita ad accogliervi in Tunisia: inviamo anche medici tunisini per effettuare consultazioni, interventi e operazioni in Libia e in altri Paesi.",
+  imageAlt: "Medici di Glomed Group in missione all’estero",
+  badgeTitle: "Medici in missione",
+  badgeSubtitle: "Tunisia → Libia e altri Paesi",
+  services: [
+    {
+      title: "Consultazioni",
+      text: "Consultazioni specialistiche organizzate sul posto, vicino ai pazienti.",
+    },
+    {
+      title: "Interventi",
+      text: "Interventi eseguiti da medici esperti, secondo le indicazioni mediche.",
+    },
+    {
+      title: "Operazioni chirurgiche",
+      text: "Operazioni coordinate con le strutture sanitarie ospitanti, dalla preparazione al follow-up.",
+    },
+  ],
+  countriesTitle: "Hanno riposto la loro fiducia in noi",
+  countries: {
+    LY: "Libia",
+    FR: "Francia",
+    QA: "Qatar",
+  },
+  moreCountries: "e altri Paesi",
+  button: "Richiedere una missione",
+  disclaimer:
+    "Gli interventi sono eseguiti da professionisti sanitari, in base alla loro valutazione, alla normativa locale e alla disponibilità delle strutture sanitarie ospitanti.",
+},
+de: {
+  eyebrow: "MEDIZINISCHE EINSÄTZE IM AUSLAND",
+  title: "Unsere Ärzte kommen",
+  accent: "zu Ihren Patienten.",
+  description:
+    "Glomed Group bringt Sie nicht nur nach Tunesien: Wir entsenden auch tunesische Ärzte, um Beratungen, medizinische Eingriffe und Operationen in Libyen und anderen Ländern durchzuführen.",
+  imageAlt: "Ärzte von Glomed Group bei einem Auslandseinsatz",
+  badgeTitle: "Ärzte im Auslandseinsatz",
+  badgeSubtitle: "Tunesien → Libyen und andere Länder",
+  services: [
+    {
+      title: "Beratungen",
+      text: "Vor Ort organisierte Facharztberatungen in unmittelbarer Nähe der Patienten.",
+    },
+    {
+      title: "Medizinische Eingriffe",
+      text: "Eingriffe durch erfahrene Ärzte entsprechend der medizinischen Indikation.",
+    },
+    {
+      title: "Operationen",
+      text: "Koordination der Operationen mit den aufnehmenden Einrichtungen – von der Vorbereitung bis zur Nachbetreuung.",
+    },
+  ],
+  countriesTitle: "Diese Länder vertrauen uns",
+  countries: {
+    LY: "Libyen",
+    FR: "Frankreich",
+    QA: "Katar",
+  },
+  moreCountries: "und weitere Länder",
+  button: "Einen medizinischen Einsatz anfragen",
+  disclaimer:
+    "Die Eingriffe werden von medizinischem Fachpersonal entsprechend dessen Beurteilung, den örtlichen Vorschriften und der Verfügbarkeit der aufnehmenden Einrichtungen durchgeführt.",
+},
 };
 
 const SERVICE_ICONS = [

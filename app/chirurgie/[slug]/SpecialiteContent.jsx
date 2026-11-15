@@ -71,6 +71,50 @@ const data = specialite[language] || specialite.fr || specialite;
         "تواصلوا مع فريقنا للحصول على المعلومات والمساعدة في تنظيم إقامتكم الطبية في تونس.",
       contact: "اتصلوا بفريقنا ←",
     },
+
+it: {
+  stay: "Soggiorno medico in Tunisia",
+  organize: "Organizza il mio soggiorno ←",
+  intro: "Presentazione",
+  pathologies: "Malattie e condizioni mediche",
+  diseases: "Malattie e condizioni",
+  sports: "Medicina degli infortuni sportivi",
+  sportsTitle: "Infortuni sportivi negli atleti",
+  treatments: "Trattamenti e chirurgia",
+  procedures: "Interventi possibili",
+  investigations: "Esami medici",
+  diagnosis: "Esami e diagnosi",
+  faq: "Domande frequenti",
+  questions: "Le vostre domande su",
+  project: "Il vostro progetto di soggiorno medico",
+  need: "Avete bisogno di informazioni su",
+  contactText:
+    "Contattate il nostro team per ricevere informazioni e assistenza nell'organizzazione del vostro soggiorno medico in Tunisia.",
+  contact: "Contattate il nostro team ←",
+},
+
+de: {
+  stay: "Medizinischer Aufenthalt in Tunesien",
+  organize: "Meinen Aufenthalt organisieren ←",
+  intro: "Einführung",
+  pathologies: "Krankheiten und medizinische Beschwerden",
+  diseases: "Krankheiten und Beschwerden",
+  sports: "Sportmedizin und Sportverletzungen",
+  sportsTitle: "Sportverletzungen bei Sportlern",
+  treatments: "Behandlungen und Chirurgie",
+  procedures: "Mögliche Eingriffe",
+  investigations: "Medizinische Untersuchungen",
+  diagnosis: "Untersuchungen und Diagnose",
+  faq: "Häufig gestellte Fragen",
+  questions: "Ihre Fragen zu",
+  project: "Ihr medizinischer Aufenthalt",
+  need: "Benötigen Sie Informationen zu",
+  contactText:
+    "Kontaktieren Sie unser Team, um Informationen und Unterstützung bei der Organisation Ihres medizinischen Aufenthalts in Tunesien zu erhalten.",
+  contact: "Kontaktieren Sie unser Team ←",
+},
+
+
   };
 
   const t = labels[language] || labels.fr;

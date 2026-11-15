@@ -764,6 +764,12 @@
   border-left: 2px solid #f4c430;
   min-width: 0;
 }
+[dir="rtl"] .glomed-brand-caption {
+  border-left: none;
+  border-right: 2px solid #f4c430;
+  padding-right: 12px;
+  margin-right: 8px;
+}
 
 .glomed-brand-title {
   color: var(--blue);

@@ -7,9 +7,13 @@ import Link from "next/link";
 import "./css/Navbar.css";
 
 const languages = [
-  { code: "fr", label: "Français" },
-  { code: "en", label: "English" },
-  { code: "ar", label: "العربية" },
+  
+{ code: "fr", label: "Français" },
+{ code: "en", label: "English" },
+{ code: "ar", label: "العربية" },
+{ code: "it", label: "Italiano" },
+{ code: "de", label: "Deutsch" },
+
 ];
 
 export default function Navbar() {
@@ -179,6 +183,24 @@ export default function Navbar() {
               <Link href="/chirurgie/gynecologie" onClick={closeMenu}>
                 {t("navGynecology")}
               </Link>
+              <Link href="/chirurgie/oncologie" onClick={() => setSurgeryOpen(false)}>
+  {t("navOncology")}
+</Link>
+
+<Link href="/chirurgie/hematologie" onClick={() => setSurgeryOpen(false)}>
+  {t("navHematology")}
+</Link>
+
+<Link href="/chirurgie/orl" onClick={() => setSurgeryOpen(false)}>
+  {t("navENT")}
+</Link>
+
+<Link href="/chirurgie/chirurgieGenerale" onClick={() => setSurgeryOpen(false)}>
+  {t("navGeneralSurgery")}
+</Link>
+<Link href="/chirurgie/chirurgieVasculaire" onClick={closeMenu}>
+  {t("navVascularSurgery")}
+</Link>
 
             </div>
           </div>

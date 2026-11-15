@@ -95,13 +95,7 @@ orthopedie: {
           "Douleur de la région pubienne ou de l'aine observée notamment chez les footballeurs et les sportifs soumis à des accélérations et changements de direction répétés.",
         image: "/images/pubalgie.avif",
       },
-      {
-        nom: "Lésions musculaires",
-        description:
-          "Élongations, déchirures ou autres lésions musculaires pouvant toucher les ischio-jambiers, les quadriceps ou les mollets lors d'efforts intenses.",
-        image: "/images/muscle.avif",
-      },
-      {
+          {
         nom: "Fractures de fatigue",
         description:
           "Petites fractures liées à des contraintes répétées, notamment chez les sportifs qui augmentent rapidement leur volume d'entraînement.",
@@ -533,6 +527,362 @@ orthopedie: {
       },
     ],
   },
+
+it: {
+  title: "Ortopedia",
+  subtitle: "Ritrovare mobilità, comfort e qualità della vita",
+  description:
+    "Glomed Group vi accompagna nell'organizzazione del vostro soggiorno medico in Tunisia. Facilitiamo il contatto con i professionisti sanitari, la trasmissione della documentazione medica e il coordinamento delle diverse fasi del vostro percorso ortopedico. Il nostro obiettivo è aiutarvi a preparare il soggiorno con informazioni chiare e un'assistenza personalizzata.",
+  image: "/images/glomed.avif",
+  alt: "Assistenza medica in ortopedia",
+  intro:
+    "L'ortopedia si occupa delle ossa, delle articolazioni, dei muscoli, dei tendini e dei legamenti. In base alla vostra situazione, una valutazione specialistica può consentire di esaminare diverse possibilità di trattamento, medico, funzionale o chirurgico.",
+
+  maladies: [
+    {
+      nom: "Artrosi",
+      description:
+        "L'artrosi è una patologia articolare che può provocare dolore, rigidità e riduzione della mobilità. Colpisce soprattutto ginocchia, anche, mani e colonna vertebrale. La valutazione medica permette di individuare le opzioni più adatte al grado della patologia.",
+    },
+    {
+      nom: "Fratture ossee",
+      description:
+        "Una frattura è un'interruzione parziale o completa di un osso. Il trattamento dipende dalla sua localizzazione, stabilità e gravità. In base alla valutazione dello specialista, può essere previsto un trattamento immobilizzante o un intervento chirurgico.",
+    },
+    {
+      nom: "Lesioni dei legamenti",
+      description:
+        "I legamenti contribuiscono alla stabilità delle articolazioni. Una distorsione o una rottura legamentosa può causare dolore, gonfiore e instabilità, soprattutto al ginocchio o alla caviglia. Il trattamento dipende dalla gravità della lesione e dalle esigenze funzionali.",
+    },
+    {
+      nom: "Ernia del disco",
+      description:
+        "L'ernia del disco si verifica quando una parte di un disco intervertebrale fuoriesce dalla sua sede e può comprimere un nervo. Può provocare dolore alla schiena o nella zona lombare, talvolta irradiato ad altre parti del corpo. Una valutazione specialistica permette di individuare le possibili opzioni terapeutiche.",
+    },
+    {
+      nom: "Tendiniti e lesioni dei tendini",
+      description:
+        "I tendini collegano i muscoli alle ossa. Un'infiammazione o una lesione tendinea può provocare dolore e limitare alcuni movimenti, soprattutto a livello della spalla, del gomito o del tendine d'Achille. Il trattamento dipende dalla causa e dall'entità della lesione.",
+    },
+    {
+      nom: "Deformità ossee e disturbi articolari",
+      description:
+        "Alcune deformità ossee o articolari possono influire sull'allineamento, sulla camminata o sulla funzionalità di un arto. Una valutazione clinica e radiologica aiuta lo specialista a esaminare la situazione e le possibili soluzioni.",
+    },
+  ],
+
+  blessuresSportives: [
+    {
+      nom: "Rottura del legamento crociato anteriore (LCA)",
+      description:
+        "Lesione frequente negli sportivi che praticano calcio, pallamano, pallacanestro o sci. Può provocare instabilità del ginocchio e richiedere riabilitazione o, in alcuni casi, una ricostruzione del legamento.",
+      image: "/images/fracture.avif",
+    },
+    {
+      nom: "Lesioni del menisco",
+      description:
+        "I menischi possono lesionarsi durante una rotazione del ginocchio o in seguito a un trauma sportivo. Il trattamento dipende dal tipo di lesione e può comprendere riabilitazione, trattamento conservativo o intervento chirurgico.",
+      image: "/images/menisque.avif",
+    },
+    {
+      nom: "Rottura del tendine d'Achille",
+      description:
+        "Lesione che può verificarsi durante uno scatto o un salto, provocando un dolore improvviso nella parte posteriore della caviglia. Una valutazione tempestiva permette di individuare il trattamento più appropriato.",
+      image: "/images/lesion.avif",
+    },
+    {
+      nom: "Distorsioni della caviglia",
+      description:
+        "Lesioni dei legamenti della caviglia che possono verificarsi durante un cambio di direzione o un atterraggio dopo un salto. Il trattamento varia in base alla gravità.",
+      image: "/images/antorse.avif",
+    },
+    {
+      nom: "Lesioni della spalla",
+      description:
+        "Gli sportivi possono presentare lesioni della cuffia dei rotatori, lussazioni o instabilità della spalla, soprattutto negli sport di lancio e di contatto.",
+      image: "/images/epaule.avif",
+    },
+    {
+      nom: "Fratture sportive",
+      description:
+        "Urti, cadute e sollecitazioni ripetute possono provocare fratture che richiedono un'immobilizzazione o, in alcuni casi, un intervento chirurgico.",
+      image: "/images/fracture.avif",
+    },
+    {
+      nom: "Tendiniti e tendinopatie",
+      description:
+        "Dolori causati da sovraccarico o sollecitazioni ripetute, che interessano soprattutto il tendine rotuleo, il tendine d'Achille o la spalla.",
+      image: "/images/tendinopathie.avif",
+    },
+    {
+      nom: "Pubalgia dello sportivo",
+      description:
+        "Dolore nella regione pubica o inguinale, frequente soprattutto nei calciatori e negli sportivi sottoposti ad accelerazioni e cambi di direzione ripetuti.",
+      image: "/images/pubalgie.avif",
+    },
+    {
+      nom: "Lesioni muscolari",
+      description:
+        "Stiramenti, strappi e altre lesioni muscolari che possono interessare i muscoli posteriori della coscia, i quadricipiti o i polpacci durante sforzi intensi.",
+      image: "/images/muscle.avif",
+    },
+    {
+      nom: "Fratture da stress",
+      description:
+        "Piccole fratture causate da sollecitazioni ripetute, soprattutto negli sportivi che aumentano troppo rapidamente il volume degli allenamenti.",
+      image: "/images/fatigue.avif",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Protesi dell'anca",
+      description:
+        "Questo intervento consiste nella sostituzione delle superfici articolari danneggiate con una protesi. Può essere preso in considerazione in alcuni casi di artrosi avanzata o dopo determinate fratture. L'indicazione dipende dalla valutazione medica e dallo stato generale del paziente.",
+    },
+    {
+      nom: "Protesi del ginocchio",
+      description:
+        "La sostituzione parziale o totale del ginocchio può essere proposta in alcune patologie articolari gravi. L'obiettivo è migliorare la funzionalità articolare e ridurre il dolore quando le altre opzioni non sono sufficienti.",
+    },
+    {
+      nom: "Chirurgia dei legamenti",
+      description:
+        "Alcune rotture dei legamenti possono richiedere una riparazione o una ricostruzione chirurgica. La decisione dipende dalla stabilità dell'articolazione, dall'attività del paziente e dalla natura della lesione.",
+    },
+    {
+      nom: "Chirurgia delle fratture",
+      description:
+        "A seconda del tipo di frattura, l'intervento può consentire di riposizionare e stabilizzare i frammenti ossei mediante dispositivi adeguati. La tecnica dipende dall'osso interessato e dalla complessità della frattura.",
+    },
+    {
+      nom: "Chirurgia della spalla",
+      description:
+        "Alcune lesioni della spalla, in particolare quelle della cuffia dei rotatori, possono essere trattate chirurgicamente quando indicato. Le tecniche variano in base alla lesione e possono includere un approccio artroscopico.",
+    },
+    {
+      nom: "Chirurgia del piede e della caviglia",
+      description:
+        "Gli interventi possono essere presi in considerazione per alcune deformità, lesioni tendinee o patologie articolari del piede e della caviglia. La scelta dipende dai sintomi, dall'esame clinico e dai risultati degli esami di diagnostica per immagini.",
+    },
+  ],
+
+  examens: [
+    "Visita ortopedica specialistica",
+    "Radiografia delle ossa e delle articolazioni",
+    "Risonanza magnetica (RM)",
+    "Tomografia computerizzata delle ossa o delle articolazioni (TC)",
+    "Ecografia muscolo-tendinea",
+    "Valutazione preoperatoria in base all'intervento previsto",
+  ],
+
+  faq: [
+    {
+      question: "Quali patologie vengono trattate in ortopedia?",
+      reponse:
+        "L'ortopedia riguarda patologie come artrosi, fratture, lesioni dei legamenti, alcune ernie del disco e disturbi dei tendini. Le possibilità di trattamento dipendono dalla diagnosi e dai servizi disponibili.",
+    },
+    {
+      question: "Come posso sapere se è necessario un intervento chirurgico?",
+      reponse:
+        "Solo un professionista sanitario può stabilire se un intervento è indicato dopo aver valutato i sintomi, gli esami e la storia clinica. Alcune condizioni possono essere trattate senza chirurgia.",
+    },
+    {
+      question: "Quali documenti devo preparare prima del soggiorno medico?",
+      reponse:
+        "È utile raccogliere i referti medici, le radiografie, i risultati della risonanza magnetica o della TC, l'elenco dei farmaci assunti e tutti i documenti necessari per la valutazione del caso clinico.",
+    },
+    {
+      question: "Glomed Group esegue gli interventi chirurgici?",
+      reponse:
+        "Glomed Group accompagna i pazienti nell'organizzazione del soggiorno e nel coordinamento del percorso medico. Le procedure mediche vengono eseguite dai professionisti e dalle strutture sanitarie competenti, in base alla disponibilità e alle indicazioni mediche.",
+    },
+    {
+      question: "Come organizzare un soggiorno medico ortopedico in Tunisia?",
+      reponse:
+        "Potete contattare il nostro team e trasmettere le informazioni necessarie per valutare la vostra richiesta. L'organizzazione dipende dalla documentazione medica, dalla disponibilità degli specialisti e dalle fasi necessarie per il trattamento.",
+    },
+  ],
+},
+
+de: {
+  title: "Orthopädie",
+  subtitle: "Mobilität, Komfort und Lebensqualität zurückgewinnen",
+  description:
+    "Glomed Group unterstützt Sie bei der Organisation Ihres medizinischen Aufenthalts in Tunesien. Wir erleichtern den Kontakt zu medizinischen Fachkräften, die Übermittlung Ihrer medizinischen Unterlagen und die Koordination der verschiedenen Schritte Ihrer orthopädischen Behandlung. Unser Ziel ist es, Sie mit klaren Informationen und persönlicher Betreuung auf Ihren Aufenthalt vorzubereiten.",
+  image: "/images/glomed.avif",
+  alt: "Medizinische Betreuung im Bereich Orthopädie",
+  intro:
+    "Die Orthopädie befasst sich mit Knochen, Gelenken, Muskeln, Sehnen und Bändern. Je nach Ihrer persönlichen Situation kann eine fachärztliche Untersuchung helfen, verschiedene Behandlungsmöglichkeiten zu prüfen, ob medizinisch, funktionell oder chirurgisch.",
+
+  maladies: [
+    {
+      nom: "Arthrose",
+      description:
+        "Arthrose ist eine Gelenkerkrankung, die Schmerzen, Steifheit und eingeschränkte Beweglichkeit verursachen kann. Sie betrifft insbesondere Knie, Hüften, Hände und die Wirbelsäule. Eine medizinische Untersuchung hilft dabei, geeignete Behandlungsmöglichkeiten entsprechend dem Schweregrad zu bestimmen.",
+    },
+    {
+      nom: "Knochenbrüche",
+      description:
+        "Ein Knochenbruch ist eine teilweise oder vollständige Unterbrechung der Knochenstruktur. Die Behandlung hängt von der Lokalisation, Stabilität und Schwere des Bruchs ab. Je nach fachärztlicher Beurteilung können eine Ruhigstellung oder eine Operation erforderlich sein.",
+    },
+    {
+      nom: "Bandverletzungen",
+      description:
+        "Bänder tragen zur Stabilität der Gelenke bei. Eine Verstauchung oder ein Bänderriss kann Schmerzen, Schwellungen und Instabilität verursachen, insbesondere im Knie oder Sprunggelenk. Die Behandlung richtet sich nach der Schwere der Verletzung und den funktionellen Anforderungen.",
+    },
+    {
+      nom: "Bandscheibenvorfall",
+      description:
+        "Ein Bandscheibenvorfall entsteht, wenn ein Teil einer Bandscheibe seine normale Position verlässt und möglicherweise auf einen Nerv drückt. Er kann Rücken- oder Kreuzschmerzen verursachen, die manchmal in andere Körperbereiche ausstrahlen. Eine fachärztliche Untersuchung hilft, mögliche Behandlungsoptionen festzulegen.",
+    },
+    {
+      nom: "Sehnenentzündungen und Sehnenverletzungen",
+      description:
+        "Sehnen verbinden Muskeln mit Knochen. Eine Entzündung oder Verletzung der Sehnen kann Schmerzen verursachen und bestimmte Bewegungen einschränken, insbesondere an der Schulter, am Ellenbogen oder an der Achillessehne. Die Behandlung hängt von der Ursache und dem Ausmaß der Verletzung ab.",
+    },
+    {
+      nom: "Knochendeformitäten und Gelenkerkrankungen",
+      description:
+        "Bestimmte Knochen- oder Gelenkdeformitäten können die Körperausrichtung, das Gehen oder die Funktion einer Gliedmaße beeinträchtigen. Eine klinische und bildgebende Untersuchung hilft dem Facharzt, den Zustand und mögliche Behandlungsmöglichkeiten zu beurteilen.",
+    },
+  ],
+
+  blessuresSportives: [
+    {
+      nom: "Riss des vorderen Kreuzbandes (VKB)",
+      description:
+        "Eine häufige Verletzung bei Sportarten wie Fußball, Handball, Basketball oder Skifahren. Sie kann zu einer Instabilität des Knies führen und eine Rehabilitation oder in bestimmten Fällen eine operative Kreuzbandrekonstruktion erforderlich machen.",
+      image: "/images/fracture.avif",
+    },
+    {
+      nom: "Meniskusverletzungen",
+      description:
+        "Die Menisken können durch eine Drehbewegung des Knies oder ein Sporttrauma verletzt werden. Die Behandlung hängt von der Art der Verletzung ab und kann Rehabilitation, eine konservative Behandlung oder eine Operation umfassen.",
+      image: "/images/menisque.avif",
+    },
+    {
+      nom: "Achillessehnenriss",
+      description:
+        "Diese Verletzung kann beim Beschleunigen oder Springen auftreten und plötzliche Schmerzen an der Rückseite des Sprunggelenks verursachen. Eine zeitnahe Untersuchung hilft, die geeignete Behandlung festzulegen.",
+      image: "/images/lesion.avif",
+    },
+    {
+      nom: "Verstauchungen des Sprunggelenks",
+      description:
+        "Verletzungen der Bänder des Sprunggelenks, die bei Richtungswechseln oder nach einer Landung aus einem Sprung auftreten können. Die Behandlung richtet sich nach dem Schweregrad.",
+      image: "/images/antorse.avif",
+    },
+    {
+      nom: "Schulterverletzungen",
+      description:
+        "Sportler können Verletzungen der Rotatorenmanschette, Schulterluxationen oder eine Schulterinstabilität erleiden, insbesondere bei Wurf- und Kontaktsportarten.",
+      image: "/images/epaule.avif",
+    },
+    {
+      nom: "Sportbedingte Knochenbrüche",
+      description:
+        "Stöße, Stürze und wiederholte Belastungen können Knochenbrüche verursachen, die eine Ruhigstellung oder manchmal einen chirurgischen Eingriff erfordern.",
+      image: "/images/fracture.avif",
+    },
+    {
+      nom: "Sehnenentzündungen und Tendinopathien",
+      description:
+        "Schmerzen infolge von Überlastung oder wiederholter Belastung, insbesondere an der Patellasehne, der Achillessehne oder im Schulterbereich.",
+      image: "/images/tendinopathie.avif",
+    },
+    {
+      nom: "Sportlerpubalgie",
+      description:
+        "Schmerzen im Scham- oder Leistenbereich, die insbesondere bei Fußballspielern und Sportlern auftreten können, die häufig beschleunigen und die Laufrichtung wechseln.",
+      image: "/images/pubalgie.avif",
+    },
+    {
+      nom: "Muskelverletzungen",
+      description:
+        "Zerrungen, Muskelfaserrisse und andere Muskelverletzungen, die bei intensiver körperlicher Belastung insbesondere die hintere Oberschenkelmuskulatur, den Quadrizeps oder die Waden betreffen können.",
+      image: "/images/muscle.avif",
+    },
+    {
+      nom: "Ermüdungsbrüche",
+      description:
+        "Kleine Knochenbrüche infolge wiederholter Belastungen, insbesondere bei Sportlern, die ihr Trainingsvolumen zu schnell steigern.",
+      image: "/images/fatigue.avif",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Hüftprothese",
+      description:
+        "Bei diesem Eingriff werden beschädigte Gelenkflächen durch eine künstliche Prothese ersetzt. Er kann bei bestimmten fortgeschrittenen Arthroseformen oder nach einigen Knochenbrüchen in Betracht gezogen werden. Die Entscheidung hängt von der medizinischen Untersuchung und dem allgemeinen Gesundheitszustand des Patienten ab.",
+    },
+    {
+      nom: "Knieprothese",
+      description:
+        "Ein teilweiser oder vollständiger Kniegelenkersatz kann bei bestimmten schweren Gelenkerkrankungen empfohlen werden. Ziel ist es, die Gelenkfunktion zu verbessern und Schmerzen zu reduzieren, wenn andere Behandlungsmöglichkeiten nicht ausreichen.",
+    },
+    {
+      nom: "Bandchirurgie",
+      description:
+        "Bestimmte Bänderrisse können eine operative Reparatur oder Rekonstruktion erforderlich machen. Die Entscheidung hängt unter anderem von der Gelenkstabilität, der körperlichen Aktivität des Patienten und der Art der Verletzung ab.",
+    },
+    {
+      nom: "Frakturbehandlung durch Operation",
+      description:
+        "Je nach Art des Knochenbruchs kann eine Operation dazu dienen, die Knochenfragmente wieder auszurichten und mit geeigneten Hilfsmitteln zu stabilisieren. Die gewählte Technik hängt vom betroffenen Knochen und der Komplexität des Bruchs ab.",
+    },
+    {
+      nom: "Schulterchirurgie",
+      description:
+        "Bestimmte Schulterverletzungen, insbesondere Verletzungen der Rotatorenmanschette, können bei entsprechender medizinischer Indikation operativ behandelt werden. Die Techniken richten sich nach der Verletzung und können auch eine Arthroskopie umfassen.",
+    },
+    {
+      nom: "Fuß- und Sprunggelenkchirurgie",
+      description:
+        "Bei bestimmten Fehlstellungen, Sehnenverletzungen oder Gelenkerkrankungen des Fußes und Sprunggelenks können operative Eingriffe in Betracht gezogen werden. Die Entscheidung hängt von den Symptomen, der klinischen Untersuchung und den bildgebenden Ergebnissen ab.",
+    },
+  ],
+
+  examens: [
+    "Fachärztliche orthopädische Untersuchung",
+    "Röntgenaufnahmen der Knochen und Gelenke",
+    "Magnetresonanztomographie (MRT)",
+    "Computertomographie der Knochen oder Gelenke (CT)",
+    "Ultraschalluntersuchung von Muskeln und Sehnen",
+    "Präoperative Untersuchung je nach geplantem Eingriff",
+  ],
+
+  faq: [
+    {
+      question: "Welche Erkrankungen werden in der Orthopädie behandelt?",
+      reponse:
+        "Die Orthopädie umfasst unter anderem Arthrose, Knochenbrüche, Bandverletzungen, bestimmte Bandscheibenvorfälle und Sehnenerkrankungen. Die Behandlungsmöglichkeiten hängen von der Diagnose und den verfügbaren Leistungen ab.",
+    },
+    {
+      question: "Wie kann ich feststellen, ob eine Operation notwendig ist?",
+      reponse:
+        "Nur eine medizinische Fachkraft kann nach der Untersuchung der Symptome, der Befunde und der Krankengeschichte feststellen, ob ein Eingriff erforderlich ist. Einige Erkrankungen können auch ohne Operation behandelt werden.",
+    },
+    {
+      question: "Welche Unterlagen sollte ich vor meinem medizinischen Aufenthalt vorbereiten?",
+      reponse:
+        "Es ist sinnvoll, ärztliche Berichte, Röntgenaufnahmen, MRT- oder CT-Ergebnisse, eine Liste der aktuellen Medikamente und alle weiteren Unterlagen für die medizinische Beurteilung zusammenzustellen.",
+    },
+    {
+      question: "Führt Glomed Group die chirurgischen Eingriffe selbst durch?",
+      reponse:
+        "Glomed Group unterstützt Patienten bei der Organisation ihres Aufenthalts und der Koordination ihres medizinischen Behandlungswegs. Medizinische Eingriffe werden von den zuständigen Fachkräften und Gesundheitseinrichtungen entsprechend der Verfügbarkeit und der medizinischen Indikation durchgeführt.",
+    },
+    {
+      question: "Wie kann ich einen orthopädischen medizinischen Aufenthalt in Tunesien organisieren?",
+      reponse:
+        "Sie können unser Team kontaktieren und die erforderlichen Informationen zur Prüfung Ihrer Anfrage übermitteln. Die Organisation hängt von Ihren medizinischen Unterlagen, der Verfügbarkeit der Fachärzte und den notwendigen Behandlungsschritten ab.",
+    },
+  ],
+},
+
+
 },
 
 
@@ -1266,7 +1616,7 @@ pneumologie: {
       },
       {
         nom: "Fibrose pulmonaire",
-        image: "/pneumologie/fibrose-pulmonaire.avif",
+        image: "/pneumologie/Fibrose-pulmonaire.avif",
         description:
           "Affection caractérisée par une cicatrisation du tissu pulmonaire pouvant rendre la respiration plus difficile.",
       },
@@ -4913,6 +5263,1456 @@ gynecologie: {
     ],
   },
 },
+/*new dis*/
+oncologie: {
+  fr: {
+    title: "Oncologie",
+    subtitle: "Un accompagnement spécialisé dans la prise en charge du cancer",
+    description: "Glomed Group vous accompagne dans l'organisation de votre parcours de soins oncologiques en Tunisie, en coordination avec des professionnels spécialisés.",
+    intro: "L'oncologie est la spécialité médicale consacrée à la prévention, au diagnostic et à la prise en charge des cancers. Le parcours peut associer consultations, examens, traitements et suivi personnalisé selon chaque situation.",
+    image: "/images/oncolologie.jpg",
+    alt: "Prise en charge spécialisée en oncologie",
+    services: [
+      "Consultations en oncologie médicale",
+      "Évaluation et orientation vers des équipes spécialisées",
+      "Organisation du bilan diagnostique",
+      "Coordination des traitements",
+      "Accompagnement pendant le séjour médical",
+      "Organisation du suivi après le séjour"
+    ],
+    maladies: [
+      { nom: "Cancer du sein", description: "Cancer qui se développe dans les tissus mammaires et dont la prise en charge dépend notamment du type et du stade de la maladie." },
+      { nom: "Cancer colorectal", description: "Cancer touchant le côlon ou le rectum, nécessitant un bilan spécialisé et une stratégie adaptée." },
+      { nom: "Cancer du poumon", description: "Cancer développé dans les tissus pulmonaires, pouvant nécessiter une prise en charge multidisciplinaire." },
+      { nom: "Cancer de la prostate", description: "Cancer de la prostate dont l'évaluation et les options thérapeutiques dépendent de plusieurs facteurs médicaux." },
+      { nom: "Cancer de l'estomac", description: "Tumeur maligne qui se développe dans la paroi de l'estomac." },
+      { nom: "Cancer du foie", description: "Cancer pouvant se développer dans le foie ou y atteindre cet organe depuis une autre localisation." },
+      { nom: "Cancer gynécologique", description: "Ensemble de cancers touchant notamment l'ovaire, l'utérus et le col de l'utérus." },
+      { nom: "Lymphomes", description: "Cancers qui prennent naissance dans les cellules du système lymphatique." },
+{ nom: "Leucémie", description: "Cancer du sang et de la moelle osseuse caractérisé par une production anormale de cellules sanguines." },
+
+
+    ],
+    interventions: [
+      { nom: "Chirurgie oncologique", description: "Intervention visant à retirer une tumeur lorsque la chirurgie est indiquée après évaluation spécialisée." },
+      { nom: "Chimiothérapie", description: "Traitement médicamenteux utilisant des médicaments anticancéreux selon un protocole adapté." },
+      { nom: "Radiothérapie", description: "Traitement utilisant des rayonnements pour détruire ou contrôler les cellules cancéreuses." },
+      { nom: "Immunothérapie et thérapies ciblées", description: "Traitements proposés dans certaines situations selon les caractéristiques de la maladie." },
+      { nom: "Hormonothérapie", description: "Traitement qui bloque ou modifie l'action des hormones pour ralentir la croissance de certains cancers hormono-sensibles." },
+{ nom: "Greffe de moelle osseuse", description: "Traitement impliquant le remplacement de la moelle osseuse malade par des cellules souches hématopoïétiques saines dans des cas sélectionnés." },
+    
+    ],
+    examens: [
+      "Analyses sanguines et bilan biologique",
+      "Biopsie et analyse anatomopathologique",
+      "Scanner",
+      "IRM",
+      "PET scan (TEP scan)",
+      "Échographie",
+      "Examens spécifiques selon la localisation du cancer",
+       "Tests génétiques et moléculaires",
+         ],
+    diagnostic: [
+      { nom: "Biopsie", description: "Prélèvement d'un échantillon de tissu afin de l'analyser et de préciser le diagnostic." },
+      { nom: "Scanner et IRM", description: "Examens d'imagerie permettant d'étudier la localisation et l'étendue éventuelle de la maladie." },
+      { nom: "PET scan", description: "Examen pouvant contribuer au bilan d'extension de certains cancers selon l'indication médicale." }
+    ],
+    faq: [
+      { question: "Comment organiser un parcours de soins en oncologie en Tunisie ?", reponse: "Glomed Group peut faciliter la prise de contact, la transmission du dossier médical et l'organisation des consultations et examens. La prise en charge est définie par les médecins." },
+      { question: "Quels documents médicaux faut-il préparer ?", reponse: "Il est utile de réunir les comptes rendus, résultats d'analyses, examens d'imagerie et résultats de biopsie déjà disponibles." },
+      {
+    question: "Quels sont les traitements disponibles en oncologie en Tunisie ?",
+    reponse: "Selon le diagnostic et le stade de la maladie, les traitements peuvent inclure la chirurgie, la chimiothérapie, la radiothérapie, l'immunothérapie, les thérapies ciblées ou l'hormonothérapie. Le protocole est déterminé par l'équipe médicale."
+  },
+  {
+    question: "Est-il possible d'obtenir un deuxième avis médical en oncologie ?",
+    reponse: "Oui, il est possible de solliciter un deuxième avis médical en transmettant le dossier médical, les résultats d'examens et les comptes rendus disponibles à des spécialistes."
+  },
+  {
+    question: "Comment se déroule le suivi après un traitement contre le cancer ?",
+    reponse: "Le suivi comprend des consultations médicales régulières, des examens cliniques et des examens complémentaires selon le type de cancer et le traitement reçu."
+  }
+    ]
+  },
+
+  en: {
+    title: "Oncology",
+    subtitle: "Specialized support throughout cancer care",
+    description: "Glomed Group helps organize your oncology care journey in Tunisia in coordination with specialized healthcare professionals.",
+    intro: "Oncology is the medical specialty concerned with cancer prevention, diagnosis and care. Depending on each situation, the care pathway may include consultations, diagnostic tests, treatments and follow-up.",
+    image: "/images/oncolologie.jpg",
+    alt: "Specialized oncology care",
+    services: [
+      "Medical oncology consultations",
+      "Assessment and referral to specialized teams",
+      "Organization of diagnostic tests",
+      "Treatment coordination",
+      "Support during the medical stay",
+      "Follow-up arrangements"
+    ],
+    maladies: [
+      { nom: "Breast cancer", description: "Cancer that develops in breast tissue. Care depends on the type and stage of the disease." },
+      { nom: "Colorectal cancer", description: "Cancer affecting the colon or rectum and requiring specialist assessment." },
+      { nom: "Lung cancer", description: "Cancer developing in lung tissue that may require multidisciplinary care." },
+      { nom: "Prostate cancer", description: "Cancer of the prostate for which assessment and treatment options depend on several medical factors." },
+      { nom: "Stomach cancer", description: "A malignant tumor developing in the stomach lining." },
+      { nom: "Liver cancer", description: "Cancer that develops in the liver or spreads there from another site." },
+      { nom: "Gynecological cancers", description: "Cancers affecting organs such as the ovaries, uterus and cervix." },
+      { nom: "Lymphomas", description: "Cancers that begin in cells of the lymphatic system." },
+
+{
+  nom: "Leukemia",
+  description: "Cancer of the blood and bone marrow characterized by the abnormal production of blood cells."
+},
+
+    ],
+    interventions: [
+      { nom: "Oncological surgery", description: "Surgery to remove a tumor when indicated following specialist assessment." },
+      { nom: "Chemotherapy", description: "Drug treatment using anticancer medicines according to an appropriate protocol." },
+      { nom: "Radiotherapy", description: "Treatment using radiation to destroy or control cancer cells." },
+      { nom: "Immunotherapy and targeted therapies", description: "Treatments used in selected cases according to the characteristics of the disease." },
+{ nom: "Hormone therapy", description: "Treatment that blocks or modifies the action of hormones to slow the growth of certain hormone-sensitive cancers." },
+{ nom: "Bone marrow transplantation", description: "Treatment involving the replacement of diseased bone marrow with healthy blood-forming stem cells in selected cases." },
+
+    ],
+    examens: [
+      "Blood tests and laboratory assessments",
+      "Biopsy and pathology analysis",
+      "CT scan",
+      "MRI",
+      "PET scan",
+      "Ultrasound",
+      "Additional tests according to cancer type",
+       "Specific tests depending on the location of the cancer",
+"Additional examinations depending on the type of cancer"
+
+
+
+
+    ],
+    diagnostic: [
+      { nom: "Biopsy", description: "A tissue sample is taken and examined to help establish the diagnosis." },
+      { nom: "CT scan and MRI", description: "Imaging tests used to assess the location and possible extent of the disease." },
+      { nom: "PET scan", description: "An imaging test that may help assess certain cancers when medically indicated." }
+    ],
+    faq: [
+      { question: "How can I organize oncology care in Tunisia?", reponse: "Glomed Group can help coordinate contact, medical records, consultations and tests. Medical treatment decisions are made by the healthcare team." },
+      { question: "Which medical documents should I prepare?", reponse: "Gather available medical reports, laboratory results, imaging records and biopsy results." },
+        {
+    question: "What cancer treatments are available in Tunisia?",
+    reponse: "Depending on the diagnosis and stage of the disease, treatments may include surgery, chemotherapy, radiotherapy, immunotherapy, targeted therapies or hormone therapy. The treatment plan is determined by the medical team."
+  },
+  {
+    question: "Is it possible to obtain a second medical opinion in oncology?",
+    reponse: "Yes, a second medical opinion can be requested by sharing the medical file, test results and available medical reports with specialists."
+  },
+  {
+    question: "What does follow-up after cancer treatment involve?",
+    reponse: "Follow-up includes regular medical consultations, clinical examinations and additional tests depending on the type of cancer and the treatment received."
+  },
+   {
+    question: "ما هي علاجات الأورام المتوفرة في تونس؟",
+    reponse: "حسب التشخيص ومرحلة المرض، قد تشمل العلاجات الجراحة والعلاج الكيميائي والعلاج الإشعاعي والعلاج المناعي والعلاجات الموجهة أو العلاج الهرموني. ويحدد الفريق الطبي البروتوكول العلاجي المناسب."
+  },
+  {
+    question: "هل يمكن الحصول على رأي طبي ثانٍ في طب الأورام؟",
+    reponse: "نعم، يمكن طلب رأي طبي ثانٍ من خلال إرسال الملف الطبي ونتائج الفحوصات والتقارير الطبية المتوفرة إلى الأطباء المختصين."
+  },
+  {
+    question: "كيف تتم المتابعة بعد علاج السرطان؟",
+    reponse: "تشمل المتابعة استشارات طبية منتظمة وفحوصات سريرية وفحوصات إضافية حسب نوع السرطان والعلاج الذي تلقاه المريض."
+  }
+    
+    ]
+  },
+
+  ar: {
+    title: "طب الأورام",
+    subtitle: "مرافقة متخصصة في مسار علاج الأورام",
+    description: "ترافقكم Glomed Group في تنظيم مسار الرعاية المتعلقة بالأورام في تونس بالتنسيق مع مختصين في المجال الطبي.",
+    intro: "طب الأورام هو التخصص الطبي الذي يهتم بالوقاية من السرطان وتشخيصه ومتابعة علاجه. وقد يشمل المسار الطبي الاستشارات والفحوصات والعلاجات والمتابعة حسب حالة كل مريض.",
+    image: "/images/oncolologie.jpg",
+    alt: "الرعاية الطبية المتخصصة في طب الأورام",
+    services: [
+      "استشارات في طب الأورام",
+      "تقييم الحالة والتوجيه إلى الفرق المختصة",
+      "تنظيم الفحوصات التشخيصية",
+      "تنسيق مراحل العلاج",
+      "المرافقة خلال الإقامة الطبية",
+      "تنظيم المتابعة الطبية"
+    ],
+    maladies: [
+      { nom: "سرطان الثدي", description: "مرض سرطاني يصيب أنسجة الثدي وتختلف طرق التعامل معه حسب نوع المرض ومرحلته." },
+      { nom: "سرطان القولون والمستقيم", description: "سرطان يصيب القولون أو المستقيم ويتطلب تقييماً طبياً متخصصاً." },
+      { nom: "سرطان الرئة", description: "ورم خبيث ينشأ في أنسجة الرئة وقد يتطلب متابعة متعددة التخصصات." },
+      { nom: "سرطان البروستاتا", description: "سرطان يصيب غدة البروستاتا وتحدد الخيارات العلاجية حسب التقييم الطبي." },
+      { nom: "سرطان المعدة", description: "ورم خبيث ينشأ في أنسجة المعدة." },
+      { nom: "سرطان الكبد", description: "سرطان قد ينشأ في الكبد أو ينتقل إليه من عضو آخر." },
+      { nom: "سرطانات النساء", description: "مجموعة من السرطانات التي قد تصيب المبيض أو الرحم أو عنق الرحم." },
+      { nom: "الأورام اللمفاوية", description: "أورام سرطانية تصيب خلايا الجهاز اللمفاوي." },
+
+{
+  nom: "سرطان الدم (اللوكيميا)",
+  description: "سرطان يصيب الدم ونخاع العظم، ويتميز بإنتاج غير طبيعي لخلايا الدم."
+},
+
+    ],
+    interventions: [
+      { nom: "جراحة الأورام", description: "تدخل جراحي لإزالة الورم عندما يقرر الفريق الطبي أن الجراحة مناسبة." },
+      { nom: "العلاج الكيميائي", description: "علاج بالأدوية المضادة للخلايا السرطانية وفق بروتوكول طبي مناسب." },
+      { nom: "العلاج الإشعاعي", description: "علاج يستخدم الأشعة للتحكم في الخلايا السرطانية أو القضاء عليها." },
+      { nom: "العلاج المناعي والعلاجات الموجهة", description: "علاجات يمكن استخدامها في حالات محددة حسب خصائص المرض." },
+{ nom: "العلاج الهرموني", description: "علاج يهدف إلى تثبيط أو تعديل تأثير الهرمونات للحد من نمو بعض أنواع السرطان الحساسة للهرمونات." },
+{ nom: "زراعة نخاع العظم", description: "علاج يعتمد على استبدال نخاع العظم المصاب بخلايا جذعية سليمة مكوّنة للدم في حالات طبية محددة." },
+
+      
+
+    ],
+  examens: [
+  "تحاليل الدم والفحوصات المخبرية",
+  "الخزعة والتحليل النسيجي",
+  "التصوير المقطعي المحوسب (CT)",
+  "التصوير بالرنين المغناطيسي (MRI)",
+  "التصوير المقطعي بالإصدار البوزيتروني (PET)",
+  "التصوير بالموجات فوق الصوتية",
+  "فحوصات إضافية حسب نوع السرطان",
+  "فحوصات محددة حسب موقع السرطان",
+  "فحوصات إضافية حسب نوع السرطان"
+],
+    diagnostic: [
+      { nom: "الخزعة", description: "أخذ عينة من الأنسجة وتحليلها للمساعدة في تحديد التشخيص." },
+      { nom: "التصوير المقطعي والرنين المغناطيسي", description: "فحوصات تصوير تساعد على تحديد موقع المرض ومدى انتشاره المحتمل." },
+      { nom: "فحص PET", description: "فحص تصويري قد يُستخدم في تقييم بعض أنواع السرطان حسب الحاجة الطبية." }
+    ],
+    faq: [
+      { question: "كيف يمكن تنظيم رحلة علاج الأورام في تونس؟", reponse: "يمكن لـ Glomed Group المساعدة في تنسيق التواصل وإرسال الملف الطبي وتنظيم الاستشارات والفحوصات. ويحدد الأطباء الخطة العلاجية المناسبة." },
+      { question: "ما الوثائق الطبية التي يجب تحضيرها؟", reponse: "يُفضّل جمع التقارير الطبية ونتائج التحاليل والصور الطبية ونتائج الخزعة المتوفرة." }
+    ]
+  }
+},
+
+hematologie: {
+  fr: {
+    title: "Hématologie",
+    subtitle: "Diagnostic et prise en charge des maladies du sang",
+    description: "Glomed Group facilite l'organisation de consultations et de bilans spécialisés en hématologie en Tunisie.",
+    intro: "L'hématologie est la spécialité médicale consacrée au sang, à la moelle osseuse et au système lymphatique. Elle concerne notamment les maladies des globules rouges, des globules blancs, des plaquettes et de la coagulation.",
+    image: "/images/hematologie.jpg",
+    alt: "Consultation spécialisée en hématologie",
+    services: [
+      "Consultations en hématologie",
+      "Bilan des maladies du sang",
+      "Évaluation des troubles de la coagulation",
+      "Orientation vers des équipes spécialisées",
+      "Organisation des examens et du suivi médical"
+    ],
+    maladies: [
+      { nom: "Anémie", description: "Diminution du taux d'hémoglobine pouvant avoir différentes causes et nécessitant un bilan adapté." },
+      { nom: "Leucémie", description: "Cancer du sang et de la moelle osseuse caractérisé par une production anormale de cellules sanguines." },
+      { nom: "Lymphome", description: "Cancer du système lymphatique nécessitant une évaluation spécialisée." },
+      { nom: "Myélome multiple", description: "Maladie touchant certaines cellules de la moelle osseuse appelées plasmocytes." },
+      { nom: "Thrombopénie", description: "Diminution du nombre de plaquettes dans le sang." },
+      { nom: "Troubles de la coagulation", description: "Anomalies pouvant favoriser les saignements ou la formation de caillots." },
+      { nom: "Drépanocytose", description: "Maladie génétique de l'hémoglobine pouvant entraîner une anémie et des crises douloureuses." },
+      { nom: "Thalassémie", description: "Maladie héréditaire affectant la production de l'hémoglobine." },
+            {   nom: "Aplasie médullaire",
+  description: "Maladie rare caractérisée par une insuffisance de la moelle osseuse à produire suffisamment de cellules sanguines."},
+    ],
+    interventions: [
+      { nom: "Transfusion sanguine", description: "Administration de composants sanguins lorsque cela est médicalement nécessaire." },
+      { nom: "Greffe de moelle osseuse ou de cellules souches", description: "Traitement spécialisé proposé dans certaines maladies hématologiques après une évaluation approfondie." },
+      { nom: "Chimiothérapie hématologique", description: "Traitement médicamenteux utilisé dans certaines maladies du sang selon un protocole spécialisé." }
+    ],
+    examens: [
+      "Numération formule sanguine (NFS)",
+      "Frottis sanguin",
+      "Bilan de coagulation",
+      "Dosage du fer et de la ferritine",
+      "Électrophorèse de l'hémoglobine",
+      "Myélogramme",
+      "Biopsie ostéo-médullaire",
+      "Examens immunologiques et moléculaires selon l'indication",
+      "Dosage de la vitamine B12 et de l'acide folique",
+    ],
+    diagnostic: [
+      { nom: "Numération formule sanguine", description: "Analyse permettant d'étudier les globules rouges, les globules blancs et les plaquettes." },
+      { nom: "Myélogramme", description: "Examen de la moelle osseuse réalisé pour étudier la production des cellules sanguines." },
+      { nom: "Bilan de coagulation", description: "Analyses permettant d'évaluer certains mécanismes de coagulation du sang." }
+    ],
+    faq: [
+      { question: "Quand consulter un hématologue ?", reponse: "Une consultation peut être indiquée en cas d'anomalies persistantes de la prise de sang ou de suspicion d'une maladie du sang, sur orientation médicale." },
+      { question: "Quels examens faut-il apporter ?", reponse: "Les résultats de NFS, bilans biologiques, examens de coagulation et comptes rendus médicaux déjà disponibles peuvent être utiles." }
+     ,{
+    question: "Quelles maladies sont prises en charge en hématologie ?",
+    reponse: "L'hématologie prend en charge les maladies du sang et de la moelle osseuse, notamment les anémies, les leucémies, les lymphomes et les troubles de la coagulation."
+  },
+  {
+    question: "Comment se déroule une consultation en hématologie ?",
+    reponse: "La consultation comprend l'étude des antécédents médicaux, l'analyse des résultats biologiques et, si nécessaire, la prescription d'examens complémentaires."
+  },
+  {
+    question: "Les maladies du sang nécessitent-elles un suivi régulier ?",
+    reponse: "Certaines maladies hématologiques nécessitent un suivi régulier comprenant des consultations et des analyses sanguines adaptées à l'état du patient."
+  },
+  
+    ]
+  },
+
+  en: {
+    title: "Hematology",
+    subtitle: "Diagnosis and care for blood disorders",
+    description: "Glomed Group helps arrange specialist hematology consultations and assessments in Tunisia.",
+    intro: "Hematology is the medical specialty concerned with blood, bone marrow and the lymphatic system. It includes disorders affecting red blood cells, white blood cells, platelets and blood clotting.",
+    image: "/images/hematologie.jpg",
+    alt: "Specialist hematology consultation",
+    services: [
+      "Hematology consultations",
+      "Assessment of blood disorders",
+      "Evaluation of clotting disorders",
+      "Referral to specialist teams",
+      "Organization of tests and medical follow-up"
+    ],
+    maladies: [
+      { nom: "Anemia", description: "A reduction in hemoglobin levels that may have several causes and requires appropriate assessment." },
+      { nom: "Leukemia", description: "Cancer of the blood and bone marrow involving abnormal blood cell production." },
+      { nom: "Lymphoma", description: "Cancer of the lymphatic system requiring specialist assessment." },
+      { nom: "Multiple myeloma", description: "A disease affecting plasma cells in the bone marrow." },
+      { nom: "Thrombocytopenia", description: "A low platelet count in the blood." },
+      { nom: "Clotting disorders", description: "Conditions that may increase the risk of bleeding or blood clots." },
+      { nom: "Sickle cell disease", description: "An inherited hemoglobin disorder that may cause anemia and painful episodes." },
+      { nom: "Thalassemia", description: "An inherited condition affecting hemoglobin production." },
+      {
+  nom: "Aplastic anemia",
+  description: "A rare condition in which the bone marrow fails to produce enough blood cells."
+},
+
+    ],
+    interventions: [
+      { nom: "Blood transfusion", description: "Administration of blood components when medically required." },
+      { nom: "Bone marrow or stem cell transplant", description: "A specialized treatment considered for selected blood disorders after thorough assessment." },
+      { nom: "Hematological chemotherapy", description: "Drug treatment used for certain blood disorders under specialist protocols." }
+    ],
+    examens: [
+      "Complete blood count (CBC)",
+      "Blood smear",
+      "Coagulation tests",
+      "Iron and ferritin tests",
+      "Hemoglobin electrophoresis",
+      "Bone marrow aspiration",
+      "Bone marrow biopsy",
+      "Immunological and molecular tests when indicated",
+      "Vitamin B12 and folic acid testing",
+    ],
+    diagnostic: [
+      { nom: "Complete blood count", description: "A test that measures red blood cells, white blood cells and platelets." },
+      { nom: "Bone marrow aspiration", description: "An examination of bone marrow to assess blood cell production." },
+      { nom: "Coagulation tests", description: "Blood tests used to assess aspects of the clotting process." }
+    ],
+    faq: [
+      { question: "When should I see a hematologist?", reponse: "A consultation may be recommended for persistent blood test abnormalities or suspected blood disorders following medical advice." },
+      { question: "Which test results should I bring?", reponse: "Previous blood counts, laboratory tests, coagulation results and medical reports may be useful." }
+    ,{
+    question: "Which diseases are treated in hematology?",
+    reponse: "Hematology deals with diseases of the blood and bone marrow, including anemia, leukemia, lymphoma and blood clotting disorders."
+  },
+  {
+    question: "What happens during a hematology consultation?",
+    reponse: "The consultation includes reviewing medical history, analyzing laboratory results and, when necessary, prescribing additional tests."
+  },
+  {
+    question: "Do blood disorders require regular follow-up?",
+    reponse: "Some hematological conditions require regular follow-up, including medical consultations and blood tests tailored to the patient's condition."
+  }
+    ]
+  },
+
+  ar: {
+    title: "أمراض الدم",
+    subtitle: "تشخيص ومتابعة أمراض الدم",
+    description: "تساعدكم Glomed Group على تنظيم الاستشارات والفحوصات المتخصصة في أمراض الدم في تونس.",
+    intro: "أمراض الدم هو التخصص الطبي الذي يهتم بالدم ونخاع العظم والجهاز اللمفاوي، بما في ذلك أمراض كريات الدم الحمراء والبيضاء والصفائح الدموية واضطرابات التخثر.",
+    image: "/images/hematologie.jpg",
+    alt: "استشارة طبية متخصصة في أمراض الدم",
+    services: [
+      "استشارات في أمراض الدم",
+      "تقييم أمراض الدم",
+      "فحص اضطرابات تخثر الدم",
+      "التوجيه إلى الفرق الطبية المختصة",
+      "تنظيم الفحوصات والمتابعة الطبية"
+    ],
+    maladies: [
+      { nom: "فقر الدم", description: "انخفاض مستوى الهيموغلوبين وقد تكون له أسباب مختلفة تتطلب تقييماً مناسباً." },
+      { nom: "سرطان الدم", description: "مرض سرطاني يصيب الدم ونخاع العظم ويؤثر في إنتاج خلايا الدم." },
+      { nom: "الأورام اللمفاوية", description: "سرطانات تصيب الجهاز اللمفاوي وتتطلب تقييماً متخصصاً." },
+      { nom: "الورم النقوي المتعدد", description: "مرض يصيب نوعاً من خلايا نخاع العظم تسمى الخلايا البلازمية." },
+      { nom: "نقص الصفائح الدموية", description: "انخفاض عدد الصفائح الدموية في الدم." },
+      { nom: "اضطرابات تخثر الدم", description: "اضطرابات قد تزيد من خطر النزيف أو تكوّن الجلطات." },
+      { nom: "فقر الدم المنجلي", description: "مرض وراثي يصيب الهيموغلوبين وقد يسبب فقر الدم ونوبات الألم." },
+      { nom: "الثلاسيميا", description: "مرض وراثي يؤثر في إنتاج الهيموغلوبين." },
+      {
+  nom: "فقر الدم اللاتنسجي",
+  description: "مرض نادر يتميز بعدم قدرة نخاع العظم على إنتاج ما يكفي من خلايا الدم."
+}
+    ],
+    interventions: [
+      { nom: "نقل الدم", description: "إعطاء مكونات الدم عند وجود حاجة طبية لذلك." },
+      { nom: "زرع نخاع العظم أو الخلايا الجذعية", description: "علاج متخصص يمكن اقتراحه لبعض أمراض الدم بعد تقييم طبي شامل." },
+      { nom: "العلاج الكيميائي لأمراض الدم", description: "علاج دوائي يُستخدم لبعض أمراض الدم وفق بروتوكول متخصص." }
+    ],
+    examens: [
+      "تعداد الدم الكامل",
+      "لطاخة الدم",
+      "تحاليل تخثر الدم",
+      "تحاليل الحديد ومخزون الحديد",
+      "رحلان الهيموغلوبين الكهربائي",
+      "فحص نخاع العظم",
+      "خزعة نخاع العظم",
+      "فحوصات مناعية وجزيئية حسب الحاجة",
+      "تحليل مستوى فيتامين B12 وحمض الفوليك"
+          ],
+    diagnostic: [
+      { nom: "تعداد الدم الكامل", description: "تحليل يقيس كريات الدم الحمراء والبيضاء والصفائح الدموية." },
+      { nom: "فحص نخاع العظم", description: "فحص يساعد على دراسة إنتاج خلايا الدم في نخاع العظم." },
+      { nom: "تحاليل التخثر", description: "تحاليل لتقييم بعض آليات تخثر الدم." }
+    ],
+    faq: [
+      { question: "متى يجب استشارة طبيب أمراض الدم؟", reponse: "قد تكون الاستشارة ضرورية عند وجود تغيرات مستمرة في تحاليل الدم أو الاشتباه في مرض دموي، حسب التوجيه الطبي." },
+      { question: "ما الفحوصات التي يجب إحضارها؟", reponse: "يمكن إحضار نتائج تعداد الدم والتحاليل المخبرية وفحوصات التخثر والتقارير الطبية السابقة." }
+    ,  {
+    question: "ما الأمراض التي يعالجها طب أمراض الدم؟",
+    reponse: "يهتم طب أمراض الدم بأمراض الدم ونخاع العظم، بما في ذلك فقر الدم وسرطان الدم والأورام اللمفاوية واضطرابات تخثر الدم."
+  },
+  {
+    question: "كيف تتم الاستشارة الطبية لدى أخصائي أمراض الدم؟",
+    reponse: "تشمل الاستشارة مراجعة التاريخ الطبي للمريض وتحليل نتائج الفحوصات المخبرية، وقد يطلب الطبيب فحوصات إضافية عند الحاجة."
+  },
+  {
+    question: "هل تتطلب أمراض الدم متابعة طبية منتظمة؟",
+    reponse: "تتطلب بعض أمراض الدم متابعة طبية منتظمة تشمل الاستشارات والفحوصات الدموية المناسبة لحالة المريض."
+  }
+    ]
+  }
+},
+
+orl: {
+  fr: {
+    title: "ORL – Oto-rhino-laryngologie",
+    subtitle: "La santé des oreilles, du nez et de la gorge",
+    description: "Glomed Group vous accompagne dans l'organisation de consultations et de soins spécialisés en ORL en Tunisie.",
+    intro: "L'oto-rhino-laryngologie est la spécialité médicale et chirurgicale consacrée aux oreilles, au nez, aux sinus, à la gorge, au larynx et à certaines structures de la tête et du cou.",
+    image: "/images/orl.jpg",
+    alt: "Consultation spécialisée en oto-rhino-laryngologie",
+    services: [
+      "Consultations ORL",
+      "Bilan auditif et vestibulaire",
+      "Évaluation des troubles du nez et des sinus",
+      "Exploration des troubles de la voix et de la déglutition",
+      "Orientation vers la chirurgie ORL lorsque nécessaire",
+      "Organisation du suivi spécialisé"
+    ],
+    maladies: [
+      { nom: "Otite", description: "Inflammation ou infection de l'oreille pouvant provoquer une douleur et parfois une baisse de l'audition." },
+      { nom: "Sinusite", description: "Inflammation des sinus pouvant entraîner une congestion nasale, des douleurs faciales et des sécrétions." },
+      { nom: "Amygdalite", description: "Inflammation des amygdales pouvant provoquer des douleurs à la gorge et de la fièvre." },
+      { nom: "Déviation de la cloison nasale", description: "Déformation de la cloison séparant les deux fosses nasales, pouvant gêner la respiration." },
+      { nom: "Polypes nasaux", description: "Formations bénignes dans les fosses nasales ou les sinus pouvant entraîner une obstruction nasale." },
+      { nom: "Troubles de l'audition", description: "Diminution ou altération de l'audition nécessitant une évaluation adaptée." },
+      { nom: "Vertiges", description: "Sensation de mouvement ou de déséquilibre pouvant être liée à l'oreille interne ou à d'autres causes." },
+      { nom: "Apnée obstructive du sommeil", description: "Trouble respiratoire nocturne pouvant nécessiter une évaluation ORL et du sommeil." },
+      { nom: "Pathologies du larynx et des cordes vocales", description: "Affections pouvant entraîner une modification de la voix ou des difficultés respiratoires." }
+    ],
+    interventions: [
+      { nom: "Amygdalectomie", description: "Intervention consistant à retirer les amygdales dans certaines indications médicales." },
+      { nom: "Adénoïdectomie", description: "Ablation des végétations adénoïdes lorsque cela est indiqué." },
+      { nom: "Septoplastie", description: "Intervention visant à corriger une déviation de la cloison nasale." },
+      { nom: "Chirurgie des sinus", description: "Intervention endoscopique pouvant être proposée pour certaines maladies des sinus." },
+      { nom: "Tympanoplastie", description: "Intervention visant à réparer le tympan ou certaines structures de l'oreille moyenne." },
+      { nom: "Chirurgie de la thyroïde", description: "Intervention pouvant être réalisée dans certaines pathologies thyroïdiennes, après évaluation spécialisée." },
+      { nom: "Chirurgie des tumeurs ORL", description: "Prise en charge chirurgicale de certaines tumeurs de la tête et du cou selon leur nature et leur localisation." },
+       {
+    nom: "Laryngectomie",
+    description: "Intervention chirurgicale consistant à retirer une partie ou la totalité du larynx dans certaines pathologies."
+  },
+  {
+    nom: "Otoplastie",
+    description: "Intervention chirurgicale visant à corriger la forme ou la position des oreilles."
+  },
+  {
+  nom: "Chirurgie de la maladie de Hirschsprung",
+  description: "Intervention consistant à retirer la partie de l'intestin dépourvue de cellules nerveuses normales afin de rétablir le transit intestinal."
+},
+
+    ],
+    examens: [
+      "Audiométrie",
+      "Tympanométrie",
+      "Fibroscopie nasale et laryngée",
+      "Endoscopie ORL",
+      "Scanner des sinus",
+      "IRM de la tête et du cou selon l'indication",
+      "Bilan vestibulaire",
+      "Prélèvements et biopsies si nécessaires",
+      "Potentiels évoqués auditifs (PEA)",
+    ],
+    diagnostic: [
+      { nom: "Audiométrie", description: "Examen permettant d'évaluer la capacité auditive." },
+      { nom: "Fibroscopie ORL", description: "Examen utilisant un endoscope souple pour observer certaines structures du nez, de la gorge et du larynx." },
+      { nom: "Scanner des sinus", description: "Examen d'imagerie permettant d'étudier les sinus et leurs structures." }
+    ],
+    faq: [
+      { question: "Quand consulter un spécialiste ORL ?", reponse: "Une consultation peut être utile en cas de douleurs persistantes aux oreilles, de troubles auditifs, de problèmes nasaux ou de symptômes de la gorge et de la voix." },
+      { question: "La chirurgie ORL est-elle toujours nécessaire ?", reponse: "Non. Le traitement dépend du diagnostic et peut être médical, fonctionnel ou chirurgical selon l'évaluation du spécialiste." },
+       {
+    question: "Quels examens permettent d'évaluer les troubles auditifs ?",
+    reponse: "L'évaluation peut comprendre une audiométrie, une tympanométrie et d'autres examens auditifs selon les symptômes et le diagnostic recherché."
+  },
+  {
+    question: "Peut-on traiter les sinusites chroniques par chirurgie ?",
+    reponse: "Dans certains cas, une chirurgie endoscopique des sinus peut être proposée lorsque les traitements médicaux ne sont pas suffisamment efficaces."
+  },
+  {
+    question: "Comment se déroule le suivi après une intervention ORL ?",
+    reponse: "Le suivi comprend des consultations de contrôle et des examens adaptés afin d'évaluer la cicatrisation, la récupération fonctionnelle et l'évolution des symptômes."
+  }
+    
+    ]
+  },
+
+  en: {
+    title: "ENT – Ear, Nose and Throat",
+    subtitle: "Care for the ears, nose and throat",
+    description: "Glomed Group helps organize specialist ENT consultations and care in Tunisia.",
+    intro: "Otorhinolaryngology is the medical and surgical specialty concerned with the ears, nose, sinuses, throat, larynx and certain structures of the head and neck.",
+    image: "/images/orl.jpg",
+    alt: "Specialist ear, nose and throat consultation",
+    services: [
+      "ENT consultations",
+      "Hearing and balance assessments",
+      "Nose and sinus evaluation",
+      "Voice and swallowing assessments",
+      "Referral for ENT surgery when indicated",
+      "Specialist follow-up arrangements"
+    ],
+    maladies: [
+      { nom: "Otitis", description: "Inflammation or infection of the ear that may cause pain and sometimes hearing loss." },
+      { nom: "Sinusitis", description: "Inflammation of the sinuses that may cause nasal congestion and facial pain." },
+      { nom: "Tonsillitis", description: "Inflammation of the tonsils that may cause a sore throat and fever." },
+      { nom: "Deviated nasal septum", description: "A displacement of the wall between the nasal passages that may affect breathing." },
+      { nom: "Nasal polyps", description: "Non-cancerous growths in the nose or sinuses that may cause nasal blockage." },
+      { nom: "Hearing disorders", description: "Reduced or altered hearing that requires appropriate assessment." },
+      { nom: "Vertigo", description: "A sensation of movement or imbalance that may have inner-ear or other causes." },
+      { nom: "Obstructive sleep apnea", description: "A nighttime breathing disorder that may require ENT and sleep assessment." },
+      { nom: "Larynx and vocal cord disorders", description: "Conditions that may affect the voice or breathing." }
+    ],
+    interventions: [
+      { nom: "Tonsillectomy", description: "Surgical removal of the tonsils when medically indicated." },
+      { nom: "Adenoidectomy", description: "Removal of the adenoids when appropriate." },
+      { nom: "Septoplasty", description: "Surgery to correct a deviated nasal septum." },
+      { nom: "Sinus surgery", description: "Endoscopic surgery that may be considered for selected sinus conditions." },
+      { nom: "Tympanoplasty", description: "Surgery to repair the eardrum or structures of the middle ear." },
+      { nom: "Thyroid surgery", description: "Surgery for selected thyroid conditions following specialist assessment." },
+      { nom: "ENT tumor surgery", description: "Surgical care for selected head and neck tumors according to their type and location." },
+      {
+    nom: "Laryngectomy",
+    description: "Surgical procedure involving the removal of part or all of the larynx in certain medical conditions."
+  },
+   {
+  nom: "Hirschsprung's disease surgery",
+  description: "Surgical procedure involving the removal of the part of the intestine lacking normal nerve cells in order to restore intestinal function."
+},
+  {
+    nom: "Otoplasty",
+    description: "Surgical procedure aimed at correcting the shape or position of the ears."
+  }
+    ],
+    examens: [
+      "Audiometry",
+      "Tympanometry",
+      "Nasal and laryngeal endoscopy",
+      "ENT endoscopy",
+      "Sinus CT scan",
+      "Head and neck MRI when indicated",
+      "Vestibular assessment",
+      "Samples and biopsies when required",
+      "Auditory brainstem response (ABR) testing",
+    ],
+    diagnostic: [
+      { nom: "Audiometry", description: "A test used to assess hearing ability." },
+      { nom: "ENT endoscopy", description: "A flexible scope is used to examine parts of the nose, throat and larynx." },
+      { nom: "Sinus CT scan", description: "An imaging test used to examine the sinuses and surrounding structures." }
+    ],
+    faq: [
+      { question: "When should I see an ENT specialist?", reponse: "A consultation may be useful for persistent ear pain, hearing problems, nasal symptoms or throat and voice disorders." },
+      { question: "Is ENT surgery always necessary?", reponse: "No. Treatment depends on the diagnosis and may be medical, functional or surgical following specialist assessment." },
+        {
+    question: "Which tests are used to assess hearing disorders?",
+    reponse: "The assessment may include audiometry, tympanometry and other hearing tests depending on the symptoms and suspected diagnosis."
+  },
+  {
+    question: "Can chronic sinusitis be treated with surgery?",
+    reponse: "In some cases, endoscopic sinus surgery may be recommended when medical treatments are not sufficiently effective."
+  },
+  {
+    question: "What does follow-up after ENT surgery involve?",
+    reponse: "Follow-up includes check-up appointments and appropriate examinations to assess healing, functional recovery and changes in symptoms."
+  }
+    ]
+  },
+
+  ar: {
+    title: "طب الأنف والأذن والحنجرة",
+    subtitle: "رعاية متخصصة للأذن والأنف والحنجرة",
+    description: "ترافقكم Glomed Group في تنظيم الاستشارات والرعاية الطبية المتخصصة في طب الأنف والأذن والحنجرة في تونس.",
+    intro: "طب الأنف والأذن والحنجرة هو تخصص طبي وجراحي يهتم بالأذن والأنف والجيوب الأنفية والحنجرة والحنك والحنجرة الصوتية وبعض أمراض الرأس والعنق.",
+    image: "/images/orl.jpg",
+    alt: "استشارة متخصصة في الأنف والأذن والحنجرة",
+    services: [
+      "استشارات الأنف والأذن والحنجرة",
+      "فحوصات السمع والتوازن",
+      "تقييم أمراض الأنف والجيوب الأنفية",
+      "فحص اضطرابات الصوت والبلع",
+      "التوجيه إلى الجراحة عند الحاجة",
+      "تنظيم المتابعة الطبية"
+    ],
+    maladies: [
+      { nom: "التهاب الأذن", description: "التهاب أو عدوى تصيب الأذن وقد تسبب الألم وأحياناً ضعف السمع." },
+      { nom: "التهاب الجيوب الأنفية", description: "التهاب يصيب الجيوب الأنفية وقد يسبب انسداد الأنف وآلام الوجه." },
+      { nom: "التهاب اللوزتين", description: "التهاب يصيب اللوزتين وقد يسبب ألم الحلق والحمى." },
+      { nom: "انحراف الحاجز الأنفي", description: "انحراف الجدار الفاصل بين فتحتي الأنف وقد يؤثر في التنفس." },
+      { nom: "اللحميات الأنفية", description: "زوائد حميدة داخل الأنف أو الجيوب الأنفية وقد تسبب انسداد الأنف." },
+      { nom: "اضطرابات السمع", description: "ضعف أو تغير في القدرة على السمع يتطلب تقييماً مناسباً." },
+      { nom: "الدوار", description: "إحساس بالحركة أو فقدان التوازن وقد يرتبط بالأذن الداخلية أو بأسباب أخرى." },
+      { nom: "انقطاع التنفس الانسدادي أثناء النوم", description: "اضطراب في التنفس أثناء النوم قد يتطلب تقييماً متخصصاً." },
+      { nom: "أمراض الحنجرة والأحبال الصوتية", description: "أمراض قد تؤثر في الصوت أو التنفس." }
+    ],
+    interventions: [
+      { nom: "استئصال اللوزتين", description: "عملية جراحية لإزالة اللوزتين عندما توجد ضرورة طبية." },
+      { nom: "استئصال اللحمية", description: "إزالة اللحمية الأنفية الخلفية عند وجود داعٍ طبي." },
+      { nom: "تقويم الحاجز الأنفي", description: "عملية لتصحيح انحراف الحاجز الأنفي." },
+      { nom: "جراحة الجيوب الأنفية", description: "تدخل بالمنظار يمكن اقتراحه لبعض أمراض الجيوب الأنفية." },
+      { nom: "ترميم طبلة الأذن", description: "عملية لإصلاح طبلة الأذن أو بعض أجزاء الأذن الوسطى." },
+      { nom: "جراحة الغدة الدرقية", description: "عملية لبعض أمراض الغدة الدرقية بعد تقييم متخصص." },
+      { nom: "جراحة أورام الرأس والعنق", description: "تدخل جراحي لبعض الأورام حسب طبيعتها وموقعها." },
+        {
+    nom: "استئصال الحنجرة",
+    description: "تدخل جراحي يهدف إلى إزالة جزء من الحنجرة أو الحنجرة بالكامل في بعض الحالات المرضية."
+  },
+  {
+    nom: "تجميل الأذن",
+    description: "تدخل جراحي يهدف إلى تصحيح شكل الأذنين أو وضعهما."
+  },
+  {
+  nom: "جراحة مرض هيرشسبرونغ",
+  description: "تدخل جراحي يهدف إلى استئصال الجزء من الأمعاء الذي يفتقر إلى الخلايا العصبية الطبيعية لاستعادة وظيفة الأمعاء."
+}
+    ],
+    examens: [
+      "قياس السمع",
+      "قياس ضغط الأذن",
+      "تنظير الأنف والحنجرة",
+      "الفحص بالمنظار",
+      "التصوير المقطعي للجيوب الأنفية",
+      "التصوير بالرنين المغناطيسي للرأس والعنق عند الحاجة",
+      "فحوصات التوازن",
+      "أخذ عينات وخزعات عند الضرورة",
+      "اختبار الجهود السمعية المحرّضة (PEA)"
+    ],
+    diagnostic: [
+      { nom: "قياس السمع", description: "فحص لتقييم القدرة على السمع." },
+      { nom: "تنظير الأنف والحنجرة", description: "فحص باستخدام منظار مرن لمعاينة أجزاء من الأنف والحنجرة." },
+      { nom: "التصوير المقطعي للجيوب الأنفية", description: "فحص تصويري لدراسة الجيوب الأنفية والتراكيب المحيطة بها." }
+    ],
+    faq: [
+      { question: "متى يجب استشارة طبيب الأنف والأذن والحنجرة؟", reponse: "يمكن استشارة الطبيب عند استمرار ألم الأذن أو ضعف السمع أو مشاكل الأنف أو اضطرابات الحلق والصوت." },
+      { question: "هل جراحة الأنف والأذن والحنجرة ضرورية دائماً؟", reponse: "لا. يعتمد العلاج على التشخيص وقد يكون دوائياً أو وظيفياً أو جراحياً حسب تقييم الطبيب المختص." },
+        {
+    question: "ما الفحوصات المستخدمة لتقييم اضطرابات السمع؟",
+    reponse: "قد يشمل التقييم قياس السمع وقياس ضغط الأذن الوسطى وفحوصات سمعية أخرى حسب الأعراض والتشخيص المطلوب."
+  },
+  {
+    question: "هل يمكن علاج التهاب الجيوب الأنفية المزمن بالجراحة؟",
+    reponse: "في بعض الحالات، يمكن اقتراح جراحة الجيوب الأنفية بالمنظار عندما لا تكون العلاجات الدوائية فعالة بشكل كافٍ."
+  },
+  {
+    question: "كيف تتم المتابعة بعد جراحة الأنف والأذن والحنجرة؟",
+    reponse: "تشمل المتابعة مواعيد طبية للفحص وإجراء الفحوصات المناسبة لتقييم التئام الأنسجة واستعادة الوظائف وتحسن الأعراض."
+  }
+    ]
+  }
+},
+
+chirurgieGenerale: {
+  fr: {
+    title: "Chirurgie générale",
+    subtitle: "Une prise en charge chirurgicale adaptée à chaque patient",
+    description: "Glomed Group facilite l'organisation de votre parcours de chirurgie générale en Tunisie, de l'évaluation préopératoire à la coordination du suivi.",
+    intro: "La chirurgie générale regroupe différentes interventions concernant notamment l'appareil digestif, la paroi abdominale, les organes abdominaux et certaines urgences chirurgicales. La technique et l'indication opératoire sont déterminées par le chirurgien après étude du dossier médical.",
+    image: "/images/chirurgie-generale.jpg",
+    alt: "Prise en charge en chirurgie générale",
+    services: [
+      "Consultations de chirurgie générale et digestive",
+      "Évaluation préopératoire",
+      "Chirurgie abdominale et digestive",
+      "Chirurgie des hernies",
+      "Chirurgie colorectale et proctologique",
+      "Orientation vers des chirurgiens spécialisés",
+      "Organisation du séjour et du suivi postopératoire"
+    ],
+    maladies: [
+      { nom: "Appendicite aiguë", description: "Inflammation de l'appendice pouvant nécessiter une prise en charge urgente." },
+      { nom: "Atrésie intestinale", description: "Malformation congénitale caractérisée par une interruption ou une absence de passage dans une partie de l'intestin." },
+      { nom: "Atrésie de l'œsophage", description: "Malformation congénitale dans laquelle l'œsophage ne présente pas une continuité normale." },
+      { nom: "Atrésie biliaire", description: "Maladie rare du nourrisson caractérisée par une obstruction ou une absence de développement normal des voies biliaires." },
+      { nom: "Entérocolite nécrosante", description: "Maladie intestinale grave touchant principalement les nouveau-nés prématurés et nécessitant une prise en charge spécialisée." },
+      { nom: "Hernie ombilicale", description: "Protrusion de tissus à travers une zone de faiblesse de la paroi abdominale au niveau du nombril." },
+      { nom: "Fissure anale", description: "Petite déchirure de la muqueuse anale pouvant provoquer des douleurs et des saignements." },
+      { nom: "Occlusion intestinale", description: "Interruption partielle ou complète du transit intestinal nécessitant une évaluation médicale rapide." },
+      { nom: "Pathologies de la vésicule biliaire", description: "Affections telles que les calculs biliaires pouvant nécessiter une prise en charge chirurgicale." },
+      {
+  nom: "Abcès périanal",
+  description: "Infection localisée autour de l'anus, pouvant provoquer une douleur importante, un gonflement et parfois de la fièvre. Une évaluation médicale rapide est nécessaire."
+},
+  {
+    nom: "Péritonite",
+    description: "Inflammation grave du péritoine, souvent causée par une infection ou une perforation digestive, nécessitant une prise en charge médicale urgente."
+  },
+  {
+    nom: "Maladie de Hirschsprung",
+    description: "Maladie congénitale caractérisée par l'absence de cellules nerveuses dans une partie de l'intestin, entraînant des difficultés d'évacuation des selles."
+  },
+    ],
+    
+interventions: [
+  { nom: "Appendicectomie", description: "Intervention consistant à retirer l'appendice, généralement en cas d'appendicite aiguë." },
+  { nom: "Réparation des atrésies intestinales", description: "Intervention spécialisée visant à rétablir la continuité intestinale selon le type de malformation." },
+  { nom: "Chirurgie de l'atrésie de l'œsophage", description: "Prise en charge chirurgicale spécialisée visant à traiter la malformation et à rétablir la continuité de l'œsophage lorsque cela est possible." },
+  { nom: "Chirurgie de l'atrésie biliaire", description: "Intervention spécialisée, notamment l'opération de Kasai dans certaines situations, selon l'évaluation pédiatrique." },
+  { nom: "Chirurgie de l'entérocolite nécrosante", description: "Une intervention peut être nécessaire dans les formes compliquées, selon l'état du nouveau-né." },
+  { nom: "Réparation des hernies", description: "Intervention destinée à corriger une hernie de la paroi abdominale." },
+  { nom: "Cholécystectomie", description: "Ablation de la vésicule biliaire, notamment dans certaines situations de calculs biliaires." },
+  { nom: "Chirurgie colorectale", description: "Interventions concernant le côlon, le rectum et certaines affections de la région anale." },
+  { nom: "Chirurgie proctologique", description: "Prise en charge chirurgicale de certaines affections de la région anale et rectale." },
+  { nom: "Chirurgie digestive par laparoscopie", description: "Technique mini-invasive utilisée dans certaines interventions abdominales." },
+  { nom: "Drainage d'un abcès périanal", description: "Intervention consistant à évacuer le pus accumulé dans un abcès situé près de l'anus, afin de soulager la douleur et de traiter l'infection."
+  },
+  { nom: "Peritonitis surgery", description: "Surgery to treat inflammation or infection of the peritoneum, which may require cleaning the abdominal cavity and treating the underlying cause." },
+],
+
+    examens: [
+      "Échographie abdominale",
+      "Scanner abdominal et pelvien",
+      "IRM abdominale selon l'indication",
+      "Endoscopie digestive haute",
+      "Coloscopie",
+      "Analyses sanguines",
+      "Bilan préopératoire",
+      "Examens pédiatriques spécialisés selon la situation",
+      "Radiographie de l'abdomen sans préparation",
+    ],
+    diagnostic: [
+      { nom: "Échographie abdominale", description: "Examen d'imagerie permettant d'étudier plusieurs organes de l'abdomen." },
+      { nom: "Scanner abdominal", description: "Examen permettant d'obtenir des images détaillées de l'abdomen et du pelvis." },
+      { nom: "Endoscopie digestive", description: "Examen permettant d'observer l'intérieur du tube digestif à l'aide d'un endoscope." },
+      { nom: "Bilan préopératoire", description: "Évaluation médicale et examens nécessaires avant une intervention chirurgicale." }
+    ],
+    faq: [
+      { question: "Quelles interventions relèvent de la chirurgie générale ?", reponse: "Elle concerne notamment certaines interventions digestives, abdominales, colorectales et les réparations de hernies. Les indications dépendent de l'évaluation du chirurgien." },
+      { question: "Comment préparer une intervention chirurgicale en Tunisie ?", reponse: "Il est nécessaire de transmettre les comptes rendus médicaux et les examens disponibles afin que l'équipe médicale puisse étudier le dossier et préciser les étapes nécessaires." },
+    { question: "Quels examens sont nécessaires avant une chirurgie digestive ?", reponse: "Les examens dépendent de la pathologie et de l'intervention envisagée. Ils peuvent inclure des analyses sanguines, une échographie, un scanner ou une endoscopie." },
+  { question: "La chirurgie digestive peut-elle être réalisée par laparoscopie ?", reponse: "Certaines interventions digestives peuvent être réalisées par laparoscopie, une technique mini-invasive. Le choix dépend de l'état du patient et de l'évaluation du chirurgien." },
+  { question: "Un suivi médical est-il nécessaire après l'intervention ?", reponse: "Oui, un suivi postopératoire est généralement recommandé afin de surveiller la récupération, prévenir les complications et adapter les soins si nécessaire." },
+    ]
+  },
+
+  en: {
+    title: "General Surgery",
+    subtitle: "Surgical care tailored to each patient",
+    description: "Glomed Group helps organize your general surgery journey in Tunisia, from preoperative assessment to follow-up coordination.",
+    intro: "General surgery includes procedures involving the digestive system, abdominal wall and organs, as well as selected surgical emergencies. The appropriate procedure is determined by the surgeon after reviewing the medical records.",
+    image: "/images/chirurgie-generale.jpg",
+    alt: "General surgery care",
+    services: [
+      "General and digestive surgery consultations",
+      "Preoperative assessment",
+      "Abdominal and digestive surgery",
+      "Hernia surgery",
+      "Colorectal and proctological surgery",
+      "Referral to specialist surgeons",
+      "Medical stay and postoperative follow-up arrangements"
+    ],
+    maladies: [
+      { nom: "Acute appendicitis", description: "Inflammation of the appendix that may require urgent medical care." },
+      { nom: "Intestinal atresia", description: "A congenital condition involving an interruption or absence of passage in part of the intestine." },
+      { nom: "Esophageal atresia", description: "A congenital condition in which the esophagus does not form a normal continuous passage." },
+      { nom: "Biliary atresia", description: "A rare infant condition involving obstruction or abnormal development of the bile ducts." },
+      { nom: "Necrotizing enterocolitis", description: "A serious intestinal disease mainly affecting premature newborns and requiring specialist care." },
+      { nom: "Umbilical hernia", description: "A protrusion of tissue through a weak area of the abdominal wall near the navel." },
+      { nom: "Anal fissure", description: "A small tear in the anal lining that may cause pain and bleeding." },
+      { nom: "Intestinal obstruction", description: "A partial or complete blockage of intestinal passage requiring prompt medical assessment." },
+      { nom: "Gallbladder disorders", description: "Conditions such as gallstones that may require surgical treatment." },
+      {
+ 
+    nom: "Perianal abscess",
+    description: "Localized infection around the anus that may cause significant pain, swelling and sometimes fever. Prompt medical evaluation is necessary."
+  },
+  {
+    nom: "Peritonitis",
+    description: "Severe inflammation of the peritoneum, often caused by an infection or digestive tract perforation, requiring urgent medical care."
+  },
+  {
+    nom: "Hirschsprung's disease",
+    description: "Congenital condition characterized by the absence of nerve cells in part of the intestine, leading to difficulty passing stools."
+  }
+    ],
+    interventions: [
+      { nom: "Appendectomy", description: "Surgical removal of the appendix, usually for acute appendicitis." },
+      { nom: "Intestinal atresia repair", description: "Specialist surgery to restore intestinal continuity according to the type of malformation." },
+      { nom: "Esophageal atresia surgery", description: "Specialist surgery to treat the malformation and restore esophageal continuity when possible." },
+      { nom: "Biliary atresia surgery", description: "Specialist treatment that may include the Kasai procedure in selected cases." },
+      { nom: "Necrotizing enterocolitis surgery", description: "Surgery may be required in complicated cases, depending on the newborn's condition." },
+      { nom: "Hernia repair", description: "Surgery to correct a hernia in the abdominal wall." },
+      { nom: "Cholecystectomy", description: "Surgical removal of the gallbladder, including in selected cases of gallstones." },
+      { nom: "Colorectal surgery", description: "Procedures involving the colon, rectum and selected anal conditions." },
+      { nom: "Proctological surgery", description: "Surgical treatment of selected anal and rectal conditions." },
+      { nom: "Laparoscopic digestive surgery", description: "A minimally invasive approach used for selected abdominal procedures." },
+      { nom: "Peritonitis surgery", description: "Surgery to treat inflammation or infection of the peritoneum, which may require cleaning the abdominal cavity and treating the underlying cause." },
+      { nom: "Hirschsprung's disease surgery", description: "Surgery to remove the affected part of the intestine that lacks normal nerve cells, helping restore normal bowel function." },
+    ],
+    examens: [
+      "Abdominal ultrasound",
+      "Abdominal and pelvic CT scan",
+      "Abdominal MRI when indicated",
+      "Upper gastrointestinal endoscopy",
+      "Colonoscopy",
+      "Blood tests",
+      "Preoperative assessment",
+      "Specialist pediatric tests when required",
+      "Abdominal X-ray (plain abdominal radiograph)",
+    ],
+    diagnostic: [
+      { nom: "Abdominal ultrasound", description: "An imaging test used to examine several abdominal organs." },
+      { nom: "Abdominal CT scan", description: "An imaging test providing detailed views of the abdomen and pelvis." },
+      { nom: "Digestive endoscopy", description: "A procedure used to examine the digestive tract with an endoscope." },
+      { nom: "Preoperative assessment", description: "Medical evaluation and tests required before surgery." }
+    ],
+    faq: [
+      { question: "Which procedures are included in general surgery?", reponse: "General surgery includes selected digestive, abdominal, colorectal and hernia procedures. Treatment decisions depend on the surgeon's assessment." },
+      { question: "How can I prepare for surgery in Tunisia?", reponse: "Share available medical reports and test results so the medical team can review the case and explain the required steps." },
+        { question: "Which tests are required before digestive surgery?", reponse: "The required tests depend on the condition and the planned procedure. They may include blood tests, ultrasound, CT scans or endoscopy." },
+  { question: "Can digestive surgery be performed laparoscopically?", reponse: "Some digestive procedures can be performed laparoscopically, using a minimally invasive technique. The choice depends on the patient's condition and the surgeon's assessment." },
+  { question: "Is medical follow-up necessary after surgery?", reponse: "Yes, postoperative follow-up is generally recommended to monitor recovery, prevent complications and adjust care when needed." }
+    
+    ]
+  },
+
+  ar: {
+    title: "الجراحة العامة",
+    subtitle: "رعاية جراحية تتناسب مع حالة كل مريض",
+    description: "تساعدكم Glomed Group على تنظيم مسار الجراحة العامة في تونس، من التقييم قبل العملية إلى تنسيق المتابعة الطبية.",
+    intro: "تشمل الجراحة العامة عمليات الجهاز الهضمي وجدار البطن وأعضاء البطن، إضافة إلى بعض الحالات الجراحية الطارئة. ويحدد الجراح نوع التدخل المناسب بعد دراسة الملف الطبي.",
+    image: "/images/chirurgie-generale.jpg",
+    alt: "الرعاية الطبية في الجراحة العامة",
+    services: [
+      "استشارات الجراحة العامة وجراحة الجهاز الهضمي",
+      "التقييم الطبي قبل العملية",
+      "جراحة البطن والجهاز الهضمي",
+      "جراحة الفتق",
+      "جراحة القولون والمستقيم",
+      "التوجيه إلى الجراحين المختصين",
+      "تنظيم الإقامة والمتابعة بعد العملية"
+    ],
+    maladies: [
+      { nom: "التهاب الزائدة الدودية الحاد", description: "التهاب يصيب الزائدة الدودية وقد يتطلب تدخلاً طبياً عاجلاً." },
+      { nom: "رتق الأمعاء", description: "تشوه خلقي يتمثل في انقطاع أو غياب المرور الطبيعي في جزء من الأمعاء." },
+      { nom: "رتق المريء", description: "تشوه خلقي لا يكون فيه المريء متصلاً بشكل طبيعي." },
+      { nom: "رتق القنوات الصفراوية", description: "مرض نادر لدى الرضع يتمثل في انسداد أو عدم تطور القنوات الصفراوية بشكل طبيعي." },
+      { nom: "التهاب الأمعاء والقولون الناخر", description: "مرض خطير يصيب الأمعاء ويظهر خصوصاً لدى الأطفال الخدج ويتطلب رعاية متخصصة." },
+      { nom: "الفتق السري", description: "بروز أنسجة عبر منطقة ضعيفة في جدار البطن بالقرب من السرة." },
+      { nom: "الشق الشرجي", description: "تمزق صغير في بطانة الشرج قد يسبب الألم والنزيف." },
+      { nom: "انسداد الأمعاء", description: "توقف جزئي أو كلي لحركة الأمعاء ويتطلب تقييماً طبياً سريعاً." },
+      { nom: "أمراض المرارة", description: "أمراض مثل حصى المرارة التي قد تتطلب تدخلاً جراحياً." },
+      { nom: "جراحة التهاب الصفاق", description: "تدخل جراحي لعلاج التهاب أو عدوى الغشاء البريتوني، وقد يتطلب تنظيف تجويف البطن ومعالجة السبب الرئيسي." },
+       {
+    nom: "خراج حول الشرج",
+    description: "عدوى موضعية حول فتحة الشرج قد تسبب ألماً شديداً وتورماً وأحياناً الحمى. ويتطلب الأمر تقييماً طبياً سريعاً."
+  },
+  {
+    nom: "التهاب الصفاق",
+    description: "التهاب خطير يصيب الغشاء البريتوني، وغالباً ما ينتج عن عدوى أو ثقب في الجهاز الهضمي، ويتطلب رعاية طبية عاجلة."
+  },
+       
+    ],
+    interventions: [
+      { nom: "استئصال الزائدة الدودية", description: "عملية لإزالة الزائدة الدودية، غالباً في حالات التهاب الزائدة الحاد." },
+      { nom: "إصلاح رتق الأمعاء", description: "عملية متخصصة تهدف إلى إعادة الاتصال الطبيعي للأمعاء حسب نوع التشوه." },
+      { nom: "جراحة رتق المريء", description: "تدخل جراحي متخصص لعلاج التشوه وإعادة استمرارية المريء عندما يكون ذلك ممكناً." },
+      { nom: "جراحة رتق القنوات الصفراوية", description: "علاج متخصص قد يشمل عملية كاساي في بعض الحالات حسب التقييم الطبي." },
+      { nom: "جراحة التهاب الأمعاء والقولون الناخر", description: "قد تكون الجراحة ضرورية في الحالات المعقدة حسب حالة الطفل." },
+      { nom: "إصلاح الفتق", description: "عملية تهدف إلى إصلاح الفتق في جدار البطن." },
+      { nom: "استئصال المرارة", description: "عملية لإزالة المرارة، ومنها بعض حالات حصى المرارة." },
+      { nom: "جراحة القولون والمستقيم", description: "عمليات تشمل القولون والمستقيم وبعض أمراض المنطقة الشرجية." },
+      { nom: "جراحة أمراض الشرج والمستقيم", description: "تدخلات جراحية لبعض أمراض الشرج والمستقيم." },
+      { nom: "جراحة الجهاز الهضمي بالمنظار", description: "تقنية جراحية محدودة التدخل تستخدم في بعض عمليات البطن." },
+      { nom: "جراحة التهاب الصفاق", description: "تدخل جراحي لعلاج التهاب أو عدوى الغشاء البريتوني، وقد يتطلب تنظيف تجويف البطن ومعالجة السبب الرئيسي." },
+      { nom: "جراحة مرض هيرشسبرونغ", description: "تدخل جراحي لإزالة الجزء المصاب من الأمعاء الذي يفتقر إلى الخلايا العصبية الطبيعية، بهدف استعادة وظيفة الأمعاء." },
+    ],
+    examens: [
+      "التصوير بالموجات فوق الصوتية للبطن",
+      "التصوير المقطعي للبطن والحوض",
+      "التصوير بالرنين المغناطيسي عند الحاجة",
+      "تنظير الجهاز الهضمي العلوي",
+      "تنظير القولون",
+      "تحاليل الدم",
+      "التقييم الطبي قبل العملية",
+      "فحوصات متخصصة للأطفال حسب الحالة",
+      "تصوير البطن بالأشعة السينية دون تحضير",
+    ],
+    diagnostic: [
+      { nom: "التصوير بالموجات فوق الصوتية للبطن", description: "فحص تصويري لدراسة عدد من أعضاء البطن." },
+      { nom: "التصوير المقطعي للبطن", description: "فحص يوفر صوراً مفصلة للبطن والحوض." },
+      { nom: "تنظير الجهاز الهضمي", description: "فحص يسمح بمعاينة الجهاز الهضمي باستخدام المنظار." },
+      { nom: "التقييم قبل العملية", description: "تقييم طبي وفحوصات لازمة قبل إجراء العملية الجراحية." }
+    ],
+    faq: [
+      { question: "ما العمليات التي تشملها الجراحة العامة؟", reponse: "تشمل بعض عمليات الجهاز الهضمي والبطن والقولون والمستقيم وإصلاح الفتق. ويحدد الجراح التدخل المناسب بعد تقييم الحالة." },
+      { question: "كيف أستعد لإجراء عملية جراحية في تونس؟", reponse: "يُنصح بإرسال التقارير الطبية ونتائج الفحوصات المتوفرة حتى يتمكن الفريق الطبي من دراسة الحالة وتوضيح الخطوات اللازمة." },
+       { question: "ما الفحوصات اللازمة قبل جراحة الجهاز الهضمي؟", reponse: "تختلف الفحوصات حسب الحالة المرضية ونوع التدخل الجراحي، وقد تشمل تحاليل الدم والتصوير بالموجات فوق الصوتية أو التصوير المقطعي والتنظير." },
+  { question: "هل يمكن إجراء جراحة الجهاز الهضمي بالمنظار؟", reponse: "يمكن إجراء بعض عمليات الجهاز الهضمي باستخدام تقنية المنظار، وهي تقنية جراحية طفيفة التوغل. ويعتمد الاختيار على حالة المريض وتقييم الجرّاح." },
+  { question: "هل المتابعة الطبية ضرورية بعد العملية؟", reponse: "نعم، يُنصح عادةً بالمتابعة الطبية بعد الجراحة لمراقبة التعافي والوقاية من المضاعفات وتعديل الرعاية عند الحاجة." }
+    ]
+  }
+},
+
+chirurgieVasculaire: {
+  fr: {
+    title: "Chirurgie vasculaire",
+    subtitle: "Une prise en charge spécialisée des maladies des vaisseaux sanguins",
+    description: "Glomed Group facilite l'organisation de votre parcours de chirurgie vasculaire en Tunisie, de l'évaluation médicale à la coordination des interventions et du suivi postopératoire.",
+    intro: "La chirurgie vasculaire concerne le diagnostic et le traitement des maladies des artères, des veines et des vaisseaux lymphatiques. Elle prend notamment en charge les anévrismes, les rétrécissements artériels, les varices et les maladies circulatoires. Le choix du traitement dépend de l'évaluation du chirurgien vasculaire et du dossier médical.",
+    image: "/images/chi-vasculaire.jpg",
+    alt: "Prise en charge en chirurgie vasculaire",
+
+    services: [
+      "Consultations de chirurgie vasculaire",
+      "Évaluation des maladies artérielles et veineuses",
+      "Prise en charge des anévrismes artériels",
+      "Traitement des artériopathies des membres inférieurs",
+      "Chirurgie des varices",
+      "Traitement des thromboses vasculaires",
+      "Chirurgie vasculaire conventionnelle et endovasculaire",
+      "Organisation du séjour et du suivi postopératoire"
+    ],
+
+    maladies: [
+      {
+        nom: "Anévrisme de l'aorte",
+        description: "Dilatation anormale de l'aorte pouvant entraîner un risque de rupture et nécessitant une surveillance ou un traitement spécialisé."
+      },
+      {
+        nom: "Anévrisme de l'aorte abdominale",
+        description: "Dilatation localisée de la partie abdominale de l'aorte. Sa prise en charge dépend notamment de son diamètre et de son évolution."
+      },
+      {
+        nom: "Artériopathie oblitérante des membres inférieurs",
+        description: "Réduction du diamètre des artères des jambes, pouvant provoquer des douleurs à la marche et, dans les formes avancées, des troubles de la cicatrisation."
+      },
+      {
+        nom: "Sténose carotidienne",
+        description: "Rétrécissement d'une artère carotide pouvant augmenter le risque d'accident vasculaire cérébral."
+      },
+      {
+        nom: "Thrombose veineuse profonde",
+        description: "Formation d'un caillot sanguin dans une veine profonde, généralement au niveau des membres inférieurs."
+      },
+      {
+        nom: "Varices des membres inférieurs",
+        description: "Dilatation permanente des veines superficielles des jambes pouvant provoquer douleurs, lourdeurs et gonflements."
+      },
+      {
+        nom: "Insuffisance veineuse chronique",
+        description: "Mauvais retour du sang vers le cœur pouvant entraîner des jambes lourdes, des œdèmes et des modifications cutanées."
+      },
+      {
+        nom: "Ischémie aiguë des membres",
+        description: "Diminution brutale de l'apport sanguin à un membre pouvant menacer sa viabilité et nécessitant une prise en charge urgente."
+      },
+      {
+        nom: "Pied diabétique d'origine vasculaire",
+        description: "Complication liée à une mauvaise circulation sanguine pouvant entraîner des plaies difficiles à cicatriser."
+      },
+      {
+        nom: "Maladie anévrismale des artères périphériques",
+        description: "Dilatation anormale de certaines artères périphériques, notamment les artères poplitées."
+      },
+      {
+        nom: "Malformations vasculaires",
+        description: "Anomalies congénitales ou acquises touchant le développement ou la structure des vaisseaux sanguins."
+      },
+      {
+  nom: "Dissection aortique",
+  description: "Déchirure de la paroi interne de l'aorte permettant au sang de pénétrer entre ses différentes couches. Cette affection nécessite une prise en charge médicale urgente."
+},
+    ],
+
+    interventions: [
+      {
+        nom: "Réparation de l'anévrisme de l'aorte",
+        description: "Intervention visant à traiter un anévrisme de l'aorte par chirurgie ouverte ou par technique endovasculaire selon le dossier médical."
+      },
+      {
+        nom: "Endoprothèse aortique (EVAR)",
+        description: "Technique mini-invasive consistant à placer une endoprothèse à l'intérieur de l'aorte pour exclure certains anévrismes."
+      },
+      {
+        nom: "Endartériectomie carotidienne",
+        description: "Intervention consistant à retirer une plaque d'athérome responsable d'un rétrécissement de l'artère carotide."
+      },
+      {
+        nom: "Angioplastie artérielle",
+        description: "Technique endovasculaire permettant de dilater une artère rétrécie à l'aide d'un ballonnet, avec pose éventuelle d'un stent."
+      },
+      {
+        nom: "Pontage artériel des membres inférieurs",
+        description: "Intervention visant à rétablir la circulation sanguine en créant un passage alternatif autour d'une artère obstruée."
+      },
+      {
+        nom: "Thrombectomie artérielle",
+        description: "Intervention destinée à retirer un caillot sanguin responsable d'une obstruction artérielle."
+      },
+      {
+        nom: "Chirurgie des varices",
+        description: "Traitement chirurgical de certaines varices selon leur localisation et leur gravité."
+      },
+      {
+        nom: "Ablation endoveineuse",
+        description: "Traitement mini-invasif de certaines varices par radiofréquence ou laser endoveineux."
+      },
+      {
+        nom: "Création de fistule artério-veineuse",
+        description: "Intervention consistant à relier une artère et une veine pour permettre l'accès vasculaire à l'hémodialyse."
+      },
+      {
+        nom: "Amputation vasculaire",
+        description: "Intervention parfois nécessaire lorsque les lésions d'un membre sont irréversibles et que sa conservation n'est plus possible."
+      },
+      {
+  nom: "Embolectomie artérielle",
+  description: "Intervention chirurgicale visant à retirer un embole qui bloque la circulation sanguine dans une artère afin de rétablir le flux sanguin."
+},
+{
+  nom: "Réparation des fistules artério-veineuses",
+  description: "Intervention visant à corriger une fistule artério-veineuse présentant une anomalie ou une complication afin de rétablir un accès vasculaire fonctionnel."
+},
+    ],
+
+    examens: [
+      "Écho-Doppler artériel",
+      "Écho-Doppler veineux",
+      "Angioscanner de l'aorte et des artères",
+      "Angio-IRM",
+      "Artériographie",
+      "Mesure de l'index de pression systolique",
+      "Bilan cardiovasculaire préopératoire",
+      "Analyses sanguines",
+      "Pléthysmographie vasculaire",
+    ],
+
+    diagnostic: [
+      {
+        nom: "Écho-Doppler artériel",
+        description: "Examen permettant d'étudier la circulation sanguine dans les artères et de détecter les rétrécissements ou les obstructions."
+      },
+      {
+        nom: "Écho-Doppler veineux",
+        description: "Examen permettant d'évaluer le fonctionnement des veines et de rechercher une thrombose ou une insuffisance veineuse."
+      },
+      {
+        nom: "Angioscanner",
+        description: "Examen utilisant un scanner et un produit de contraste pour visualiser les artères et identifier les anomalies vasculaires."
+      },
+      {
+        nom: "Angio-IRM",
+        description: "Technique d'imagerie permettant d'étudier les vaisseaux sanguins par résonance magnétique."
+      },
+      {
+        nom: "Artériographie",
+        description: "Examen radiologique utilisant un produit de contraste pour visualiser précisément les artères."
+      }
+    ],
+
+    faq: [
+      {
+        question: "Quelles maladies sont traitées en chirurgie vasculaire ?",
+        reponse: "La chirurgie vasculaire prend notamment en charge les anévrismes, les maladies artérielles, les sténoses carotidiennes, les varices et certaines thromboses veineuses."
+      },
+      {
+        question: "Comment diagnostique-t-on un anévrisme de l'aorte ?",
+        reponse: "Le diagnostic repose notamment sur l'échographie, l'angioscanner ou d'autres examens d'imagerie selon la situation médicale."
+      },
+      {
+        question: "Peut-on traiter les maladies vasculaires sans chirurgie ouverte ?",
+        reponse: "Certaines pathologies peuvent être traitées par des techniques endovasculaires mini-invasives, comme l'angioplastie ou la pose d'une endoprothèse."
+      },
+      {
+        question: "Comment organiser une intervention vasculaire en Tunisie ?",
+        reponse: "Il suffit de transmettre les comptes rendus médicaux et les examens disponibles afin que le dossier soit étudié et orienté vers un spécialiste adapté."
+      }
+    ]
+  },
+
+  en: {
+    title: "Vascular Surgery",
+    subtitle: "Specialized care for blood vessel diseases",
+    description: "Glomed Group helps organize your vascular surgery journey in Tunisia, from medical assessment to treatment coordination and postoperative follow-up.",
+    intro: "Vascular surgery focuses on diagnosing and treating diseases of the arteries, veins and lymphatic vessels. It includes the management of aneurysms, arterial narrowing, varicose veins and circulatory disorders. Treatment decisions depend on the vascular surgeon's assessment and the patient's medical records.",
+    image: "/images/chi-vasculaire.jpg",
+    alt: "Vascular surgery care",
+
+    services: [
+      "Vascular surgery consultations",
+      "Assessment of arterial and venous diseases",
+      "Aneurysm management",
+      "Treatment of peripheral artery disease",
+      "Varicose vein surgery",
+      "Management of vascular thrombosis",
+      "Open and endovascular vascular surgery",
+      "Medical stay and postoperative follow-up arrangements"
+    ],
+
+    maladies: [
+      {
+        nom: "Aortic aneurysm",
+        description: "Abnormal enlargement of the aorta that may carry a risk of rupture and require monitoring or specialist treatment."
+      },
+      {
+        nom: "Abdominal aortic aneurysm",
+        description: "Abnormal enlargement of the abdominal portion of the aorta. Management depends on its size and progression."
+      },
+      {
+        nom: "Peripheral artery disease",
+        description: "Narrowing of the arteries supplying the legs, potentially causing pain when walking and, in advanced cases, poor wound healing."
+      },
+      {
+        nom: "Carotid artery stenosis",
+        description: "Narrowing of a carotid artery that may increase the risk of stroke."
+      },
+      {
+        nom: "Deep vein thrombosis",
+        description: "Formation of a blood clot in a deep vein, usually in the lower limbs."
+      },
+      {
+        nom: "Varicose veins",
+        description: "Enlarged superficial veins in the legs that may cause pain, heaviness and swelling."
+      },
+      {
+        nom: "Chronic venous insufficiency",
+        description: "Impaired blood return to the heart, potentially causing heavy legs, swelling and skin changes."
+      },
+      {
+        nom: "Acute limb ischemia",
+        description: "Sudden reduction in blood supply to a limb, which may threaten its viability and requires urgent treatment."
+      },
+      {
+        nom: "Vascular diabetic foot",
+        description: "A complication associated with poor blood circulation that may lead to wounds that are difficult to heal."
+      },
+      {
+        nom: "Peripheral arterial aneurysms",
+        description: "Abnormal enlargement of peripheral arteries, including the popliteal arteries."
+      },
+      {
+        nom: "Vascular malformations",
+        description: "Congenital or acquired abnormalities affecting the development or structure of blood vessels."
+      },
+      {
+  nom: "Aortic dissection",
+  description: "A tear in the inner layer of the aorta that allows blood to flow between its wall layers. This condition requires urgent medical care."
+},
+    ],
+
+    interventions: [
+      {
+        nom: "Aortic aneurysm repair",
+        description: "Treatment of an aortic aneurysm through open surgery or an endovascular technique, depending on the medical assessment."
+      },
+      {
+        nom: "Endovascular aneurysm repair (EVAR)",
+        description: "A minimally invasive procedure that places a stent graft inside the aorta to exclude selected aneurysms."
+      },
+      {
+        nom: "Carotid endarterectomy",
+        description: "Surgery to remove plaque causing narrowing of the carotid artery."
+      },
+      {
+        nom: "Arterial angioplasty",
+        description: "An endovascular procedure that widens a narrowed artery using a balloon, sometimes with stent placement."
+      },
+      {
+        nom: "Lower limb arterial bypass",
+        description: "Surgery that restores blood flow by creating an alternative route around a blocked artery."
+      },
+      {
+        nom: "Arterial thrombectomy",
+        description: "A procedure to remove a blood clot causing an arterial blockage."
+      },
+      {
+        nom: "Varicose vein surgery",
+        description: "Surgical treatment of selected varicose veins depending on their location and severity."
+      },
+      {
+        nom: "Endovenous ablation",
+        description: "A minimally invasive treatment for selected varicose veins using radiofrequency or laser."
+      },
+      {
+        nom: "Arteriovenous fistula creation",
+        description: "A procedure connecting an artery and a vein to provide vascular access for hemodialysis."
+      },
+      {
+        nom: "Vascular-related amputation",
+        description: "An operation that may be necessary when limb damage is irreversible and limb preservation is no longer possible."
+      },
+      {
+  nom: "Arterial embolectomy",
+  description: "Surgical procedure to remove an embolus blocking blood flow in an artery in order to restore circulation."
+},
+{
+  nom: "Arteriovenous fistula repair",
+  description: "Procedure to correct an arteriovenous fistula with an abnormality or complication in order to restore a functional vascular access."
+},
+    ],
+
+    examens: [
+      "Arterial Doppler ultrasound",
+      "Venous Doppler ultrasound",
+      "CT angiography",
+      "MR angiography",
+      "Arteriography",
+      "Ankle-brachial index measurement",
+      "Preoperative cardiovascular assessment",
+      "Blood tests",
+      "Vascular plethysmography",
+    ],
+
+    diagnostic: [
+      {
+        nom: "Arterial Doppler ultrasound",
+        description: "An examination used to assess blood flow in arteries and detect narrowing or blockages."
+      },
+      {
+        nom: "Venous Doppler ultrasound",
+        description: "An examination used to assess venous circulation and detect thrombosis or venous insufficiency."
+      },
+      {
+        nom: "CT angiography",
+        description: "A CT scan using contrast material to visualize arteries and identify vascular abnormalities."
+      },
+      {
+        nom: "MR angiography",
+        description: "An imaging technique that uses magnetic resonance to examine blood vessels."
+      },
+      {
+        nom: "Arteriography",
+        description: "An imaging examination using contrast material to visualize arteries."
+      }
+    ],
+
+    faq: [
+      {
+        question: "Which conditions are treated by vascular surgery?",
+        reponse: "Vascular surgery treats conditions such as aneurysms, arterial diseases, carotid stenosis, varicose veins and certain venous thromboses."
+      },
+      {
+        question: "How is an aortic aneurysm diagnosed?",
+        reponse: "Diagnosis may involve ultrasound, CT angiography or other imaging examinations depending on the medical situation."
+      },
+      {
+        question: "Can vascular diseases be treated without open surgery?",
+        reponse: "Some conditions can be treated using minimally invasive endovascular techniques, such as angioplasty or stent graft placement."
+      },
+      {
+        question: "How can I arrange vascular surgery in Tunisia?",
+        reponse: "Share your medical reports and available test results so your case can be reviewed and referred to an appropriate specialist."
+      }
+    ]
+  },
+
+  ar: {
+    title: "جراحة الأوعية الدموية",
+    subtitle: "رعاية متخصصة لأمراض الأوعية الدموية",
+    description: "تساعدكم Glomed Group على تنظيم مسار العلاج في جراحة الأوعية الدموية في تونس، من التقييم الطبي إلى تنسيق التدخلات والمتابعة بعد العملية.",
+    intro: "تختص جراحة الأوعية الدموية بتشخيص وعلاج أمراض الشرايين والأوردة والأوعية اللمفاوية. وتشمل علاج تمدد الشرايين وتضيّقها والدوالي واضطرابات الدورة الدموية. ويحدد الطبيب المختص العلاج المناسب بعد دراسة الملف الطبي.",
+    image: "/images/chi-vasculaire.jpg",
+    alt: "الرعاية الطبية في جراحة الأوعية الدموية",
+
+    services: [
+      "استشارات جراحة الأوعية الدموية",
+      "تقييم أمراض الشرايين والأوردة",
+      "علاج تمدد الشرايين",
+      "علاج أمراض الشرايين الطرفية",
+      "جراحة الدوالي",
+      "علاج الجلطات الوعائية",
+      "الجراحة التقليدية والجراحة داخل الأوعية الدموية",
+      "تنظيم الإقامة والمتابعة بعد العملية"
+    ],
+
+    maladies: [
+      {
+        nom: "تمدد الشريان الأبهر",
+        description: "توسع غير طبيعي في الشريان الأبهر قد يؤدي إلى خطر التمزق ويحتاج إلى مراقبة أو علاج متخصص."
+      },
+      {
+        nom: "تمدد الشريان الأبهر البطني",
+        description: "توسع غير طبيعي في الجزء البطني من الشريان الأبهر، ويعتمد العلاج على حجم التمدد وتطوره."
+      },
+      {
+        nom: "مرض الشرايين الطرفية",
+        description: "تضيّق شرايين الساقين مما قد يسبب ألماً أثناء المشي واضطرابات في التئام الجروح في الحالات المتقدمة."
+      },
+      {
+        nom: "تضيّق الشريان السباتي",
+        description: "تضيّق في أحد الشرايين السباتية قد يزيد من خطر الإصابة بالسكتة الدماغية."
+      },
+      {
+        nom: "الخثار الوريدي العميق",
+        description: "تكوّن جلطة دموية داخل وريد عميق، غالباً في الأطراف السفلية."
+      },
+      {
+        nom: "دوالي الساقين",
+        description: "توسع الأوردة السطحية في الساقين وقد يسبب الألم والثقل والتورم."
+      },
+      {
+        nom: "القصور الوريدي المزمن",
+        description: "ضعف عودة الدم إلى القلب مما قد يؤدي إلى ثقل الساقين والتورم وتغيرات جلدية."
+      },
+      {
+        nom: "نقص التروية الحاد للأطراف",
+        description: "انخفاض مفاجئ في تدفق الدم إلى أحد الأطراف وقد يهدد سلامته ويتطلب تدخلاً طبياً عاجلاً."
+      },
+      {
+        nom: "القدم السكرية ذات المنشأ الوعائي",
+        description: "مضاعفة مرتبطة بضعف الدورة الدموية وقد تؤدي إلى جروح يصعب التئامها."
+      },
+      {
+        nom: "تمدد الشرايين الطرفية",
+        description: "توسع غير طبيعي في بعض الشرايين الطرفية، مثل الشريان المأبضي."
+      },
+      {
+        nom: "التشوهات الوعائية",
+        description: "اضطرابات خلقية أو مكتسبة تؤثر في نمو الأوعية الدموية أو بنيتها."
+      },
+      {
+  nom: "تسلخ الأبهر",
+  description: "تمزق في الطبقة الداخلية من الشريان الأبهر يسمح للدم بالتدفق بين طبقات جداره. وتتطلب هذه الحالة رعاية طبية عاجلة."
+},
+    ],
+
+    interventions: [
+      {
+        nom: "إصلاح تمدد الشريان الأبهر",
+        description: "عملية لعلاج تمدد الشريان الأبهر عن طريق الجراحة المفتوحة أو تقنية داخل الأوعية حسب الحالة."
+      },
+      {
+        nom: "إصلاح تمدد الأبهر بالقسطرة (EVAR)",
+        description: "تقنية محدودة التدخل يتم فيها وضع دعامة داخل الشريان الأبهر لعلاج بعض حالات التمدد."
+      },
+      {
+        nom: "استئصال اللويحات من الشريان السباتي",
+        description: "عملية لإزالة الترسبات الدهنية التي تسبب تضيق الشريان السباتي."
+      },
+      {
+        nom: "رأب الشرايين بالبالون",
+        description: "تقنية تهدف إلى توسيع الشريان المتضيق باستخدام بالون، مع إمكانية وضع دعامة."
+      },
+      {
+        nom: "المجازة الشريانية للأطراف السفلية",
+        description: "عملية لإنشاء مسار بديل لتدفق الدم حول الشريان المسدود."
+      },
+      {
+        nom: "استخراج الجلطة الشريانية",
+        description: "تدخل طبي لإزالة جلطة دموية تسبب انسداد أحد الشرايين."
+      },
+      {
+        nom: "جراحة دوالي الساقين",
+        description: "علاج جراحي لبعض حالات الدوالي حسب موقعها ودرجة شدتها."
+      },
+      {
+        nom: "إغلاق الأوردة بالليزر أو التردد الحراري",
+        description: "تقنية محدودة التدخل لعلاج بعض حالات الدوالي باستخدام الليزر أو التردد الحراري."
+      },
+      {
+        nom: "إنشاء وصلة شريانية وريدية",
+        description: "عملية لربط شريان بوريد بهدف توفير مدخل وعائي لغسيل الكلى."
+      },
+      {
+        nom: "البتر لأسباب وعائية",
+        description: "قد يكون ضرورياً عندما تصبح إصابة الطرف غير قابلة للعلاج ولا يمكن الحفاظ عليه."
+      },
+      {
+  nom: "استخراج الصمّة الشريانية",
+  description: "تدخل جراحي يهدف إلى إزالة صمّة تسد أحد الشرايين من أجل استعادة تدفق الدم."
+},
+{
+  nom: "إصلاح الناسور الشرياني الوريدي",
+  description: "تدخل يهدف إلى تصحيح الناسور الشرياني الوريدي الذي يعاني من خلل أو مضاعفات، من أجل استعادة منفذ وعائي وظيفي."
+},
+    ],
+
+    examens: [
+      "فحص دوبلر الشرايين",
+      "فحص دوبلر الأوردة",
+      "التصوير المقطعي الوعائي",
+      "التصوير بالرنين المغناطيسي للأوعية",
+      "تصوير الشرايين بالصبغة",
+      "قياس مؤشر ضغط الكاحل إلى العضد",
+      "التقييم القلبي الوعائي قبل العملية",
+      "تحاليل الدم",
+      "تخطيط التحجم الوعائي",
+    ],
+
+    diagnostic: [
+      {
+        nom: "دوبلر الشرايين",
+        description: "فحص لتقييم تدفق الدم في الشرايين والكشف عن التضيق أو الانسداد."
+      },
+      {
+        nom: "دوبلر الأوردة",
+        description: "فحص لتقييم الدورة الدموية الوريدية والكشف عن الجلطات أو القصور الوريدي."
+      },
+      {
+        nom: "التصوير المقطعي الوعائي",
+        description: "فحص باستخدام التصوير المقطعي ومادة ظليلة لإظهار الشرايين والكشف عن اضطراباتها."
+      },
+      {
+        nom: "تصوير الأوعية بالرنين المغناطيسي",
+        description: "تقنية تصوير تستخدم الرنين المغناطيسي لدراسة الأوعية الدموية."
+      },
+      {
+        nom: "تصوير الشرايين بالصبغة",
+        description: "فحص بالأشعة يستخدم مادة ظليلة لإظهار الشرايين بشكل دقيق."
+      }
+    ],
+
+    faq: [
+      {
+        question: "ما الأمراض التي تعالجها جراحة الأوعية الدموية؟",
+        reponse: "تشمل تمدد الشرايين وأمراض الشرايين وتضيّق الشريان السباتي والدوالي وبعض حالات الجلطات الوريدية."
+      },
+      {
+        question: "كيف يتم تشخيص تمدد الشريان الأبهر؟",
+        reponse: "يمكن التشخيص باستخدام الموجات فوق الصوتية أو التصوير المقطعي الوعائي أو فحوصات تصويرية أخرى حسب الحالة."
+      },
+      {
+        question: "هل يمكن علاج أمراض الأوعية الدموية دون جراحة مفتوحة؟",
+        reponse: "يمكن علاج بعض الحالات باستخدام تقنيات محدودة التدخل مثل توسيع الشرايين بالبالون أو تركيب الدعامات."
+      },
+      {
+        question: "كيف يمكن تنظيم عملية جراحة الأوعية الدموية في تونس؟",
+        reponse: "يمكن إرسال التقارير الطبية ونتائج الفحوصات المتوفرة حتى يتمكن الفريق الطبي من دراسة الحالة وتوجيهها إلى الطبيب المختص."
+      }
+    ]
+  }
+},
+
 
 
 };

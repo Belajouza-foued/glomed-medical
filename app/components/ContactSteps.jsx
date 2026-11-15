@@ -73,6 +73,50 @@ const translations = {
       },
     ],
   },
+  it: {
+  kicker: "DOPO IL VOSTRO MESSAGGIO",
+  title: "Come",
+  accent: "funziona?",
+  steps: [
+    {
+      number: "01",
+      title: "Ricezione della vostra richiesta",
+      text: "Il nostro team riceve il vostro messaggio e prende conoscenza delle vostre esigenze.",
+    },
+    {
+      number: "02",
+      title: "Primo contatto",
+      text: "Vi contattiamo per parlare del vostro progetto.",
+    },
+    {
+      number: "03",
+      title: "Organizzazione del vostro soggiorno",
+      text: "Vi accompagniamo nella preparazione del vostro soggiorno medico in Tunisia.",
+    },
+  ],
+},
+de: {
+  kicker: "NACH IHRER NACHRICHT",
+  title: "Wie",
+  accent: "geht es weiter?",
+  steps: [
+    {
+      number: "01",
+      title: "Eingang Ihrer Anfrage",
+      text: "Unser Team erhält Ihre Nachricht und prüft Ihre Bedürfnisse.",
+    },
+    {
+      number: "02",
+      title: "Kontaktaufnahme",
+      text: "Wir kontaktieren Sie, um Ihr Vorhaben gemeinsam zu besprechen.",
+    },
+    {
+      number: "03",
+      title: "Organisation Ihres Aufenthalts",
+      text: "Wir begleiten Sie bei der Vorbereitung Ihres medizinischen Aufenthalts in Tunesien.",
+    },
+  ],
+},
 };
 
 export default function ContactSteps() {

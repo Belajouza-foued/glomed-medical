@@ -58,6 +58,43 @@ const translations = {
       { label: "اتصل بنا", href: "/contact" },
     ],
   },
+
+it: {
+  about:
+    "Il vostro partner per organizzare il vostro soggiorno medico in Tunisia. Vi accompagniamo nelle vostre pratiche per aiutarvi a preparare il vostro percorso di cure in tutta tranquillità.",
+  navigation: "Navigazione",
+  contact: "Contattaci",
+  whatsapp: "Contattaci su WhatsApp",
+  country: "Tunisia",
+  organize: "Organizzare un soggiorno",
+  rights: "Tutti i diritti riservati.",
+  slogan: "La cura inizia con l'ascolto.",
+  links: [
+    { label: "Home", href: "/" },
+    { label: "Servizi", href: "/services" },
+    { label: "Chi siamo", href: "/about" },
+    { label: "Contatti", href: "/contact" },
+  ],
+},
+
+de: {
+  about:
+    "Ihr Partner für die Organisation Ihres medizinischen Aufenthalts in Tunesien. Wir begleiten Sie bei allen notwendigen Schritten, damit Sie Ihren Behandlungsaufenthalt in aller Ruhe vorbereiten können.",
+  navigation: "Navigation",
+  contact: "Kontaktieren Sie uns",
+  whatsapp: "Kontaktieren Sie uns über WhatsApp",
+  country: "Tunesien",
+  organize: "Aufenthalt organisieren",
+  rights: "Alle Rechte vorbehalten.",
+  slogan: "Gute Betreuung beginnt mit Zuhören.",
+  links: [
+    { label: "Startseite", href: "/" },
+    { label: "Dienstleistungen", href: "/services" },
+    { label: "Über uns", href: "/about" },
+    { label: "Kontakt", href: "/contact" },
+  ],
+},
+
 };
 
 export default function Footer() {

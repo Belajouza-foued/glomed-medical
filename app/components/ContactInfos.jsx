@@ -40,6 +40,31 @@ const translations = {
       { label: "الموقع", value: "تونس" },
     ],
   },
+
+it: {
+  kicker: "CONTATTACI DIRETTAMENTE",
+  title: "Hai una domanda?",
+  accent: "Scrivici o chiamaci.",
+  infos: [
+    { label: "Azienda", value: "Glomed Group" },
+    { label: "Telefono", value: "+216 93 767 950" },
+    { label: "E-mail", value: "contact@glomed.tn" },
+    { label: "Località", value: "Tunisia" },
+  ],
+},
+
+de: {
+  kicker: "DIREKT KONTAKTIEREN",
+  title: "Haben Sie eine Frage?",
+  accent: "Schreiben Sie uns oder rufen Sie uns an.",
+  infos: [
+    { label: "Unternehmen", value: "Glomed Group" },
+    { label: "Telefon", value: "+216 93 767 950" },
+    { label: "E-Mail", value: "contact@glomed.tn" },
+    { label: "Standort", value: "Tunesien" },
+  ],
+},
+
 };
 
 const INFOS = [
@@ -89,7 +114,12 @@ export default function ContactInfos() {
 
                 <span className="cpage-info-text">
                   <small>{item.label}</small>
-                  <strong>{item.value}</strong>
+                 <strong
+  dir={index === 1 ? "ltr" : "auto"}
+  className={index === 1 ? "cpage-phone-number" : ""}
+>
+  {item.value}
+</strong>
                 </span>
               </>
             );

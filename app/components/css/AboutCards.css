@@ -1,5 +1,5 @@
 /* =========================================
-   À PROPOS — SERVICES GLOMED (cartes avec image)
+   À PROPOS — SERVICES GLOMED (cartes + « Lire la suite »)
 ========================================= */
 
 .gabout {
@@ -30,11 +30,12 @@
 .gabout-heading h2 span { color: var(--green); }
 .gabout-heading p { margin-top: 1rem; line-height: 1.8; color: var(--text-muted); }
 
-/* ---------- Grille : 3 / 2 / 1 colonnes ---------- */
+/* ---------- Grille 3 / 2 / 1 : chaque carte garde sa hauteur quand on déplie ---------- */
 .gabout-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.5rem;
+  align-items: start;
 }
 
 /* ---------- Carte ---------- */
@@ -44,79 +45,130 @@
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  box-shadow: 0 8px 25px rgba(16, 47, 59, 0.05);
+  box-shadow: 0 8px 25px rgba(16, 47, 59, 0.06);
   overflow: hidden;
   transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
 }
 .gabout-card:hover {
   transform: translateY(-8px);
   border-color: rgba(0, 87, 168, 0.28);
-  box-shadow: 0 20px 40px rgba(16, 47, 59, 0.12);
+  box-shadow: 0 20px 40px rgba(16, 47, 59, 0.14);
 }
 
-/* ---------- Emplacement image ---------- */
+/* ---------- Image + titre par-dessus ---------- */
 .gabout-media {
   position: relative;
   aspect-ratio: 16 / 10;
   overflow: hidden;
+  cursor: pointer;
   background: linear-gradient(135deg, var(--blue), var(--green));
 }
+.gabout-media::after {                       /* voile pour lire le titre */
+  content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none;
+  background: linear-gradient(180deg, rgba(16, 47, 59, 0) 35%, rgba(16, 47, 59, 0.82) 100%);
+}
 .gabout-media-fallback {
-  position: absolute; inset: 0;
-  display: grid; place-items: center;
+  position: absolute; inset: 0; display: grid; place-items: center;
   color: rgba(255, 255, 255, 0.35); font-size: 3.5rem;
 }
 .gabout-img {
-  position: absolute; inset: 0;
-  width: 100%; height: 100%; object-fit: cover; display: block;
-  transition: transform 0.7s ease;
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; display: block; transition: transform 0.7s ease;
 }
 .gabout-card:hover .gabout-img { transform: scale(1.08); }
 
 /* 2e image : fondu enchaîné au survol (souris) ou au toucher (mobile) */
 .gabout-img-hover { opacity: 0; transform: scale(1.1); transition: opacity 0.6s ease, transform 0.9s ease; }
-.gabout-card.is-active .gabout-img-hover { opacity: 1; transform: scale(1); }
-.gabout-card.is-active .gabout-img:not(.gabout-img-hover) { transform: scale(1.04); }
+.gabout-card.is-swapped .gabout-img-hover { opacity: 1; transform: scale(1); }
+.gabout-card.is-swapped .gabout-img:not(.gabout-img-hover) { transform: scale(1.04); }
 @media (hover: hover) {
   .gabout-card:hover .gabout-img-hover { opacity: 1; transform: scale(1); }
 }
-@media (hover: none) { .gabout-card { cursor: pointer; } }
 
-/* badge icône à cheval sur l'image */
 .gabout-icon {
-  position: absolute; left: 1.2rem; bottom: 0.9rem;
-  display: grid; place-items: center;
-  width: 46px; height: 46px; border-radius: 14px;
-  background: var(--white); color: var(--blue); font-size: 1.3rem;
-  box-shadow: 0 6px 16px rgba(16, 47, 59, 0.2);
+  position: absolute; z-index: 2; top: 0.9rem; inset-inline-start: 0.9rem;
+  display: grid; place-items: center; width: 44px; height: 44px; border-radius: 14px;
+  background: var(--white); color: var(--blue); font-size: 1.25rem;
+  box-shadow: 0 6px 16px rgba(16, 47, 59, 0.25);
   transition: transform 0.4s ease, background 0.3s ease, color 0.3s ease;
 }
 .gabout-card:hover .gabout-icon { background: var(--yellow); color: var(--blue-navy); transform: rotate(-8deg) scale(1.08); }
 
-/* ---------- Texte ---------- */
-.gabout-body { padding: 1.3rem 1.5rem 1.7rem; }
-.gabout-body h3 { margin-bottom: 0.5rem; font-size: 1.1rem; font-weight: 800; color: var(--blue-navy); }
-.gabout-body p { font-size: 0.92rem; line-height: 1.75; color: var(--text-muted); }
+.gabout-tag {
+  position: absolute; z-index: 2; top: 0.9rem; inset-inline-end: 0.9rem;
+  padding: 0.32rem 0.85rem; border-radius: 999px;
+  background: var(--yellow); color: var(--blue-navy);
+  font-size: 0.72rem; font-weight: 800; letter-spacing: 0.03em;
+}
+.gabout-title {
+  position: absolute; z-index: 2; inset-inline: 1.2rem; bottom: 1rem; margin: 0;
+  font-size: 1.15rem; font-weight: 800; line-height: 1.25; color: var(--white);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* ---------- Texte + « Lire la suite » ---------- */
+.gabout-body { padding: 1.2rem 1.4rem 1.4rem; }
+.gabout-text {
+  margin: 0; font-size: 0.92rem; line-height: 1.75; color: var(--text-muted);
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden;
+  min-height: calc(1.75em * 3);                /* même hauteur pour toutes les cartes fermées */
+}
+.gabout-card.is-open .gabout-text { display: block; -webkit-line-clamp: unset; min-height: 0; }
+
+.gabout-more { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.45s ease; }
+.gabout-more.is-open { grid-template-rows: 1fr; }
+.gabout-more-inner { min-height: 0; overflow: hidden; visibility: hidden; transition: visibility 0s linear 0.45s; }
+.gabout-more.is-open .gabout-more-inner { visibility: visible; transition-delay: 0s; }
+.gabout-more ul { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: 0.65rem; }
+.gabout-more li { display: flex; align-items: flex-start; gap: 0.6rem; font-size: 0.88rem; line-height: 1.6; color: var(--text); }
+.gabout-more li i { flex-shrink: 0; margin-top: 3px; color: var(--green); }
+
+.gabout-toggle {
+  display: inline-flex; align-items: center; gap: 0.4rem; margin-top: 1rem; padding: 0.2rem 0;
+  background: none; border: 0; cursor: pointer;
+  font: inherit; font-size: 0.88rem; font-weight: 800; color: var(--blue);
+}
+.gabout-toggle i { font-size: 0.8rem; transition: transform 0.3s ease; }
+.gabout-card.is-open .gabout-toggle i { transform: rotate(180deg); }
+.gabout-toggle:hover { color: var(--blue-dark); text-decoration: underline; text-underline-offset: 4px; }
+.gabout-toggle:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; border-radius: 4px; }
+
+/* ---------- Variantes de couleur ---------- */
+.gabout-tone-red { border-color: rgba(215, 25, 32, 0.28); }
+.gabout-tone-red .gabout-tag { background: var(--red); color: var(--white); }
+.gabout-tone-red .gabout-icon { color: var(--red); }
+
+.gabout-tone-green .gabout-tag { background: var(--green); color: var(--white); }
+.gabout-tone-green .gabout-icon { color: var(--green); }
+
+.gabout-tone-gold { background: var(--blue-navy); border-color: rgba(244, 196, 48, 0.5); }
+.gabout-tone-gold .gabout-text { color: rgba(255, 255, 255, 0.8); }
+.gabout-tone-gold .gabout-more li { color: rgba(255, 255, 255, 0.92); }
+.gabout-tone-gold .gabout-more li i { color: var(--yellow); }
+.gabout-tone-gold .gabout-toggle { color: var(--yellow); }
+.gabout-tone-gold .gabout-toggle:hover { color: var(--white); }
+.gabout-tone-gold .gabout-icon { color: var(--blue-navy); background: var(--yellow); }
 
 /* barre de couleur qui se déploie au survol */
 .gabout-line {
-  position: absolute; left: 0; bottom: 0; width: 100%; height: 4px;
+  position: absolute; inset-inline-start: 0; bottom: 0; width: 100%; height: 4px;
   background: linear-gradient(90deg, var(--blue), var(--green), var(--yellow));
   transform: scaleX(0); transform-origin: left; transition: transform 0.4s ease;
 }
+[dir="rtl"] .gabout-line { transform-origin: right; }
 .gabout-card:hover .gabout-line { transform: scaleX(1); }
 
-/* ---------- Apparition au défilement (si JS actif) ---------- */
-.gabout.is-ready .gabout-card { opacity: 0; transform: translateY(32px) scale(0.97); }
+/* ---------- Apparition au défilement (le survol reste actif ensuite) ---------- */
+.gabout.is-ready:not(.is-visible) .gabout-card { opacity: 0; }
 .gabout.is-ready.is-visible .gabout-card {
-  animation: gabout-enter 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  animation-delay: calc(var(--i, 0) * 110ms);
+  animation: gabout-enter 0.7s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+  animation-delay: calc(var(--i, 0) * 90ms);
 }
 .gabout.is-ready .gabout-heading,
 .gabout.is-ready .gabout-footer { opacity: 0; transform: translateY(16px); transition: opacity 0.7s ease, transform 0.7s ease; }
 .gabout.is-ready.is-visible .gabout-heading,
 .gabout.is-ready.is-visible .gabout-footer { opacity: 1; transform: none; }
-.gabout.is-ready.is-visible .gabout-footer { transition-delay: 0.8s; }
+.gabout.is-ready.is-visible .gabout-footer { transition-delay: 0.9s; }
 
 /* ---------- Bouton ---------- */
 .gabout-footer { margin-top: 2.5rem; text-align: center; }
@@ -129,9 +181,10 @@
 .gabout-cta span { transition: transform 0.25s ease; }
 .gabout-cta:hover { background: var(--blue-dark); transform: translateY(-2px); }
 .gabout-cta:hover span { transform: translateX(5px); }
+[dir="rtl"] .gabout-cta:hover span { transform: translateX(-5px); }
 .gabout-cta:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
 
-@keyframes gabout-enter { to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes gabout-enter { from { opacity: 0; transform: translateY(32px) scale(0.97); } }
 @keyframes gabout-pulse {
   0%, 100% { box-shadow: 0 0 0 5px rgba(244, 196, 48, 0.18); }
   50% { box-shadow: 0 0 0 9px rgba(244, 196, 48, 0.06); }
@@ -149,17 +202,18 @@
   .gabout-heading { margin-bottom: 2rem; }
   .gabout-grid { grid-template-columns: 1fr; gap: 1rem; }
   .gabout-media { aspect-ratio: 16 / 9; }
-  .gabout-body { padding: 1.2rem 1.2rem 1.5rem; }
+  .gabout-body { padding: 1.1rem 1.2rem 1.3rem; }
   .gabout-cta { width: 100%; justify-content: center; }
 }
 
 /* ---------- Accessibilité ---------- */
 @media (prefers-reduced-motion: reduce) {
-  .gabout.is-ready .gabout-card,
-  .gabout.is-ready .gabout-heading,
-  .gabout.is-ready .gabout-footer { opacity: 1; transform: none; animation: none !important; transition: none; }
+  .gabout.is-ready:not(.is-visible) .gabout-card { opacity: 1; }
+  .gabout.is-ready.is-visible .gabout-card { animation: none; }
+  .gabout.is-ready .gabout-heading, .gabout.is-ready .gabout-footer { opacity: 1; transform: none; transition: none; }
   .gabout-dot { animation: none; }
-  .gabout-card, .gabout-img, .gabout-icon, .gabout-line, .gabout-cta, .gabout-cta span { transition: none; }
+  .gabout-card, .gabout-img, .gabout-icon, .gabout-line, .gabout-cta, .gabout-cta span,
+  .gabout-more, .gabout-toggle i { transition: none; }
   .gabout-card:hover, .gabout-card:hover .gabout-icon, .gabout-card:hover .gabout-img { transform: none; }
   .gabout-img-hover { transition: opacity 0.2s ease; transform: none !important; }
 }

@@ -54,6 +54,18 @@ const galleryImages = [
     altKey: "galleryAltGynecology",
     slug: "gynecologie",
   },
+   {
+    src: "/images/oncolologie.jpg",
+    titleKey: "Oncologie",
+    altKey: "galleryAltOncologie",
+    slug: "oncologie",
+  },
+  {
+    src: "/images/hematologie.jpg",
+    titleKey: "Hématologie",
+    altKey: "galleryAltHématologie",
+    slug: "hematologie",
+  },
 ];
 
 export default function Gallery() {

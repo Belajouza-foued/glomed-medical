@@ -114,6 +114,79 @@ const translations = {
       },
     ],
   },
+
+it: {
+  eyebrow: "GLOMED GROUP · I NOSTRI SERVIZI",
+  title: "La vostra salute,",
+  accent: "il nostro supporto.",
+  description:
+    "Dal primo contatto fino alla fine del vostro soggiorno, organizziamo le vostre visite mediche, gli esami e gli aspetti pratici del vostro viaggio in Tunisia.",
+  imageAlt:
+    "Assistenza medica e organizzazione delle cure in Tunisia",
+  imageLabel: "Il vostro percorso di cure in Tunisia",
+  button: "Organizzare il mio soggiorno",
+  disclaimer:
+    "Gli esami, i trattamenti e gli interventi vengono decisi dai professionisti sanitari competenti, dopo una valutazione individuale.",
+  items: [
+    {
+      title: "Esami e visite mediche",
+      text: "Organizzazione di controlli sanitari, analisi mediche e visite presso specialisti.",
+    },
+    {
+      title: "Interventi e operazioni chirurgiche",
+      text: "Coordinamento degli appuntamenti e del percorso preoperatorio e postoperatorio con le équipe mediche partner, secondo le indicazioni del medico.",
+    },
+    {
+      title: "Diagnostica per immagini",
+      text: "Orientamento e organizzazione degli esami prescritti: radiografie, ecografie, TAC e risonanza magnetica.",
+    },
+    {
+      title: "Riabilitazione e follow-up",
+      text: "Coordinamento delle sedute di riabilitazione e degli appuntamenti di controllo, quando indicato dai professionisti sanitari.",
+    },
+    {
+      title: "Organizzazione del soggiorno",
+      text: "Assistenza nel coordinamento dei trasferimenti, dell'alloggio e degli aspetti pratici del vostro viaggio.",
+    },
+  ],
+},
+
+de: {
+  eyebrow: "GLOMED GROUP · UNSERE DIENSTLEISTUNGEN",
+  title: "Ihre Gesundheit,",
+  accent: "unsere Unterstützung.",
+  description:
+    "Vom ersten Kontakt bis zum Ende Ihres Aufenthalts organisieren wir Ihre Arzttermine, Untersuchungen und die praktischen Aspekte Ihrer Reise nach Tunesien.",
+  imageAlt:
+    "Medizinische Betreuung und Organisation der Gesundheitsversorgung in Tunesien",
+  imageLabel: "Ihr medizinischer Behandlungsweg in Tunesien",
+  button: "Meinen Aufenthalt organisieren",
+  disclaimer:
+    "Untersuchungen, Behandlungen und Eingriffe werden nach einer individuellen Beurteilung von den zuständigen medizinischen Fachkräften festgelegt.",
+  items: [
+    {
+      title: "Medizinische Untersuchungen und Beratungen",
+      text: "Organisation von Gesundheitschecks, medizinischen Analysen und Konsultationen bei Fachärzten.",
+    },
+    {
+      title: "Eingriffe und Operationen",
+      text: "Koordination der Termine sowie der präoperativen und postoperativen Betreuung mit unseren medizinischen Partnerteams gemäß den ärztlichen Empfehlungen.",
+    },
+    {
+      title: "Medizinische Bildgebung",
+      text: "Vermittlung und Organisation der verordneten Untersuchungen: Röntgen, Ultraschall, CT und MRT.",
+    },
+    {
+      title: "Rehabilitation und Nachsorge",
+      text: "Koordination von Rehabilitationssitzungen und Kontrollterminen, sofern dies von den medizinischen Fachkräften empfohlen wird.",
+    },
+    {
+      title: "Organisation des Aufenthalts",
+      text: "Unterstützung bei der Koordination von Transfers, Unterkunft und den praktischen Aspekten Ihrer Reise.",
+    },
+  ],
+},
+
 };
 
 const ITEMS = [
