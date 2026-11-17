@@ -151,7 +151,12 @@ export default function Navbar() {
             </button>
 
             <div className="glomed-nav-dropdown-menu">
-
+<Link href="/chirurgie/chirurgieGenerale" onClick={() => setSurgeryOpen(false)}>
+  {t("navGeneralSurgery")}
+</Link>
+<Link href="/chirurgie/chirurgieVasculaire" onClick={closeMenu}>
+  {t("navVascularSurgery")}
+</Link>
               <Link href="/chirurgie/orthopedie" onClick={closeMenu}>
                 {t("navOrthopedics")}
               </Link>
@@ -194,14 +199,6 @@ export default function Navbar() {
 <Link href="/chirurgie/orl" onClick={() => setSurgeryOpen(false)}>
   {t("navENT")}
 </Link>
-
-<Link href="/chirurgie/chirurgieGenerale" onClick={() => setSurgeryOpen(false)}>
-  {t("navGeneralSurgery")}
-</Link>
-<Link href="/chirurgie/chirurgieVasculaire" onClick={closeMenu}>
-  {t("navVascularSurgery")}
-</Link>
-
             </div>
           </div>
 
