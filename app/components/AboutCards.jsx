@@ -5,20 +5,6 @@ import Link from "next/link";
 import { useLanguage } from "../contexts/LanguageContext";
 import "./css/AboutCards.css";
 
-/*
-  Partie « non traduite » de chaque carte : icône, images, couleur.
-  Les textes sont dans `translations` plus bas, dans le MÊME ORDRE.
-
-  image / hoverImage : photos dans public/images/ (la 2e apparaît au survol ou au toucher).
-  tone : "default" | "red" (urgence) | "gold" (VIP, carte foncée) | "green" (tourisme)
-
-  ▼ Nouvelles images à ajouter dans public/images/ ▼
-    ambulance.avif, avion-sanitaire.avif   (transport médicalisé)
-    vip.avif, voiture-luxe.avif            (service VIP)
-    tourisme.avif, sahara-douz.avif        (tourisme)
-    hotel-5-etoiles.avif                   (survol de la carte hébergement)
-  Si un fichier est absent, un fond de couleur avec l'icône s'affiche à la place.
-*/
 const CARDS = [
   { icon: "bi bi-car-front", image: "/images/aeroport.avif", hoverImage: "/images/aeropert-1.avif", tone: "default" },
   { icon: "bi bi-building", image: "/images/hebergement-1.avif", hoverImage: "/images/hotel-5-etoiles.avif", tone: "default" },
@@ -29,7 +15,7 @@ const CARDS = [
   // --- nouvelles cartes ---
   { icon: "bi bi-activity", image: "/images/plane.avif", hoverImage: "/images/ambulance.avif", tone: "red" },
   { icon: "bi bi-gem", image: "/images/acces-vip.avif", hoverImage: "/images/acces-vip-1.avif", tone: "gold" },
-  { icon: "bi bi-compass", image: "/images/tourisme.avif", hoverImage: "/images/sahara-douz.avif", tone: "green" },
+  { icon: "bi bi-compass", image: "/images/culture.avif", hoverImage: "/images/sahara.webp", tone: "green" },
 ];
 
 const translations = {

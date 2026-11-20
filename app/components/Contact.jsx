@@ -202,8 +202,7 @@ export default function Contact() {
       phone: formData.get("phone"),
       message: formData.get("message"),
       consent: formData.get("consent") === "on",
-       website: formData.get("website"),
-      language,
+           language,
     };
 
     setLoading(true);
@@ -304,19 +303,6 @@ export default function Contact() {
             noValidate
           >
           {/* Champ invisible anti-robot */}
-<div className="glomed-honeypot" aria-hidden="true">
-  <label htmlFor="contact-website">
-    Ne pas remplir
-  </label>
-
-  <input
-    id="contact-website"
-    name="website"
-    type="text"
-    tabIndex={-1}
-    autoComplete="off"
-  />
-</div>
             <div className="glomed-contact-grid">
 
               <div className="glomed-field">
