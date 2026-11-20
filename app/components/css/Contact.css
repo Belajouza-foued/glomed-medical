@@ -458,4 +458,13 @@
     font-size: 0.88rem;
   }
 }
-
+/*honeypot*/
+/* Champ invisible anti-robot */
+.glomed-honeypot {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

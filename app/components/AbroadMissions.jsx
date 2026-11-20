@@ -100,7 +100,32 @@ const translations = {
     disclaimer:
       "تُجرى الفحوص والاستشارات والتدخلات من قبل مهنيين صحيين، بحسب تقييمهم والتشريعات المحلية وتوفر المؤسسات المستقبِلة.",
   },
-
+it: {
+  label: "MISSIONI MEDICHE ALL'ESTERO",
+  title: "I nostri medici viaggiano",
+  accent: "per raggiungere i vostri pazienti.",
+  text: "Glomed Group non si limita ad accompagnare i pazienti in Tunisia: inviamo anche medici tunisini in Libia e in altri Paesi per effettuare visite, fornire consulenze e realizzare interventi chirurgici.",
+  actions: [
+    { title: "Visitare", text: "Visite cliniche e check-up sul posto, in collaborazione con le strutture sanitarie ospitanti." },
+    { title: "Consigliare", text: "Consulenze specialistiche vicino ai pazienti, senza lunghi spostamenti." },
+    { title: "Operare", text: "Interventi chirurgici presso strutture partner, dalla preparazione al follow-up postoperatorio." },
+  ],
+  stepsLabel: "COME SI SVOLGE UNA MISSIONE",
+  stepsTitle: "Una missione, passo dopo passo",
+  steps: [
+    { title: "Esame della richiesta", text: "Analizziamo le esigenze del Paese o della struttura richiedente e il tipo di assistenza previsto." },
+    { title: "Composizione dell'équipe", text: "Per ogni missione viene costituita un'équipe medica con professionisti adeguati alle esigenze." },
+    { title: "Organizzazione del viaggio", text: "Il viaggio, l'accoglienza, l'alloggio e il coordinamento con la struttura ospitante vengono preparati in anticipo." },
+    { title: "Assistenza sul posto e follow-up", text: "Visite, consulenze e interventi vengono effettuati sul posto; successivamente, il follow-up viene coordinato con la struttura." },
+  ],
+  privacy:
+    "Per motivi di riservatezza, l'identità dei medici e le loro specializzazioni vengono comunicate esclusivamente alle persone interessate, su richiesta.",
+  countriesTitle: "Paesi di intervento",
+  moreCountries: "e altri Paesi",
+  cta: "Richiedi una missione",
+  disclaimer:
+    "Visite, consulenze e interventi vengono effettuati da professionisti sanitari, in base alla loro valutazione, alle normative locali e alla disponibilità delle strutture ospitanti.",
+},
   de: {
     label: "MEDIZINISCHE EINSÄTZE IM AUSLAND",
     title: "Unsere Ärzte reisen",
@@ -127,6 +152,8 @@ const translations = {
     disclaimer:
       "Untersuchungen, Beratungen und Eingriffe werden von medizinischen Fachkräften durchgeführt – nach deren Beurteilung, den örtlichen Vorschriften und der Verfügbarkeit der aufnehmenden Einrichtungen.",
   },
+
+
 };
 
 const flag = (code) => `https://flagcdn.com/w80/${code.toLowerCase()}.png`;

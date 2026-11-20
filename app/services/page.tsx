@@ -18,10 +18,10 @@ export default function ServicesPage() {
     <Navbar/>
     <main className="glomed-services-page">
             {/* Présentation générale des services */}
-         <ServicesIntro/>
-      <Services />
-      <AboutCards/>
-      </main>
+             <AboutCards/>
+                 <ServicesIntro/>
+              <Services />
+        </main>
     <Footer/>
     </>
   );
