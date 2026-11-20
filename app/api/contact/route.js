@@ -2,11 +2,9 @@
 import { Resend } from "resend";
 import { NextResponse } from "next/server";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request) {
   try {
-    // Vérifier la configuration
+    // 1. Vérifier la configuration
     if (
       !process.env.RESEND_API_KEY ||
       !process.env.CONTACT_TO_EMAIL ||
@@ -20,19 +18,9 @@ export async function POST(request) {
       );
     }
 
-    // Récupérer les données du formulaire
+    // 2. Récupérer les données du formulaire
     const data = await request.json();
-// Protection Honeypot : détecter les robots
-if (
-  typeof data.website === "string" &&
-  data.website.trim() !== ""
-) {
-  // Réponse normale pour ne pas informer le robot
-  return NextResponse.json(
-    { success: true },
-    { status: 200 }
-  );
-}
+
     const {
       firstName,
       lastName,
@@ -43,13 +31,27 @@ if (
       language,
     } = data;
 
-    // Vérifier les champs obligatoires
+    // 3. Vérifier que les champs sont des chaînes de caractères
     if (
-      !firstName?.trim() ||
-      !lastName?.trim() ||
-      !email?.trim() ||
-      !phone?.trim() ||
-      !message?.trim() ||
+      typeof firstName !== "string" ||
+      typeof lastName !== "string" ||
+      typeof email !== "string" ||
+      typeof phone !== "string" ||
+      typeof message !== "string"
+    ) {
+      return NextResponse.json(
+        { error: "Invalid form data." },
+        { status: 400 }
+      );
+    }
+
+    // 4. Vérifier les champs obligatoires
+    if (
+      !firstName.trim() ||
+      !lastName.trim() ||
+      !email.trim() ||
+      !phone.trim() ||
+      !message.trim() ||
       consent !== true
     ) {
       return NextResponse.json(
@@ -58,7 +60,7 @@ if (
       );
     }
 
-    // Vérifier le format de l'email
+    // 5. Vérifier le format de l'email
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!emailRegex.test(email) || email.length > 254) {
@@ -68,7 +70,7 @@ if (
       );
     }
 
-    // Limiter la longueur des données
+    // 6. Limiter la longueur des données
     if (
       firstName.length > 100 ||
       lastName.length > 100 ||
@@ -81,7 +83,7 @@ if (
       );
     }
 
-    // Préparer le contenu de l'email
+    // 7. Préparer le contenu de l'email
     const emailContent = `
 Nouvelle demande depuis le site Glomed Medical
 
@@ -98,7 +100,10 @@ ${message}
 Consentement : accepté
     `;
 
-    // Envoyer l'email avec Resend
+    // 8. Initialiser Resend avec la nouvelle clé
+    const resend = new Resend(process.env.RESEND_API_KEY);
+
+    // 9. Envoyer l'email
     const { data: result, error } = await resend.emails.send({
       from: process.env.RESEND_FROM_EMAIL,
       to: [process.env.CONTACT_TO_EMAIL],
