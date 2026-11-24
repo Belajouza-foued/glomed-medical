@@ -171,6 +171,40 @@ de: {
   footerCaption: "ORGANISATION MEDIZINISCHER DIENSTLEISTUNGEN · TUNESIEN",
 },
 
+es: {
+  eyebrow: "CONTÁCTANOS",
+  title: "Tu salud,",
+  accent: "nuestra prioridad.",
+  description:
+    "¿Estás pensando en realizar una estancia médica en Túnez? Nuestro equipo te acompaña en la organización de tu proceso, con atención, profesionalidad y dedicación.",
+  trust: "Atención personalizada",
+  formTitle: "Tu proceso de atención médica",
+  formDescription:
+    "Completa este formulario. Nuestro equipo se pondrá en contacto contigo próximamente.",
+  firstName: "Nombre *",
+  firstNamePh: "Tu nombre",
+  lastName: "Apellidos *",
+  lastNamePh: "Tus apellidos",
+  email: "Correo electrónico *",
+  phone: "Teléfono / WhatsApp *",
+  message: "Tu mensaje *",
+  messagePlaceholder: "¿Cómo podemos ayudarte?",
+  consent:
+    "Acepto el uso de mis datos de contacto para recibir una respuesta a mi solicitud y declaro haber leído la política de privacidad. *",
+  submit: "Enviar mi solicitud",
+  sending: "Enviando...",
+  success:
+    "Tu solicitud se ha enviado correctamente. Nuestro equipo se pondrá en contacto contigo próximamente.",
+  error:
+    "No se ha podido enviar el mensaje. Inténtalo de nuevo o ponte en contacto con nosotros directamente.",
+  note:
+    "Tus datos se utilizarán para gestionar tu solicitud. No envíes documentos médicos confidenciales a través de este formulario.",
+  validation:
+    "Por favor, comprueba los campos obligatorios y acepta la política de privacidad.",
+  footerCaption: "GESTIÓN DE SERVICIOS MÉDICOS · TÚNEZ",
+},
+
+
 };
 
 export default function Contact() {

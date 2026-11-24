@@ -484,6 +484,111 @@ de: {
   cta: "Sprechen Sie mit unserem Team",
 },
 
+es: {
+  eyebrow: "SOBRE NOSOTROS · NUESTROS SERVICIOS GLOMED",
+  title: "Su estancia,",
+  accent: "organizada de principio a fin.",
+  description:
+    "Además de la coordinación médica, Glomed Group se encarga de todo lo necesario para que su estancia en Túnez sea más sencilla y cómoda.",
+  readMore: "Leer más",
+  readLess: "Leer menos",
+  cards: [
+    {
+      title: "Transporte y traslados",
+      text: "Traslados entre el aeropuerto, su alojamiento y los lugares de las citas, según el servicio acordado.",
+      more: [
+        "Traslados entre el aeropuerto, su alojamiento y las clínicas",
+        "Vehículos cómodos con conductor",
+        "Horarios adaptados a sus citas médicas"
+      ],
+    },
+    {
+      title: "Alojamiento",
+      tag: "3★ · 4★ · 5★",
+      text: "Ayuda para encontrar y reservar un alojamiento adecuado a la duración de su estancia.",
+      more: [
+        "Hoteles de 3 estrellas: comodidad esencial a un precio asequible",
+        "Hoteles de 4 estrellas: habitaciones espaciosas y servicios completos",
+        "Hoteles de 5 estrellas: servicios de alta gama y suites",
+        "Suites y apartamentos con sala de estar, ideales para estancias largas o acompañantes",
+        "Alojamiento cerca de las clínicas y de los lugares de las citas"
+      ],
+    },
+    {
+      title: "Convalecencia",
+      text: "Organización de su período de descanso después de los tratamientos, en un entorno adaptado a las recomendaciones del equipo médico.",
+      more: [
+        "Un entorno tranquilo y confortable para recuperarse",
+        "Una estancia adaptada a las indicaciones de su médico",
+        "Posibilidad de estar acompañado por un familiar"
+      ],
+    },
+    {
+      title: "Recepción en el aeropuerto",
+      text: "Atención personalizada desde su llegada a Túnez para comenzar su estancia con mayor tranquilidad.",
+      more: [
+        "Recepción personalizada a su llegada",
+        "Ayuda con el equipaje y los trámites prácticos",
+        "Traslado directo a su alojamiento"
+      ],
+    },
+    {
+      title: "Asistencia lingüística",
+      text: "Ayuda para comunicarse con los equipos médicos y los diferentes interlocutores durante su estancia.",
+      more: [
+        "Ayuda para comunicarse con los equipos médicos",
+        "Explicación de la información práctica relacionada con su estancia",
+        "Acompañamiento durante las citas, según el servicio elegido"
+      ],
+    },
+    {
+      title: "Seguimiento después de la estancia",
+      text: "Coordinación de la información y de las citas de seguimiento cuando los profesionales sanitarios lo recomienden.",
+      more: [
+        "Coordinación de documentos e informes médicos",
+        "Ayuda para organizar las citas de control",
+        "Comunicación con los profesionales sanitarios correspondientes"
+      ],
+    },
+    {
+      title: "Transporte medicalizado y urgencias",
+      tag: "Urgencias",
+      text: "Ambulancia y traslado aéreo sanitario de urgencia cuando su estado de salud lo requiera, en coordinación con el equipo médico.",
+      more: [
+        "Ambulancia para los traslados entre el aeropuerto, el hospital y su alojamiento",
+        "Organización de un avión sanitario en caso de urgencia, según la valoración médica y la disponibilidad",
+        "Coordinación con el equipo médico antes, durante y después del traslado",
+        "Ayuda con los trámites relacionados con el desplazamiento"
+      ],
+    },
+    {
+      title: "Servicio VIP",
+      tag: "VIP",
+      text: "Atención exclusiva de alta gama para disfrutar de una estancia discreta, cómoda y totalmente personalizada.",
+      more: [
+        "Recepción personalizada en el aeropuerto, con acceso a una sala VIP según disponibilidad",
+        "Alquiler de vehículos de lujo, con o sin conductor",
+        "Hoteles de prestigio y suites de alta gama",
+        "Discreción y confidencialidad durante su estancia",
+        "Un interlocutor personal dedicado, según el servicio elegido"
+      ],
+    },
+    {
+      title: "Turismo y descubrimientos",
+      tag: "Turismo",
+      text: "Descubra Túnez con guías y servicios turísticos, antes o después de sus tratamientos.",
+      more: [
+        "Excursiones al Sáhara: Douz, dunas y noche en un campamento",
+        "Visitas guiadas por las medinas y los lugares históricos (Cartago, Kairuán, Yerba…)",
+        "Circuitos culturales y descubrimiento de la gastronomía local",
+        "Guías que hablan varios idiomas",
+        "Programas adaptados a su estado de salud y a las recomendaciones médicas"
+      ],
+    },
+  ],
+  cta: "Contactar con nuestro equipo",
+},
+
 };
 
 export default function AboutCards() {

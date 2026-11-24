@@ -5,15 +5,6 @@ import Link from "next/link";
 import { useLanguage } from "../contexts/LanguageContext";
 import "./css/AbroadMissions.css";
 
-/*
-  Cette section ne montre AUCUNE donnée personnelle : pas de nom de médecin,
-  pas de spécialité, pas de photo de personne. Elle décrit seulement ce que font
-  les missions et comment elles se déroulent.
-
-  PAYS : codes ISO à 2 lettres affichés dans la bande « Pays d'intervention ».
-  Le nom du pays et le drapeau sont automatiques, dans la langue du site.
-  Exemple : "LY" (Libye), "DZ" (Algérie)…
-*/
 const COUNTRIES = ["LY"  , "CH", "AT"];
 
 const ACTION_ICONS = ["bi bi-clipboard2-pulse", "bi bi-chat-heart", "bi bi-hospital"];
@@ -152,6 +143,34 @@ it: {
     disclaimer:
       "Untersuchungen, Beratungen und Eingriffe werden von medizinischen Fachkräften durchgeführt – nach deren Beurteilung, den örtlichen Vorschriften und der Verfügbarkeit der aufnehmenden Einrichtungen.",
   },
+
+es: {
+  label: "MISIONES MÉDICAS EN EL EXTRANJERO",
+  title: "Nuestros médicos se desplazan",
+  accent: "para atender a sus pacientes.",
+  text: "Glomed Group no solo facilita la llegada de pacientes a Túnez: también envía médicos tunecinos para realizar exámenes, consultas e intervenciones quirúrgicas en Libia y otros países.",
+  actions: [
+    { title: "Examinar", text: "Exámenes clínicos y evaluaciones médicas en el lugar, en coordinación con los centros sanitarios de acogida." },
+    { title: "Consultar", text: "Consultas especializadas cerca de los pacientes, sin necesidad de realizar largos desplazamientos." },
+    { title: "Operar", text: "Intervenciones en centros sanitarios asociados, desde la preparación hasta el seguimiento." },
+  ],
+  stepsLabel: "CÓMO SE DESARROLLA UNA MISIÓN",
+  stepsTitle: "Una misión, paso a paso",
+  steps: [
+    { title: "Estudio de la solicitud", text: "Analizamos las necesidades del país o del centro solicitante y los servicios médicos que deben organizarse." },
+    { title: "Formación del equipo", text: "Se constituye un equipo médico en función de la misión, con profesionales adecuados a las necesidades planteadas." },
+    { title: "Organización del desplazamiento", text: "El viaje, la recepción, el alojamiento y la coordinación con el centro de acogida se preparan con antelación." },
+    { title: "Atención médica en el lugar y seguimiento", text: "Los exámenes, las consultas y las intervenciones se realizan en el lugar, y posteriormente se organiza el seguimiento con el centro sanitario." },
+  ],
+  privacy:
+    "Por motivos de confidencialidad, la identidad y las especialidades de los médicos solo se comunican a las personas interesadas, previa solicitud.",
+  countriesTitle: "Países donde intervenimos",
+  moreCountries: "y otros países",
+  cta: "Solicitar una misión",
+  disclaimer:
+    "Los exámenes, las consultas y las intervenciones son realizados por profesionales sanitarios, según su evaluación, la normativa local y la disponibilidad de los centros de acogida.",
+},
+
 
 
 };

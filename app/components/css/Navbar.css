@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
   gap: 6px;
-  padding: 10px 0;
+  padding: 8px 0;
   color: var(--blue-dark, #003B73);
   background: transparent;
   border: 0;
@@ -80,12 +80,12 @@
 
 .glomed-nav-dropdown-menu a {
   display: block;
-  padding: 11px 12px;
+  padding: 8px 12px;
   color: var(--blue-dark, #003B73);
   border-radius: 5px;
     font-size: 14px;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.2;
   text-decoration: none;
   transition:
     background 180ms ease,

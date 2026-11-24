@@ -524,6 +524,96 @@ de: {
   ctaButton: "Aufenthalt organisieren",
 },
 
+es: {
+  eyebrow: "NUESTROS ÁMBITOS DE ACOMPAÑAMIENTO",
+  title: "Gestión de servicios",
+  accent: "médicos.",
+  description:
+    "Glomed Group te acompaña en la organización de tu estancia médica en Túnez, desde tu primera solicitud hasta todos los aspectos prácticos de tu viaje.",
+
+  services: [
+    {
+      icon: "bi bi-heart-pulse",
+      title: "Cirugía estética",
+      text: "Organización y coordinación de tu proyecto con profesionales sanitarios asociados, según tus necesidades.",
+    },
+    {
+      icon: "bi bi-person-hearts",
+      title: "Medicina estética",
+      text: "Acompañamiento para tus solicitudes de tratamientos estéticos y orientación hacia los profesionales correspondientes.",
+    },
+    {
+      icon: "bi bi-scissors",
+      title: "Trasplante capilar",
+      text: "Ayuda en la organización de tu estancia y en el contacto con profesionales especializados.",
+    },
+    {
+      icon: "bi bi-emoji-smile",
+      title: "Implantes dentales",
+      text: "Coordinación de tu solicitud de atención odontológica y organización práctica de tu estancia.",
+    },
+    {
+      icon: "bi bi-activity",
+      title: "Otras especialidades médicas",
+      text: "Estudio de tu solicitud y orientación hacia los profesionales o centros sanitarios adecuados, según las posibilidades disponibles.",
+    },
+    {
+      icon: "bi bi-clipboard2-pulse",
+      title: "Seguimiento y citas médicas",
+      text: "Ayuda en la coordinación de las citas médicas y de la información necesaria para preparar tu estancia.",
+    },
+  ],
+
+  note:
+    "Los cuidados, las indicaciones médicas, los tratamientos y los resultados esperados son evaluados por los profesionales sanitarios competentes. Cualquier intervención depende de su valoración y de tu situación individual.",
+
+  processEyebrow: "UN PROCESO EN 6 ETAPAS",
+  processTitle: "Desde tu solicitud",
+  processAccent: "hasta tu estancia en Túnez.",
+  processDescription:
+    "Cada etapa se prepara contigo para que la organización de tu estancia sea más clara y sencilla.",
+
+  steps: [
+    {
+      icon: "bi bi-chat-dots",
+      title: "Tu solicitud",
+      text: "Nos presentas tu proyecto, tus expectativas y los tratamientos que deseas considerar.",
+    },
+    {
+      icon: "bi bi-file-earmark-medical",
+      title: "Orientación médica",
+      text: "Con tu consentimiento, facilitamos la transmisión de la información necesaria a los profesionales sanitarios correspondientes. El médico evalúa tu situación.",
+    },
+    {
+      icon: "bi bi-calendar-check",
+      title: "Organización de la estancia",
+      text: "Te ayudamos a coordinar las citas médicas, las fechas previstas y los aspectos prácticos de tu estancia.",
+    },
+    {
+      icon: "bi bi-airplane",
+      title: "Recepción y traslado",
+      text: "Según el servicio acordado, organizamos tu recepción y tus traslados entre el aeropuerto, el alojamiento y los lugares de las citas médicas.",
+    },
+    {
+      icon: "bi bi-building",
+      title: "Alojamiento",
+      text: "Te ayudamos a buscar o reservar un alojamiento adecuado a la duración prevista de tu estancia.",
+    },
+    {
+      icon: "bi bi-heart",
+      title: "Acompañamiento durante tu estancia",
+      text: "Facilitamos la coordinación práctica durante tu estancia. Las decisiones y los tratamientos médicos siguen siendo responsabilidad de los profesionales sanitarios.",
+    },
+  ],
+
+  ctaEyebrow: "TU PROYECTO COMIENZA AQUÍ",
+  ctaTitle: "¿Estás pensando en realizar una estancia médica en Túnez?",
+  ctaText:
+    "Cuéntanos qué necesitas para hablar sobre las posibilidades de acompañamiento y los próximos pasos.",
+  ctaButton: "Organizar una estancia",
+},
+
+
 };
 
 export default function Services() {

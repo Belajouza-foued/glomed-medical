@@ -114,6 +114,28 @@ de: {
   contact: "Kontaktieren Sie unser Team ←",
 },
 
+es: {
+  stay: "ESTANCIA MÉDICA EN TÚNEZ",
+  organize: "Organizar mi estancia →",
+  intro: "PRESENTACIÓN",
+  pathologies: "PATOLOGÍAS",
+  diseases: "Enfermedades y patologías",
+  sports: "TRAUMATOLOGÍA DEPORTIVA",
+  sportsTitle: "Lesiones deportivas en atletas",
+  treatments: "TRATAMIENTOS Y CIRUGÍA",
+  procedures: "Intervenciones posibles",
+  investigations: "PRUEBAS MÉDICAS",
+  diagnosis: "Exámenes y diagnóstico",
+  faq: "PREGUNTAS FRECUENTES",
+  questions: "Tus preguntas sobre",
+  project: "TU PROYECTO DE ESTANCIA MÉDICA",
+  need: "¿Necesitas información sobre",
+  contactText:
+    "Contacta con nuestro equipo para obtener información y organizar tu estancia médica en Túnez.",
+  contact: "Contactar con nuestro equipo →",
+},
+
+
 
   };
 

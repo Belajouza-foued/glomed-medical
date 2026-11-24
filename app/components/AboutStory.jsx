@@ -5,12 +5,6 @@ import Link from "next/link";
 import { useLanguage } from "../contexts/LanguageContext";
 import "../about/about-hero.css";
 
-/*
-  Images : dépose tes photos dans public/images/ ou change simplement les chemins ici.
-  - main  : image principale ; hover : image qui apparaît au survol (ou au toucher)
-  - side1 / side2 : les deux images à droite
-  Si un fichier n'existe pas, un fond de couleur s'affiche à la place.
-*/
 const IMAGES = {
   main: "/images/senegal.png",
   hover: "/images/equipe-1.avif",
@@ -131,6 +125,30 @@ de: {
   alt3: "Organisierte Transfers für Patienten in Tunesien",
   alt4: "Geeignete Unterkunft für den medizinischen Aufenthalt",
 },
+
+es: {
+  label: "SOBRE GLOMED GROUP",
+  title: "Tu socio para organizar",
+  accent: "tu estancia médica en Túnez.",
+  text1:
+    "Glomed Group es una agencia especializada en la gestión y coordinación de servicios relacionados con las estancias médicas. Facilitamos la organización de tu viaje a Túnez, desde tu primera solicitud hasta el final de tu estancia.",
+  text2:
+    "Nuestra función es facilitar la coordinación entre tus solicitudes, los profesionales sanitarios correspondientes y los proveedores de servicios necesarios. Las decisiones médicas siguen siendo siempre responsabilidad de los médicos.",
+  points: [
+    "Atención personalizada y escucha atenta",
+    "Coordinación de citas con los equipos médicos",
+    "Organización de traslados y alojamiento",
+    "Confidencialidad de tu información y claridad en cada etapa",
+  ],
+  button: "Hablemos de tu proyecto",
+  badgeTitle: "Una estancia mejor organizada",
+  badgeText: "Acompañamiento a medida",
+  alt1: "Profesional sanitario y atención a los pacientes",
+  alt2: "Equipo de Glomed Group atento a las necesidades de los pacientes",
+  alt3: "Traslados organizados para pacientes en Túnez",
+  alt4: "Alojamiento adaptado a la estancia médica",
+},
+
 };
 
 function hideOnError(e) {

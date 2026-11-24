@@ -53,6 +53,7 @@ it: {
   ],
 },
 
+
 de: {
   kicker: "DIREKT KONTAKTIEREN",
   title: "Haben Sie eine Frage?",
@@ -64,6 +65,19 @@ de: {
     { label: "Standort", value: "Tunesien" },
   ],
 },
+
+es: {
+  kicker: "CONTACTA DIRECTAMENTE CON NOSOTROS",
+  title: "¿Tienes alguna pregunta?",
+  accent: "Escríbenos o llámanos.",
+  infos: [
+    { label: "Empresa", value: "Glomed Group" },
+    { label: "Teléfono", value: "+216 93 767 950" },
+    { label: "Correo electrónico", value: "contact@glomed.tn" },
+    { label: "Ubicación", value: "Túnez" },
+  ],
+},
+
 
 };
 

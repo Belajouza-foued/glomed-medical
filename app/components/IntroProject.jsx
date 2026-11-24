@@ -56,6 +56,17 @@ de: {
   whatsapp: "Per WhatsApp schreiben",
 },
 
+es: {
+  kicker: "HABLEMOS DE TU PROYECTO",
+  title: "¿Necesitas organizar una estancia médica",
+  accent: "en Túnez?",
+  description:
+    "Cuéntanos qué necesitas: nos pondremos en contacto contigo para hablar sobre las posibilidades de acompañamiento y los próximos pasos.",
+  contact: "Contactar con nosotros",
+  whatsapp: "Escribir por WhatsApp",
+},
+
+
 
 };
 

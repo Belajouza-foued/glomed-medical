@@ -117,6 +117,30 @@ de: {
     },
   ],
 },
+
+es: {
+  kicker: "DESPUÉS DE TU MENSAJE",
+  title: "¿Cómo",
+  accent: "funciona el proceso?",
+  steps: [
+    {
+      number: "01",
+      title: "Recepción de tu solicitud",
+      text: "Nuestro equipo recibe tu mensaje y conoce tus necesidades.",
+    },
+    {
+      number: "02",
+      title: "Primer contacto",
+      text: "Nos ponemos en contacto contigo para hablar sobre tu proyecto.",
+    },
+    {
+      number: "03",
+      title: "Organización de tu estancia",
+      text: "Te acompañamos en la preparación de tu estancia médica en Túnez.",
+    },
+  ],
+},
+
 };
 
 export default function ContactSteps() {

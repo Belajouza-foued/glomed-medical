@@ -1580,7 +1580,346 @@ de: {
   alt: "Symbolisches Porträt eines Mannes",
 },
 
+es: {
+  // TOPBAR
+  topbarService: "Gestión de servicios médicos",
+  topbarLocation: "Túnez",
+  topbarEmail: "Enviar un correo electrónico",
+  topbarPhone: "Llamar a Glomed Group",
 
+  // NAVBAR
+  navHome: "Inicio",
+  navServices: "Servicios",
+  navSurgery: "Especialidades",
+  navAbout: "Quiénes somos",
+  navContact: "Contacto",
+  navCTA: "Organizar una estancia",
+
+  navOrthopedics: "Ortopedia",
+  navCardiology: "Cardiología",
+  navPneumology: "Neumología",
+  navUrology: "Urología",
+  navPediatrics: "Pediatría",
+  navGastro: "Gastroenterología",
+  navOphthalmology: "Oftalmología",
+  navGynecology: "Ginecología",
+  /* nuevas especialidades */
+  navOncology: "Oncología",
+  navHematology: "Hematología",
+  navENT: "Otorrinolaringología",
+  navGeneralSurgery: "Cirugía general",
+  navVascularSurgery: "Cirugía vascular",
+  navOpen: "Abrir el menú",
+  navClose: "Cerrar el menú",
+  navLabel: "Navegación principal",
+
+  /* HERO */
+  hero1Alt: "Profesionales sanitarios en un entorno médico",
+  hero1Eyebrow: "TU ALIADO EN SALUD EN TÚNEZ",
+  hero1Title: "Glomed Group,",
+  hero1Accent: "a tu lado en cada etapa.",
+  hero1Text: "Glomed Group te acompaña en la organización de tu estancia médica en Túnez: coordinación, alojamiento, traslados y orientación hacia profesionales sanitarios colaboradores.",
+  hero1Primary: "Tu recorrido asistencial",
+  hero1Secondary: "Descubrir nuestros servicios",
+
+  hero2Alt: "Entorno de tratamientos estéticos",
+  hero2Eyebrow: "ESTÉTICA Y BIENESTAR",
+  hero2Title: "Cuida de ti,",
+  hero2Accent: "con total tranquilidad.",
+  hero2Text: "Te ayudamos a organizar tu proyecto de tratamientos estéticos y a coordinar las diferentes etapas de tu estancia con los profesionales correspondientes.",
+  hero2Primary: "Descubrir nuestros servicios",
+  hero2Secondary: "Contactar con nosotros",
+
+  hero3Alt: "Equipo médico en un centro sanitario",
+  hero3Eyebrow: "TU ESTANCIA MÉDICA ORGANIZADA",
+  hero3Title: "Desde tu llegada",
+  hero3Accent: "hasta tu acompañamiento.",
+  hero3Text: "Alojamiento, traslados y coordinación: te ayudamos a preparar tu estancia en Túnez según tu solicitud y tus necesidades.",
+  hero3Primary: "Organizar una estancia",
+  hero3Secondary: "¿Cómo funciona?",
+
+  hero4Alt: "Equipo médico en un quirófano moderno",
+  hero4Eyebrow: "CIRUGÍA Y ESTANCIA MÉDICA EN TÚNEZ",
+  hero4Title: "Tu cirugía,",
+  hero4Accent: "una estancia organizada con cuidado.",
+  hero4Text: "Glomed Group te acompaña en la preparación de tu estancia quirúrgica en Túnez: coordinación de citas, organización de traslados, alojamiento y contacto con profesionales sanitarios colaboradores.",
+  hero4Primary: "Organizar mi estancia",
+  hero4Secondary: "Descubrir nuestros servicios",
+
+  hero5Alt: "Entorno médico moderno y acompañamiento a los pacientes",
+  hero5Eyebrow: "GLOMED GROUP · TU ALIADO EN SALUD EN TÚNEZ",
+  hero5Title: "Tu recorrido de salud,",
+  hero5Accent: "acompañamiento en cada etapa.",
+  hero5Text: "Chequeos médicos, consultas especializadas, cirugía, radiología y rehabilitación: Glomed Group también te acompaña en la organización de tu estancia en Túnez, coordinando alojamiento y traslados con profesionales y centros sanitarios colaboradores.",
+  hero5Primary: "Tu recorrido de salud",
+  hero5Secondary: "Descubrir nuestros servicios",
+
+  heroTrustTitle: "Acompañamiento personalizado",
+  heroTrustText: "Desde la preparación hasta la organización de tu estancia",
+  heroBottom1: "ACOMPAÑAMIENTO",
+  heroBottom2: "COORDINACIÓN",
+  heroBottom3: "ESTANCIA MÉDICA",
+  heroLabel: "Presentación de Glomed Group",
+  heroDotsLabel: "Elegir una diapositiva",
+  heroDotLabel: "Mostrar la diapositiva",
+  heroPrevious: "Diapositiva anterior",
+  heroNext: "Diapositiva siguiente",
+
+  /* GALLERY */
+  galleryEyebrow: "GLOMED GROUP · TÚNEZ",
+  galleryTitle: "Atención médica especializada,",
+  galleryAccent: "un acompañamiento humano",
+  galleryDescription: "Descubre nuestras especialidades médicas y recibe un acompañamiento personalizado para tu recorrido asistencial en Túnez.",
+  galleryLabel: "Nuestras especialidades médicas",
+  galleryDiscover: "Descubrir la especialidad",
+
+  galleryUrology: "Urología",
+  galleryPediatrics: "Pediatría",
+  galleryGastro: "Gastroenterología",
+  galleryPneumology: "Neumología",
+  galleryCardiology: "Cardiología",
+  galleryOphthalmology: "Oftalmología",
+  galleryOrthopedics: "Ortopedia",
+  galleryGynecology: "Ginecología",
+
+  galleryAltUrology: "Atención médica en urología",
+  galleryAltPediatrics: "Atención médica en pediatría",
+  galleryAltGastro: "Atención médica en gastroenterología",
+  galleryAltPneumology: "Atención médica en neumología",
+  galleryAltCardiology: "Atención médica en cardiología",
+  galleryAltOphthalmology: "Atención médica en oftalmología",
+  galleryAltOrthopedics: "Atención médica en ortopedia",
+  galleryAltGynecology: "Atención médica en ginecología",
+
+  /* SERVICES */
+  eyebrow: "NUESTROS ÁMBITOS DE ACOMPAÑAMIENTO",
+  title: "Gestión de servicios",
+  accent: "médicos.",
+  description:
+    "Glomed Group te acompaña en la organización de tu estancia médica en Túnez, desde tu primera solicitud hasta los aspectos prácticos de tu viaje.",
+
+  services: [
+    {
+      icon: "bi bi-heart-pulse",
+      title: "Cirugía estética",
+      text: "Organización y coordinación de tu proyecto con profesionales sanitarios colaboradores, según tu solicitud.",
+    },
+    {
+      icon: "bi bi-person-hearts",
+      title: "Medicina estética",
+      text: "Acompañamiento para tus solicitudes de tratamientos estéticos y orientación hacia los profesionales correspondientes.",
+    },
+    {
+      icon: "bi bi-scissors",
+      title: "Trasplante capilar",
+      text: "Ayuda para organizar tu estancia y contactar con profesionales especializados.",
+    },
+    {
+      icon: "bi bi-emoji-smile",
+      title: "Implantes dentales",
+      text: "Coordinación de tu solicitud de atención dental y organización práctica de tu estancia.",
+    },
+    {
+      icon: "bi bi-activity",
+      title: "Otras especialidades médicas",
+      text: "Estudio de tu solicitud y orientación hacia los profesionales o centros adecuados, según las posibilidades disponibles.",
+    },
+    {
+      icon: "bi bi-clipboard2-pulse",
+      title: "Seguimiento y citas médicas",
+      text: "Ayuda para coordinar las citas y reunir la información necesaria para preparar tu estancia.",
+    },
+  ],
+
+  note:
+    "Los tratamientos, las indicaciones médicas, las terapias y los resultados esperados son evaluados por los profesionales sanitarios competentes. Cualquier intervención depende de su valoración y de tu situación individual.",
+
+  processEyebrow: "UN RECORRIDO EN 6 ETAPAS",
+  processTitle: "Desde tu solicitud",
+  processAccent: "hasta tu estancia en Túnez.",
+  processDescription:
+    "Preparamos cada etapa contigo para que la organización de tu estancia sea más clara y sencilla.",
+
+  steps: [
+    {
+      icon: "bi bi-chat-dots",
+      title: "Tu solicitud",
+      text: "Nos explicas tu proyecto, tus expectativas y los tratamientos que deseas considerar.",
+    },
+    {
+      icon: "bi bi-file-earmark-medical",
+      title: "Orientación médica",
+      text: "Con tu autorización, facilitamos la transmisión de la información necesaria a los profesionales sanitarios correspondientes. El médico evalúa tu situación.",
+    },
+    {
+      icon: "bi bi-calendar-check",
+      title: "Organización de la estancia",
+      text: "Te ayudamos a coordinar las citas, las fechas previstas y los aspectos prácticos de tu estancia.",
+    },
+    {
+      icon: "bi bi-airplane",
+      title: "Recepción y traslados",
+      text: "Según el servicio acordado, organizamos tu recepción y los traslados entre el aeropuerto, el alojamiento y los lugares de tus citas.",
+    },
+    {
+      icon: "bi bi-building",
+      title: "Alojamiento",
+      text: "Te ayudamos a buscar o reservar un alojamiento adecuado a la duración prevista de tu estancia.",
+    },
+    {
+      icon: "bi bi-heart",
+      title: "Acompañamiento durante tu estancia",
+      text: "Facilitamos la coordinación práctica durante tu estancia. Las decisiones y la atención médica siguen siendo responsabilidad de los profesionales sanitarios.",
+    },
+  ],
+
+  ctaEyebrow: "TU PROYECTO EMPIEZA AQUÍ",
+  ctaTitle: "¿Estás pensando en realizar una estancia médica en Túnez?",
+  ctaText:
+    "Cuéntanos tu solicitud para hablar sobre las posibilidades de acompañamiento y los siguientes pasos.",
+  ctaButton: "Organizar una estancia",
+
+  /* PARTNERSHIPS */
+  partnersEyebrow: "NUESTRA PROYECCIÓN INTERNACIONAL",
+  partnersTitle: "Una red internacional,",
+  partnersAccent: "un destino: Túnez.",
+  partnersDescription:
+    "Desde África, los países del Golfo y Europa, Glomed Group acompaña a los pacientes en la organización de su recorrido asistencial en Túnez, facilitando la coordinación con profesionales y centros sanitarios colaboradores.",
+  partnersRegionAfrica: "África",
+  partnersRegionGulf: "Golfo",
+  partnersRegionEurope: "Europa",
+  partnersDestination: "Un destino: Túnez.",
+  partnersBottomText:
+    "Un acompañamiento pensado en función de las necesidades de cada paciente.",
+  partnersCTA: "Hablemos de tu atención médica",
+  partnersFlag: "Bandera",
+
+  // PAÍSES
+  countryAlgeria: "Argelia",
+  countryLibya: "Libia",
+  countryMauritania: "Mauritania",
+  countryIvoryCoast: "Costa de Marfil",
+  countryBurkinaFaso: "Burkina Faso",
+  countryNiger: "Níger",
+  countryCameroon: "Camerún",
+  countryGabon: "Gabón",
+  countrySaudiArabia: "Arabia Saudí",
+  countryUAE: "Emiratos Árabes Unidos",
+  countryQatar: "Catar",
+  countryKuwait: "Kuwait",
+  countryBahrain: "Baréin",
+  countryOman: "Omán",
+  countryFrance: "Francia",
+  countryItaly: "Italia",
+  countryGermany: "Alemania",
+
+  /* ABOUT */
+  aboutLabel: "¿QUIÉNES SOMOS?",
+  aboutTitle: "La coordinación al servicio de",
+  aboutAccent: "tu estancia médica.",
+  aboutDescription:
+    "Glomed Group te acompaña en la organización de los servicios relacionados con tu estancia médica en Túnez, con un enfoque personalizado, claro y atento a tus necesidades.",
+
+  aboutImageAlt: "Profesional sanitario en un entorno médico",
+  aboutBadgeTitle: "Una estancia mejor organizada",
+  aboutBadgeText: "Un acompañamiento adaptado a tus necesidades.",
+
+  aboutEyebrow: "NUESTRA IDENTIDAD Y MISIÓN",
+  aboutHeading: "Tu aliado para organizar tu estancia médica en Túnez.",
+  aboutIntro:
+    "Glomed Group es una agencia especializada en la gestión y coordinación de los servicios relacionados con las estancias médicas. Facilitamos la organización de tu viaje a Túnez y te acompañamos en los aspectos prácticos de tu estancia.",
+
+  aboutAccordion1Title: "¿Quiénes somos?",
+  aboutAccordion1Text:
+    "Glomed Group acompaña a las personas que desean organizar una estancia médica en Túnez. Nuestro papel consiste en facilitar la coordinación entre las solicitudes de los pacientes, los profesionales sanitarios correspondientes y los proveedores necesarios para organizar la estancia.",
+
+  aboutAccordion2Title: "Nuestra misión",
+  aboutAccordion2Text:
+    "Nuestra misión es simplificar la organización de tu estancia ayudándote a preparar cada etapa: contacto inicial, coordinación de citas, organización de desplazamientos y búsqueda de un alojamiento adaptado a tus necesidades.",
+
+  aboutAccordion3Title: "Gestión de servicios relacionados con la estancia médica",
+  aboutAccordion3Text:
+    "Facilitamos la coordinación de los servicios relacionados con tu atención y el contacto con los profesionales o centros sanitarios correspondientes. La evaluación de tu estado de salud, la elección de los tratamientos y las decisiones médicas corresponden a los profesionales sanitarios competentes.",
+
+  aboutAccordion4Title: "Nuestros valores y compromisos",
+  aboutAccordion4Text:
+    "Damos prioridad a la escucha, la claridad de la información, la disponibilidad y un acompañamiento adaptado a cada solicitud. Nuestro objetivo es facilitar la organización práctica de tu estancia, respetando tu privacidad y el papel de los profesionales sanitarios.",
+
+  aboutCTA: "Tu recorrido de salud",
+
+  /* REHABILITATION */
+  rehabEyebrow: "REHABILITACIÓN Y READAPTACIÓN",
+  rehabTitle: "Recupérate bien",
+  rehabAccent: "después de tu operación.",
+  rehabDescription: "Una buena recuperación forma parte del proceso asistencial. Glomed Group coordina la rehabilitación, la readaptación y la convalecencia según las recomendaciones del equipo médico.",
+  rehabStep: "Etapa",
+  rehabStep1Title: "Seguimiento postoperatorio",
+  rehabStep1Text: "Coordinación de los controles y las citas con el equipo médico durante los días posteriores a la intervención.",
+  rehabStep2Title: "Rehabilitación funcional",
+  rehabStep2Text: "Organización de las sesiones de fisioterapia prescritas por el médico para recuperar progresivamente la movilidad y la fuerza.",
+  rehabStep3Title: "Readaptación",
+  rehabStep3Text: "Acompañamiento para recuperar poco a poco las actividades cotidianas, según el programa establecido por los profesionales sanitarios.",
+  rehabStep4Title: "Convalecencia y regreso",
+  rehabStep4Text: "Alojamiento adecuado durante la recuperación, seguido de la preparación del regreso y de las citas de seguimiento.",
+  rehabImageAlt: "Sesión de rehabilitación después de una operación",
+  rehabBadgeTitle: "Una recuperación supervisada",
+  rehabBadgeText: "Según el programa de tu médico",
+  rehabGoal1: "Aliviar el dolor",
+  rehabGoal2: "Recuperar la movilidad",
+  rehabGoal3: "Retomar las actividades",
+  rehabDisclaimer: "El programa de rehabilitación, su duración y los ejercicios son establecidos por los profesionales sanitarios tras una evaluación individual. Glomed Group coordina la organización práctica.",
+  rehabCTA: "Organizar mi recuperación",
+
+  /* TESTIMONIALS */
+  eyebrow: "TESTIMONIOS",
+  title: "Han confiado",
+  accent: "en nosotros",
+  description:
+    "Descubre las experiencias de pacientes acompañados en la organización de su recorrido asistencial en Túnez.",
+  starsLabel: "5 estrellas",
+
+  name: "Amine B.",
+  country: "🇩🇿 Argelia",
+  service: "Acompañamiento médico",
+  text: "Me gustó la disponibilidad del equipo y la información recibida para preparar mi estancia médica en Túnez.",
+  image: "https://i.pravatar.cc/100?img=11",
+  alt: "Retrato ilustrativo de un hombre",
+
+  name: "Fatou S.",
+  country: "🇸🇳 Senegal",
+  service: "Organización de la estancia",
+  text: "El equipo me ayudó a comprender mejor las diferentes etapas y a organizar mi viaje a Túnez.",
+  image: "/images/profil-senegal.png",
+  alt: "Retrato de una mujer senegalesa",
+
+  name: "Ahmed K.",
+  country: "🇸🇦 Arabia Saudí",
+  service: "Coordinación del recorrido asistencial",
+  text: "Valoré la calidad de la comunicación y el acompañamiento ofrecido durante toda la preparación de mi estancia.",
+  image: "https://i.pravatar.cc/100?img=12",
+  alt: "Retrato ilustrativo de un hombre",
+
+  name: "Mariam A.",
+  country: "🇦🇪 Emiratos Árabes Unidos",
+  service: "Asistencia y coordinación",
+  text: "Un equipo atento que me proporcionó información útil para organizar las diferentes etapas de mi estancia.",
+  image: "https://i.pravatar.cc/100?img=44",
+  alt: "Retrato ilustrativo de una mujer",
+
+  name: "Sophie M.",
+  country: "🇫🇷 Francia",
+  service: "Organización de la estancia",
+  text: "Me gustó la claridad de la información y la disponibilidad del equipo para responder a mis preguntas.",
+  image: "https://i.pravatar.cc/100?img=45",
+  alt: "Retrato ilustrativo de una mujer",
+
+  name: "Marc D.",
+  country: "🇧🇪 Bélgica",
+  service: "Acompañamiento personalizado",
+  text: "La comunicación fue sencilla y tranquilizadora. Pude obtener la información necesaria para preparar mi estancia.",
+  image: "https://i.pravatar.cc/100?img=13",
+  alt: "Retrato ilustrativo de un hombre",
+},
 
 
 };
@@ -1589,7 +1928,7 @@ export function LanguageProvider({ children }) {
   const [language, setLanguage] = useState("fr");
 
   const changeLanguage = (lang) => {
-    if (["fr", "en", "ar", "it", "de"].includes(lang)) {
+    if (["fr", "en", "ar", "it", "de", "es"].includes(lang)) {
       setLanguage(lang);
     }
   };

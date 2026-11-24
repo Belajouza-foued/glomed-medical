@@ -51,7 +51,7 @@ orthopedie: {
         nom: "Rupture du ligament croisé antérieur (LCA)",
         description:
           "Blessure fréquente chez les sportifs pratiquant le football, le handball, le basketball ou le ski. Elle peut provoquer une instabilité du genou et nécessiter une rééducation ou, dans certains cas, une reconstruction ligamentaire.",
-        image: "/images/fracture.avif",
+        image: "/images/orhopedie.jpg",
       },
       {
         nom: "Lésions des ménisques",
@@ -881,6 +881,178 @@ de: {
     },
   ],
 },
+
+es: {
+  title: "Ortopedia",
+  subtitle: "Recupere la movilidad, el bienestar y la calidad de vida",
+  description:
+    "Glomed Group le acompaña en la organización de su estancia médica en Túnez. Facilitamos el contacto con profesionales sanitarios, el envío de su historial médico y la coordinación de las diferentes etapas de su tratamiento ortopédico. Nuestro objetivo es ayudarle a preparar su estancia con información clara y un acompañamiento personalizado.",
+  image: "/images/glomed.avif",
+  alt: "Acompañamiento médico en ortopedia",
+  intro:
+    "La ortopedia se ocupa de los huesos, las articulaciones, los músculos, los tendones y los ligamentos. Según su situación, una evaluación especializada puede permitir estudiar las diferentes opciones de tratamiento, ya sean médicas, funcionales o quirúrgicas.",
+
+  maladies: [
+    {
+      nom: "Artrosis",
+      description:
+        "La artrosis es una enfermedad articular que puede provocar dolor, rigidez y una disminución de la movilidad. Afecta especialmente a las rodillas, las caderas, las manos y la columna vertebral. La evaluación médica permite estudiar las opciones adecuadas según el grado de afectación.",
+    },
+    {
+      nom: "Fracturas óseas",
+      description:
+        "Una fractura es una rotura parcial o completa de un hueso. Su tratamiento depende de su localización, estabilidad y gravedad. Según la evaluación del especialista, puede ser necesario inmovilizar la zona o realizar una intervención quirúrgica.",
+    },
+    {
+      nom: "Lesiones ligamentosas",
+      description:
+        "Los ligamentos contribuyen a la estabilidad de las articulaciones. Un esguince o una rotura ligamentosa puede provocar dolor, hinchazón e inestabilidad, especialmente en la rodilla o el tobillo. El tratamiento depende de la gravedad de la lesión y de las necesidades funcionales.",
+    },
+    {
+      nom: "Hernia discal",
+      description:
+        "Una hernia discal se produce cuando una parte de un disco intervertebral se desplaza y puede comprimir un nervio. Puede provocar dolor de espalda o lumbar, a veces acompañado de dolor irradiado. Una evaluación especializada permite determinar las opciones de tratamiento disponibles.",
+    },
+    {
+      nom: "Tendinitis y lesiones de los tendones",
+      description:
+        "Los tendones conectan los músculos con los huesos. Una inflamación o lesión tendinosa puede provocar dolor y limitar determinados movimientos, especialmente en el hombro, el codo o el tendón de Aquiles. El tratamiento depende de la causa y de la extensión de la lesión.",
+    },
+    {
+      nom: "Deformidades y trastornos articulares",
+      description:
+        "Algunas deformidades óseas o articulares pueden afectar a la alineación, la marcha o la función de una extremidad. Una evaluación clínica y radiológica puede ayudar al especialista a valorar su importancia y las posibles soluciones.",
+    },
+  ],
+
+  blessuresSportives: [
+    {
+      nom: "Rotura del ligamento cruzado anterior (LCA)",
+      description:
+        "Lesión frecuente entre los deportistas que practican fútbol, balonmano, baloncesto o esquí. Puede provocar inestabilidad de la rodilla y requerir rehabilitación o, en algunos casos, una reconstrucción ligamentosa.",
+      image: "/images/fracture.avif",
+    },
+    {
+      nom: "Lesiones de menisco",
+      description:
+        "Los meniscos pueden lesionarse durante una rotación de la rodilla o como consecuencia de un traumatismo deportivo. El tratamiento depende del tipo de lesión y puede incluir rehabilitación, tratamiento conservador o cirugía.",
+      image: "/images/menisque.avif",
+    },
+    {
+      nom: "Rotura del tendón de Aquiles",
+      description:
+        "Lesión que puede producirse durante una aceleración o un salto, acompañada de un dolor repentino en la parte posterior del tobillo. Una evaluación rápida permite determinar el tratamiento adecuado.",
+      image: "/images/lesion.avif",
+    },
+    {
+      nom: "Esguinces de tobillo",
+      description:
+        "Lesiones de los ligamentos del tobillo que pueden producirse al cambiar de apoyo o al aterrizar después de un salto. El tratamiento varía según la gravedad de la lesión.",
+      image: "/images/antorse.avif",
+    },
+    {
+      nom: "Lesiones del hombro",
+      description:
+        "Los deportistas pueden presentar lesiones del manguito rotador, luxaciones o inestabilidad del hombro, especialmente en deportes de lanzamiento y de contacto.",
+      image: "/images/epaule.avif",
+    },
+    {
+      nom: "Fracturas deportivas",
+      description:
+        "Los golpes, las caídas y los esfuerzos repetidos pueden provocar fracturas que requieren inmovilización o, en algunos casos, una intervención quirúrgica.",
+      image: "/images/fracture.avif",
+    },
+    {
+      nom: "Tendinitis y tendinopatías",
+      description:
+        "Dolores relacionados con una sobrecarga o esfuerzos repetidos que afectan especialmente al tendón rotuliano, al tendón de Aquiles o al hombro.",
+      image: "/images/tendinopathie.avif",
+    },
+    {
+      nom: "Pubalgia del deportista",
+      description:
+        "Dolor en la región púbica o en la ingle, frecuente especialmente entre los futbolistas y los deportistas sometidos a aceleraciones y cambios de dirección repetidos.",
+      image: "/images/pubalgie.avif",
+    },
+    {
+      nom: "Fracturas por estrés",
+      description:
+        "Pequeñas fracturas causadas por esfuerzos repetidos, especialmente en deportistas que aumentan rápidamente el volumen de sus entrenamientos.",
+      image: "/images/fatigue.avif",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Prótesis de cadera",
+      description:
+        "Esta intervención consiste en sustituir las superficies articulares dañadas por una prótesis. Puede considerarse especialmente en determinados casos de artrosis avanzada o después de algunas fracturas. La indicación depende de la evaluación médica y del estado general del paciente.",
+    },
+    {
+      nom: "Prótesis de rodilla",
+      description:
+        "La sustitución parcial o total de la rodilla puede proponerse en determinados casos de lesiones articulares graves. El objetivo es mejorar la función de la articulación y reducir el dolor cuando otras opciones no son suficientes.",
+    },
+    {
+      nom: "Cirugía de ligamentos",
+      description:
+        "Algunas roturas de ligamentos pueden requerir una reparación o reconstrucción quirúrgica. La decisión depende especialmente de la estabilidad de la articulación, de la actividad del paciente y de la naturaleza de la lesión.",
+    },
+    {
+      nom: "Cirugía de fracturas",
+      description:
+        "Según el tipo de fractura, una intervención puede permitir recolocar y estabilizar los fragmentos óseos mediante dispositivos adecuados. La elección de la técnica depende del hueso afectado y de la complejidad de la fractura.",
+    },
+    {
+      nom: "Cirugía del hombro",
+      description:
+        "Algunas lesiones del hombro, especialmente las del manguito rotador, pueden tratarse mediante cirugía cuando está indicado. Las técnicas disponibles varían según la lesión y pueden incluir un abordaje artroscópico.",
+    },
+    {
+      nom: "Cirugía del pie y del tobillo",
+      description:
+        "Pueden considerarse intervenciones para determinadas deformidades, lesiones tendinosas o afecciones articulares del pie y del tobillo. La elección depende de los síntomas, del examen clínico y de los resultados de las pruebas de imagen.",
+    },
+  ],
+
+  examens: [
+    "Consulta especializada en ortopedia",
+    "Radiografía de huesos y articulaciones",
+    "Resonancia magnética (RM)",
+    "Tomografía computarizada (TC) ósea o articular",
+    "Ecografía musculotendinosa",
+    "Evaluación preoperatoria según la intervención prevista",
+  ],
+
+  faq: [
+    {
+      question: "¿Qué enfermedades se tratan en ortopedia?",
+      reponse:
+        "La ortopedia se ocupa especialmente de la artrosis, las fracturas, las lesiones ligamentosas, determinadas hernias discales y las afecciones de los tendones. Las opciones de tratamiento dependen del diagnóstico y de los servicios disponibles.",
+    },
+    {
+      question: "¿Cómo saber si necesito una operación?",
+      reponse:
+        "Solo un profesional sanitario puede determinar si una intervención está indicada después de estudiar los síntomas, las pruebas médicas y los antecedentes del paciente. Algunas situaciones pueden tratarse sin cirugía.",
+    },
+    {
+      question: "¿Qué documentos debo preparar antes de mi estancia médica?",
+      reponse:
+        "Es recomendable reunir los informes médicos, las radiografías, los resultados de resonancias magnéticas o tomografías, la lista de los tratamientos actuales y todos los documentos necesarios para estudiar su historial médico.",
+    },
+    {
+      question: "¿Glomed Group realiza las intervenciones?",
+      reponse:
+        "Glomed Group acompaña a los pacientes en la organización de su estancia y en la coordinación de su recorrido médico. Los procedimientos médicos son realizados por los profesionales y centros sanitarios correspondientes, según su disponibilidad y las indicaciones médicas.",
+    },
+    {
+      question: "¿Cómo organizar una estancia ortopédica en Túnez?",
+      reponse:
+        "Puede ponerse en contacto con nuestro equipo y enviarnos la información necesaria para estudiar su solicitud. La organización dependerá de su historial médico, de la disponibilidad de los profesionales y de las etapas necesarias para su tratamiento.",
+    },
+  ],
+},
+
 
 
 },
@@ -1999,7 +2171,231 @@ de :
         "Sie können Glomed Group kontaktieren, Ihre Anfrage schildern und die relevanten medizinischen Unterlagen übermitteln. Die fachärztliche Empfehlung und die Behandlungsentscheidungen müssen von den zuständigen medizinischen Fachkräften bestätigt werden.",
     },
   ],
-}
+},
+
+es: {
+  title: "Cardiología",
+  subtitle: "Cuide la salud de su corazón",
+  description:
+    "Glomed Group le acompaña en la organización de su recorrido de atención cardiovascular en Túnez, desde la consulta especializada hasta las pruebas médicas y la orientación hacia un tratamiento adecuado.",
+  intro:
+    "La cardiología es la especialidad médica dedicada al corazón y al sistema cardiovascular. Permite prevenir, diagnosticar y tratar las enfermedades cardíacas y los trastornos de la circulación sanguínea. Glomed Group facilita la organización de su estancia médica en Túnez y la coordinación con los profesionales sanitarios.",
+  image: "/images/cardiologie.jpg",
+  alt: "Atención cardiológica y consulta médica",
+
+  services: [
+    "Consultas cardiológicas",
+    "Evaluaciones y pruebas cardiovasculares",
+    "Evaluación de la salud cardíaca",
+    "Orientación hacia cardiólogos y cirujanos especializados",
+    "Organización del recorrido de atención médica en Túnez",
+  ],
+
+  maladies: [
+    {
+      nom: "Enfermedad coronaria",
+      description:
+        "Enfermedad relacionada con el estrechamiento o la obstrucción de las arterias que suministran sangre al músculo cardíaco. Puede provocar dolor torácico y, en algunos casos, un infarto de miocardio.",
+      image: "/cardiologie/corona.avif",
+    },
+    {
+      nom: "Insuficiencia cardíaca",
+      description:
+        "Afección en la que el corazón ya no bombea sangre con suficiente eficacia para satisfacer las necesidades del organismo.",
+      image: "/cardiologie/insuffisance.avif",
+    },
+    {
+      nom: "Trastornos del ritmo cardíaco",
+      description:
+        "Alteraciones del ritmo del corazón, como la fibrilación auricular, la taquicardia o la bradicardia, que requieren una evaluación médica.",
+      image: "/cardiologie/trouble-cardio.avif",
+    },
+    {
+      nom: "Valvulopatías",
+      description:
+        "Enfermedades que afectan a una o varias válvulas del corazón y que pueden alterar la circulación normal de la sangre.",
+      image: "/cardiologie/valveo.avif",
+    },
+    {
+      nom: "Hipertensión arterial",
+      description:
+        "Elevación persistente de la presión arterial que aumenta, entre otros, el riesgo de enfermedades cardiovasculares y requiere un seguimiento adecuado.",
+      image: "/cardiologie/hyper.avif",
+    },
+    {
+      nom: "Aterosclerosis",
+      description:
+        "Acumulación progresiva de depósitos en las paredes de las arterias, que puede reducir la circulación sanguínea y provocar complicaciones cardiovasculares.",
+      image: "/cardiologie/dilatation.avif",
+    },
+    {
+      nom: "Miocardiopatías",
+      description:
+        "Enfermedades del músculo cardíaco que pueden afectar a la capacidad del corazón para contraerse o llenarse correctamente.",
+      image: "/cardiologie/cardiomepathie.avif",
+    },
+    {
+      nom: "Enfermedades de la aorta",
+      description:
+        "Afecciones que afectan a la principal arteria del cuerpo, incluidos determinados aneurismas o estrechamientos, que pueden requerir una evaluación especializada.",
+      image: "/cardiologie/aorte.avif",
+    },
+    {
+      nom: "Pericarditis",
+      description:
+        "Inflamación del pericardio, la membrana que rodea el corazón. Puede provocar dolor torácico y requiere una evaluación médica para identificar su causa y determinar el tratamiento adecuado.",
+      image: "/cardiologie/pericarte.avif",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Bypass coronario",
+      description:
+        "Intervención quirúrgica que crea una nueva vía para el paso de la sangre, evitando determinadas arterias coronarias obstruidas.",
+    },
+    {
+      nom: "Cirugía de las válvulas cardíacas",
+      description:
+        "Intervención destinada, según cada situación, a reparar o sustituir una válvula cardíaca que no funciona correctamente.",
+    },
+    {
+      nom: "Cirugía cardíaca a corazón abierto",
+      description:
+        "Técnica utilizada para determinadas operaciones del corazón. El tipo de intervención depende de la enfermedad diagnosticada y de la evaluación del equipo médico.",
+    },
+    {
+      nom: "Angioplastia e implantación de stent",
+      description:
+        "Procedimiento que generalmente se realiza mediante un catéter para dilatar una arteria estrechada. Puede colocarse un stent para mantener la arteria abierta. No se trata de una cirugía a corazón abierto.",
+    },
+    {
+      nom: "Implantación de un marcapasos",
+      description:
+        "Colocación de un dispositivo médico que permite regular determinados ritmos cardíacos demasiado lentos.",
+    },
+    {
+      nom: "Tratamiento de las enfermedades de la aorta",
+      description:
+        "Atención especializada de determinadas enfermedades de la aorta, que pueden requerir una intervención quirúrgica o una técnica endovascular.",
+    },
+  ],
+
+  examens: [
+    "Electrocardiograma (ECG)",
+    "Ecocardiografía",
+    "Prueba de esfuerzo, si está indicada",
+    "Holter ECG para controlar el ritmo cardíaco",
+    "Medición de la presión arterial",
+    "Análisis de sangre adaptados a la evaluación cardiovascular",
+    "Tomografía computarizada cardíaca o coronariografía según la indicación médica",
+    "Resonancia magnética cardíaca para analizar la estructura y el funcionamiento del músculo cardíaco",
+    "Gammagrafía miocárdica para evaluar la circulación sanguínea en el músculo cardíaco",
+  ],
+
+  diagnostic: [
+    {
+      nom: "Electrocardiograma (ECG)",
+      description:
+        "Registra la actividad eléctrica del corazón para detectar determinados trastornos del ritmo y anomalías cardíacas.",
+    },
+    {
+      nom: "Ecocardiografía",
+      description:
+        "Prueba mediante ultrasonidos que permite observar la estructura del corazón, el funcionamiento de las válvulas y la capacidad de bombeo.",
+    },
+    {
+      nom: "Holter cardíaco",
+      description:
+        "Registro continuo de la actividad eléctrica del corazón durante un período determinado para detectar trastornos intermitentes del ritmo cardíaco.",
+    },
+    {
+      nom: "Prueba de esfuerzo",
+      description:
+        "Evalúa la respuesta del corazón al esfuerzo físico controlado, cuando el médico considera indicada esta prueba.",
+    },
+    {
+      nom: "Coronariografía",
+      description:
+        "Prueba especializada que permite visualizar las arterias coronarias y detectar posibles estrechamientos u obstrucciones.",
+    },
+    {
+      nom: "Tomografía computarizada cardíaca",
+      description:
+        "Prueba de diagnóstico por imagen que permite obtener imágenes detalladas del corazón y de determinadas estructuras vasculares, según la indicación médica.",
+    },
+    {
+      nom: "Resonancia magnética cardíaca",
+      description:
+        "La resonancia magnética cardíaca proporciona imágenes detalladas del corazón y puede ayudar a evaluar el músculo cardíaco, determinadas inflamaciones y diversas anomalías estructurales.",
+    },
+    {
+      nom: "PET scan (tomografía por emisión de positrones)",
+      description:
+        "Prueba de diagnóstico por imagen que utiliza un marcador para estudiar determinadas actividades de los tejidos. En cardiología, puede utilizarse en situaciones específicas para evaluar la inflamación o la viabilidad del músculo cardíaco.",
+    },
+    {
+      nom: "Análisis de sangre",
+      description:
+        "Pueden contribuir a evaluar determinados factores de riesgo cardiovascular o a detectar signos de daño cardíaco, según el contexto médico.",
+    },
+    {
+      nom: "Gammagrafía miocárdica",
+      description:
+        "Prueba de diagnóstico por imagen que utiliza un marcador radiactivo para estudiar la circulación sanguínea en el músculo cardíaco, especialmente en determinadas evaluaciones de la isquemia miocárdica.",
+    },
+    {
+      nom: "Medición del índice tobillo-brazo (ITB)",
+      description:
+        "Prueba no invasiva que compara la presión arterial en el tobillo y en el brazo para detectar una posible enfermedad arterial periférica asociada al riesgo cardiovascular.",
+    },
+  ],
+
+  faq: [
+    {
+      question: "¿Qué es la cardiología?",
+      reponse:
+        "La cardiología es la especialidad médica que estudia el corazón y los vasos sanguíneos. Se ocupa especialmente del diagnóstico, la prevención y el seguimiento de las enfermedades cardiovasculares.",
+    },
+    {
+      question: "¿Qué enfermedades se tratan en cardiología?",
+      reponse:
+        "La atención puede incluir enfermedades coronarias, insuficiencia cardíaca, trastornos del ritmo, enfermedades de las válvulas, hipertensión arterial y determinadas enfermedades del músculo cardíaco. El tratamiento depende del diagnóstico establecido por el médico.",
+    },
+    {
+      question: "¿Cuándo es necesaria una cirugía cardíaca?",
+      reponse:
+        "Puede considerarse una intervención quirúrgica para determinadas enfermedades coronarias, valvulares o de la aorta. La decisión depende de las pruebas médicas, de la gravedad de la enfermedad, de los tratamientos disponibles y de la opinión de un equipo especializado.",
+    },
+    {
+      question: "¿Cuál es la diferencia entre un escáner y una resonancia magnética cardíaca?",
+      reponse:
+        "El escáner utiliza rayos X y puede ayudar especialmente a examinar las estructuras cardíacas y las arterias coronarias. La resonancia magnética utiliza un campo magnético y permite analizar detalladamente el músculo cardíaco y determinados tejidos. La elección depende de la necesidad médica.",
+    },
+    {
+      question: "¿Para qué sirve el PET scan en cardiología?",
+      reponse:
+        "El PET scan, también llamado TEP, puede utilizarse en determinadas situaciones especializadas para evaluar la actividad de los tejidos cardíacos, especialmente cuando se investiga una inflamación o se evalúa la viabilidad del músculo cardíaco. No es necesario para todos los pacientes.",
+    },
+    {
+      question: "¿Qué documentos debo preparar antes de una consulta?",
+      reponse:
+        "Si dispone de ellos, prepare sus informes médicos, electrocardiogramas anteriores, ecocardiografías, resultados de análisis, recetas médicas y pruebas de diagnóstico por imagen. El médico determinará qué pruebas complementarias son necesarias.",
+    },
+    {
+      question: "¿Puede Glomed Group organizar una estancia médica en Túnez?",
+      reponse:
+        "Glomed Group puede acompañarle en la organización de su recorrido médico, especialmente en la coordinación de citas, el alojamiento y los traslados, según los servicios ofrecidos y la disponibilidad de los centros sanitarios asociados.",
+    },
+    {
+      question: "¿Cómo puedo obtener orientación hacia un especialista?",
+      reponse:
+        "Puede ponerse en contacto con Glomed Group para presentar su solicitud y enviar los documentos médicos necesarios. La orientación y las decisiones sobre el tratamiento deberán ser confirmadas por los profesionales sanitarios correspondientes.",
+    },
+  ],
+},
+
+
 
 },
 
@@ -3045,6 +3441,215 @@ de :
   ],
 },
 
+es: {
+  title: "Neumología",
+  subtitle: "Cuide su salud respiratoria",
+  description:
+    "Glomed Group le acompaña en la organización de su recorrido de atención respiratoria en Túnez, desde la consulta especializada hasta las pruebas médicas y la orientación hacia un tratamiento adecuado.",
+  intro:
+    "La neumología es la especialidad médica dedicada a los pulmones y las vías respiratorias. Se ocupa de la prevención, el diagnóstico y el tratamiento de las enfermedades respiratorias, así como de la evaluación de la función pulmonar. Glomed Group facilita la organización de su estancia médica en Túnez y la coordinación con los profesionales sanitarios.",
+  image: "/images/pneumologie.jpg",
+  alt: "Consulta y atención médica en neumología",
+
+  services: [
+    "Consultas de neumología",
+    "Evaluación de la función respiratoria",
+    "Evaluación de las enfermedades pulmonares",
+    "Estudio de los trastornos respiratorios del sueño",
+    "Orientación hacia neumólogos y equipos especializados",
+    "Organización del recorrido de atención médica en Túnez",
+  ],
+
+  maladies: [
+    {
+      nom: "Asma",
+      image: "/pneumologie/asthme.avif",
+      description:
+        "Enfermedad inflamatoria crónica de las vías respiratorias que puede provocar episodios de dificultad respiratoria, tos, silbidos al respirar y opresión en el pecho.",
+    },
+    {
+      nom: "Enfermedad pulmonar obstructiva crónica (EPOC)",
+      image: "/pneumologie/bronchite-chronique.avif",
+      description:
+        "Enfermedad respiratoria crónica que limita el flujo de aire en los pulmones y puede provocar dificultad respiratoria persistente.",
+    },
+    {
+      nom: "Neumonía",
+      image: "/pneumologie/pneumonie.avif",
+      description:
+        "Infección de los pulmones que puede provocar fiebre, tos, dolor torácico y dificultades respiratorias.",
+    },
+    {
+      nom: "Pleuritis",
+      image: "/pneumologie/pleuresie.avif",
+      description:
+        "Inflamación de la pleura, la membrana que rodea los pulmones, que puede provocar dolor torácico que aumenta al respirar y, en ocasiones, dificultad respiratoria.",
+    },
+    {
+      nom: "Cáncer de pulmón",
+      image: "/pneumologie/cancer-poument.avif",
+      description:
+        "Enfermedad caracterizada por el desarrollo de células cancerosas en los pulmones. El diagnóstico y el tratamiento requieren una evaluación especializada.",
+    },
+    {
+      nom: "Fibrosis pulmonar",
+      image: "/pneumologie/Fibrose-pulmonaire.avif",
+      description:
+        "Afección caracterizada por la formación de tejido cicatricial en los pulmones, que puede dificultar la respiración.",
+    },
+    {
+      nom: "Apnea obstructiva del sueño",
+      image: "/pneumologie/apne.avif",
+      description:
+        "Trastorno caracterizado por interrupciones repetidas de la respiración durante el sueño, que pueden alterar el descanso y afectar a la salud.",
+    },
+    {
+      nom: "Bronquitis crónica",
+      image: "/pneumologie/bronchite.avif",
+      description:
+        "Inflamación prolongada de los bronquios que puede provocar tos persistente y expectoración.",
+    },
+    {
+      nom: "Embolia pulmonar",
+      image: "/pneumologie/embolie.avif",
+      description:
+        "Obstrucción de una arteria pulmonar, generalmente causada por un coágulo sanguíneo. Puede constituir una urgencia médica.",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Broncoscopia",
+      description:
+        "Examen realizado con un instrumento flexible que se introduce en las vías respiratorias para examinarlas y, si es necesario, obtener muestras.",
+    },
+    {
+      nom: "Biopsia pulmonar",
+      description:
+        "Obtención de una muestra de tejido pulmonar para su análisis cuando sea necesario para establecer el diagnóstico.",
+    },
+    {
+      nom: "Cirugía de nódulos pulmonares",
+      description:
+        "Puede considerarse una intervención para determinados nódulos pulmonares según su naturaleza, evolución y evaluación especializada.",
+    },
+    {
+      nom: "Cirugía del cáncer de pulmón",
+      description:
+        "En determinados cánceres localizados, puede considerarse una intervención quirúrgica después de una evaluación completa y de una decisión tomada por un equipo especializado.",
+    },
+    {
+      nom: "Drenaje pleural",
+      description:
+        "Procedimiento destinado a evacuar aire o líquido acumulado alrededor del pulmón en determinadas situaciones médicas.",
+    },
+    {
+      nom: "Rehabilitación respiratoria",
+      description:
+        "Programa personalizado que incluye ejercicios y acompañamiento para mejorar la capacidad funcional y la calidad de vida respiratoria.",
+    },
+  ],
+
+  examens: [
+    "Pruebas de función pulmonar",
+    "Espirometría",
+    "Radiografía de tórax",
+    "Tomografía computarizada de tórax",
+    "Gasometría arterial, según la indicación médica",
+    "Broncoscopia, si es necesario",
+    "Estudio del sueño en caso de sospecha de apnea",
+    "Prueba de marcha de 6 minutos",
+    "Medición de la saturación de oxígeno (pulsioximetría)",
+  ],
+
+  diagnostic: [
+    {
+      nom: "Pruebas de función pulmonar",
+      description:
+        "Conjunto de pruebas que permiten evaluar los volúmenes pulmonares, los flujos de aire y determinadas características del funcionamiento respiratorio.",
+    },
+    {
+      nom: "Espirometría",
+      description:
+        "Mide la cantidad de aire inhalado y exhalado, así como la velocidad de espiración, para ayudar a diagnosticar determinadas enfermedades respiratorias.",
+    },
+    {
+      nom: "Radiografía de tórax",
+      description:
+        "Prueba que utiliza rayos X para examinar los pulmones y determinadas estructuras del tórax.",
+    },
+    {
+      nom: "Tomografía computarizada de tórax",
+      description:
+        "Prueba de diagnóstico por imagen detallada que permite observar los pulmones, los bronquios y las estructuras torácicas.",
+    },
+    {
+      nom: "Resonancia magnética torácica",
+      description:
+        "Prueba de diagnóstico por imagen utilizada en determinadas indicaciones para estudiar estructuras torácicas específicas. No es la prueba de primera elección para todas las enfermedades pulmonares.",
+    },
+    {
+      nom: "PET scan (tomografía por emisión de positrones)",
+      description:
+        "Prueba de diagnóstico por imagen que puede utilizarse, especialmente, en la evaluación de determinados cánceres pulmonares, según la situación clínica y las recomendaciones médicas.",
+    },
+    {
+      nom: "Broncoscopia",
+      description:
+        "Permite al especialista examinar el interior de las vías respiratorias y, si es necesario, obtener muestras para su análisis.",
+    },
+    {
+      nom: "Estudio del sueño",
+      description:
+        "La poligrafía o la polisomnografía permiten evaluar la respiración durante el sueño cuando se sospecha un trastorno respiratorio nocturno.",
+    },
+    {
+      nom: "Gasometría arterial",
+      description:
+        "Análisis que permite evaluar, entre otros parámetros, los niveles de oxígeno y dióxido de carbono en la sangre, según la indicación médica.",
+    },
+  ],
+
+  faq: [
+    {
+      question: "¿Qué es la neumología?",
+      reponse:
+        "La neumología es la especialidad médica dedicada a los pulmones y las vías respiratorias. Trata especialmente el asma, la EPOC, las infecciones pulmonares y determinadas enfermedades respiratorias crónicas.",
+    },
+    {
+      question: "¿Cuándo debo consultar a un neumólogo?",
+      reponse:
+        "Una consulta puede ser recomendable en caso de tos persistente, dificultad respiratoria, silbidos al respirar, infecciones pulmonares repetidas o sospecha de un trastorno respiratorio del sueño.",
+    },
+    {
+      question: "¿Qué pruebas permiten evaluar los pulmones?",
+      reponse:
+        "Según los síntomas, el médico puede solicitar una espirometría, pruebas de función pulmonar, una radiografía o una tomografía computarizada de tórax, u otras pruebas adaptadas a cada situación.",
+    },
+    {
+      question: "¿Cuál es la diferencia entre una tomografía de tórax y un PET scan?",
+      reponse:
+        "La tomografía proporciona imágenes detalladas de la anatomía del tórax. El PET scan estudia la actividad metabólica de determinados tejidos y puede contribuir especialmente a la evaluación de algunos cánceres. La elección depende de la necesidad médica.",
+    },
+    {
+      question: "¿Siempre es necesaria una intervención quirúrgica?",
+      reponse:
+        "No. Muchas enfermedades respiratorias se tratan con medicamentos, seguimiento médico o rehabilitación respiratoria. La cirugía solo se considera en determinadas situaciones después de una evaluación especializada.",
+    },
+    {
+      question: "¿Cómo preparar una estancia médica de neumología en Túnez?",
+      reponse:
+        "Prepare, si dispone de ellos, sus informes médicos, pruebas de diagnóstico por imagen, resultados de las pruebas respiratorias, recetas y tratamientos actuales. Glomed Group puede acompañarle en la organización de su recorrido médico y de los servicios acordados.",
+    },
+    {
+      question: "¿Cómo puedo obtener orientación hacia un especialista?",
+      reponse:
+        "Puede ponerse en contacto con Glomed Group para presentar su solicitud y enviar los documentos médicos necesarios. El diagnóstico y las decisiones sobre el tratamiento deben ser confirmados por los profesionales sanitarios correspondientes.",
+    },
+  ],
+},
+
+
 },
 
 urologie: {
@@ -3832,163 +4437,164 @@ de :
     },
   ],
 },
-de : 
-{
-  title: "Urologie",
-  subtitle: "Diagnose und Behandlung von Harnwegs- und Genitalerkrankungen",
+
+es: {
+  title: "Urología",
+  subtitle: "Diagnóstico y tratamiento de las enfermedades urinarias y genitales",
   description:
-    "Glomed Group begleitet Patienten bei ihrem urologischen Behandlungsweg in Tunesien – von der fachärztlichen Untersuchung über die Behandlung bis hin zur medizinischen Nachsorge.",
+    "Glomed Group acompaña a los pacientes durante todo su proceso de atención urológica en Túnez, desde la consulta especializada hasta el tratamiento y el seguimiento médico.",
   image: "/images/urologie.jpg",
-  alt: "Medizinische Versorgung im Bereich Urologie",
+  alt: "Atención médica en urología",
 
   intro: {
-    titre: "Eine individuell angepasste urologische Versorgung für jeden Patienten",
+    titre: "Una atención urológica adaptada a cada paciente",
     texte:
-      "Die Urologie ist ein medizinisches und chirurgisches Fachgebiet, das sich mit Erkrankungen der Nieren, der Harnwege und der männlichen Geschlechtsorgane befasst. In Tunesien erleichtert Glomed Group die Organisation von Beratungsgesprächen, Untersuchungen und Behandlungen durch medizinische Fachkräfte.",
+      "La urología es una especialidad médica y quirúrgica que se ocupa de las enfermedades de los riñones, las vías urinarias y el aparato genital masculino. En Túnez, Glomed Group facilita la organización de consultas, pruebas diagnósticas y tratamientos con profesionales sanitarios.",
   },
 
   services: [
-    "Fachärztliche Beratung und Vermittlung an einen Urologen",
-    "Abklärung von Harnwegsbeschwerden",
-    "Behandlung von Harnsteinen",
-    "Diagnose und Überwachung von Prostataerkrankungen",
-    "Unterstützung bei urologischen Eingriffen",
-    "Organisation des medizinischen Aufenthalts und der Nachsorge",
+    "Consulta y orientación con un especialista en urología",
+    "Evaluación de los trastornos urinarios",
+    "Tratamiento de los cálculos urinarios",
+    "Diagnóstico y seguimiento de las enfermedades de la próstata",
+    "Acompañamiento para intervenciones urológicas",
+    "Organización de la estancia médica y del seguimiento",
   ],
 
   maladies: [
     {
-      nom: "Nieren- und Harnsteine",
+      nom: "Cálculos renales y urinarios",
       description:
-        "Bildung von Steinen in den Nieren oder Harnwegen, die starke Schmerzen oder eine Nierenkolik verursachen können.",
+        "Formación de cálculos en los riñones o las vías urinarias, que pueden provocar dolores intensos o cólicos nefríticos.",
       image: "/urologie/calcul.webp",
     },
     {
-      nom: "Nierenkrebs",
+      nom: "Cáncer de riñón",
       description:
-        "Tumor, der sich im Nierengewebe entwickelt und eine fachärztliche Beurteilung erfordert, um die geeignete Behandlung festzulegen.",
+        "Tumor que se desarrolla en los tejidos del riñón y requiere una evaluación especializada para determinar el tratamiento adecuado.",
       image: "/urologie/cancer.avif",
     },
     {
-      nom: "Gutartige Prostatavergrößerung",
+      nom: "Hiperplasia benigna de próstata",
       description:
-        "Vergrößerung der Prostata, die zu Schwierigkeiten beim Wasserlassen und nächtlichem Aufwachen führen kann.",
+        "Aumento del tamaño de la próstata que puede provocar dificultades para orinar y despertares nocturnos.",
       image: "/urologie/Hypertrophie.avif",
     },
     {
-      nom: "Harnwegsinfektionen",
+      nom: "Infecciones urinarias",
       description:
-        "Infektionen der Harnwege, die eine angemessene Diagnose und Behandlung erfordern.",
+        "Infecciones que afectan a las vías urinarias y requieren un diagnóstico y tratamiento adecuados.",
       image: "/urologie/infection.avif",
     },
     {
-      nom: "Blasenkrebs",
+      nom: "Cáncer de vejiga",
       description:
-        "Erkrankung, die sich unter anderem durch Blut im Urin bemerkbar machen kann und eine fachärztliche Abklärung erfordert.",
+        "Enfermedad que puede manifestarse, entre otros síntomas, mediante la presencia de sangre en la orina y requiere una evaluación especializada.",
       image: "/urologie/vessie.avif",
     },
     {
-      nom: "Prostatakrebs",
+      nom: "Cáncer de próstata",
       description:
-        "Tumorerkrankung der Prostata, die eine fachärztliche Untersuchung erfordert, um das Krankheitsstadium und die geeigneten Behandlungsmöglichkeiten festzustellen.",
+        "Tumor de la próstata que requiere una evaluación especializada para determinar el estadio de la enfermedad y las opciones terapéuticas adecuadas.",
       image: "/urologie/cancer-prostate.avif",
     },
     {
-      nom: "Harninkontinenz",
+      nom: "Incontinencia urinaria",
       description:
-        "Unwillkürlicher Urinverlust, der verschiedene Ursachen haben kann und eine individuelle medizinische Abklärung erfordert.",
+        "Pérdida involuntaria de orina que puede tener diferentes causas y requiere una evaluación médica personalizada.",
       image: "/urologie/perte.avif",
     },
     {
-      nom: "Varikozele",
+      nom: "Varicocele",
       description:
-        "Erweiterung der Venen im Bereich des Hodens, die Beschwerden verursachen oder mit Fruchtbarkeitsproblemen verbunden sein kann.",
+        "Dilatación de las venas alrededor del testículo que puede provocar molestias o estar relacionada con problemas de fertilidad.",
       image: "/urologie/dilatation.avif",
     },
     {
-      nom: "Störungen der männlichen Fruchtbarkeit",
+      nom: "Trastornos de la fertilidad masculina",
       description:
-        "Schwierigkeiten, ein Kind zu zeugen, die eine urologische und andrologische Untersuchung zur Ermittlung möglicher Ursachen erforderlich machen können.",
+        "Dificultades para concebir que pueden requerir una evaluación urológica y andrológica para identificar las posibles causas.",
       image: "/urologie/trouble.avif",
     },
   ],
 
   interventions: [
     {
-      nom: "Ureteroskopie",
+      nom: "Ureteroscopia",
       description:
-        "Endoskopischer Eingriff zur Untersuchung der Harnwege und zur Behandlung bestimmter Harnsteine, abhängig von ihrer Lage.",
+        "Intervención endoscópica que permite examinar las vías urinarias y tratar determinados cálculos según su localización.",
     },
     {
-      nom: "Lithotripsie",
+      nom: "Litotricia",
       description:
-        "Verfahren, bei dem Stoßwellen eingesetzt werden, um bestimmte Harnsteine zu zertrümmern, sofern diese Methode medizinisch angezeigt ist.",
+        "Técnica que utiliza ondas de choque para fragmentar determinados cálculos urinarios cuando está indicada.",
     },
     {
-      nom: "Transurethrale Resektion der Prostata",
+      nom: "Resección transuretral de próstata",
       description:
-        "Endoskopischer Eingriff, der zur Behandlung bestimmter Beschwerden beim Wasserlassen aufgrund einer gutartigen Prostatavergrößerung angeboten werden kann.",
+        "Intervención endoscópica que puede proponerse para tratar determinados síntomas urinarios relacionados con la hiperplasia benigna de próstata.",
     },
     {
-      nom: "Prostataoperation",
+      nom: "Cirugía de próstata",
       description:
-        "Chirurgische Behandlung, die abhängig von der Erkrankung, ihrem Stadium und dem allgemeinen Gesundheitszustand des Patienten ausgewählt wird.",
+        "Tratamiento quirúrgico elegido en función de la enfermedad, su estadio y el estado general del paciente.",
     },
     {
-      nom: "Zystoskopie",
+      nom: "Cistoscopia",
       description:
-        "Endoskopische Untersuchung zur Betrachtung des Inneren der Harnblase und der Harnröhre.",
+        "Exploración endoscópica que permite observar el interior de la vejiga y la uretra.",
     },
     {
-      nom: "Varikozelenoperation",
+      nom: "Cirugía del varicocele",
       description:
-        "Chirurgischer Eingriff, der in bestimmten Situationen angeboten werden kann, insbesondere bei Schmerzen oder Fruchtbarkeitsproblemen.",
+        "Intervención que puede proponerse en determinadas situaciones, especialmente cuando existen dolores o problemas de fertilidad.",
     },
   ],
 
   examens: [
-    "Ultraschalluntersuchung der Nieren und Harnblase",
-    "Prostata-Ultraschall",
-    "Urinanalyse und Urinkultur",
-    "PSA-Bestimmung je nach medizinischer Indikation",
-    "CT-Untersuchung der Harnwege",
-    "MRT der Prostata je nach medizinischer Indikation",
-    "Zystoskopie",
-    "Uroflowmetrie",
-    "Urodynamische Untersuchung je nach Symptomen",
+    "Ecografía renal y vesical",
+    "Ecografía de próstata",
+    "Análisis de orina y urocultivo",
+    "Determinación del PSA según indicación médica",
+    "Tomografía computarizada de las vías urinarias",
+    "Resonancia magnética de próstata según indicación médica",
+    "Cistoscopia",
+    "Flujometría urinaria",
+    "Estudio urodinámico según los síntomas",
   ],
 
   diagnostic: [
-    "Klinische Untersuchung und Erhebung der Krankengeschichte",
-    "Laboruntersuchungen und Urinanalysen",
-    "Den Symptomen entsprechende bildgebende Untersuchungen",
-    "Endoskopische Untersuchungen, falls erforderlich",
-    "Fachärztliche Abklärung vor einem möglichen Eingriff",
+    "Evaluación clínica y antecedentes médicos",
+    "Análisis biológicos y urinarios",
+    "Pruebas de diagnóstico por imagen adaptadas a los síntomas",
+    "Exploraciones endoscópicas si son necesarias",
+    "Evaluación especializada antes de una posible intervención",
   ],
 
   faq: [
     {
-      question: "Wann sollte man einen Urologen aufsuchen?",
+      question: "¿Cuándo se debe consultar a un urólogo?",
       reponse:
-        "Eine urologische Untersuchung kann bei Schmerzen oder Beschwerden beim Wasserlassen, Blut im Urin, Harnsteinen, Prostatabeschwerden oder Schwierigkeiten beim Wasserlassen angezeigt sein.",
+        "Se recomienda una consulta en caso de dolor al orinar, presencia de sangre en la orina, cálculos urinarios, problemas de próstata o dificultades para orinar.",
     },
     {
-      question: "Welche Untersuchungen können in der Urologie erforderlich sein?",
+      question: "¿Qué pruebas pueden ser necesarias en urología?",
       reponse:
-        "Abhängig von den Symptomen kann der Facharzt eine Urinanalyse, eine Ultraschalluntersuchung, eine CT, eine MRT oder eine endoskopische Untersuchung veranlassen.",
+        "Según los síntomas, el especialista puede solicitar un análisis de orina, una ecografía, una tomografía computarizada, una resonancia magnética o una exploración endoscópica.",
     },
     {
-      question: "Müssen Harnsteine immer operiert werden?",
+      question: "¿Los cálculos urinarios siempre requieren una operación?",
       reponse:
-        "Nein. Die Behandlung hängt insbesondere von der Größe und Lage des Steins, den Symptomen und dem möglichen Vorliegen von Komplikationen ab.",
+        "No. El tratamiento depende, entre otros factores, del tamaño y la localización del cálculo, de los síntomas y de la posible existencia de complicaciones.",
     },
     {
-      question: "Organisiert Glomed Group den medizinischen Aufenthalt in Tunesien?",
+      question: "¿Glomed Group organiza la estancia médica en Túnez?",
       reponse:
-        "Glomed Group unterstützt Patienten bei der Organisation ihres medizinischen Behandlungswegs und ihres Aufenthalts in Abstimmung mit den zuständigen medizinischen Fachkräften und Einrichtungen.",
+        "Glomed Group acompaña a los pacientes en la organización de su proceso médico y de su estancia en Túnez, en coordinación con los profesionales sanitarios y los centros médicos correspondientes.",
     },
   ],
-}
+},
+
 
 },
  
@@ -5058,6 +5664,220 @@ de: {
   ],
 },
 
+es: {
+  title: "Pediatría",
+  subtitle: "La salud de los niños es nuestra prioridad",
+  description:
+    "Glomed Group acompaña a las familias en la organización del proceso médico de sus hijos en Túnez, facilitando la coordinación con los profesionales sanitarios.",
+
+  intro:
+    "La pediatría es la especialidad médica dedicada a la salud de los recién nacidos, los niños y los adolescentes. Incluye la prevención, el seguimiento del crecimiento, el diagnóstico y el tratamiento de las enfermedades infantiles. Glomed Group facilita la organización de la estancia médica y la coordinación con los profesionales sanitarios en Túnez.",
+
+  image: "/images/pediatrie.jpg",
+  alt: "Atención médica pediátrica",
+
+  services: [
+    "Consultas pediátricas",
+    "Seguimiento del crecimiento y del desarrollo",
+    "Evaluación de las enfermedades infantiles",
+    "Pruebas médicas adaptadas a los niños",
+    "Orientación hacia pediatras y especialistas",
+    "Acompañamiento a las familias",
+    "Organización del proceso de atención médica en Túnez",
+    "Asesoramiento en nutrición y alimentación infantil",
+    "Seguimiento de las vacunas y prevención de enfermedades",
+  ],
+
+  maladies: [
+    {
+      nom: "Asma infantil",
+      image: "/pediatrie/asthme-enfant.avif",
+      description:
+        "Enfermedad inflamatoria de las vías respiratorias que puede provocar tos, sibilancias y dificultades respiratorias.",
+    },
+    {
+      nom: "Bronquiolitis",
+      image: "/pediatrie/broncholite.avif",
+      description:
+        "Infección respiratoria frecuente en los lactantes que puede provocar tos, respiración rápida y dificultades para alimentarse.",
+    },
+    {
+      nom: "Otitis",
+      image: "/pediatrie/otite.avif",
+      description:
+        "Inflamación o infección del oído que puede provocar dolor, fiebre y, en ocasiones, una disminución temporal de la audición.",
+    },
+    {
+      nom: "Gastroenteritis",
+      image: "/pediatrie/gastro-enterite.avif",
+      description:
+        "Infección digestiva que puede provocar diarrea, vómitos y riesgo de deshidratación.",
+    },
+    {
+      nom: "Alergias infantiles",
+      image: "/pediatrie/allergie.avif",
+      description:
+        "Reacciones del sistema inmunitario ante determinadas sustancias que pueden provocar manifestaciones cutáneas, digestivas o respiratorias.",
+    },
+    {
+      nom: "Anemia infantil",
+      image: "/pediatrie/anemie.avif",
+      description:
+        "Disminución de la hemoglobina en la sangre que puede provocar cansancio, palidez o falta de energía.",
+    },
+    {
+      nom: "Diabetes tipo 1",
+      image: "/pediatrie/diabete.avif",
+      description:
+        "Enfermedad crónica en la que el páncreas deja de producir suficiente insulina y que requiere un seguimiento médico regular.",
+    },
+    {
+      nom: "Trastornos del crecimiento",
+      image: "/pediatrie/trouble-croissance.avif",
+      description:
+        "Alteraciones en la evolución de la talla o del peso que pueden requerir una evaluación del crecimiento y del desarrollo del niño.",
+    },
+    {
+      nom: "Infecciones urinarias",
+      image: "/pediatrie/infection-urinaire.avif",
+      description:
+        "Infecciones de las vías urinarias que pueden manifestarse mediante fiebre, dolor o trastornos urinarios según la edad del niño.",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Atención de urgencias pediátricas",
+      description:
+        "Evaluación médica rápida de los síntomas agudos del niño para determinar los cuidados necesarios.",
+    },
+    {
+      nom: "Cirugía pediátrica",
+      description:
+        "Derivación a un equipo de cirugía pediátrica cuando determinadas enfermedades requieren una intervención quirúrgica.",
+    },
+    {
+      nom: "Tratamiento de malformaciones congénitas",
+      description:
+        "Evaluación de las anomalías presentes desde el nacimiento y derivación a los especialistas adecuados para determinar los cuidados o intervenciones necesarios.",
+    },
+    {
+      nom: "Tratamiento de las amígdalas y las adenoides",
+      description:
+        "En determinadas situaciones de otorrinolaringología (ORL), puede considerarse una intervención después de una evaluación especializada.",
+    },
+    {
+      nom: "Seguimiento de enfermedades crónicas",
+      description:
+        "Organización del seguimiento médico de los niños que padecen enfermedades que requieren controles y cuidados periódicos.",
+    },
+    {
+      nom: "Asesoramiento nutricional",
+      description:
+        "Evaluación de las necesidades nutricionales del niño y derivación a los profesionales adecuados cuando sea necesario.",
+    },
+  ],
+
+  examens: [
+    "Exploración clínica pediátrica",
+    "Medición del peso, la talla y el perímetro craneal según la edad",
+    "Análisis de sangre",
+    "Análisis de orina",
+    "Ecografía, según indicación médica",
+    "Radiografía, según indicación médica",
+    "Pruebas de alergia, si son necesarias",
+    "Evaluación del desarrollo psicomotor",
+    "Medición de la saturación de oxígeno, si es necesario",
+  ],
+
+  diagnostic: [
+    {
+      nom: "Exploración clínica pediátrica",
+      description:
+        "Evaluación del estado general del niño, sus síntomas, sus antecedentes médicos y los signos clínicos.",
+    },
+    {
+      nom: "Evaluación del crecimiento",
+      description:
+        "Medición del peso, la talla y, según la edad, el perímetro craneal para realizar un seguimiento del desarrollo del niño.",
+    },
+    {
+      nom: "Análisis de sangre",
+      description:
+        "Pruebas de laboratorio que pueden ayudar a detectar una infección, anemia u otras alteraciones según los síntomas.",
+    },
+    {
+      nom: "Electrocardiograma (ECG)",
+      description:
+        "Registra la actividad eléctrica del corazón para ayudar a evaluar determinados trastornos del ritmo cardíaco o síntomas cardíacos en los niños.",
+    },
+    {
+      nom: "Prueba de audición",
+      description:
+        "Examen que permite evaluar la capacidad auditiva del niño y detectar una posible pérdida de audición que requiera seguimiento especializado.",
+    },
+    {
+      nom: "Análisis de orina",
+      description:
+        "Prueba utilizada, entre otras cosas, para detectar infecciones urinarias o determinadas alteraciones del sistema urinario.",
+    },
+    {
+      nom: "Ecografía pediátrica",
+      description:
+        "Prueba de diagnóstico por imagen que no utiliza rayos X y permite examinar determinados órganos según la necesidad médica.",
+    },
+    {
+      nom: "Radiografía",
+      description:
+        "Prueba de diagnóstico por imagen que se realiza únicamente cuando está indicada, tomando las precauciones adecuadas a la edad del niño.",
+    },
+    {
+      nom: "Pruebas de alergia",
+      description:
+        "Exámenes que pueden ayudar a identificar una posible alergia, según los síntomas y la evaluación médica.",
+    },
+    {
+      nom: "Evaluación del desarrollo",
+      description:
+        "Evaluación de las habilidades motoras, el lenguaje, las interacciones y las demás etapas del desarrollo según la edad del niño.",
+    },
+  ],
+
+  faq: [
+    {
+      question: "¿Qué trata la pediatría?",
+      reponse:
+        "La pediatría se ocupa de la salud de los recién nacidos, los niños y los adolescentes, incluyendo su crecimiento, desarrollo y las enfermedades infantiles.",
+    },
+    {
+      question: "¿Cuándo se debe consultar a un pediatra?",
+      reponse:
+        "Una consulta puede ser útil para controlar el crecimiento, evaluar síntomas persistentes, infecciones recurrentes, trastornos alimentarios o cualquier preocupación relacionada con el desarrollo del niño.",
+    },
+    {
+      question: "¿Qué documentos se deben preparar para una consulta?",
+      reponse:
+        "Si dispone de ellos, prepare el historial médico infantil, los informes médicos, los resultados de las pruebas, las recetas y la información sobre los tratamientos actuales.",
+    },
+    {
+      question: "¿Qué pruebas se pueden realizar a un niño?",
+      reponse:
+        "Las pruebas dependen de la edad, los síntomas y la evaluación médica. Pueden incluir una exploración clínica, análisis de laboratorio o pruebas de diagnóstico por imagen cuando sean necesarias.",
+    },
+    {
+      question: "¿Cómo organizar una estancia médica pediátrica en Túnez?",
+      reponse:
+        "Puede ponerse en contacto con Glomed Group para presentar su solicitud y los documentos disponibles. La organización depende de las necesidades del niño y de la orientación de los profesionales sanitarios.",
+    },
+    {
+      question: "¿Las pruebas son las mismas para todos los niños?",
+      reponse:
+        "No. Las pruebas y los tratamientos se adaptan a la edad, al estado de salud y a la situación de cada niño, después de una evaluación médica.",
+    },
+  ],
+},
+
+
 
 },
 
@@ -6104,6 +6924,215 @@ de: {
     },
   ],
 },
+
+es: {
+  title: "Gastroenterología",
+  subtitle: "Cuide de su salud digestiva",
+  description:
+    "Glomed Group le acompaña en la organización de su proceso de atención médica digestiva en Túnez, desde la consulta especializada hasta las pruebas diagnósticas y la orientación hacia un tratamiento adecuado.",
+
+  intro:
+    "La gastroenterología es la especialidad médica dedicada al sistema digestivo, especialmente al esófago, el estómago, los intestinos, el hígado, la vesícula biliar y el páncreas. Glomed Group facilita la coordinación con los profesionales sanitarios y la organización de su estancia médica en Túnez.",
+
+  image: "/images/gastro.jpg",
+  alt: "Consulta de gastroenterología",
+
+  services: [
+    "Consultas de gastroenterología",
+    "Evaluación de los trastornos digestivos",
+    "Estudio de las enfermedades hepáticas",
+    "Exploración de las enfermedades intestinales",
+    "Derivación a gastroenterólogos especializados",
+    "Asesoramiento en nutrición digestiva",
+    "Organización del proceso de atención médica en Túnez",
+    "Seguimiento de las enfermedades digestivas crónicas",
+    "Preparación y coordinación de las pruebas digestivas",
+  ],
+
+  maladies: [
+    {
+      nom: "Reflujo gastroesofágico",
+      image: "/gastro-enterologie/reflux.avif",
+      description:
+        "Reflujo del contenido del estómago hacia el esófago que puede provocar ardor, regurgitación o molestias digestivas.",
+    },
+    {
+      nom: "Gastritis",
+      image: "/gastro-enterologie/gastrite.avif",
+      description:
+        "Inflamación de la mucosa del estómago que puede estar asociada a dolor o molestias digestivas.",
+    },
+    {
+      nom: "Úlcera gastroduodenal",
+      image: "/gastro-enterologie/ulcere-1.avif",
+      description:
+        "Lesión de la mucosa del estómago o del duodeno que puede provocar dolor y, en ocasiones, complicaciones.",
+    },
+    {
+      nom: "Enfermedad celíaca",
+      image: "/gastro-enterologie/coaliaque.avif",
+      description:
+        "Enfermedad autoinmune desencadenada por el gluten en personas predispuestas, que puede provocar síntomas digestivos y deficiencias nutricionales.",
+    },
+    {
+      nom: "Enfermedad de Crohn",
+      image: "/gastro-enterologie/grone.avif",
+      description:
+        "Enfermedad inflamatoria crónica que puede afectar a diferentes partes del tubo digestivo y provocar dolor abdominal y diarrea.",
+    },
+    {
+      nom: "Colitis ulcerosa",
+      image: "/gastro-enterologie/diare.avif",
+      description:
+        "Enfermedad inflamatoria crónica del colon y del recto que puede provocar diarrea, a veces acompañada de sangre.",
+    },
+    {
+      nom: "Síndrome del intestino irritable",
+      image: "/gastro-enterologie/intestin.avif",
+      description:
+        "Trastorno funcional digestivo que puede combinar dolor abdominal, hinchazón y alteraciones del tránsito intestinal.",
+    },
+    {
+      nom: "Hepatitis",
+      image: "/gastro-enterologie/hepathite.avif",
+      description:
+        "Inflamación del hígado que puede tener diferentes causas y requerir una evaluación médica adecuada.",
+    },
+    {
+      nom: "Cálculos biliares",
+      image: "/urologie/calcul.webp",
+      description:
+        "Formación de cálculos en la vesícula biliar que puede provocar dolor abdominal y, en ocasiones, complicaciones.",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Gastroscopia",
+      description:
+        "Exploración endoscópica que permite examinar el esófago, el estómago y el duodeno, con toma de muestras si es necesario.",
+    },
+    {
+      nom: "Colonoscopia",
+      description:
+        "Exploración endoscópica del colon que permite detectar determinadas anomalías y realizar biopsias o procedimientos adecuados.",
+    },
+    {
+      nom: "Polipectomía digestiva",
+      description:
+        "Extirpación de determinados pólipos durante una endoscopia cuando está indicada.",
+    },
+    {
+      nom: "Ligadura endoscópica de varices esofágicas",
+      description:
+        "Procedimiento especializado que puede utilizarse para tratar determinadas varices del esófago y prevenir sus complicaciones.",
+    },
+    {
+      nom: "Dilatación endoscópica",
+      description:
+        "Procedimiento que permite ensanchar determinadas zonas estrechadas del tubo digestivo en situaciones seleccionadas.",
+    },
+    {
+      nom: "Tratamiento de las enfermedades hepáticas",
+      description:
+        "Evaluación especializada y coordinación de la atención médica para determinadas enfermedades del hígado, según su causa y gravedad.",
+    },
+  ],
+
+  examens: [
+    "Gastroscopia",
+    "Colonoscopia",
+    "Ecografía abdominal",
+    "Tomografía computarizada abdominal, según indicación médica",
+    "Análisis de sangre para evaluar la función hepática y digestiva",
+    "Detección de Helicobacter pylori",
+    "Análisis de heces, según los síntomas",
+    "Elastografía hepática, según indicación médica",
+    "Entero-resonancia magnética para determinadas enfermedades intestinales",
+  ],
+
+  diagnostic: [
+    {
+      nom: "Gastroscopia",
+      description:
+        "Exploración que permite observar la mucosa del esófago, el estómago y el duodeno, así como realizar biopsias si es necesario.",
+    },
+    {
+      nom: "Colonoscopia",
+      description:
+        "Exploración del interior del colon para detectar inflamaciones, pólipos u otras anomalías.",
+    },
+    {
+      nom: "Ecografía abdominal",
+      description:
+        "Prueba de diagnóstico por imagen que permite examinar especialmente el hígado, la vesícula biliar y otros órganos abdominales.",
+    },
+    {
+      nom: "Análisis de sangre hepático",
+      description:
+        "Pruebas que permiten evaluar determinados parámetros relacionados con el hígado y orientar otras investigaciones según los resultados.",
+    },
+    {
+      nom: "Detección de Helicobacter pylori",
+      description:
+        "Pruebas que permiten detectar esta bacteria asociada a determinadas gastritis y úlceras gastroduodenales.",
+    },
+    {
+      nom: "Análisis de heces",
+      description:
+        "Prueba de laboratorio que puede detectar determinadas infecciones, inflamaciones o alteraciones digestivas según los síntomas.",
+    },
+    {
+      nom: "Tomografía computarizada abdominal",
+      description:
+        "Prueba de diagnóstico por imagen que permite examinar los órganos abdominales en determinadas situaciones clínicas.",
+    },
+    {
+      nom: "Entero-resonancia magnética",
+      description:
+        "Prueba de diagnóstico por imagen especializada que puede ayudar a evaluar determinadas enfermedades del intestino delgado, especialmente la enfermedad de Crohn.",
+    },
+    {
+      nom: "Elastografía hepática",
+      description:
+        "Prueba no invasiva que permite evaluar la rigidez del hígado y ayudar a detectar una posible fibrosis hepática.",
+    },
+  ],
+
+  faq: [
+    {
+      question: "¿Qué trata la gastroenterología?",
+      reponse:
+        "La gastroenterología se ocupa de las enfermedades del sistema digestivo, especialmente las del esófago, el estómago, los intestinos, el hígado, la vesícula biliar y el páncreas.",
+    },
+    {
+      question: "¿Cuándo se debe consultar a un gastroenterólogo?",
+      reponse:
+        "Se recomienda una consulta en caso de dolor abdominal persistente, alteraciones del tránsito intestinal, reflujo frecuente o anomalías en los análisis digestivos o hepáticos.",
+    },
+    {
+      question: "¿Para qué sirven la gastroscopia y la colonoscopia?",
+      reponse:
+        "La gastroscopia examina la parte superior del tubo digestivo, mientras que la colonoscopia permite explorar el colon. El médico determina qué prueba es la más adecuada para cada situación.",
+    },
+    {
+      question: "¿Es necesario preparar las pruebas digestivas?",
+      reponse:
+        "Algunas pruebas requieren una preparación específica, especialmente la colonoscopia. Es importante seguir cuidadosamente las instrucciones proporcionadas por el equipo médico.",
+    },
+    {
+      question: "¿Cómo preparar una estancia médica de gastroenterología en Túnez?",
+      reponse:
+        "Si dispone de ellos, prepare sus informes médicos, análisis, pruebas de diagnóstico por imagen, recetas e información sobre los tratamientos actuales. Glomed Group puede facilitar la coordinación del proceso de atención médica acordado.",
+    },
+    {
+      question: "¿Son necesarias las intervenciones para todas las enfermedades digestivas?",
+      reponse:
+        "No. Muchas enfermedades digestivas se tratan mediante tratamientos médicos, cambios adecuados en el estilo de vida o seguimiento médico. Los procedimientos endoscópicos o quirúrgicos dependen de la evaluación especializada.",
+    },
+  ],
+},
+
 
 },
 
@@ -7234,6 +8263,233 @@ de: {
   ],
 },
 
+es: {
+  title: "Oftalmología",
+  subtitle: "Proteja su visión y cuide la salud de sus ojos",
+  description:
+    "Glomed Group le acompaña en la organización de su proceso de atención oftalmológica en Túnez, desde la consulta especializada hasta las pruebas diagnósticas y la orientación hacia un tratamiento adecuado.",
+
+  intro:
+    "La oftalmología es la especialidad médica dedicada a los ojos y a la visión. Se ocupa de la prevención, el diagnóstico y el tratamiento de las enfermedades oculares, así como de la cirugía de determinadas afecciones. Glomed Group facilita la coordinación con los profesionales sanitarios y la organización de su estancia médica en Túnez.",
+
+  image: "/images/chirugie-ophtal.avif",
+  alt: "Consulta oftalmológica y examen de la visión",
+
+  services: [
+    "Consultas oftalmológicas",
+    "Evaluación de la visión y de la salud ocular",
+    "Detección de enfermedades oculares",
+    "Evaluación de cataratas y glaucoma",
+    "Derivación a oftalmólogos especializados",
+    "Evaluación de los trastornos de la retina",
+    "Organización del proceso de atención médica en Túnez",
+    "Seguimiento de las enfermedades oculares crónicas",
+    "Acompañamiento en la preparación de pruebas e intervenciones",
+  ],
+
+  maladies: [
+    {
+      nom: "Cataratas",
+      image: "/ophtalmologie/caract.webp",
+      description:
+        "Opacificación del cristalino que puede provocar visión borrosa, sensibilidad a la luz y una disminución progresiva de la visión.",
+    },
+    {
+      nom: "Glaucoma",
+      image: "/ophtalmologie/glaucome.avif",
+      description:
+        "Grupo de enfermedades que pueden dañar el nervio óptico y provocar pérdida de visión, a menudo sin síntomas en las primeras etapas.",
+    },
+    {
+      nom: "Degeneración macular asociada a la edad (DMAE)",
+      image: "/ophtalmologie/degerance.jpg",
+      description:
+        "Enfermedad que afecta a la región central de la retina y puede alterar la visión central, especialmente en las personas mayores.",
+    },
+    {
+      nom: "Retinopatía diabética",
+      image: "/ophtalmologie/retinopathie.webp",
+      description:
+        "Complicación de la diabetes que afecta a los vasos sanguíneos de la retina y puede poner en peligro la visión si no se realiza un seguimiento adecuado.",
+    },
+    {
+      nom: "Desprendimiento de retina",
+      image: "/ophtalmologie/decollement.jpg",
+      description:
+        "Separación de la retina que requiere una evaluación oftalmológica urgente para limitar el riesgo de pérdida de visión.",
+    },
+    {
+      nom: "Conjuntivitis",
+      image: "/ophtalmologie/conjonctivide.webp",
+      description:
+        "Inflamación de la conjuntiva que puede provocar enrojecimiento, picor, secreciones o irritación ocular.",
+    },
+    {
+      nom: "Trastornos de la refracción",
+      image: "/ophtalmologie/vision.avif",
+      description:
+        "La miopía, la hipermetropía y el astigmatismo son trastornos que pueden provocar visión borrosa y corregirse según las necesidades de cada paciente.",
+    },
+    {
+      nom: "Queratocono",
+      image: "/ophtalmologie/kearatocone.jpg",
+      description:
+        "Enfermedad de la córnea caracterizada por su adelgazamiento y deformación progresiva, que puede afectar a la visión.",
+    },
+    {
+      nom: "Estrabismo",
+      image: "/ophtalmologie/stabisme.jpg",
+      description:
+        "Desalineación de los ojos que puede afectar a la visión binocular y requerir un tratamiento adaptado a la edad y a la causa.",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Cirugía de cataratas",
+      description:
+        "Intervención que generalmente consiste en retirar el cristalino opacificado y sustituirlo por una lente intraocular.",
+    },
+    {
+      nom: "Cirugía del glaucoma",
+      description:
+        "Determinados procedimientos pueden ayudar a reducir la presión intraocular cuando los tratamientos habituales no son suficientes.",
+    },
+    {
+      nom: "Cirugía de retina",
+      description:
+        "Pueden proponerse intervenciones especializadas para determinadas enfermedades de la retina, especialmente algunos desprendimientos.",
+    },
+    {
+      nom: "Cirugía refractiva",
+      description:
+        "Determinadas técnicas láser pueden corregir los trastornos de la refracción en pacientes que cumplen los criterios médicos.",
+    },
+    {
+      nom: "Inyecciones intravítreas",
+      description:
+        "Administración de medicamentos en el interior del ojo para tratar determinadas enfermedades de la retina, según la indicación médica.",
+    },
+    {
+      nom: "Cirugía del estrabismo",
+      description:
+        "Intervención sobre determinados músculos oculares para mejorar la alineación de los ojos cuando está indicada.",
+    },
+    {
+      nom: "Trasplante de córnea",
+      description:
+        "Sustitución de toda o parte de la córnea enferma por tejido de un donante en determinadas enfermedades graves.",
+    },
+    {
+      nom: "Cirugía de párpados (blefaroplastia)",
+      description:
+        "Intervención destinada a corregir determinadas anomalías de los párpados, especialmente cuando el exceso de piel afecta al campo visual o existe una indicación médica.",
+    },
+    {
+      nom: "Cirugía de las vías lagrimales",
+      description:
+        "Intervención que puede tratar determinadas obstrucciones de las vías de drenaje lagrimal para mejorar la evacuación de las lágrimas.",
+    },
+  ],
+
+  examens: [
+    "Medición de la agudeza visual",
+    "Medición de la presión intraocular",
+    "Examen con lámpara de hendidura",
+    "Examen del fondo de ojo",
+    "Tomografía de coherencia óptica (OCT)",
+    "Campimetría visual",
+    "Topografía corneal",
+    "Retinografía",
+    "Biometría ocular",
+    "Ecografía ocular, según indicación médica",
+    "Angiografía retiniana",
+    "Paquimetría corneal",
+  ],
+
+  diagnostic: [
+    {
+      nom: "Medición de la agudeza visual",
+      description:
+        "Evalúa la capacidad para distinguir detalles a diferentes distancias y permite valorar la calidad de la visión.",
+    },
+    {
+      nom: "Medición de la presión intraocular",
+      description:
+        "Mide la presión dentro del ojo y contribuye a evaluar el riesgo de glaucoma.",
+    },
+    {
+      nom: "Examen con lámpara de hendidura",
+      description:
+        "Permite examinar detalladamente las estructuras anteriores del ojo, especialmente la córnea, el iris y el cristalino.",
+    },
+    {
+      nom: "Examen del fondo de ojo",
+      description:
+        "Exploración de la retina, el nervio óptico y los vasos sanguíneos situados en la parte posterior del ojo.",
+    },
+    {
+      nom: "Tomografía de coherencia óptica (OCT)",
+      description:
+        "Prueba de diagnóstico por imagen detallada que permite estudiar las diferentes capas de la retina y del nervio óptico.",
+    },
+    {
+      nom: "Campimetría visual",
+      description:
+        "Evalúa la visión central y periférica y ayuda especialmente en el seguimiento del glaucoma.",
+    },
+    {
+      nom: "Topografía corneal",
+      description:
+        "Representa la forma y la curvatura de la córnea, especialmente durante la evaluación del queratocono o antes de determinadas intervenciones.",
+    },
+    {
+      nom: "Retinografía",
+      description:
+        "Fotografía del fondo de ojo utilizada para documentar y controlar determinadas enfermedades de la retina.",
+    },
+    {
+      nom: "Biometría ocular",
+      description:
+        "Mide determinadas dimensiones del ojo, especialmente para calcular la potencia de una lente intraocular antes de una cirugía de cataratas.",
+    },
+  ],
+
+  faq: [
+    {
+      question: "¿Qué trata la oftalmología?",
+      reponse:
+        "La oftalmología se ocupa de las enfermedades oculares y los trastornos de la visión, especialmente las cataratas, el glaucoma, las enfermedades de la retina y los trastornos de la refracción.",
+    },
+    {
+      question: "¿Cuándo se debe consultar a un oftalmólogo?",
+      reponse:
+        "Una consulta puede ser útil en caso de disminución de la visión, molestias visuales persistentes, dolor ocular o para la detección y el seguimiento de enfermedades de los ojos.",
+    },
+    {
+      question: "¿Qué pruebas permiten evaluar la visión?",
+      reponse:
+        "Según cada situación, el especialista puede recomendar una medición de la agudeza visual, un examen del fondo de ojo, una medición de la presión ocular, una OCT u otras pruebas adecuadas.",
+    },
+    {
+      question: "¿Se pueden operar las cataratas?",
+      reponse:
+        "La cirugía es un tratamiento habitual de las cataratas cuando afectan significativamente a la visión. La decisión depende de la evaluación oftalmológica y de las necesidades del paciente.",
+    },
+    {
+      question: "¿La cirugía refractiva es adecuada para todo el mundo?",
+      reponse:
+        "No. La elegibilidad depende especialmente de la estabilidad de la graduación, de la salud de la córnea y del estado general de los ojos. Es necesaria una evaluación especializada.",
+    },
+    {
+      question: "¿Cómo preparar una estancia médica de oftalmología en Túnez?",
+      reponse:
+        "Si dispone de ellos, prepare sus informes médicos, recetas, resultados de exámenes oculares e información sobre sus tratamientos actuales. Glomed Group puede facilitar la coordinación del proceso de atención médica acordado.",
+    },
+  ],
+},
+
+
 },
 
 
@@ -8311,6 +9567,223 @@ de: {
   ],
 },
 
+es: {
+  title: "Ginecología",
+  subtitle: "La salud de la mujer en cada etapa de la vida",
+  description:
+    "Glomed Group facilita el acceso a consultas y tratamientos ginecológicos en Túnez, coordinando el proceso médico según las necesidades de cada paciente.",
+
+  intro:
+    "La ginecología se ocupa de la prevención, el diagnóstico y el tratamiento de las enfermedades del aparato reproductor femenino. Una atención personalizada permite a las pacientes beneficiarse de un proceso de atención médica organizado y adaptado a sus necesidades.",
+
+  image: "/images/gynecologie.jpg",
+  alt: "Consulta ginecológica en un entorno médico",
+
+  services: [
+    "Consultas ginecológicas y seguimiento médico",
+    "Detección y prevención de enfermedades ginecológicas",
+    "Seguimiento del ciclo menstrual y de los trastornos hormonales",
+    "Acompañamiento en problemas de fertilidad",
+    "Seguimiento ginecológico durante la menopausia",
+    "Asesoramiento sobre anticoncepción y planificación familiar",
+    "Seguimiento ginecológico preventivo y revisiones de salud",
+    "Derivación a especialistas según las necesidades",
+    "Seguimiento de lesiones precancerosas del cuello uterino",
+  ],
+
+  maladies: [
+    {
+      nom: "Endometriosis",
+      image: "/gynecologie/endometriose.avif",
+      description:
+        "Enfermedad caracterizada por la presencia de tejido similar al endometrio fuera del útero, que puede provocar dolor pélvico y, en ocasiones, dificultades de fertilidad.",
+    },
+    {
+      nom: "Miomas uterinos",
+      image: "/gynecologie/fibrose.jpg",
+      description:
+        "Tumores benignos del útero que pueden provocar menstruaciones abundantes, dolor o sensación de presión pélvica.",
+    },
+    {
+      nom: "Síndrome de ovario poliquístico (SOP)",
+      image: "/gynecologie/syndrome.jpg",
+      description:
+        "Trastorno hormonal que puede afectar a los ciclos menstruales, la piel y la ovulación.",
+    },
+    {
+      nom: "Quistes ováricos",
+      image: "/gynecologie/kiste.webp",
+      description:
+        "Formaciones llenas de líquido situadas dentro o sobre un ovario. Su seguimiento depende especialmente de su tamaño, aspecto y de los síntomas.",
+    },
+    {
+      nom: "Infecciones ginecológicas",
+      image: "/gynecologie/infection.png",
+      description:
+        "Algunas infecciones del aparato genital femenino pueden provocar flujo vaginal anormal, dolor o irritación y requieren una evaluación médica.",
+    },
+    {
+      nom: "Trastornos menstruales",
+      image: "/gynecologie/trouble.jpg",
+      description:
+        "Menstruaciones irregulares, ausentes o abundantes que pueden tener diferentes causas hormonales o ginecológicas.",
+    },
+    {
+      nom: "Prolapso genital",
+      image: "/gynecologie/prolapsus.webp",
+      description:
+        "Descenso de uno o varios órganos pélvicos que puede provocar sensación de pesadez o molestias.",
+    },
+    {
+      nom: "Cáncer de cuello uterino",
+      image: "/gynecologie/cancer.webp",
+      description:
+        "Enfermedad que puede prevenirse en muchos casos mediante la vacunación contra el VPH y las pruebas de detección adecuadas.",
+    },
+    {
+      nom: "Cáncer de ovario",
+      image: "/gynecologie/cancer-ovaire.jpg",
+      description:
+        "Enfermedad que puede presentar síntomas poco específicos, como hinchazón abdominal persistente o molestias pélvicas.",
+    },
+  ],
+
+  interventions: [
+    {
+      nom: "Histeroscopia",
+      description:
+        "Exploración que permite observar el interior del útero y, según la indicación médica, realizar determinados procedimientos diagnósticos o terapéuticos.",
+    },
+    {
+      nom: "Laparoscopia ginecológica",
+      description:
+        "Técnica quirúrgica mínimamente invasiva que puede utilizarse para tratar determinadas enfermedades ginecológicas, según la evaluación médica.",
+    },
+    {
+      nom: "Miomectomía",
+      description:
+        "Intervención destinada a extirpar los miomas uterinos cuando su presencia y los síntomas justifican un tratamiento quirúrgico.",
+    },
+    {
+      nom: "Tratamiento quirúrgico de los quistes ováricos",
+      description:
+        "Intervención que puede considerarse para determinados quistes según su aspecto, evolución, tamaño y síntomas.",
+    },
+    {
+      nom: "Tratamiento de la endometriosis",
+      description:
+        "El tratamiento puede combinar terapias médicas y, en determinadas situaciones, una intervención quirúrgica.",
+    },
+    {
+      nom: "Tratamiento del prolapso genital",
+      description:
+        "Pueden proponerse soluciones no quirúrgicas o una intervención según el grado del prolapso y la situación de la paciente.",
+    },
+    {
+      nom: "Conización del cuello uterino",
+      description:
+        "Intervención que consiste en extirpar una pequeña porción del cuello uterino para analizar o tratar determinadas lesiones precancerosas.",
+    },
+    {
+      nom: "Histerectomía",
+      description:
+        "Intervención que consiste en extirpar el útero y que solo se propone cuando existe una indicación médica justificada, después de valorar las alternativas.",
+    },
+    {
+      nom: "Polipectomía ginecológica",
+      description:
+        "Extirpación de determinados pólipos del útero o del cuello uterino, según su localización y los resultados de la evaluación médica.",
+    },
+  ],
+
+  examens: [
+    "Ecografía pélvica",
+    "Ecografía transvaginal",
+    "Citología cervicouterina",
+    "Prueba del VPH (virus del papiloma humano)",
+    "Histeroscopia diagnóstica",
+    "Colposcopia",
+    "Análisis hormonal",
+    "Determinación de beta-hCG",
+    "Toma de muestras vaginales y cervicales",
+    "Biopsia del endometrio, según indicación médica",
+    "Mamografía, según la edad y las recomendaciones médicas",
+    "Resonancia magnética pélvica, según indicación médica",
+  ],
+
+  diagnostic: [
+    {
+      nom: "Evaluación del dolor pélvico",
+      description:
+        "Evaluación de los dolores persistentes o recurrentes mediante una exploración clínica y pruebas complementarias adaptadas a cada situación.",
+    },
+    {
+      nom: "Evaluación de los trastornos menstruales",
+      description:
+        "Investigación de las posibles causas de menstruaciones irregulares, ausentes o abundantes.",
+    },
+    {
+      nom: "Estudio de fertilidad",
+      description:
+        "Evaluación inicial que puede incluir los antecedentes médicos, la ovulación, los niveles hormonales y pruebas de diagnóstico por imagen según las necesidades.",
+    },
+    {
+      nom: "Detección del cáncer de cuello uterino",
+      description:
+        "Pruebas de detección basadas especialmente en el test del VPH o la citología, según la edad, los antecedentes y las recomendaciones locales.",
+    },
+    {
+      nom: "Evaluación de miomas y quistes",
+      description:
+        "Análisis de los síntomas y de las pruebas de diagnóstico por imagen para determinar el seguimiento o tratamiento necesario.",
+    },
+    {
+      nom: "Evaluación hormonal de la menopausia",
+      description:
+        "Evaluación clínica de los síntomas y análisis de laboratorio cuando el médico los considera necesarios.",
+    },
+    {
+      nom: "Detección de infecciones ginecológicas",
+      description:
+        "Exploración clínica y toma de muestras específicas cuando los síntomas o el contexto médico lo justifican.",
+    },
+    {
+      nom: "Evaluación de lesiones del cuello uterino",
+      description:
+        "Exploraciones complementarias, especialmente mediante colposcopia o biopsia, según los resultados de las pruebas de detección.",
+    },
+  ],
+
+  faq: [
+    {
+      question: "¿Cuándo se debe consultar a un ginecólogo?",
+      reponse:
+        "Una consulta puede ser útil para el seguimiento preventivo, los trastornos menstruales, los dolores pélvicos, los síntomas inusuales o las cuestiones relacionadas con la anticoncepción y la fertilidad.",
+    },
+    {
+      question: "¿Qué pruebas pueden realizarse en ginecología?",
+      reponse:
+        "Según cada situación, el médico puede recomendar una ecografía, una prueba de detección del cáncer de cuello uterino, análisis hormonales u otras pruebas específicas.",
+    },
+    {
+      question: "¿Se puede organizar un proceso de atención médica en Túnez?",
+      reponse:
+        "Glomed Group puede acompañar a las pacientes en la organización de su estancia y la coordinación de las citas médicas, según sus necesidades y la disponibilidad de los profesionales sanitarios.",
+    },
+    {
+      question: "¿Todos los miomas o quistes requieren una operación?",
+      reponse:
+        "No. El tratamiento depende de numerosos factores, especialmente de los síntomas, las pruebas de diagnóstico por imagen, la evolución y el contexto médico. Algunos casos solo requieren seguimiento.",
+    },
+    {
+      question: "¿Cómo preparar una consulta ginecológica?",
+      reponse:
+        "Puede ser útil llevar los resultados de pruebas anteriores, las recetas médicas y una lista de los síntomas o preguntas que desea comentar con el especialista.",
+    },
+  ],
+},
+
+
 },
 /*new dis*/
 oncologie: {
@@ -8673,6 +10146,86 @@ de: {
   ]
 },
 
+es: {
+  title: "Oncología",
+  subtitle: "Acompañamiento especializado en el tratamiento del cáncer",
+  description: "Glomed Group le acompaña en la organización de su recorrido de atención oncológica en Túnez, en coordinación con profesionales especializados.",
+  intro: "La oncología es la especialidad médica dedicada a la prevención, el diagnóstico y el tratamiento del cáncer. El proceso de atención puede incluir consultas, pruebas diagnósticas, tratamientos y seguimiento personalizado según cada situación.",
+  image: "/images/oncolologie.jpg",
+  alt: "Atención médica especializada en oncología",
+
+  services: [
+    "Consultas de oncología médica",
+    "Evaluación y derivación a equipos especializados",
+    "Organización de estudios diagnósticos",
+    "Coordinación de los tratamientos",
+    "Acompañamiento durante la estancia médica",
+    "Organización del seguimiento después de la estancia"
+  ],
+
+  maladies: [
+    { nom: "Cáncer de mama", description: "Cáncer que se desarrolla en los tejidos mamarios y cuyo tratamiento depende, entre otros factores, del tipo y de la etapa de la enfermedad." },
+    { nom: "Cáncer colorrectal", description: "Cáncer que afecta al colon o al recto y que requiere una evaluación especializada y una estrategia terapéutica adaptada." },
+    { nom: "Cáncer de pulmón", description: "Cáncer que se desarrolla en los tejidos pulmonares y que puede requerir un tratamiento multidisciplinar." },
+    { nom: "Cáncer de próstata", description: "Cáncer de próstata cuya evaluación y opciones terapéuticas dependen de diversos factores médicos." },
+    { nom: "Cáncer de estómago", description: "Tumor maligno que se desarrolla en la pared del estómago." },
+    { nom: "Cáncer de hígado", description: "Cáncer que puede desarrollarse en el hígado o llegar a este órgano desde otra localización." },
+    { nom: "Cáncer ginecológico", description: "Conjunto de cánceres que afectan, entre otros órganos, a los ovarios, el útero y el cuello uterino." },
+    { nom: "Linfomas", description: "Cánceres que se originan en las células del sistema linfático." },
+    { nom: "Leucemia", description: "Cáncer de la sangre y de la médula ósea caracterizado por la producción anormal de células sanguíneas." }
+  ],
+
+  interventions: [
+    { nom: "Cirugía oncológica", description: "Intervención destinada a extirpar un tumor cuando la cirugía está indicada tras una evaluación especializada." },
+    { nom: "Quimioterapia", description: "Tratamiento farmacológico que utiliza medicamentos anticancerígenos según un protocolo adaptado." },
+    { nom: "Radioterapia", description: "Tratamiento que utiliza radiaciones para destruir o controlar las células cancerosas." },
+    { nom: "Inmunoterapia y terapias dirigidas", description: "Tratamientos que pueden proponerse en determinadas situaciones según las características de la enfermedad." },
+    { nom: "Hormonoterapia", description: "Tratamiento que bloquea o modifica la acción de las hormonas para ralentizar el crecimiento de ciertos cánceres sensibles a las hormonas." },
+    { nom: "Trasplante de médula ósea", description: "Tratamiento que consiste en sustituir la médula ósea enferma por células madre hematopoyéticas sanas en casos seleccionados." }
+  ],
+
+  examens: [
+    "Análisis de sangre y estudios de laboratorio",
+    "Biopsia y análisis anatomopatológico",
+    "Tomografía computarizada (TAC)",
+    "Resonancia magnética (RM)",
+    "PET scan (PET-TAC)",
+    "Ecografía",
+    "Pruebas específicas según la localización del cáncer",
+    "Pruebas genéticas y moleculares"
+  ],
+
+  diagnostic: [
+    { nom: "Biopsia", description: "Extracción de una muestra de tejido para analizarla y precisar el diagnóstico." },
+    { nom: "TAC y resonancia magnética", description: "Pruebas de diagnóstico por imagen que permiten estudiar la localización y la posible extensión de la enfermedad." },
+    { nom: "PET scan", description: "Prueba que puede contribuir a evaluar la extensión de determinados cánceres según la indicación médica." }
+  ],
+
+  faq: [
+    {
+      question: "¿Cómo organizar un proceso de atención oncológica en Túnez?",
+      reponse: "Glomed Group puede facilitar el contacto inicial, el envío del historial médico y la organización de consultas y pruebas diagnósticas. El tratamiento será definido por los médicos."
+    },
+    {
+      question: "¿Qué documentos médicos se deben preparar?",
+      reponse: "Es recomendable reunir los informes médicos, los resultados de análisis, las pruebas de diagnóstico por imagen y los resultados de biopsias disponibles."
+    },
+    {
+      question: "¿Qué tratamientos oncológicos están disponibles en Túnez?",
+      reponse: "Según el diagnóstico y la etapa de la enfermedad, los tratamientos pueden incluir cirugía, quimioterapia, radioterapia, inmunoterapia, terapias dirigidas u hormonoterapia. El protocolo será determinado por el equipo médico."
+    },
+    {
+      question: "¿Es posible obtener una segunda opinión médica en oncología?",
+      reponse: "Sí, es posible solicitar una segunda opinión médica enviando el historial clínico, los resultados de las pruebas y los informes médicos disponibles a especialistas."
+    },
+    {
+      question: "¿Cómo se realiza el seguimiento después de un tratamiento contra el cáncer?",
+      reponse: "El seguimiento incluye consultas médicas periódicas, exploraciones clínicas y pruebas complementarias según el tipo de cáncer y el tratamiento recibido."
+    }
+  ]
+},
+
+
 },
 
 hematologie: {
@@ -9010,6 +10563,86 @@ de: {
     },
   ]
 },
+
+es: {
+  title: "Hematología",
+  subtitle: "Diagnóstico y tratamiento de las enfermedades de la sangre",
+  description: "Glomed Group facilita la organización de consultas y evaluaciones especializadas en hematología en Túnez.",
+  intro: "La hematología es la especialidad médica dedicada al estudio de la sangre, la médula ósea y el sistema linfático. Incluye, entre otras, las enfermedades de los glóbulos rojos, los glóbulos blancos, las plaquetas y los trastornos de la coagulación.",
+  image: "/images/hematologie.jpg",
+  alt: "Consulta médica especializada en hematología",
+
+  services: [
+    "Consultas de hematología",
+    "Evaluación de las enfermedades de la sangre",
+    "Evaluación de los trastornos de la coagulación",
+    "Derivación a equipos especializados",
+    "Organización de pruebas y seguimiento médico"
+  ],
+
+  maladies: [
+    { nom: "Anemia", description: "Disminución del nivel de hemoglobina que puede tener diferentes causas y requiere una evaluación adecuada." },
+    { nom: "Leucemia", description: "Cáncer de la sangre y de la médula ósea caracterizado por una producción anormal de células sanguíneas." },
+    { nom: "Linfoma", description: "Cáncer del sistema linfático que requiere una evaluación especializada." },
+    { nom: "Mieloma múltiple", description: "Enfermedad que afecta a determinadas células de la médula ósea llamadas células plasmáticas." },
+    { nom: "Trombocitopenia", description: "Disminución del número de plaquetas en la sangre." },
+    { nom: "Trastornos de la coagulación", description: "Alteraciones que pueden favorecer las hemorragias o la formación de coágulos." },
+    { nom: "Anemia falciforme", description: "Enfermedad genética de la hemoglobina que puede provocar anemia y crisis dolorosas." },
+    { nom: "Talasemia", description: "Enfermedad hereditaria que afecta a la producción de hemoglobina." },
+    {
+      nom: "Aplasia medular",
+      description: "Enfermedad poco frecuente caracterizada por una producción insuficiente de células sanguíneas por parte de la médula ósea."
+    }
+  ],
+
+  interventions: [
+    { nom: "Transfusión sanguínea", description: "Administración de componentes sanguíneos cuando es médicamente necesario." },
+    { nom: "Trasplante de médula ósea o de células madre", description: "Tratamiento especializado que se propone en determinadas enfermedades hematológicas tras una evaluación exhaustiva." },
+    { nom: "Quimioterapia hematológica", description: "Tratamiento farmacológico utilizado en determinadas enfermedades de la sangre según un protocolo especializado." }
+  ],
+
+  examens: [
+    "Hemograma completo",
+    "Frotis de sangre periférica",
+    "Estudio de coagulación",
+    "Análisis de hierro y ferritina",
+    "Electroforesis de hemoglobina",
+    "Mielograma",
+    "Biopsia de médula ósea",
+    "Pruebas inmunológicas y moleculares según la indicación médica",
+    "Análisis de vitamina B12 y ácido fólico"
+  ],
+
+  diagnostic: [
+    { nom: "Hemograma completo", description: "Análisis que permite estudiar los glóbulos rojos, los glóbulos blancos y las plaquetas." },
+    { nom: "Mielograma", description: "Examen de la médula ósea que permite estudiar la producción de células sanguíneas." },
+    { nom: "Estudio de coagulación", description: "Análisis que permite evaluar determinados mecanismos de coagulación de la sangre." }
+  ],
+
+  faq: [
+    {
+      question: "¿Cuándo se debe consultar a un hematólogo?",
+      reponse: "La consulta puede estar indicada en caso de alteraciones persistentes en los análisis de sangre o ante la sospecha de una enfermedad hematológica, por recomendación médica."
+    },
+    {
+      question: "¿Qué pruebas médicas se deben llevar a la consulta?",
+      reponse: "Pueden ser útiles los resultados del hemograma, los análisis de laboratorio, las pruebas de coagulación y los informes médicos disponibles."
+    },
+    {
+      question: "¿Qué enfermedades se tratan en hematología?",
+      reponse: "La hematología se ocupa de las enfermedades de la sangre y de la médula ósea, especialmente las anemias, las leucemias, los linfomas y los trastornos de la coagulación."
+    },
+    {
+      question: "¿Cómo se desarrolla una consulta de hematología?",
+      reponse: "La consulta incluye la revisión de los antecedentes médicos, el análisis de los resultados de laboratorio y, si es necesario, la solicitud de pruebas complementarias."
+    },
+    {
+      question: "¿Las enfermedades de la sangre requieren un seguimiento periódico?",
+      reponse: "Algunas enfermedades hematológicas requieren un seguimiento periódico que incluye consultas médicas y análisis de sangre adaptados al estado del paciente."
+    }
+  ]
+},
+
 
 },
 
@@ -9421,6 +11054,100 @@ de: {
   ]
 },
 
+es: {
+  title: "ORL – Otorrinolaringología",
+  subtitle: "La salud de los oídos, la nariz y la garganta",
+  description: "Glomed Group le acompaña en la organización de consultas y tratamientos especializados en otorrinolaringología en Túnez.",
+  intro: "La otorrinolaringología es la especialidad médica y quirúrgica dedicada a los oídos, la nariz, los senos paranasales, la garganta, la laringe y determinadas estructuras de la cabeza y el cuello.",
+  image: "/images/orl.jpg",
+  alt: "Consulta médica especializada en otorrinolaringología",
+
+  services: [
+    "Consultas de otorrinolaringología",
+    "Evaluación auditiva y vestibular",
+    "Evaluación de los trastornos nasales y de los senos paranasales",
+    "Exploración de los trastornos de la voz y la deglución",
+    "Derivación a cirugía ORL cuando sea necesario",
+    "Organización del seguimiento especializado"
+  ],
+
+  maladies: [
+    { nom: "Otitis", description: "Inflamación o infección del oído que puede provocar dolor y, en ocasiones, una disminución de la audición." },
+    { nom: "Sinusitis", description: "Inflamación de los senos paranasales que puede causar congestión nasal, dolor facial y secreciones." },
+    { nom: "Amigdalitis", description: "Inflamación de las amígdalas que puede provocar dolor de garganta y fiebre." },
+    { nom: "Desviación del tabique nasal", description: "Deformación del tabique que separa las dos fosas nasales y que puede dificultar la respiración." },
+    { nom: "Pólipos nasales", description: "Formaciones benignas en las fosas nasales o los senos paranasales que pueden provocar obstrucción nasal." },
+    { nom: "Trastornos de la audición", description: "Disminución o alteración de la capacidad auditiva que requiere una evaluación adecuada." },
+    { nom: "Vértigo", description: "Sensación de movimiento o pérdida del equilibrio que puede estar relacionada con el oído interno o con otras causas." },
+    { nom: "Apnea obstructiva del sueño", description: "Trastorno respiratorio nocturno que puede requerir una evaluación otorrinolaringológica y del sueño." },
+    { nom: "Enfermedades de la laringe y de las cuerdas vocales", description: "Afecciones que pueden provocar cambios en la voz o dificultades respiratorias." }
+  ],
+
+  interventions: [
+    { nom: "Amigdalectomía", description: "Intervención quirúrgica que consiste en extirpar las amígdalas en determinadas situaciones médicas." },
+    { nom: "Adenoidectomía", description: "Extirpación de las adenoides o vegetaciones adenoideas cuando está médicamente indicada." },
+    { nom: "Septoplastia", description: "Intervención destinada a corregir la desviación del tabique nasal." },
+    { nom: "Cirugía de los senos paranasales", description: "Intervención endoscópica que puede proponerse para determinadas enfermedades de los senos paranasales." },
+    { nom: "Timpanoplastia", description: "Intervención destinada a reparar el tímpano o determinadas estructuras del oído medio." },
+    { nom: "Cirugía de tiroides", description: "Intervención que puede realizarse en determinadas enfermedades de la tiroides tras una evaluación especializada." },
+    { nom: "Cirugía de tumores ORL", description: "Tratamiento quirúrgico de determinados tumores de la cabeza y el cuello, según su naturaleza y localización." },
+    {
+      nom: "Laringectomía",
+      description: "Intervención quirúrgica que consiste en extirpar una parte o la totalidad de la laringe en determinadas enfermedades."
+    },
+    {
+      nom: "Otoplastia",
+      description: "Intervención quirúrgica destinada a corregir la forma o la posición de las orejas."
+    },
+    {
+      nom: "Cirugía de la enfermedad de Hirschsprung",
+      description: "Intervención que consiste en extirpar la parte del intestino que carece de células nerviosas normales para restablecer el tránsito intestinal."
+    }
+  ],
+
+  examens: [
+    "Audiometría",
+    "Timpanometría",
+    "Fibroscopia nasal y laríngea",
+    "Endoscopia ORL",
+    "Tomografía computarizada de los senos paranasales",
+    "Resonancia magnética de la cabeza y el cuello según la indicación médica",
+    "Evaluación vestibular",
+    "Toma de muestras y biopsias si es necesario",
+    "Potenciales evocados auditivos (PEA)"
+  ],
+
+  diagnostic: [
+    { nom: "Audiometría", description: "Prueba que permite evaluar la capacidad auditiva." },
+    { nom: "Fibroscopia ORL", description: "Exploración mediante un endoscopio flexible para observar determinadas estructuras de la nariz, la garganta y la laringe." },
+    { nom: "Tomografía computarizada de los senos paranasales", description: "Prueba de diagnóstico por imagen que permite estudiar los senos paranasales y sus estructuras." }
+  ],
+
+  faq: [
+    {
+      question: "¿Cuándo se debe consultar a un especialista en ORL?",
+      reponse: "La consulta puede ser útil en caso de dolor persistente de oídos, trastornos auditivos, problemas nasales o síntomas relacionados con la garganta y la voz."
+    },
+    {
+      question: "¿La cirugía ORL es siempre necesaria?",
+      reponse: "No. El tratamiento depende del diagnóstico y puede ser médico, funcional o quirúrgico, según la evaluación del especialista."
+    },
+    {
+      question: "¿Qué pruebas permiten evaluar los trastornos auditivos?",
+      reponse: "La evaluación puede incluir una audiometría, una timpanometría y otras pruebas auditivas según los síntomas y el diagnóstico que se desea establecer."
+    },
+    {
+      question: "¿Se puede tratar la sinusitis crónica mediante cirugía?",
+      reponse: "En determinados casos, puede proponerse una cirugía endoscópica de los senos paranasales cuando los tratamientos médicos no son suficientemente eficaces."
+    },
+    {
+      question: "¿Cómo se realiza el seguimiento después de una intervención ORL?",
+      reponse: "El seguimiento incluye consultas de control y pruebas adaptadas para evaluar la cicatrización, la recuperación funcional y la evolución de los síntomas."
+    }
+  ]
+},
+
+
 
 },
 
@@ -9826,6 +11553,113 @@ de: {
     { question: "Ist nach dem Eingriff eine medizinische Nachsorge erforderlich?", reponse: "Ja, eine postoperative Nachsorge wird in der Regel empfohlen, um den Heilungsverlauf zu überwachen, Komplikationen vorzubeugen und die Behandlung bei Bedarf anzupassen." },
   ]
 },
+
+es: {
+  title: "Cirugía general",
+  subtitle: "Atención quirúrgica adaptada a cada paciente",
+  description: "Glomed Group facilita la organización de su proceso de cirugía general en Túnez, desde la evaluación preoperatoria hasta la coordinación del seguimiento.",
+  intro: "La cirugía general comprende diferentes intervenciones relacionadas principalmente con el aparato digestivo, la pared abdominal, los órganos abdominales y determinadas urgencias quirúrgicas. La técnica y la indicación quirúrgica son determinadas por el cirujano tras estudiar el historial médico.",
+  image: "/images/chirurgie-generale.jpg",
+  alt: "Atención médica especializada en cirugía general",
+
+  services: [
+    "Consultas de cirugía general y digestiva",
+    "Evaluación preoperatoria",
+    "Cirugía abdominal y digestiva",
+    "Cirugía de hernias",
+    "Cirugía colorrectal y proctológica",
+    "Derivación a cirujanos especializados",
+    "Organización de la estancia y del seguimiento postoperatorio"
+  ],
+
+  maladies: [
+    { nom: "Apendicitis aguda", description: "Inflamación del apéndice que puede requerir atención médica urgente." },
+    { nom: "Atresia intestinal", description: "Malformación congénita caracterizada por una interrupción o ausencia de paso en una parte del intestino." },
+    { nom: "Atresia esofágica", description: "Malformación congénita en la que el esófago no presenta una continuidad normal." },
+    { nom: "Atresia biliar", description: "Enfermedad poco frecuente del lactante caracterizada por una obstrucción o un desarrollo anormal de las vías biliares." },
+    { nom: "Enterocolitis necrosante", description: "Enfermedad intestinal grave que afecta principalmente a los recién nacidos prematuros y requiere atención especializada." },
+    { nom: "Hernia umbilical", description: "Protrusión de tejidos a través de una zona debilitada de la pared abdominal a la altura del ombligo." },
+    { nom: "Fisura anal", description: "Pequeño desgarro de la mucosa anal que puede provocar dolor y sangrado." },
+    { nom: "Obstrucción intestinal", description: "Interrupción parcial o completa del tránsito intestinal que requiere una evaluación médica rápida." },
+    { nom: "Enfermedades de la vesícula biliar", description: "Afecciones como los cálculos biliares que pueden requerir tratamiento quirúrgico." },
+    {
+      nom: "Absceso perianal",
+      description: "Infección localizada alrededor del ano que puede provocar dolor intenso, hinchazón y, en ocasiones, fiebre. Es necesaria una evaluación médica rápida."
+    },
+    {
+      nom: "Peritonitis",
+      description: "Inflamación grave del peritoneo, causada a menudo por una infección o una perforación digestiva, que requiere atención médica urgente."
+    },
+    {
+      nom: "Enfermedad de Hirschsprung",
+      description: "Enfermedad congénita caracterizada por la ausencia de células nerviosas en una parte del intestino, lo que provoca dificultades para evacuar las heces."
+    }
+  ],
+
+  interventions: [
+    { nom: "Apendicectomía", description: "Intervención que consiste en extirpar el apéndice, generalmente en caso de apendicitis aguda." },
+    { nom: "Reparación de las atresias intestinales", description: "Intervención especializada destinada a restablecer la continuidad intestinal según el tipo de malformación." },
+    { nom: "Cirugía de la atresia esofágica", description: "Tratamiento quirúrgico especializado destinado a corregir la malformación y restablecer la continuidad del esófago cuando sea posible." },
+    { nom: "Cirugía de la atresia biliar", description: "Intervención especializada, como la operación de Kasai en determinadas situaciones, según la evaluación pediátrica." },
+    { nom: "Cirugía de la enterocolitis necrosante", description: "Puede ser necesaria una intervención en los casos complicados, según el estado del recién nacido." },
+    { nom: "Reparación de hernias", description: "Intervención destinada a corregir una hernia de la pared abdominal." },
+    { nom: "Colecistectomía", description: "Extirpación de la vesícula biliar, especialmente en determinados casos de cálculos biliares." },
+    { nom: "Cirugía colorrectal", description: "Intervenciones relacionadas con el colon, el recto y determinadas enfermedades de la región anal." },
+    { nom: "Cirugía proctológica", description: "Tratamiento quirúrgico de determinadas afecciones de la región anal y rectal." },
+    { nom: "Cirugía digestiva por laparoscopia", description: "Técnica mínimamente invasiva utilizada en determinadas intervenciones abdominales." },
+    {
+      nom: "Drenaje de un absceso perianal",
+      description: "Intervención que consiste en evacuar el pus acumulado en un absceso situado cerca del ano para aliviar el dolor y tratar la infección."
+    },
+    {
+      nom: "Cirugía de la peritonitis",
+      description: "Intervención quirúrgica destinada a tratar la inflamación o infección del peritoneo, que puede requerir la limpieza de la cavidad abdominal y el tratamiento de la causa subyacente."
+    }
+  ],
+
+  examens: [
+    "Ecografía abdominal",
+    "Tomografía computarizada abdominal y pélvica",
+    "Resonancia magnética abdominal según la indicación médica",
+    "Endoscopia digestiva alta",
+    "Colonoscopia",
+    "Análisis de sangre",
+    "Evaluación preoperatoria",
+    "Pruebas pediátricas especializadas según cada situación",
+    "Radiografía simple de abdomen"
+  ],
+
+  diagnostic: [
+    { nom: "Ecografía abdominal", description: "Prueba de diagnóstico por imagen que permite estudiar diferentes órganos del abdomen." },
+    { nom: "Tomografía computarizada abdominal", description: "Prueba que permite obtener imágenes detalladas del abdomen y la pelvis." },
+    { nom: "Endoscopia digestiva", description: "Exploración que permite observar el interior del tubo digestivo mediante un endoscopio." },
+    { nom: "Evaluación preoperatoria", description: "Valoración médica y realización de las pruebas necesarias antes de una intervención quirúrgica." }
+  ],
+
+  faq: [
+    {
+      question: "¿Qué intervenciones corresponden a la cirugía general?",
+      reponse: "Incluye principalmente determinadas intervenciones digestivas, abdominales y colorrectales, así como la reparación de hernias. Las indicaciones dependen de la evaluación del cirujano."
+    },
+    {
+      question: "¿Cómo preparar una intervención quirúrgica en Túnez?",
+      reponse: "Es necesario enviar los informes médicos y las pruebas disponibles para que el equipo médico pueda estudiar el historial clínico y determinar los pasos necesarios."
+    },
+    {
+      question: "¿Qué pruebas son necesarias antes de una cirugía digestiva?",
+      reponse: "Las pruebas dependen de la enfermedad y de la intervención prevista. Pueden incluir análisis de sangre, una ecografía, una tomografía computarizada o una endoscopia."
+    },
+    {
+      question: "¿Se puede realizar la cirugía digestiva mediante laparoscopia?",
+      reponse: "Algunas intervenciones digestivas pueden realizarse mediante laparoscopia, una técnica mínimamente invasiva. La elección depende del estado del paciente y de la evaluación del cirujano."
+    },
+    {
+      question: "¿Es necesario realizar un seguimiento médico después de la intervención?",
+      reponse: "Sí, generalmente se recomienda un seguimiento postoperatorio para controlar la recuperación, prevenir complicaciones y adaptar los cuidados cuando sea necesario."
+    }
+  ]
+},
+
 
 },
 
@@ -10709,6 +12543,183 @@ de: {
     }
   ]
 },
+
+es: {
+  title: "Cirugía vascular",
+  subtitle: "Atención especializada de las enfermedades de los vasos sanguíneos",
+  description: "Glomed Group facilita la organización de su proceso de cirugía vascular en Túnez, desde la evaluación médica hasta la coordinación de las intervenciones y del seguimiento postoperatorio.",
+  intro: "La cirugía vascular se ocupa del diagnóstico y tratamiento de las enfermedades de las arterias, las venas y los vasos linfáticos. Incluye principalmente el tratamiento de aneurismas, estrechamientos arteriales, varices y enfermedades circulatorias. La elección del tratamiento depende de la evaluación del cirujano vascular y del historial médico.",
+  image: "/images/chi-vasculaire.jpg",
+  alt: "Atención médica especializada en cirugía vascular",
+
+  services: [
+    "Consultas de cirugía vascular",
+    "Evaluación de las enfermedades arteriales y venosas",
+    "Tratamiento de los aneurismas arteriales",
+    "Tratamiento de la enfermedad arterial periférica de los miembros inferiores",
+    "Cirugía de varices",
+    "Tratamiento de las trombosis vasculares",
+    "Cirugía vascular convencional y endovascular",
+    "Organización de la estancia y del seguimiento postoperatorio"
+  ],
+
+  maladies: [
+    {
+      nom: "Aneurisma de aorta",
+      description: "Dilatación anormal de la aorta que puede provocar riesgo de rotura y requiere vigilancia o tratamiento especializado."
+    },
+    {
+      nom: "Aneurisma de aorta abdominal",
+      description: "Dilatación localizada de la parte abdominal de la aorta. Su tratamiento depende, entre otros factores, de su diámetro y evolución."
+    },
+    {
+      nom: "Enfermedad arterial periférica de los miembros inferiores",
+      description: "Estrechamiento de las arterias de las piernas que puede provocar dolor al caminar y, en fases avanzadas, problemas de cicatrización."
+    },
+    {
+      nom: "Estenosis carotídea",
+      description: "Estrechamiento de una arteria carótida que puede aumentar el riesgo de accidente cerebrovascular."
+    },
+    {
+      nom: "Trombosis venosa profunda",
+      description: "Formación de un coágulo sanguíneo en una vena profunda, generalmente en los miembros inferiores."
+    },
+    {
+      nom: "Varices de los miembros inferiores",
+      description: "Dilatación permanente de las venas superficiales de las piernas que puede provocar dolor, sensación de pesadez e hinchazón."
+    },
+    {
+      nom: "Insuficiencia venosa crónica",
+      description: "Alteración del retorno de la sangre hacia el corazón que puede provocar pesadez en las piernas, edemas y cambios en la piel."
+    },
+    {
+      nom: "Isquemia aguda de los miembros",
+      description: "Disminución repentina del aporte sanguíneo a una extremidad que puede comprometer su viabilidad y requiere atención urgente."
+    },
+    {
+      nom: "Pie diabético de origen vascular",
+      description: "Complicación relacionada con una mala circulación sanguínea que puede provocar heridas difíciles de cicatrizar."
+    },
+    {
+      nom: "Enfermedad aneurismática de las arterias periféricas",
+      description: "Dilatación anormal de determinadas arterias periféricas, especialmente de las arterias poplíteas."
+    },
+    {
+      nom: "Malformaciones vasculares",
+      description: "Anomalías congénitas o adquiridas que afectan al desarrollo o a la estructura de los vasos sanguíneos."
+    },
+    {
+      nom: "Disección aórtica",
+      description: "Desgarro de la capa interna de la aorta que permite que la sangre penetre entre sus diferentes capas. Esta afección requiere atención médica urgente."
+    }
+  ],
+
+  interventions: [
+    {
+      nom: "Reparación del aneurisma de aorta",
+      description: "Intervención destinada a tratar un aneurisma de aorta mediante cirugía abierta o técnica endovascular, según el historial médico."
+    },
+    {
+      nom: "Endoprótesis aórtica (EVAR)",
+      description: "Técnica mínimamente invasiva que consiste en colocar una endoprótesis dentro de la aorta para excluir determinados aneurismas."
+    },
+    {
+      nom: "Endarterectomía carotídea",
+      description: "Intervención que consiste en retirar una placa de ateroma responsable del estrechamiento de la arteria carótida."
+    },
+    {
+      nom: "Angioplastia arterial",
+      description: "Técnica endovascular que permite dilatar una arteria estrechada mediante un balón, con la posible colocación de un stent."
+    },
+    {
+      nom: "Bypass arterial de los miembros inferiores",
+      description: "Intervención destinada a restablecer la circulación sanguínea creando una vía alternativa alrededor de una arteria obstruida."
+    },
+    {
+      nom: "Trombectomía arterial",
+      description: "Intervención destinada a retirar un coágulo sanguíneo responsable de una obstrucción arterial."
+    },
+    {
+      nom: "Cirugía de varices",
+      description: "Tratamiento quirúrgico de determinadas varices según su localización y gravedad."
+    },
+    {
+      nom: "Ablación endovenosa",
+      description: "Tratamiento mínimamente invasivo de determinadas varices mediante radiofrecuencia o láser endovenoso."
+    },
+    {
+      nom: "Creación de fístula arteriovenosa",
+      description: "Intervención que consiste en conectar una arteria y una vena para permitir el acceso vascular para la hemodiálisis."
+    },
+    {
+      nom: "Amputación de una extremidad",
+      description: "Intervención que puede ser necesaria cuando las lesiones de una extremidad son irreversibles y ya no es posible conservarla."
+    },
+    {
+      nom: "Embolectomía arterial",
+      description: "Intervención quirúrgica destinada a retirar un émbolo que bloquea la circulación sanguínea en una arteria para restablecer el flujo sanguíneo."
+    },
+    {
+      nom: "Reparación de fístulas arteriovenosas",
+      description: "Intervención destinada a corregir una fístula arteriovenosa que presenta una anomalía o complicación para restablecer un acceso vascular funcional."
+    }
+  ],
+
+  examens: [
+    "Eco-Doppler arterial",
+    "Eco-Doppler venoso",
+    "Angio-TAC de la aorta y las arterias",
+    "Angio-RM",
+    "Arteriografía",
+    "Medición del índice tobillo-brazo",
+    "Evaluación cardiovascular preoperatoria",
+    "Análisis de sangre",
+    "Pletismografía vascular"
+  ],
+
+  diagnostic: [
+    {
+      nom: "Eco-Doppler arterial",
+      description: "Prueba que permite estudiar la circulación sanguínea en las arterias y detectar estrechamientos u obstrucciones."
+    },
+    {
+      nom: "Eco-Doppler venoso",
+      description: "Prueba que permite evaluar el funcionamiento de las venas y detectar una posible trombosis o insuficiencia venosa."
+    },
+    {
+      nom: "Angio-TAC",
+      description: "Prueba que utiliza tomografía computarizada y un medio de contraste para visualizar las arterias e identificar anomalías vasculares."
+    },
+    {
+      nom: "Angio-RM",
+      description: "Técnica de diagnóstico por imagen que permite estudiar los vasos sanguíneos mediante resonancia magnética."
+    },
+    {
+      nom: "Arteriografía",
+      description: "Prueba radiológica que utiliza un medio de contraste para visualizar las arterias con precisión."
+    }
+  ],
+
+  faq: [
+    {
+      question: "¿Qué enfermedades se tratan mediante cirugía vascular?",
+      reponse: "La cirugía vascular trata principalmente los aneurismas, las enfermedades arteriales, las estenosis carotídeas, las varices y determinadas trombosis venosas."
+    },
+    {
+      question: "¿Cómo se diagnostica un aneurisma de aorta?",
+      reponse: "El diagnóstico se basa principalmente en la ecografía, el angio-TAC u otras pruebas de diagnóstico por imagen según la situación médica."
+    },
+    {
+      question: "¿Se pueden tratar las enfermedades vasculares sin cirugía abierta?",
+      reponse: "Algunas enfermedades pueden tratarse mediante técnicas endovasculares mínimamente invasivas, como la angioplastia o la colocación de una endoprótesis."
+    },
+    {
+      question: "¿Cómo organizar una intervención vascular en Túnez?",
+      reponse: "Solo es necesario enviar los informes médicos y las pruebas disponibles para que el equipo médico pueda estudiar el historial clínico y derivarlo al especialista adecuado."
+    }
+  ]
+},
+
 
 },
 

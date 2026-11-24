@@ -95,6 +95,25 @@ de: {
   ],
 },
 
+es: {
+  about:
+    "Tu socio para organizar tu estancia médica en Túnez. Te acompañamos en todos los trámites para ayudarte a preparar tu proceso de atención médica con total tranquilidad.",
+  navigation: "Navegación",
+  contact: "Contáctanos",
+  whatsapp: "Contactar por WhatsApp",
+  country: "Túnez",
+  organize: "Organizar una estancia",
+  rights: "Todos los derechos reservados.",
+  slogan: "La atención comienza con la escucha.",
+  links: [
+    { label: "Inicio", href: "/" },
+    { label: "Servicios", href: "/services" },
+    { label: "Sobre nosotros", href: "/about" },
+    { label: "Contacto", href: "/contact" },
+  ],
+},
+
+
 };
 
 export default function Footer() {

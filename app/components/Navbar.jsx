@@ -13,6 +13,7 @@ const languages = [
 { code: "ar", label: "العربية" },
 { code: "it", label: "Italiano" },
 { code: "de", label: "Deutsch" },
+{ code: "es", label: "Español" },
 
 ];
 

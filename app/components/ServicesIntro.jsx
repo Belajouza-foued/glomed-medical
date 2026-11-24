@@ -187,6 +187,42 @@ de: {
   ],
 },
 
+es: {
+  eyebrow: "GLOMED GROUP · NUESTROS SERVICIOS",
+  title: "Tu salud,",
+  accent: " nuestro acompañamiento.",
+  description:
+    "Desde el primer contacto hasta el final de tu estancia, organizamos tus consultas, tus pruebas médicas y todos los aspectos prácticos de tu viaje a Túnez.",
+  imageAlt:
+    "Acompañamiento médico y organización de la atención sanitaria en Túnez",
+  imageLabel: "Tu proceso de atención médica en Túnez",
+  button: "Organizar mi estancia",
+  disclaimer:
+    "Los exámenes, tratamientos e intervenciones son determinados por los profesionales sanitarios competentes, tras una evaluación individual.",
+  items: [
+    {
+      title: "Chequeos y consultas médicas",
+      text: "Organización de chequeos médicos, análisis clínicos y consultas con médicos especialistas.",
+    },
+    {
+      title: "Intervenciones y operaciones",
+      text: "Coordinación de las citas y del proceso preoperatorio y postoperatorio con los equipos médicos asociados, según las indicaciones del médico.",
+    },
+    {
+      title: "Diagnóstico por imagen",
+      text: "Orientación y organización de las pruebas prescritas: radiografías, ecografías, TAC y resonancias magnéticas.",
+    },
+    {
+      title: "Rehabilitación y seguimiento",
+      text: "Coordinación de las sesiones de rehabilitación y de las citas de seguimiento cuando así lo indiquen los profesionales sanitarios.",
+    },
+    {
+      title: "Organización de la estancia",
+      text: "Ayuda en la coordinación de los traslados, el alojamiento y los aspectos prácticos de tu viaje.",
+    },
+  ],
+},
+
 };
 
 const ITEMS = [

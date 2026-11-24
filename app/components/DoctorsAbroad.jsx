@@ -189,6 +189,42 @@ de: {
   disclaimer:
     "Die Eingriffe werden von medizinischem Fachpersonal entsprechend dessen Beurteilung, den örtlichen Vorschriften und der Verfügbarkeit der aufnehmenden Einrichtungen durchgeführt.",
 },
+
+es: {
+  eyebrow: "MISIONES MÉDICAS INTERNACIONALES",
+  title: "Nuestros médicos se desplazan",
+  accent: "para atender a sus pacientes.",
+  description:
+    "Glomed Group no solo facilita su llegada a Túnez: también envía médicos tunecinos para ofrecer consultas, realizar intervenciones y llevar a cabo operaciones en Libia y otros países.",
+  imageAlt: "Médicos de Glomed Group en misión en el extranjero",
+  badgeTitle: "Médicos en misión",
+  badgeSubtitle: "Túnez → Libia y otros países",
+  services: [
+    {
+      title: "Consultas",
+      text: "Consultas especializadas organizadas en el lugar, cerca de los pacientes.",
+    },
+    {
+      title: "Intervenciones",
+      text: "Intervenciones realizadas por médicos experimentados, según las indicaciones médicas.",
+    },
+    {
+      title: "Operaciones",
+      text: "Operaciones coordinadas con los centros sanitarios de acogida, desde la preparación hasta el seguimiento.",
+    },
+  ],
+  countriesTitle: "Han confiado en nosotros",
+  countries: {
+    LY: "Libia",
+    FR: "Francia",
+    QA: "Catar",
+  },
+  moreCountries: "y otros países",
+  button: "Solicitar una misión",
+  disclaimer:
+    "Las intervenciones son realizadas por profesionales sanitarios, según su evaluación, la normativa local y la disponibilidad de los centros de acogida.",
+},
+
 };
 
 const SERVICE_ICONS = [

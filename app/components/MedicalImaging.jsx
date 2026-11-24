@@ -90,6 +90,28 @@ const translations = {
     cta: "نظّم فحوصي",
   },
 
+it: {
+  label: "DIAGNOSTICA PER IMMAGINI",
+  title: "Tutti i tuoi esami diagnostici per immagini,",
+  accent: "organizzati per te.",
+  text: "TAC, risonanza magnetica, radiologia, ecografia… Glomed Group coordina i tuoi esami diagnostici presso centri convenzionati, su prescrizione medica.",
+  filters: { all: "Tutti", none: "Senza radiazioni", xray: "Raggi X", nuclear: "Medicina nucleare" },
+  types: { none: "Senza radiazioni", xray: "Raggi X", nuclear: "Medicina nucleare" },
+  exams: [
+    { title: "TAC (Tomografia computerizzata)", text: "Immagini in sezione molto precise ottenute mediante raggi X. È un esame rapido, spesso utilizzato nelle situazioni di emergenza.", uses: ["Torace", "Addome", "Cervello"] },
+    { title: "Risonanza magnetica (RM)", text: "Immagini dettagliate ottenute mediante un campo magnetico, senza utilizzare raggi X.", uses: ["Cervello", "Colonna vertebrale", "Articolazioni"] },
+    { title: "Radiologia tradizionale", text: "Radiografia classica che permette di visualizzare le ossa, i polmoni e le articolazioni.", uses: ["Fratture", "Polmoni", "Articolazioni"] },
+    { title: "Ecografia", text: "Esame eseguito mediante ultrasuoni, senza radiazioni, che permette di osservare gli organi in tempo reale.", uses: ["Addome", "Cuore", "Gravidanza"] },
+    { title: "Eco-Doppler", text: "Esame della circolazione sanguigna nelle arterie e nelle vene mediante ultrasuoni.", uses: ["Arterie", "Vene", "Gambe"] },
+    { title: "Mammografia", text: "Radiografia delle mammelle, utilizzata soprattutto per la diagnosi precoce.", uses: ["Screening", "Mammelle", "Controllo"] },
+    { title: "Scintigrafia e PET", text: "Esami che utilizzano un tracciante radioattivo per studiare il funzionamento degli organi.", uses: ["Ossa", "Cuore", "Tumori"] },
+    { title: "MOC (Densitometria ossea)", text: "Misurazione della densità ossea mediante una bassa dose di raggi X.", uses: ["Osteoporosi", "Ossa", "Controllo"] },
+    { title: "Radiografia dentale", text: "Immagini dei denti e delle mascelle, utili prima di trattamenti odontoiatrici o dell'inserimento di impianti.", uses: ["Denti", "Mascelle", "Impianti"] },
+  ],
+  note: "L'esame più adatto, la relativa preparazione (digiuno, mezzo di contrasto, ecc.) e la sua interpretazione vengono stabiliti dal medico e dal centro di diagnostica per immagini.",
+  cta: "Organizzare i miei esami",
+},
+
   de: {
     label: "BILDGEBUNG",
     title: "Alle Ihre bildgebenden Untersuchungen,",
@@ -111,6 +133,29 @@ const translations = {
     note: "Die geeignete Untersuchung, ihre Vorbereitung (Nüchternheit, Kontrastmittel usw.) und ihre Auswertung werden vom Arzt und vom Bildgebungszentrum festgelegt.",
     cta: "Untersuchungen organisieren",
   },
+
+es: {
+  label: "DIAGNÓSTICO POR IMAGEN",
+  title: "Todas tus pruebas de diagnóstico por imagen,",
+  accent: "organizadas para ti.",
+  text: "TAC, resonancia magnética, radiología, ecografía… Glomed Group coordina tus pruebas de diagnóstico por imagen en centros asociados, siempre bajo prescripción médica.",
+  filters: { all: "Todas", none: "Sin radiación", xray: "Rayos X", nuclear: "Medicina nuclear" },
+  types: { none: "Sin radiación", xray: "Rayos X", nuclear: "Medicina nuclear" },
+  exams: [
+    { title: "TAC (Tomografía computarizada)", text: "Imágenes transversales de gran precisión obtenidas mediante rayos X. Es una prueba rápida, utilizada con frecuencia en situaciones de urgencia.", uses: ["Tórax", "Abdomen", "Cerebro"] },
+    { title: "Resonancia magnética (RM)", text: "Imágenes detalladas obtenidas mediante un campo magnético, sin utilizar rayos X.", uses: ["Cerebro", "Columna vertebral", "Articulaciones"] },
+    { title: "Radiología convencional", text: "Radiografía clásica que permite visualizar los huesos, los pulmones y las articulaciones.", uses: ["Fracturas", "Pulmones", "Articulaciones"] },
+    { title: "Ecografía", text: "Prueba mediante ultrasonidos, sin radiación, que permite observar los órganos en tiempo real.", uses: ["Abdomen", "Corazón", "Embarazo"] },
+    { title: "Doppler", text: "Estudio de la circulación sanguínea en las arterias y las venas mediante ultrasonidos.", uses: ["Arterias", "Venas", "Piernas"] },
+    { title: "Mamografía", text: "Radiografía de las mamas, utilizada especialmente para la detección precoz.", uses: ["Detección precoz", "Mamas", "Seguimiento"] },
+    { title: "Gammagrafía y PET", text: "Pruebas que utilizan un marcador radiactivo para estudiar el funcionamiento de los órganos.", uses: ["Huesos", "Corazón", "Cáncer"] },
+    { title: "Densitometría ósea", text: "Medición de la densidad de los huesos mediante una dosis baja de rayos X.", uses: ["Osteoporosis", "Huesos", "Seguimiento"] },
+    { title: "Radiografía dental", text: "Imágenes de los dientes y los maxilares, útiles antes de realizar tratamientos o colocar implantes.", uses: ["Dientes", "Maxilares", "Implantes"] },
+  ],
+  note: "La prueba adecuada, su preparación (ayuno, medio de contraste, etc.) y su interpretación serán determinadas por el médico y el centro de diagnóstico por imagen.",
+  cta: "Organizar mis pruebas",
+},
+
 };
 
 const FILTER_KEYS = ["all", "none", "xray", "nuclear"];

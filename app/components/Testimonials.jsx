@@ -300,6 +300,66 @@ de: {
   ],
 },
 
+es: {
+  eyebrow: "TESTIMONIOS",
+  title: "Han depositado su",
+  accent: "confianza en nosotros",
+  description:
+    "Descubre las experiencias de pacientes a quienes hemos acompañado en la organización de su proceso de atención médica en Túnez.",
+  starsLabel: "5 estrellas",
+  reviews: [
+    {
+      name: "Amine B.",
+      country: "🇩🇿 Argelia",
+      service: "Acompañamiento médico",
+      text: "Me gustó la disponibilidad del equipo y la información que recibí para preparar mi estancia médica en Túnez.",
+      image: "https://i.pravatar.cc/100?img=11",
+      alt: "Retrato ilustrativo de un hombre",
+    },
+    {
+      name: "Fatou S.",
+      country: "🇸🇳 Senegal",
+      service: "Organización de la estancia",
+      text: "El equipo me ayudó a comprender mejor las diferentes etapas y a organizar mi viaje a Túnez.",
+      image: "/images/profil-senegal.png",
+      alt: "Retrato de una mujer senegalesa",
+    },
+    {
+      name: "Ahmed K.",
+      country: "🇸🇦 Arabia Saudí",
+      service: "Coordinación del proceso",
+      text: "Valoré la calidad de la comunicación y el acompañamiento ofrecido durante toda la preparación de mi estancia.",
+      image: "https://i.pravatar.cc/100?img=12",
+      alt: "Retrato ilustrativo de un hombre",
+    },
+    {
+      name: "Mariam A.",
+      country: "🇦🇪 Emiratos Árabes Unidos",
+      service: "Asistencia y coordinación",
+      text: "Un equipo atento que me proporcionó información útil para organizar las diferentes etapas de mi estancia.",
+      image: "https://i.pravatar.cc/100?img=44",
+      alt: "Retrato ilustrativo de una mujer",
+    },
+    {
+      name: "Sophie M.",
+      country: "🇫🇷 Francia",
+      service: "Organización de la estancia",
+      text: "Valoré la claridad de la información y la disponibilidad del equipo para responder a mis preguntas.",
+      image: "https://i.pravatar.cc/100?img=45",
+      alt: "Retrato ilustrativo de una mujer",
+    },
+    {
+      name: "Marc D.",
+      country: "🇧🇪 Bélgica",
+      service: "Acompañamiento personalizado",
+      text: "La comunicación fue sencilla y tranquilizadora. Pude obtener toda la información necesaria para preparar mi estancia.",
+      image: "https://i.pravatar.cc/100?img=13",
+      alt: "Retrato ilustrativo de un hombre",
+    },
+  ],
+},
+
+
 };
 
 export default function Testimonials() {
